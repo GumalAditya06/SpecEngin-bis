@@ -1,0 +1,7 @@
+import type { StreamStage } from "@/lib/api/client";
+const stages: [StreamStage, string][] = [["understanding", "Understanding the question"], ["standards", "Retrieving relevant standards"], ["certification", "Reviewing certification"], ["testing", "Reviewing testing requirements"], ["laboratories", "Finding laboratory information"], ["evidence", "Preparing cited evidence"]];
+export default function ResearchProgress({ stage }: { stage: StreamStage | null }) {
+  const index = stages.findIndex(([key]) => key === stage);
+  const progress = index < 0 ? 4 : ((index + 1) / stages.length) * 100;
+  return <div className="research-progress"><p className="eyebrow">{index < 0 ? "Connecting to BIS intelligence" : "Research in progress"}</p><p role="status" className="mt-4 text-base">{stages[index]?.[1] || "Preparing your question…"}</p><div className="research-progress-track" aria-hidden><span style={{ transform: `scaleX(${progress / 100})` }} /></div><ol className="mt-6 grid gap-3 sm:grid-cols-2" aria-label="Research stages">{stages.map(([key, title], i) => <li key={key} className={`research-stage flex items-center gap-3 text-xs ${i === index ? "is-current text-ink" : i < index ? "is-complete text-muted" : "text-muted"}`}><span aria-hidden className={`research-dot ${i === index ? "is-active" : ""}`} />{title}{i === index && <span className="sr-only">in progress</span>}{i < index && <span className="sr-only">complete</span>}</li>)}</ol><p className="mt-6 text-xs text-muted">The answer will appear when the evidence is ready.</p></div>;
+}

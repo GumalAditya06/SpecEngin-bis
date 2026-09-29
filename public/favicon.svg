@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Favicon: mark on a bg-token-colored container, with ~12% padding.
+       Colors are hardcoded to the project's bg/text tokens (see BRAND.md) rather than
+       CSS var() with fallbacks: a linked favicon is loaded as a standalone document and
+       never resolves custom properties from the host page, so a var()-based fill would
+       always have rendered as its fallback anyway. -->
+  <rect width="32" height="32" fill="#08090A" rx="6" />
+  <g transform="translate(3.84, 3.84) scale(1.013)" fill="none" stroke="#F5F6F7" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
+    <rect x="2" y="2" width="20" height="20" rx="3" />
+    <path d="M 7.5 7.5 H 16.5 V 11.5 H 13.5 V 16.5 H 7.5 Z" />
+  </g>
+</svg>

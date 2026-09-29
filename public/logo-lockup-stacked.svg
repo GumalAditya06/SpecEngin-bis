@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 118" width="160" height="118" fill="currentColor">
+  <!-- Stacked vertical lockup for footer use -->
+  <!-- Mark (48px scale) centered above wordmark + [BIS] pill -->
+
+  <!-- Mark -->
+  <g transform="translate(56, 0) scale(2)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
+    <rect x="2" y="2" width="20" height="20" rx="3" />
+    <path d="M 7.5 7.5 H 16.5 V 11.5 H 13.5 V 16.5 H 7.5 Z" />
+  </g>
+
+  <!-- "Specengine" wordmark (Inter, 600), centered -->
+  <text x="80" y="72" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="20" font-weight="600" letter-spacing="-0.02em" fill="currentColor">Specengine</text>
+
+  <!-- [BIS] pill badge, centered under the wordmark -->
+  <g transform="translate(63, 90)">
+    <rect x="0" y="0" width="34" height="18" rx="9" fill="none" stroke="currentColor" stroke-opacity="0.2" stroke-width="1" />
+    <text x="17" y="12.5" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="0.04em" fill="currentColor" fill-opacity="0.6" text-anchor="middle">BIS</text>
+  </g>
+</svg>

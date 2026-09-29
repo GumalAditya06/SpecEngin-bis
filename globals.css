@@ -1,0 +1,56 @@
+/*!
+  BIS Standards Document Store - Global Styles
+  UI Style Guide: dark, textured, "quiet premium" SaaS
+  Stack: Next.js (App Router) + Tailwind CSS + Framer Motion
+*/
+
+/* Color tokens - CSS variables */
+:root {
+  --bg: #08090A;
+  --surface: #0E1011;
+  --surface-hover: #141718;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.14);
+  --text: #F5F6F7;
+  --text-muted: #9BA1A6;
+  --text-faint: #6B7176;
+  --accent: #E8E9EA;
+  --accent-fg: #08090A;
+}
+
+/* Noise texture - 256x256 monochrome PNG, opacity 0.03-0.05 */
+.grain-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image: url('/noise.png');
+  background-repeat: repeat;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+}
+
+/* Full-page background */
+html, body #__next {
+  height: 100%;
+  background-color: var(--bg);
+  font-family: "Inter", "Geist", system-ui, -apple-system, sans-serif;
+}
+
+/* Remove default margin */
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Link styling - no → arrows */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Focus ring */
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--border), 0 0 0 4px var(--accent);
+}

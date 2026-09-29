@@ -1,0 +1,988 @@
+{
+  "standards": [
+    {
+      "id": "40c3e5c7156347bda3800454e4fa125e",
+      "is_number": "IS 8921:2024",
+      "title": "Steel wire ropes for general engineering purposes",
+      "status": "current",
+      "sector": "Metallurgy",
+      "year": 2024,
+      "description": "Steel wire ropes for general engineering purposes such as hoisting, hauling and towing.",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "ee78d143e1a24a7a8bb75d94aade8b75",
+      "is_number": "IS 12034:2025",
+      "title": "Portable fire extinguishers \u2014 water type",
+      "status": "current",
+      "sector": "Fire Safety",
+      "year": 2025,
+      "description": "Requirements and methods of test for portable fire extinguishers of the water type.",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "f98ed2a14c7d47829d5c910d60f2f6fe",
+      "is_number": "IS 5509:2023",
+      "title": "Electric immersion water heaters",
+      "status": "current",
+      "sector": "Electrical Appliances",
+      "year": 2023,
+      "description": "Safety requirements for electric immersion water heaters.",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    }
+  ],
+  "sources": [
+    {
+      "id": "e14bcccf2ea742489a2a80f2e3e4e67c",
+      "url": "https://standards.bis.gov.in/IS_8921_2024.pdf",
+      "title": "IS 8921:2024 Steel wire ropes for general engineering purposes",
+      "publisher": "Bureau of Indian Standards",
+      "source_type": "indigenous_pdf",
+      "licence_class": "full_text_ok",
+      "retrieved_at": "2026-09-23 19:28:42.145225",
+      "meta": "{\"sector\": \"Metallurgy\", \"status\": \"Current\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "207c03fe1e5e4ba68677dc4aabb2e2ae",
+      "url": "https://standards.bis.gov.in/IS_12034_2025.pdf",
+      "title": "IS 12034:2025 Portable fire extinguishers \u2014 water type",
+      "publisher": "Bureau of Indian Standards",
+      "source_type": "indigenous_pdf",
+      "licence_class": "full_text_ok",
+      "retrieved_at": "2026-09-23 19:28:42.161377",
+      "meta": "{\"sector\": \"Fire Safety\", \"status\": \"Current\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "342e0b1d2dc247e69ce15d022de69fca",
+      "url": "https://www.bis.gov.in/qco/steel-and-steel-products-order-2025",
+      "title": "Steel and Steel Products (Quality Control) Order, 2025",
+      "publisher": "Ministry of Steel, Government of India",
+      "source_type": "qco",
+      "licence_class": "full_text_ok",
+      "retrieved_at": "2026-09-23 19:28:42.170789",
+      "meta": "{\"department\": \"Ministry of Steel\", \"product\": \"Steel wire ropes\", \"is_number\": \"IS 8921:2024\", \"notified_on\": \"18 August 2025\", \"effective_on\": \"15 February 2026\", \"sector\": \"Metallurgy\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "d7f66553667e4bd88381d6401a57dc92",
+      "url": "https://www.bis.gov.in/qco/domestic-water-heaters-order-2025",
+      "title": "Quality Control Order for Domestic Water Heaters, 2025",
+      "publisher": "Department for Promotion of Industry and Internal Trade",
+      "source_type": "qco",
+      "licence_class": "full_text_ok",
+      "retrieved_at": "2026-09-23 19:28:42.181195",
+      "meta": "{\"department\": \"DPIIT\", \"product\": \"Electric immersion water heaters\", \"is_number\": \"IS 5509:2023\", \"notified_on\": \"5 June 2025\", \"effective_on\": \"5 December 2025\", \"sector\": \"Electrical Appliances\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "fe0ed2dbd3db4723af1b1243166e7905",
+      "url": "https://www.bis.gov.in/certification_schemes/is_8921_steel_wire_ropes",
+      "title": "BIS Certification Scheme for Steel Wire Ropes under IS 8921:2024",
+      "publisher": "Bureau of Indian Standards",
+      "source_type": "scheme_reg",
+      "licence_class": "metadata_only",
+      "retrieved_at": "2026-09-23 19:28:42.189113",
+      "meta": "{\"sector\": \"Metallurgy\", \"is_number\": \"IS 8921:2024\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "d15aa1f4f8bd427d8ef6a4935cc0a843",
+      "url": "https://www.bis.gov.in/hallmarking/manual-of-instructions-amd-3",
+      "title": "Manual of Instructions for Recognised Hallmarking Centres, Amendment 3",
+      "publisher": "Bureau of Indian Standards",
+      "source_type": "hallmarking_docs",
+      "licence_class": "metadata_only",
+      "retrieved_at": "2026-09-23 19:28:42.195492",
+      "meta": "{\"sector\": \"Jewellery\", \"status\": \"Amendment\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "079d933e91e9420ab0d6d533def3d7ba",
+      "url": "https://www.bis.gov.in/recognized-labs/fire-extinguishers",
+      "title": "Recognized Test Laboratories for Fire Extinguishers",
+      "publisher": "Bureau of Indian Standards",
+      "source_type": "lab_lists",
+      "licence_class": "full_text_ok",
+      "retrieved_at": "2026-09-23 19:28:42.200417",
+      "meta": "{\"sector\": \"Fire Safety\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "6a3aa3c6c25e4a6ab983b201e5538800",
+      "url": "https://www.bis.gov.in/know-your-standard/catalogue-electrical-appliances",
+      "title": "Know Your Standard \u2014 Electrical Appliances catalogue",
+      "publisher": "Bureau of Indian Standards",
+      "source_type": "kys_catalogue",
+      "licence_class": "metadata_only",
+      "retrieved_at": "2026-09-23 19:28:42.204120",
+      "meta": "{\"sector\": \"Electrical Appliances\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    }
+  ],
+  "documents": [
+    {
+      "id": "be9d4631c774439786433db059112b00",
+      "source_id": "e14bcccf2ea742489a2a80f2e3e4e67c",
+      "standard_id": "40c3e5c7156347bda3800454e4fa125e",
+      "version": 1,
+      "is_number": "IS 8921:2024",
+      "title": "Steel wire ropes for general engineering purposes",
+      "raw_text": "This standard covers steels wire ropes for general engineering purposes such as hoisting, hauling and towing. It specifies the materials, construction, breaking loads and marking requirements.\n\nThe standards listed in this clause are necessary adjuncts to this standard. IS 1835 specifies the method for tensile testing of steel wire.\n\nFor the purpose of this standard, the following definitions apply. Core: the inner part of a fibre or steel core. Lay: the helical disposition of wires in a strand.\n\nSteel shall be of a quality adapted to the class of rope. Wire shall be bright or galvanised as specified, free from harmful defects.\n\nThe number and arrangement of strands and wires shall be as given in the tables. Each strand shall be formed of wires laid helically around the core.\n\nThe minimum breaking load of a rope shall be computed from the sum of the breaking loads of individual wires multiplied by a spinning factor.\n\nEvery rope shall be marked with the IS number, manufacturer's name or trade mark, and the class of rope.",
+      "parsed_at": "2026-09-23 19:28:42.145225",
+      "licence_class": "full_text_ok",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "7f1020db96db4db2942098f1822afedb",
+      "source_id": "207c03fe1e5e4ba68677dc4aabb2e2ae",
+      "standard_id": "ee78d143e1a24a7a8bb75d94aade8b75",
+      "version": 1,
+      "is_number": "IS 12034:2025",
+      "title": "Portable fire extinguishers, water type",
+      "raw_text": "This standard specifies the requirements and methods of test for portable fire extinguishers of the water type for fighting Class A fires.\n\nCharge: the content of the extinguisher. Discharge time: the time taken for the discharge of the full charge under specified conditions.\n\nThe shell shall be of mild steel sheet, seamless drawn or welded, having a minimum thickness as given in Table 1.\n\nThe extinguisher shall be subjected to a proof pressure test, a freezing test and a discharge test.\n\nEach extinguisher shall carry the IS number, the nominal water capacity in litres, and the operating instructions.",
+      "parsed_at": "2026-09-23 19:28:42.161377",
+      "licence_class": "full_text_ok",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "1a8295f3180a4d71bddbf6a2939e66bb",
+      "source_id": "342e0b1d2dc247e69ce15d022de69fca",
+      "standard_id": null,
+      "version": 1,
+      "is_number": null,
+      "title": "Steel and Steel Products (Quality Control) Order, 2025",
+      "raw_text": "The Order may be called the Steel and Steel Products (Quality Control) Order, 2025. It shall come into force on the 15th day of February, 2026.\n\nIn this Order, 'standard' means the relevant Indian Standard. 'Schedule' means a Schedule annexed to this Order.\n\nNo person shall manufacture or store specified steel products for the purpose of sale unless they conform to the relevant Indian Standard and bear the Standard Mark.\n\nThe Bureau of Indian Standards may, for the purpose of ensuring conformity, take samples and cause them to be tested.\n\nAny person who contravenes the provisions of this Order shall be punishable in accordance with Section BR of the Bureau of Indian Standards Act.",
+      "parsed_at": "2026-09-23 19:28:42.170789",
+      "licence_class": "full_text_ok",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "c2f78462cd3d49a9952c2654c53b4285",
+      "source_id": "d7f66553667e4bd88381d6401a57dc92",
+      "standard_id": null,
+      "version": 1,
+      "is_number": null,
+      "title": "Quality Control Order for Domestic Water Heaters, 2025",
+      "raw_text": "This Order may be called the Quality Control Order for Domestic Water Heaters, 2025, and shall come into force on the date specified in the notification.\n\nThe provisions of this Order shall apply to electric immersion water heaters covered under IS 5509.\n\nDomestic water heaters shall bear the Standard Mark under a licence from the Bureau of Indian Standards, conforming to IS 5509:2023.\n\nThe manufacturer shall be responsible for conformity of the product with the applicable standard at all times.",
+      "parsed_at": "2026-09-23 19:28:42.181195",
+      "licence_class": "full_text_ok",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "6665752a0a7d41e39236a4eec1da55c6",
+      "source_id": "fe0ed2dbd3db4723af1b1243166e7905",
+      "standard_id": "40c3e5c7156347bda3800454e4fa125e",
+      "version": 1,
+      "is_number": "IS 8921:2024",
+      "title": "Certification Scheme for Steel Wire Ropes under IS 8921:2024",
+      "raw_text": null,
+      "parsed_at": "2026-09-23 19:28:42.189113",
+      "licence_class": "metadata_only",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "0f369db090cb4c33aeead8a19e2eb6da",
+      "source_id": "d15aa1f4f8bd427d8ef6a4935cc0a843",
+      "standard_id": null,
+      "version": 1,
+      "is_number": null,
+      "title": "Manual of Instructions for Recognised Hallmarking Centres, Amendment 3",
+      "raw_text": null,
+      "parsed_at": "2026-09-23 19:28:42.195492",
+      "licence_class": "metadata_only",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "43b59dfb0ded45b38d15327214b142ed",
+      "source_id": "079d933e91e9420ab0d6d533def3d7ba",
+      "standard_id": null,
+      "version": 1,
+      "is_number": null,
+      "title": "Recognized Test Laboratories for Fire Extinguishers",
+      "raw_text": "Central Fire & Rescue Services Laboratory, New Delhi. Fire Technology and Safety Laboratory, Hyderabad. Industrial Fire Laboratory, Mumbai.",
+      "parsed_at": "2026-09-23 19:28:42.200417",
+      "licence_class": "full_text_ok",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "0ebb193caeac4a7b84ebc5082a490dd6",
+      "source_id": "6a3aa3c6c25e4a6ab983b201e5538800",
+      "standard_id": null,
+      "version": 1,
+      "is_number": null,
+      "title": "Know Your Standard \u2014 Electrical Appliances catalogue",
+      "raw_text": null,
+      "parsed_at": "2026-09-23 19:28:42.204120",
+      "licence_class": "metadata_only",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    }
+  ],
+  "clause_nodes": [
+    {
+      "id": "a2c88a2069794c59ae92c3a38a9d7463",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_path": "1",
+      "parent_id": null,
+      "title": "Scope",
+      "depth": 1,
+      "order_index": 0,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "79cd104f73954a528b433690b24dbb54",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_path": "2",
+      "parent_id": null,
+      "title": "Normative references",
+      "depth": 1,
+      "order_index": 1,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "4a286f11404a45129bd0846f5ce433e1",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_path": "3",
+      "parent_id": null,
+      "title": "Terms and definitions",
+      "depth": 1,
+      "order_index": 2,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "779d3851a0d64c41b5baa8be7d1cd7c5",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_path": "4",
+      "parent_id": null,
+      "title": "Materials",
+      "depth": 1,
+      "order_index": 3,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "3938c3ab81fa497192a858adfc381248",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_path": "5",
+      "parent_id": null,
+      "title": "Construction",
+      "depth": 1,
+      "order_index": 4,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "dc70e19e90224ad1b077aaf51c7582e0",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_path": "6",
+      "parent_id": null,
+      "title": "Breaking load",
+      "depth": 1,
+      "order_index": 5,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "96d1de49923a47009dcd15f54766e208",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_path": "7",
+      "parent_id": null,
+      "title": "Marking",
+      "depth": 1,
+      "order_index": 6,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "093813775c1d4f1ea8244e98a080c60b",
+      "document_id": "7f1020db96db4db2942098f1822afedb",
+      "clause_path": "1",
+      "parent_id": null,
+      "title": "Scope",
+      "depth": 1,
+      "order_index": 0,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "89eb2d2909154af78f103ca321aa3807",
+      "document_id": "7f1020db96db4db2942098f1822afedb",
+      "clause_path": "2",
+      "parent_id": null,
+      "title": "Terms and definitions",
+      "depth": 1,
+      "order_index": 1,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "ffe77955153645799f932a343d24d3d8",
+      "document_id": "7f1020db96db4db2942098f1822afedb",
+      "clause_path": "3",
+      "parent_id": null,
+      "title": "Materials",
+      "depth": 1,
+      "order_index": 2,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "6d4957f70850406c9fe1bfba44c5758b",
+      "document_id": "7f1020db96db4db2942098f1822afedb",
+      "clause_path": "4",
+      "parent_id": null,
+      "title": "Tests",
+      "depth": 1,
+      "order_index": 3,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "372ffb8c667a4498a820d4494d86e179",
+      "document_id": "7f1020db96db4db2942098f1822afedb",
+      "clause_path": "5",
+      "parent_id": null,
+      "title": "Marking",
+      "depth": 1,
+      "order_index": 4,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "e70d960e2f82486f8ade7308f8f14400",
+      "document_id": "1a8295f3180a4d71bddbf6a2939e66bb",
+      "clause_path": "1",
+      "parent_id": null,
+      "title": "Short title and commencement",
+      "depth": 1,
+      "order_index": 0,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "e316424044a1442bab0d35b0767e0fd2",
+      "document_id": "1a8295f3180a4d71bddbf6a2939e66bb",
+      "clause_path": "2",
+      "parent_id": null,
+      "title": "Definitions",
+      "depth": 1,
+      "order_index": 1,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "813ebe747e7e427482cf32437d868e8f",
+      "document_id": "1a8295f3180a4d71bddbf6a2939e66bb",
+      "clause_path": "3",
+      "parent_id": null,
+      "title": "Restriction on manufacture",
+      "depth": 1,
+      "order_index": 2,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "b65d015b78ae4b268ba44e8a32ea8cb1",
+      "document_id": "1a8295f3180a4d71bddbf6a2939e66bb",
+      "clause_path": "4",
+      "parent_id": null,
+      "title": "Enforcement",
+      "depth": 1,
+      "order_index": 3,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "b00cba0e2dbf49c39abd38adc7fadb0e",
+      "document_id": "1a8295f3180a4d71bddbf6a2939e66bb",
+      "clause_path": "5",
+      "parent_id": null,
+      "title": "Offences and penalties",
+      "depth": 1,
+      "order_index": 4,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "5f43864a8fbf43c7923abd60bb8b098b",
+      "document_id": "c2f78462cd3d49a9952c2654c53b4285",
+      "clause_path": "1",
+      "parent_id": null,
+      "title": "Short title and commencement",
+      "depth": 1,
+      "order_index": 0,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "6cf6bed21f28491eb9c31b8e8af0d0b7",
+      "document_id": "c2f78462cd3d49a9952c2654c53b4285",
+      "clause_path": "2",
+      "parent_id": null,
+      "title": "Application",
+      "depth": 1,
+      "order_index": 1,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "e1be06716668413db8d523bd99a1a0b7",
+      "document_id": "c2f78462cd3d49a9952c2654c53b4285",
+      "clause_path": "3",
+      "parent_id": null,
+      "title": "Conformity requirement",
+      "depth": 1,
+      "order_index": 2,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "dfea16a02f8f4ed0b91741f2bbbde1e9",
+      "document_id": "c2f78462cd3d49a9952c2654c53b4285",
+      "clause_path": "4",
+      "parent_id": null,
+      "title": "Product responsibility",
+      "depth": 1,
+      "order_index": 3,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "eb075558a7e34fcfb9fdfb18beffe319",
+      "document_id": "6665752a0a7d41e39236a4eec1da55c6",
+      "clause_path": "1",
+      "parent_id": null,
+      "title": "Scheme",
+      "depth": 1,
+      "order_index": 0,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "7cdc1f4ba17a4d00a1b21118e2b14894",
+      "document_id": "6665752a0a7d41e39236a4eec1da55c6",
+      "clause_path": "2",
+      "parent_id": null,
+      "title": "Grant of licence",
+      "depth": 1,
+      "order_index": 1,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "e8d8cc587aae477dbd56f52db0419761",
+      "document_id": "6665752a0a7d41e39236a4eec1da55c6",
+      "clause_path": "3",
+      "parent_id": null,
+      "title": "Marking",
+      "depth": 1,
+      "order_index": 2,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "1f1721d76f904fff8dfdd4d64c5a79af",
+      "document_id": "0f369db090cb4c33aeead8a19e2eb6da",
+      "clause_path": "1",
+      "parent_id": null,
+      "title": "Amendment",
+      "depth": 1,
+      "order_index": 0,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "0c706455a455450c8d472f24c669b4cc",
+      "document_id": "0f369db090cb4c33aeead8a19e2eb6da",
+      "clause_path": "2",
+      "parent_id": null,
+      "title": "Compliance",
+      "depth": 1,
+      "order_index": 1,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "3aa5e87499444d039ada5930863bb3dd",
+      "document_id": "43b59dfb0ded45b38d15327214b142ed",
+      "clause_path": "1",
+      "parent_id": null,
+      "title": "Laboratories",
+      "depth": 1,
+      "order_index": 0,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "d8550f50bb814b5d98d86f7066d28f0a",
+      "document_id": "0ebb193caeac4a7b84ebc5082a490dd6",
+      "clause_path": "1",
+      "parent_id": null,
+      "title": "Catalogue",
+      "depth": 1,
+      "order_index": 0,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "93f135abdb6d46e2aefd38150c51bf3c",
+      "document_id": "0ebb193caeac4a7b84ebc5082a490dd6",
+      "clause_path": "2",
+      "parent_id": null,
+      "title": "Search",
+      "depth": 1,
+      "order_index": 1,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "dbedbdbec43049839e5d77336c1cbf82",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_node_id": "a2c88a2069794c59ae92c3a38a9d7463",
+      "chunk_index": 0,
+      "text": "This standard covers steels wire ropes for general engineering purposes such as hoisting, hauling and towing. It specifies the materials, construction, breaking loads and marking requirements.",
+      "token_count": 26,
+      "meta": "{\"clause_path\": \"1\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 8921:2024\", \"document_title\": \"Steel wire ropes for general engineering purposes\", \"source_url\": \"https://standards.bis.gov.in/IS_8921_2024.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "94b1ddfdbedc4515bb78a037c1632b9e",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_node_id": "79cd104f73954a528b433690b24dbb54",
+      "chunk_index": 1,
+      "text": "The standards listed in this clause are necessary adjuncts to this standard. IS 1835 specifies the method for tensile testing of steel wire.",
+      "token_count": 23,
+      "meta": "{\"clause_path\": \"2\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 8921:2024\", \"document_title\": \"Steel wire ropes for general engineering purposes\", \"source_url\": \"https://standards.bis.gov.in/IS_8921_2024.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "3061d3bbc7eb4e3397c60c0ea121eea1",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_node_id": "4a286f11404a45129bd0846f5ce433e1",
+      "chunk_index": 2,
+      "text": "For the purpose of this standard, the following definitions apply. Core: the inner part of a fibre or steel core. Lay: the helical disposition of wires in a strand.",
+      "token_count": 29,
+      "meta": "{\"clause_path\": \"3\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 8921:2024\", \"document_title\": \"Steel wire ropes for general engineering purposes\", \"source_url\": \"https://standards.bis.gov.in/IS_8921_2024.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "87569a997af041c887eaaf3ebc88715f",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_node_id": "779d3851a0d64c41b5baa8be7d1cd7c5",
+      "chunk_index": 3,
+      "text": "Steel shall be of a quality adapted to the class of rope. Wire shall be bright or galvanised as specified, free from harmful defects.",
+      "token_count": 24,
+      "meta": "{\"clause_path\": \"4\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 8921:2024\", \"document_title\": \"Steel wire ropes for general engineering purposes\", \"source_url\": \"https://standards.bis.gov.in/IS_8921_2024.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "593553ebc63748f0bc9b29f9bfeed492",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_node_id": "3938c3ab81fa497192a858adfc381248",
+      "chunk_index": 4,
+      "text": "The number and arrangement of strands and wires shall be as given in the tables. Each strand shall be formed of wires laid helically around the core.",
+      "token_count": 27,
+      "meta": "{\"clause_path\": \"5\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 8921:2024\", \"document_title\": \"Steel wire ropes for general engineering purposes\", \"source_url\": \"https://standards.bis.gov.in/IS_8921_2024.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "adbc8d1a2b484edcbab2852d189b4616",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_node_id": "dc70e19e90224ad1b077aaf51c7582e0",
+      "chunk_index": 5,
+      "text": "The minimum breaking load of a rope shall be computed from the sum of the breaking loads of individual wires multiplied by a spinning factor.",
+      "token_count": 25,
+      "meta": "{\"clause_path\": \"6\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 8921:2024\", \"document_title\": \"Steel wire ropes for general engineering purposes\", \"source_url\": \"https://standards.bis.gov.in/IS_8921_2024.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "8cadd677377547d0a49548b6cbe60068",
+      "document_id": "be9d4631c774439786433db059112b00",
+      "clause_node_id": "96d1de49923a47009dcd15f54766e208",
+      "chunk_index": 6,
+      "text": "Every rope shall be marked with the IS number, manufacturer's name or trade mark, and the class of rope.",
+      "token_count": 19,
+      "meta": "{\"clause_path\": \"7\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 8921:2024\", \"document_title\": \"Steel wire ropes for general engineering purposes\", \"source_url\": \"https://standards.bis.gov.in/IS_8921_2024.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "bb46ea2980ae4454a0c2426ecaecd73a",
+      "document_id": "7f1020db96db4db2942098f1822afedb",
+      "clause_node_id": "093813775c1d4f1ea8244e98a080c60b",
+      "chunk_index": 0,
+      "text": "This standard specifies the requirements and methods of test for portable fire extinguishers of the water type for fighting Class A fires.",
+      "token_count": 22,
+      "meta": "{\"clause_path\": \"1\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 12034:2025\", \"document_title\": \"Portable fire extinguishers, water type\", \"source_url\": \"https://standards.bis.gov.in/IS_12034_2025.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "ca912c66cfa549998cbd50197f948f10",
+      "document_id": "7f1020db96db4db2942098f1822afedb",
+      "clause_node_id": "89eb2d2909154af78f103ca321aa3807",
+      "chunk_index": 1,
+      "text": "Charge: the content of the extinguisher. Discharge time: the time taken for the discharge of the full charge under specified conditions.",
+      "token_count": 21,
+      "meta": "{\"clause_path\": \"2\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 12034:2025\", \"document_title\": \"Portable fire extinguishers, water type\", \"source_url\": \"https://standards.bis.gov.in/IS_12034_2025.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "b7e2908f391c46139db10dc07994e34e",
+      "document_id": "7f1020db96db4db2942098f1822afedb",
+      "clause_node_id": "ffe77955153645799f932a343d24d3d8",
+      "chunk_index": 2,
+      "text": "The shell shall be of mild steel sheet, seamless drawn or welded, having a minimum thickness as given in Table 1.",
+      "token_count": 21,
+      "meta": "{\"clause_path\": \"3\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 12034:2025\", \"document_title\": \"Portable fire extinguishers, water type\", \"source_url\": \"https://standards.bis.gov.in/IS_12034_2025.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "da301255c47347a6a66d318d7ac66c42",
+      "document_id": "7f1020db96db4db2942098f1822afedb",
+      "clause_node_id": "6d4957f70850406c9fe1bfba44c5758b",
+      "chunk_index": 3,
+      "text": "The extinguisher shall be subjected to a proof pressure test, a freezing test and a discharge test.",
+      "token_count": 17,
+      "meta": "{\"clause_path\": \"4\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 12034:2025\", \"document_title\": \"Portable fire extinguishers, water type\", \"source_url\": \"https://standards.bis.gov.in/IS_12034_2025.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "4fb74d38b96f4214bb63c1124bf07d2e",
+      "document_id": "7f1020db96db4db2942098f1822afedb",
+      "clause_node_id": "372ffb8c667a4498a820d4494d86e179",
+      "chunk_index": 4,
+      "text": "Each extinguisher shall carry the IS number, the nominal water capacity in litres, and the operating instructions.",
+      "token_count": 17,
+      "meta": "{\"clause_path\": \"5\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 12034:2025\", \"document_title\": \"Portable fire extinguishers, water type\", \"source_url\": \"https://standards.bis.gov.in/IS_12034_2025.pdf\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "3960b088e7af418da4d54923c12058f3",
+      "document_id": "1a8295f3180a4d71bddbf6a2939e66bb",
+      "clause_node_id": "e70d960e2f82486f8ade7308f8f14400",
+      "chunk_index": 0,
+      "text": "The Order may be called the Steel and Steel Products (Quality Control) Order, 2025. It shall come into force on the 15th day of February, 2026.",
+      "token_count": 26,
+      "meta": "{\"clause_path\": \"1\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Steel and Steel Products (Quality Control) Order, 2025\", \"source_url\": \"https://www.bis.gov.in/qco/steel-and-steel-products-order-2025\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "18ed176d4f474e49b9bab16d89713491",
+      "document_id": "1a8295f3180a4d71bddbf6a2939e66bb",
+      "clause_node_id": "e316424044a1442bab0d35b0767e0fd2",
+      "chunk_index": 1,
+      "text": "In this Order, 'standard' means the relevant Indian Standard. 'Schedule' means a Schedule annexed to this Order.",
+      "token_count": 17,
+      "meta": "{\"clause_path\": \"2\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Steel and Steel Products (Quality Control) Order, 2025\", \"source_url\": \"https://www.bis.gov.in/qco/steel-and-steel-products-order-2025\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "14d3ce98449f461f9775eaf31a82f3a3",
+      "document_id": "1a8295f3180a4d71bddbf6a2939e66bb",
+      "clause_node_id": "813ebe747e7e427482cf32437d868e8f",
+      "chunk_index": 2,
+      "text": "No person shall manufacture or store specified steel products for the purpose of sale unless they conform to the relevant Indian Standard and bear the Standard Mark.",
+      "token_count": 27,
+      "meta": "{\"clause_path\": \"3\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Steel and Steel Products (Quality Control) Order, 2025\", \"source_url\": \"https://www.bis.gov.in/qco/steel-and-steel-products-order-2025\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "5be592d122a244d9aaf7d279572f19d9",
+      "document_id": "1a8295f3180a4d71bddbf6a2939e66bb",
+      "clause_node_id": "b65d015b78ae4b268ba44e8a32ea8cb1",
+      "chunk_index": 3,
+      "text": "The Bureau of Indian Standards may, for the purpose of ensuring conformity, take samples and cause them to be tested.",
+      "token_count": 20,
+      "meta": "{\"clause_path\": \"4\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Steel and Steel Products (Quality Control) Order, 2025\", \"source_url\": \"https://www.bis.gov.in/qco/steel-and-steel-products-order-2025\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "4a165bba5a3340cf84edd3ab5b4332c5",
+      "document_id": "1a8295f3180a4d71bddbf6a2939e66bb",
+      "clause_node_id": "b00cba0e2dbf49c39abd38adc7fadb0e",
+      "chunk_index": 4,
+      "text": "Any person who contravenes the provisions of this Order shall be punishable in accordance with Section BR of the Bureau of Indian Standards Act.",
+      "token_count": 24,
+      "meta": "{\"clause_path\": \"5\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Steel and Steel Products (Quality Control) Order, 2025\", \"source_url\": \"https://www.bis.gov.in/qco/steel-and-steel-products-order-2025\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "63a820381f4d4db587a07ab53f71c544",
+      "document_id": "c2f78462cd3d49a9952c2654c53b4285",
+      "clause_node_id": "5f43864a8fbf43c7923abd60bb8b098b",
+      "chunk_index": 0,
+      "text": "This Order may be called the Quality Control Order for Domestic Water Heaters, 2025, and shall come into force on the date specified in the notification.",
+      "token_count": 26,
+      "meta": "{\"clause_path\": \"1\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Quality Control Order for Domestic Water Heaters, 2025\", \"source_url\": \"https://www.bis.gov.in/qco/domestic-water-heaters-order-2025\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "62a44ec3cf3f41c09644f0857d502060",
+      "document_id": "c2f78462cd3d49a9952c2654c53b4285",
+      "clause_node_id": "6cf6bed21f28491eb9c31b8e8af0d0b7",
+      "chunk_index": 1,
+      "text": "The provisions of this Order shall apply to electric immersion water heaters covered under IS 5509.",
+      "token_count": 16,
+      "meta": "{\"clause_path\": \"2\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Quality Control Order for Domestic Water Heaters, 2025\", \"source_url\": \"https://www.bis.gov.in/qco/domestic-water-heaters-order-2025\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "4092d463485942c9b35064eb0cd86925",
+      "document_id": "c2f78462cd3d49a9952c2654c53b4285",
+      "clause_node_id": "e1be06716668413db8d523bd99a1a0b7",
+      "chunk_index": 2,
+      "text": "Domestic water heaters shall bear the Standard Mark under a licence from the Bureau of Indian Standards, conforming to IS 5509:2023.",
+      "token_count": 21,
+      "meta": "{\"clause_path\": \"3\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Quality Control Order for Domestic Water Heaters, 2025\", \"source_url\": \"https://www.bis.gov.in/qco/domestic-water-heaters-order-2025\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "aea334d523f940a3b6f010e96a857e75",
+      "document_id": "c2f78462cd3d49a9952c2654c53b4285",
+      "clause_node_id": "dfea16a02f8f4ed0b91741f2bbbde1e9",
+      "chunk_index": 3,
+      "text": "The manufacturer shall be responsible for conformity of the product with the applicable standard at all times.",
+      "token_count": 17,
+      "meta": "{\"clause_path\": \"4\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Quality Control Order for Domestic Water Heaters, 2025\", \"source_url\": \"https://www.bis.gov.in/qco/domestic-water-heaters-order-2025\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "99227fefeebb436e956116bedf33794f",
+      "document_id": "6665752a0a7d41e39236a4eec1da55c6",
+      "clause_node_id": "eb075558a7e34fcfb9fdfb18beffe319",
+      "chunk_index": 0,
+      "text": "Conditions of certification including testing frequencies and inspection of processes to avail the Standard Mark Licence.",
+      "token_count": 16,
+      "meta": "{\"clause_path\": \"1\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 8921:2024\", \"document_title\": \"Certification Scheme for Steel Wire Ropes under IS 8921:2024\", \"source_url\": \"https://www.bis.gov.in/certification_schemes/is_8921_steel_wire_ropes\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "9fd9a99c01824738aab18e12059f9364",
+      "document_id": "6665752a0a7d41e39236a4eec1da55c6",
+      "clause_node_id": "7cdc1f4ba17a4d00a1b21118e2b14894",
+      "chunk_index": 1,
+      "text": "Procedure for application, scrutiny, inspection and grant of licence.",
+      "token_count": 9,
+      "meta": "{\"clause_path\": \"2\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 8921:2024\", \"document_title\": \"Certification Scheme for Steel Wire Ropes under IS 8921:2024\", \"source_url\": \"https://www.bis.gov.in/certification_schemes/is_8921_steel_wire_ropes\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "9e9652c655034d67aff0ad96fdcbcd50",
+      "document_id": "6665752a0a7d41e39236a4eec1da55c6",
+      "clause_node_id": "e8d8cc587aae477dbd56f52db0419761",
+      "chunk_index": 2,
+      "text": "Requirement to apply the Standard Mark and conditions governing its use.",
+      "token_count": 11,
+      "meta": "{\"clause_path\": \"3\", \"depth\": 1, \"section\": \"\", \"standard_number\": \"IS 8921:2024\", \"document_title\": \"Certification Scheme for Steel Wire Ropes under IS 8921:2024\", \"source_url\": \"https://www.bis.gov.in/certification_schemes/is_8921_steel_wire_ropes\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "ef7d26049634419695af66337097467e",
+      "document_id": "0f369db090cb4c33aeead8a19e2eb6da",
+      "clause_node_id": "1f1721d76f904fff8dfdd4d64c5a79af",
+      "chunk_index": 0,
+      "text": "Amendment to clause 6 of the Manual concerning the use of Hallmarking Unique Identification codes.",
+      "token_count": 15,
+      "meta": "{\"clause_path\": \"1\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Manual of Instructions for Recognised Hallmarking Centres, Amendment 3\", \"source_url\": \"https://www.bis.gov.in/hallmarking/manual-of-instructions-amd-3\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "3611f57912e34754a1ba9324c19e6ce5",
+      "document_id": "0f369db090cb4c33aeead8a19e2eb6da",
+      "clause_node_id": "0c706455a455450c8d472f24c669b4cc",
+      "chunk_index": 1,
+      "text": "Updated compliance requirements for the reporting of hallmarking operations.",
+      "token_count": 9,
+      "meta": "{\"clause_path\": \"2\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Manual of Instructions for Recognised Hallmarking Centres, Amendment 3\", \"source_url\": \"https://www.bis.gov.in/hallmarking/manual-of-instructions-amd-3\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "653333be7baa49d0b630fb270d228bc0",
+      "document_id": "43b59dfb0ded45b38d15327214b142ed",
+      "clause_node_id": "3aa5e87499444d039ada5930863bb3dd",
+      "chunk_index": 0,
+      "text": "Central Fire & Rescue Services Laboratory, New Delhi. Fire Technology and Safety Laboratory, Hyderabad. Industrial Fire Laboratory, Mumbai.",
+      "token_count": 18,
+      "meta": "{\"clause_path\": \"1\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Recognized Test Laboratories for Fire Extinguishers\", \"source_url\": \"https://www.bis.gov.in/recognized-labs/fire-extinguishers\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "a5367f7d7d64414486414e5381030113",
+      "document_id": "0ebb193caeac4a7b84ebc5082a490dd6",
+      "clause_node_id": "d8550f50bb814b5d98d86f7066d28f0a",
+      "chunk_index": 0,
+      "text": "Listing of Indian Standards applicable to domestic electrical appliances including IS 5509 (water heaters).",
+      "token_count": 14,
+      "meta": "{\"clause_path\": \"1\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Know Your Standard \\u2014 Electrical Appliances catalogue\", \"source_url\": \"https://www.bis.gov.in/know-your-standard/catalogue-electrical-appliances\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "483e693083914d93a4f87457056f14e0",
+      "document_id": "0ebb193caeac4a7b84ebc5082a490dd6",
+      "clause_node_id": "93f135abdb6d46e2aefd38150c51bf3c",
+      "chunk_index": 1,
+      "text": "How to locate a standard by IS number and identify the responsible technical committee.",
+      "token_count": 14,
+      "meta": "{\"clause_path\": \"2\", \"depth\": 1, \"section\": \"\", \"standard_number\": null, \"document_title\": \"Know Your Standard \\u2014 Electrical Appliances catalogue\", \"source_url\": \"https://www.bis.gov.in/know-your-standard/catalogue-electrical-appliances\"}",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    }
+  ],
+  "laboratories": [
+    {
+      "id": "0fe1ac3e853c4a0eac7a09deb771cb2d",
+      "name": "Central Fire & Rescue Services Laboratory",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "recognition_status": "recognized",
+      "address": "Sector 7, New Delhi",
+      "contact_email": null,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "bc342a6758d741769dd383a8ebe5a14e",
+      "name": "Fire Technology and Safety Laboratory",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "recognition_status": "recognized",
+      "address": "Hitech City, Hyderabad",
+      "contact_email": null,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "388040cfaee2411784f3999ce834c64c",
+      "name": "Industrial Fire Laboratory",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "recognition_status": "recognized",
+      "address": "Andheri East, Mumbai",
+      "contact_email": null,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    }
+  ],
+  "standard_laboratory": [
+    {
+      "standard_id": "ee78d143e1a24a7a8bb75d94aade8b75",
+      "laboratory_id": "0fe1ac3e853c4a0eac7a09deb771cb2d"
+    },
+    {
+      "standard_id": "ee78d143e1a24a7a8bb75d94aade8b75",
+      "laboratory_id": "bc342a6758d741769dd383a8ebe5a14e"
+    },
+    {
+      "standard_id": "ee78d143e1a24a7a8bb75d94aade8b75",
+      "laboratory_id": "388040cfaee2411784f3999ce834c64c"
+    }
+  ],
+  "standard_related": [
+    {
+      "base_standard_id": "40c3e5c7156347bda3800454e4fa125e",
+      "related_standard_id": "ee78d143e1a24a7a8bb75d94aade8b75"
+    }
+  ],
+  "amendments": [
+    {
+      "id": "0577c0103b1142abb709c8f163e5deda",
+      "standard_id": "40c3e5c7156347bda3800454e4fa125e",
+      "amendment_number": "A1",
+      "title": "Amendment to clause 6 marking requirements",
+      "effective_date": "2025-01-01 00:00:00.000000",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    }
+  ],
+  "certification_schemes": [
+    {
+      "id": "073677fd90f54903b91c0ee61444bb91",
+      "title": "BIS Certification Scheme for Steel Wire Ropes under IS 8921:2024",
+      "description": null,
+      "standard_id": "40c3e5c7156347bda3800454e4fa125e",
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    }
+  ],
+  "tests": [
+    {
+      "id": "104d787012bb4c49b2991d99a0dae5d6",
+      "laboratory_id": "0fe1ac3e853c4a0eac7a09deb771cb2d",
+      "standard_id": "ee78d143e1a24a7a8bb75d94aade8b75",
+      "test_name": "Proof pressure test",
+      "description": null,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "f301a9b593db473c918998374647f40a",
+      "laboratory_id": "bc342a6758d741769dd383a8ebe5a14e",
+      "standard_id": "ee78d143e1a24a7a8bb75d94aade8b75",
+      "test_name": "Freezing test",
+      "description": null,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    },
+    {
+      "id": "22f05c5f2a5147b5a16172d339beac18",
+      "laboratory_id": "388040cfaee2411784f3999ce834c64c",
+      "standard_id": "ee78d143e1a24a7a8bb75d94aade8b75",
+      "test_name": "Discharge test",
+      "description": null,
+      "created_at": "2026-09-23 19:28:42",
+      "updated_at": "2026-09-23 19:28:42"
+    }
+  ]
+}
