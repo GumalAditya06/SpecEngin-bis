@@ -69,6 +69,29 @@ Each Python service has its own tests in `backend/tests` and `scraper/tests`.
 See `scraper/DEPLOYMENT.md` for production constraints, required model revisions,
 and resource sizing.
 
+## Deploy on Render + Vercel
+
+`render.yaml` deploys the catalogue API, its Render Postgres database, and the
+grounded-answer API. Create a new Render Blueprint from this GitHub repository,
+then supply `BIS_LLM_API_KEY` only in Render's secret prompt. The catalogue
+service uses Render's free tier; the assistant is intentionally configured as
+`2c-4g`, because the retrieval models need approximately 4 GB RAM. Do not use
+the free tier for the assistant.
+
+After Render finishes, copy its two public HTTPS service URLs into Vercel's
+**Production** environment variables and redeploy the frontend:
+
+```text
+NEXT_PUBLIC_DEMO_MODE=false
+NEXT_PUBLIC_API_URL=https://specengin-catalogue.onrender.com
+NEXT_PUBLIC_RETRIEVAL_API_URL=https://specengin-assistant.onrender.com
+```
+
+Replace the example hostnames with the actual URLs assigned by Render. The
+frontend proxies both APIs server-side, so no public browser-to-API CORS rule
+is required. Visit `/health/ready` on the assistant once after deployment to
+warm the downloaded retrieval models, then test a cited question in the UI.
+
 ## Security
 
 If a provider key has ever been pasted into a terminal recording, chat, issue,
