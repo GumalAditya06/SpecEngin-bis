@@ -1,0 +1,313 @@
+{
+  "stage": "5.1",
+  "generated_at": "2026-09-29T20:26:26+05:30",
+  "status": "PASS_WITH_DOCUMENTED_LIMITATIONS",
+  "scope": "End-to-end RAG integration and production validation without frozen-architecture changes",
+  "frozen_architecture_changed": false,
+  "implementation_changes": [
+    {
+      "component": "frontend assistant query input",
+      "change": "Aligned the existing textarea maxLength with the unchanged API maximum of 2000 characters.",
+      "contract_impact": "backward-compatible client-side validation only"
+    },
+    {
+      "component": "test coverage",
+      "change": "Added deterministic Stage 5.1 backend integration coverage and frontend stale-evidence/shared-drawer/query-limit coverage.",
+      "contract_impact": "none"
+    }
+  ],
+  "complete_request_flow": [
+    {
+      "order": 1,
+      "boundary": "Frontend Assistant",
+      "implementation": "frontend/app/assistant/content.tsx",
+      "verification": "input, loading, error, response replacement, request identity, stale-evidence clearing, and citation selection tested"
+    },
+    {
+      "order": 2,
+      "boundary": "API client",
+      "implementation": "frontend/lib/api/client.ts::assistantQuery/assistantQueryStream",
+      "verification": "POST payload is query/top_k/filters; live mode has no fallback to demo data"
+    },
+    {
+      "order": 3,
+      "boundary": "POST /api/v1/assistant/query",
+      "implementation": "scraper/assistant_api.py::assistant_query",
+      "verification": "FastAPI request/response schema, validation, and controlled status mapping tested"
+    },
+    {
+      "order": 4,
+      "boundary": "Request validation",
+      "implementation": "scraper/assistant_api.py::AssistantRequest",
+      "verification": "extra fields forbidden; query 1..2000; top_k 1..5; filters typed and allow-listed"
+    },
+    {
+      "order": 5,
+      "boundary": "RetrievalService",
+      "implementation": "scraper/retrieval_service.py::RetrievalService",
+      "verification": "the production singleton resolves the evaluated Stage 3 service directly"
+    },
+    {
+      "order": 6,
+      "boundary": "Hybrid retrieval",
+      "implementation": "scraper/hybrid_retrieval.py",
+      "verification": "BGE, NumPy vector store, BM25, RRF, and cross-encoder settings and ordering remained unchanged"
+    },
+    {
+      "order": 7,
+      "boundary": "EvidenceContextBuilder",
+      "implementation": "scraper/evidence_context.py::EvidenceContextBuilder",
+      "verification": "ranked whole-chunk evidence and provenance are passed without rewriting"
+    },
+    {
+      "order": 8,
+      "boundary": "EvidenceSufficiencyGuard",
+      "implementation": "scraper/evidence_sufficiency.py::EvidenceSufficiencyGuard",
+      "verification": "SUFFICIENT/PARTIAL/INSUFFICIENT/OUT_OF_DOMAIN mappings and lazy provider avoidance tested"
+    },
+    {
+      "order": 9,
+      "boundary": "Gemini provider",
+      "implementation": "scraper/llm_provider.py::GeminiProvider",
+      "verification": "lazy resolution, authentication/timeout/malformed-output boundaries tested with mocks; no live call made because credentials were absent"
+    },
+    {
+      "order": 10,
+      "boundary": "AnswerValidator",
+      "implementation": "scraper/grounded_answer.py::AnswerValidator",
+      "verification": "unknown, duplicate, missing-inline, and guard-rejected citations fail closed"
+    },
+    {
+      "order": 11,
+      "boundary": "API response and frontend adapter",
+      "implementation": "scraper/grounded_answer.py::GroundedAnswer and frontend/lib/api/client.ts::adaptGroundedAnswer",
+      "verification": "answer, evidence state, citations, limitations, evidence text, and source metadata retain identity"
+    },
+    {
+      "order": 12,
+      "boundary": "Answer renderer and shared SourceDrawer",
+      "implementation": "frontend/components/assistant/Answer.tsx and frontend/components/sources/SourceDrawer.tsx",
+      "verification": "inline citation -> evidence card -> drawer -> internal document/original source, close, focus restoration, and mobile rules tested"
+    }
+  ],
+  "test_counts": {
+    "backend": {
+      "passed": 483,
+      "failed": 0,
+      "baseline_passed": 458,
+      "stage_5_1_added": 25,
+      "warning": "Starlette TestClient currently emits one httpx/httpx2 deprecation warning."
+    },
+    "frontend": {
+      "passed": 17,
+      "failed": 0,
+      "baseline_passed": 14,
+      "stage_5_1_added": 3
+    },
+    "combined": {
+      "passed": 500,
+      "failed": 0,
+      "baseline_passed": 472,
+      "stage_5_1_added": 28
+    }
+  },
+  "end_to_end_scenarios": [
+    {"scenario": "normal BIS question", "result": "PASS", "evidence_state": "VERIFIED_EVIDENCE"},
+    {"scenario": "exact standard question", "result": "PASS", "evidence_state": "VERIFIED_EVIDENCE"},
+    {"scenario": "clause-specific question", "result": "PASS", "evidence_state": "VERIFIED_EVIDENCE"},
+    {"scenario": "product-specific question", "result": "PASS", "evidence_state": "VERIFIED_EVIDENCE"},
+    {"scenario": "testing question", "result": "PASS", "evidence_state": "VERIFIED_EVIDENCE"},
+    {"scenario": "multiple evidence chunks", "result": "PASS", "details": "E1 and E2 remained ordered, distinct, and traceable"},
+    {"scenario": "partial evidence", "result": "PASS", "evidence_state": "PARTIAL_EVIDENCE", "details": "limitation preserved and only supported evidence exposed"},
+    {"scenario": "unknown standard", "result": "PASS", "evidence_state": "NO_VERIFIED_EVIDENCE", "actual_http_status": 200},
+    {"scenario": "out-of-domain", "result": "PASS", "evidence_state": "NO_VERIFIED_EVIDENCE", "actual_http_status": 200},
+    {"scenario": "empty query", "result": "PASS", "actual_http_status": 422},
+    {"scenario": "very long query", "result": "PASS", "details": "2000 characters accepted; 2001 rejected; frontend maximum aligned to 2000"},
+    {"scenario": "invalid request payload", "result": "PASS", "actual_http_status": 422}
+  ],
+  "exact_identifier_flow": {
+    "IS 367": {"result": "PASS", "standards": ["IS 367:1993"], "unrelated_standard_leakage": false},
+    "IS 367:1993": {"result": "PASS", "standards": ["IS 367:1993"], "unrelated_standard_leakage": false},
+    "IS 4250:2025": {"result": "PASS", "standards": ["IS 4250:2025"], "unrelated_standard_leakage": false},
+    "Clause 1.3.1": {"result": "PASS_WITH_RANKING_LIMITATION", "requested_clause_retrieved": true, "requested_clause_rank": 3, "note": "The bare clause identifier is not standard-scoped; frozen ranking was not changed."},
+    "Annex D": {"result": "PASS", "standards": ["IS 2347:2023"], "unrelated_standard_leakage": false},
+    "Table 1": {"result": "PASS_WITH_AMBIGUITY", "standards": ["IS 2347:2023", "IS 367:1993", "IS 4250:2025"], "note": "A bare table number exists across documents; callers must include a standard to disambiguate."},
+    "citation_metadata": "document id, standard, clause/title, page, source URL, and authoritative evidence text remained attached"
+  },
+  "evidence_state_behavior": {
+    "SUFFICIENT": {"answer_state": "VERIFIED_EVIDENCE", "provider_invoked": true, "citations": "validated supported IDs only", "frontend": "verified status, answer, evidence cards, and drawer rendered"},
+    "PARTIAL": {"answer_state": "PARTIAL_EVIDENCE", "provider_invoked": true, "citations": "validated supported IDs only", "frontend": "limitations rendered without loss"},
+    "INSUFFICIENT": {"answer_state": "NO_VERIFIED_EVIDENCE", "provider_invoked": false, "citations": [], "evidence": [], "gemini_call_avoided": true},
+    "OUT_OF_DOMAIN": {"answer_state": "NO_VERIFIED_EVIDENCE", "provider_invoked": false, "citations": [], "evidence": [], "gemini_call_avoided": true}
+  },
+  "citation_chain_validation": {
+    "result": "PASS",
+    "chain": ["answer token [E#]", "validated AnswerCitation", "EvidencePackage EvidenceItem", "chunk_id", "StructuralUnit HAS_CHUNK relationship", "SourceDocument", "Standard", "page", "source_url"],
+    "fabricated_or_unsupported_citations_accepted": 0,
+    "missing_optional_metadata_behavior": "null values remain null and are not fabricated",
+    "actual_corpus_source_urls_checked": 3,
+    "actual_corpus_source_urls_valid": 3
+  },
+  "source_drawer_validation": {
+    "shared_component": "frontend/components/sources/SourceDrawer.tsx",
+    "assistant": "PASS: complete citation-to-drawer interaction tested",
+    "sources": "PASS: imports the shared component and passes SourceRecord plus clause context",
+    "standards": "PASS: imports the shared component and passes the same SourceRecord contract",
+    "laboratories": "PASS: imports the shared component and passes the same SourceRecord contract",
+    "services": "PASS_WITH_SCOPE_NOTE: Services owns no source payload and routes source inspection to /sources, where the shared drawer is used",
+    "close_and_focus_restoration": "PASS",
+    "mobile_no_overflow_rules": "PASS",
+    "separate_assistant_source_viewer_created": false
+  },
+  "knowledge_entity_validation": {
+    "result": "PASS",
+    "entity_counts": {"products": 3, "standards": 5, "source_documents": 44, "structural_units": 89, "laboratories": 18, "testing_requirements": 45, "relationships": 289},
+    "relationships": {
+      "Product->Standard->SourceDocument": "PASS",
+      "Standard->SourceDocument": "PASS",
+      "Document->StructuralUnit": "PASS",
+      "StructuralUnit->Chunk": "PASS",
+      "Standard->Laboratory": "PASS",
+      "Standard->TestingRequirement": "PASS"
+    },
+    "provenance_preserved": true,
+    "review_state": {"documents_requiring_review": 4, "relationships_requiring_review": 6, "conflicts_hidden": false}
+  },
+  "failure_behavior": [
+    {"failure": "provider unavailable/missing configuration", "result": "503; no fallback answer"},
+    {"failure": "provider authentication/permanent failure", "result": "502 with stable redacted message"},
+    {"failure": "provider timeout/transient failure", "result": "bounded retry then 502"},
+    {"failure": "malformed provider output", "result": "bounded retry then 502"},
+    {"failure": "invalid/unsupported citation", "result": "validator rejection then 502"},
+    {"failure": "empty evidence", "result": "200 NO_VERIFIED_EVIDENCE; provider not resolved"},
+    {"failure": "retrieval domain error", "result": "422"},
+    {"failure": "unexpected vector-store/runtime error", "result": "500 Internal Server Error without internal path disclosure"},
+    {"failure": "malformed request", "result": "422"},
+    {"failure": "missing source metadata", "result": "successful grounded response with explicit null metadata; no fabrication"}
+  ],
+  "provider_behavior": {
+    "credentials_present": false,
+    "live_gemini_request_made": false,
+    "provider_resolution": "lazy and exercised after the guard only",
+    "blocked_queries_invoked_provider": false,
+    "real_provider_boundary": "HTTP status classification, timeout, malformed payload, structured response parsing, and key-in-header behavior tested",
+    "production_supported_query_without_credentials": "actual ASGI request returned 503 BIS_LLM_PROVIDER is required instead of a successful answer"
+  },
+  "observability": {
+    "result": "PASS",
+    "response_metadata_fields": ["provider", "model", "retrieval_ms", "context_ms", "generation_ms", "evidence_count", "evidence_state", "attempts", "usage", "assessment_state", "assessment_ms", "retrieval_candidate_count", "supporting_evidence_count", "gemini_call_avoided"],
+    "api_keys_logged": false,
+    "complete_queries_logged_by_grounded_answer_service": false
+  },
+  "latency_measurements_ms": {
+    "application_import_startup": 350.0,
+    "model_and_service_initialization": 2561.55,
+    "first_retrieval_query": 902.226,
+    "warm_retrieval_total": {"count": 25, "mean": 1065.34204, "median": 1107.467, "p95": 1365.813, "max": 1368.805},
+    "semantic": {"mean": 26.9944},
+    "bm25": {"mean": 0.24524},
+    "fusion": {"mean": 0.06852},
+    "reranking": {"mean": 1037.99216},
+    "evidence_construction_observed": {"sample_count": 11, "mean": 0.136, "min": 0.021, "max": 0.264},
+    "evidence_sufficiency_guard": {"count": 27, "mean": 0.458333, "median": 0.448, "max": 0.872},
+    "gemini_generation": null,
+    "actual_asgi_guarded_cold_request": 3675.52,
+    "actual_asgi_unknown_standard_warm_request": 2.45,
+    "actual_asgi_supported_request_to_missing-provider_failure": 913.629,
+    "baseline_note": "The Stage 3.4 mean near 1048 ms was retained as a comparison baseline. The current 1065.342 ms warm mean is a measurement, not an optimization or behavior change."
+  },
+  "concurrency": {
+    "result": "PASS",
+    "deterministic_integration_queries": 4,
+    "actual_shared_retrieval_queries": 3,
+    "actual_parallel_elapsed_ms": 2223.87,
+    "sequential_order_matches": 3,
+    "distinct_result_sets": 3,
+    "mixed_evidence_ids": false,
+    "mixed_citations": false,
+    "shared_state_mutation_detected": false,
+    "actual_concurrent_http_requests": 2
+  },
+  "frontend_validation": {
+    "tests": "17 passed",
+    "typescript": "PASS: npx tsc --noEmit",
+    "eslint": "PASS: npm run lint",
+    "production_build": "PASS: NEXT_PUBLIC_DEMO_MODE=false npm run build -- --webpack",
+    "build_note": "Default Turbopack could not bind its sandbox-internal worker port. The documented Webpack builder and a temporary documented TypeScript JavaScript-API checker setting completed successfully; next.config.ts was restored unchanged.",
+    "loading_state": "PASS",
+    "controlled_error_state": "PASS",
+    "stale_evidence_prevention": "PASS",
+    "focus_restoration": "PASS",
+    "mobile_behavior": "PASS"
+  },
+  "backend_validation": {
+    "tests": "483 passed",
+    "stage_4_4_rerun": "PASS in /tmp/specengine-stage51/stage44",
+    "stage_4_6_rerun": "PASS in /tmp/specengine-stage51/stage46",
+    "historical_reports_overwritten": false
+  },
+  "stage_4_4_comparison": {
+    "dataset_unchanged": true,
+    "exact_identifier_metrics_unchanged": true,
+    "expected_standard_retrieval": "22/22",
+    "expected_document_retrieval": "22/22",
+    "expected_clause_retrieval": "9/9",
+    "mrr": 0.768182,
+    "recall_at_1": 0.560606,
+    "recall_at_3": 0.818182,
+    "recall_at_5": 0.931818,
+    "historical_hybrid_mean_ms": 1015.665963,
+    "current_hybrid_mean_ms": 1019.847963,
+    "known_failure_count": 1,
+    "known_failure_category": "RERANKING_ERROR"
+  },
+  "stage_4_6_comparison": {
+    "states": {"SUFFICIENT": 25, "INSUFFICIENT": 1, "OUT_OF_DOMAIN": 1},
+    "verified_positive_preserved": "22/22",
+    "negative_cases_guarded": "2/2",
+    "retrieval_order_unchanged": "27/27",
+    "gemini_calls_avoided": 2,
+    "provider_calls_made": 0,
+    "matches_historical_state_counts": true
+  },
+  "security_checks": [
+    {"check": "API key exposure or committed credentials", "result": "PASS: no credential patterns found; environment credentials absent"},
+    {"check": "secrets in logs", "result": "PASS: provider errors are redacted and keys are never logged"},
+    {"check": "complete private query logging", "result": "PASS: grounded-answer logs states, counts, timings, provider/model, and error type only"},
+    {"check": "arbitrary filesystem access/path traversal", "result": "PASS: assistant inputs feed typed retrieval filters, not filesystem paths"},
+    {"check": "prompt injection through evidence", "result": "PASS: evidence is marked untrusted data; system policy requires ignoring embedded instructions and forbids tools/files/web"},
+    {"check": "user-controlled citation IDs", "result": "PASS: citation IDs originate from EvidenceContextBuilder and are validator checked"},
+    {"check": "user-controlled document IDs", "result": "PASS: allow-listed filter value only; returned identity comes from corpus metadata"},
+    {"check": "unsafe source URLs", "result": "PASS for corpus: 3/3 unique chunk URLs use HTTPS on www.bis.gov.in; UI blocks non-http(s) schemes and uses noopener/noreferrer"},
+    {"check": "unsafe error disclosure", "result": "PASS: provider and unexpected store failures do not disclose secrets or internal paths"}
+  ],
+  "data_integrity": {
+    "method": "SHA-256 over sorted per-file SHA-256 records; all values matched before and after Stage 5.1",
+    "trees": {
+      "data/raw": {"sha256": "fac379a4c54d512f6358918b5a2f79372c724c57be80f24a84f7285761a5bd1b", "files": 32, "bytes": 19674728},
+      "data/processed/extracted": {"sha256": "24f2a6117e226af4fbb3215baa21a3321431475e95d98317a20d4e3d747a9ce4", "files": 4, "bytes": 143939},
+      "data/processed/cleaned": {"sha256": "bc764f820a980d9c0507054f1d939fbc795496e21155a8f50688ada411ae9087", "files": 4, "bytes": 141037},
+      "data/processed/structured": {"sha256": "eadb1095d56fa85513b4fb1bec7ce2655c2bfc0202aa70c443df4e49fb088661", "files": 4, "bytes": 311249},
+      "data/processed/chunks": {"sha256": "7990d18ebe3b10239e763018be47e2ec50e1a9250b17bdcc83df8ee537941ba8", "files": 2, "bytes": 202270},
+      "data/processed/chunks_v2": {"sha256": "f1ab85f7270deba9033c3baab6a5bf9ff1bc6a59ccf19692470f8ae00530eaab", "files": 3, "bytes": 258698},
+      "data/processed/embeddings": {"sha256": "365e9e60664afa827004bd8dba067553a1826a084d4a9278b0069ec96db4ace5", "files": 3, "bytes": 1665830},
+      "data/processed/embeddings_v2": {"sha256": "1f34afc7616545d427e5e0cfda5b140e92969b19ad258e0ad0a27e4842eae92d", "files": 3, "bytes": 1935045},
+      "data/processed/vector_store": {"sha256": "fcca9f01e18a9ab009624a810ff4fa933541aa4d88c033b9ea8f4d699d2b9e3c", "files": 5, "bytes": 542265}
+    },
+    "evaluation_dataset_sha256": "4664d2a827c9861b501b90b82fd37bbbf0c0283f42142804f09e77446c105f0c",
+    "historical_stage_4_4_report_sha256": "03100944822c79edd0a5621d896424499fd1d057d411890600259a1a9b18f51f",
+    "historical_stage_4_6_report_sha256": "fbec18373a236846e8c8c4386a72f9b2e494226000c18364892b1e23bb67fa06",
+    "unchanged": true
+  },
+  "known_limitations": [
+    "No Gemini credentials were configured, so no live generation latency or live token usage was measured.",
+    "The frontend defaults to documented demo mode unless NEXT_PUBLIC_DEMO_MODE=false is set before build/start; production deployment must set this explicitly.",
+    "A bare Clause 1.3.1 query retrieves the requested clause at rank 3, and a bare Table 1 query is cross-standard ambiguous. Frozen ranking and exact-identifier behavior were intentionally not changed.",
+    "The Stage 4.4 dataset still contains one known RERANKING_ERROR; Stage 5.1 did not change ranking.",
+    "Services has no direct source entity payload; it hands users to the Sources context rather than opening a source drawer itself.",
+    "The shared source UI accepts any absolute http(s) URL supplied by a trusted backend. Current corpus URLs are all HTTPS BIS URLs, but there is no frontend hostname allow-list.",
+    "Real-model TestClient execution can hang in this sandbox's worker-thread transport; the actual Uvicorn HTTP boundary completed correctly and was used for production-path validation.",
+    "The test suite reports a Starlette TestClient deprecation warning recommending httpx2.",
+    "Latency is CPU/runtime dependent; values are observations and were not used to alter models, thresholds, ranking, or retrieval configuration."
+  ]
+}

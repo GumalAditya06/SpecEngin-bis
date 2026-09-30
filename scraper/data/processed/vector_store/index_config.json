@@ -1,0 +1,14 @@
+{
+  "backend": "numpy_exact_flat",
+  "created_at": "2026-09-28T23:33:21+00:00",
+  "dimension": 768,
+  "format_version": 1,
+  "indexer_version": "1.0.0",
+  "max_norm_deviation": 1.0786550075359003e-07,
+  "metric": "cosine",
+  "normalization_tolerance": 1e-05,
+  "normalized": true,
+  "search": "exact_exhaustive",
+  "similarity_implementation": "dot_product_on_normalized_vectors",
+  "size": 97
+}

@@ -1,0 +1,1303 @@
+{
+  "candidate_comparison": [
+    {
+      "actual_corpus_rankings": {
+        "Clause 1.3.1": [
+          {
+            "chunk_id": "59885a0c7185261623391597",
+            "clause_number": "1.3.2",
+            "clause_title": "For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended",
+            "rank": 1,
+            "reranker_score": 5.852232,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.2 For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended\nlevels of control are given in Table 1."
+          },
+          {
+            "chunk_id": "fe77c1535344d8e95850a689",
+            "clause_number": "1.3.2",
+            "clause_title": "For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended levels of",
+            "rank": 2,
+            "reranker_score": 5.746653,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.3.2 For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended levels of\ncontrol are given in Table 1."
+          },
+          {
+            "chunk_id": "1a7107bce18c106dbe346e62",
+            "clause_number": "1.3.1",
+            "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "rank": 3,
+            "reranker_score": 5.687447,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+          },
+          {
+            "chunk_id": "5b4953389305bf3a7b6a0f43",
+            "clause_number": "1.3.3",
+            "clause_title": "The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan submitted by",
+            "rank": 4,
+            "reranker_score": 5.650887,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.3.3 The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan submitted by\nthem on the whole production of the factory which is covered by this plan. Alternatively, the manufacturer has the option of adherence"
+          },
+          {
+            "chunk_id": "69169c610103ffd4db7de27b",
+            "clause_number": "1.3.3",
+            "clause_title": "The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan",
+            "rank": 5,
+            "reranker_score": 5.531964,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.3 The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan\nsubmitted by them on the whole production of the factory which is covered by this plan. Alternatively, the manufacturer has the option of adherence"
+          }
+        ],
+        "Clause 4": [
+          {
+            "chunk_id": "6fbc4bee1451990e47ce8b29",
+            "clause_number": "4",
+            "clause_title": "REJECTION - All the production which conforms to the Indian Standard and covered under",
+            "rank": 1,
+            "reranker_score": 6.740713,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "4. REJECTION - All the production which conforms to the Indian Standard and covered under\nscope of the licence shall be marked with Standard Mark. Disposal of non-conforming product shall be done in such a way so as to ensure that there is "
+          },
+          {
+            "chunk_id": "3fd5682dddf4ec2fd3915f31",
+            "clause_number": "4",
+            "clause_title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+            "rank": 2,
+            "reranker_score": 6.144892,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit."
+          },
+          {
+            "chunk_id": "60391b1d4c06ff4143ad7f63",
+            "clause_number": "4",
+            "clause_title": "A fully dimensioned sectional drawing of the pressure cooker and its material along with",
+            "rank": 3,
+            "reranker_score": 5.463299,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "4. A fully dimensioned sectional drawing of the pressure cooker and its material along with\ngrades, shall be submitted by the manufacturer for each variety as per Cl. 6.8 of IS 2347. Firm shall also declare optional accessories (Glass lid, "
+          },
+          {
+            "chunk_id": "82957f0e5235749ab2f794a8",
+            "clause_number": "4",
+            "clause_title": "Additional Marking Requirments:",
+            "rank": 4,
+            "reranker_score": 4.027534,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "4. Additional Marking Requirments:\n\na) The material shall also be marked with the following additional requirement on packaging:\n“For BIS certification details please visit www.bis.gov.in\";\nb) Instruction Booklet shall be provided as per th"
+          },
+          {
+            "chunk_id": "e56f9d75b21c9754dc420e67",
+            "clause_number": "1.4",
+            "clause_title": "However, all manufacturers shall ensure compliance of their products to all the requirements of the",
+            "rank": 5,
+            "reranker_score": 3.452491,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.4 However, all manufacturers shall ensure compliance of their products to all the requirements of the\nIndian Standard."
+          }
+        ],
+        "IS 2347:2023": [
+          {
+            "chunk_id": "34c4df55f8789af8e9ffe5ce",
+            "clause_number": "3",
+            "clause_title": "LABELLING AND MARKING – As per the requirement of IS 2347:2023. The Standard",
+            "rank": 1,
+            "reranker_score": 8.969769,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "3. LABELLING AND MARKING – As per the requirement of IS 2347:2023. The Standard\nMark, as given in the Schedule of the licence, shall be marked on each cooker provided always that the product thus marked conforms to all the requirement of th"
+          },
+          {
+            "chunk_id": "b58bb450b65964ebb8d2e773",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 2,
+            "reranker_score": 8.710028,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "PM/ IS 2347/9/February 2025\n\nPRODUCT MANUAL FOR\nDOMESTIC PRESSURE COOKER\n\nAS PER IS 2347:2023\nThis Product Manual shall be used as reference material by all Regional/Branch Offices & licensees to ensure coherence of practice and transparenc"
+          },
+          {
+            "chunk_id": "8990c89dded32a219a94502b",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 3,
+            "reranker_score": 8.6665,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.\nProduct\n: IS 2347:2023\n\nTitle\n: Domestic Pressure Cooker\n\nNo. of Amendments\n: One"
+          },
+          {
+            "chunk_id": "fe4c048bb8c84ba49c055858",
+            "clause_number": "3",
+            "clause_title": "In addition to the samples of varieties drawn for independent testing as per the above",
+            "rank": 4,
+            "reranker_score": 8.505511,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "3. In addition to the samples of varieties drawn for independent testing as per the above\nguidelines, factory test reports of all other varieties intended to be covered in scope of license, shall also be submitted by the manufacturer."
+          },
+          {
+            "chunk_id": "15f86e9baf72ff158ed59a68",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 5,
+            "reranker_score": 8.458139,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "6.\nScope of the Licence :\n\nLicence is granted to use Standard Mark as per IS 2347 :2023 with the following scope:\n\nName of the product\nDomestic Pressure Cooker\n\nCapacities\n\nType of coating\n(if applicable)\nHard Anodized /Non-stick/Powder coa"
+          }
+        ],
+        "IS 367:1993": [
+          {
+            "chunk_id": "e9f56a33810f1730d4e85132",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 1,
+            "reranker_score": 9.559931,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "ी आवेदकों द्वारा भी इस दस्तावेज़ का\nउपयोर् दकया जा सकता है ।\n\nPRODUCT MANUAL FOR\nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE\nACCORDING TO IS 367: 1993\n\nDocument No.- PM/ IS 367/ 1/ Feb 2022\n\nThis Product Manual shall be used as r"
+          },
+          {
+            "chunk_id": "a50ccba70aeb33234935ab43",
+            "clause_number": "3",
+            "clause_title": "LABELLING AND MARKING – As per the requirements of IS 367: 1993.",
+            "rank": 2,
+            "reranker_score": 8.958788,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "3. LABELLING AND MARKING – As per the requirements of IS 367: 1993."
+          },
+          {
+            "chunk_id": "682a0567e42da626ea1f994d",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 3,
+            "reranker_score": 8.656425,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "1.\nProduct\n:\nIS 367: 1993\n\nTitle\n:\nElectric Kettles and Jugs for household and similar use\n\nNo. of Amendments\n:\nnil"
+          },
+          {
+            "chunk_id": "cfcb3af139ec4b8950e7b72c",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 4,
+            "reranker_score": 8.368708,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "5.\nPossible tests in a\nday\n:\nPlease refer ANNEX - D"
+          },
+          {
+            "chunk_id": "6313b1d8e7b68de420d06b0d",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 5,
+            "reranker_score": 8.365194,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "भारतीय मानक ब्यूरो\nBUREAU OF INDIAN STANDARDS\nमानक भवन, ९, बहादुर शाह ज़फ़र मार्ग\nManak Bhawan, 9, Bahadur Shah Zafar Marg\nनई ददल्ली- ११०००२\nNew Delhi – 110002\n\nउत्पाद मैन्युअल\nआई एस 367 : 1993 के अनुसार\n\nघरेलू और समान उपयोर् के ललए इलेलरिक क"
+          }
+        ],
+        "IS 4250:2025": [
+          {
+            "chunk_id": "d7feb74d61b96ddcdde0f962",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 1,
+            "reranker_score": 9.668318,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "उȋाद मैɊुअल\nिवद्युत् फ़ूड-िमƛर (िलƓीडाइज़र एवं Ťाइंडर) और अपकŐ ūी जूसर - िविशिʼ (दूसरा पुनरीƗण)\nआई एस 4250 : 2025 के अनुसार\n\nPRODUCT MANUAL\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification\n(Second Revisi"
+          },
+          {
+            "chunk_id": "e901e8863539cb42034498f9",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 2,
+            "reranker_score": 9.647547,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.\nमानक संƥा\nIS No.\n:\nIS 4250 : 2025\n\nशीषŊक\nTitle\n:\nElectric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers -\nSpecification (Second Revision)\n\nसंशोधनों की संƥा\nNo. of amendments\n:\nNIL"
+          },
+          {
+            "chunk_id": "82957f0e5235749ab2f794a8",
+            "clause_number": "4",
+            "clause_title": "Additional Marking Requirments:",
+            "rank": 3,
+            "reranker_score": 9.381464,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "4. Additional Marking Requirments:\n\na) The material shall also be marked with the following additional requirement on packaging:\n“For BIS certification details please visit www.bis.gov.in\";\nb) Instruction Booklet shall be provided as per th"
+          },
+          {
+            "chunk_id": "e56f9d75b21c9754dc420e67",
+            "clause_number": "1.4",
+            "clause_title": "However, all manufacturers shall ensure compliance of their products to all the requirements of the",
+            "rank": 4,
+            "reranker_score": 9.18762,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.4 However, all manufacturers shall ensure compliance of their products to all the requirements of the\nIndian Standard."
+          },
+          {
+            "chunk_id": "fe77c1535344d8e95850a689",
+            "clause_number": "1.3.2",
+            "clause_title": "For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended levels of",
+            "rank": 5,
+            "reranker_score": 9.16238,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.3.2 For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended levels of\ncontrol are given in Table 1."
+          }
+        ],
+        "What is the definition of a control unit?": [
+          {
+            "chunk_id": "1a7107bce18c106dbe346e62",
+            "clause_number": "1.3.1",
+            "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "rank": 1,
+            "reranker_score": 8.047519,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+          },
+          {
+            "chunk_id": "599df61892e5c80712d6a817",
+            "clause_number": "1.3.1",
+            "clause_title": "For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+            "rank": 2,
+            "reranker_score": 7.585204,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit."
+          },
+          {
+            "chunk_id": "3fd5682dddf4ec2fd3915f31",
+            "clause_number": "4",
+            "clause_title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+            "rank": 3,
+            "reranker_score": 4.516487,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit."
+          },
+          {
+            "chunk_id": "28696516880b60b7589ee892",
+            "clause_number": "1.2",
+            "clause_title": "The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the",
+            "rank": 4,
+            "reranker_score": 2.042978,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the\nlevels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian\nStandard) a"
+          },
+          {
+            "chunk_id": "87ede6d000180d11e12c083f",
+            "clause_number": "1.2",
+            "clause_title": "The manufacturers shall define a Quality Assurance Plan defining the control unit i.e. Batch and",
+            "rank": 5,
+            "reranker_score": 1.115468,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit i.e. Batch and\nthe levels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian Standard) and submit t"
+          }
+        ],
+        "What is the sampling plan for inspection of pressure cookers?": [
+          {
+            "chunk_id": "6ead7dcfbea32005380ab349",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 1,
+            "reranker_score": 2.073484,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "2.\nSampling Guidelines:\na)\nRaw material\n: Please refer ANNEX-A\nb)\nGrouping guidelines\n: Please refer ANNEX-B\nc)\nSample Size\n:\nOne Pressure Cooker (Two, in case of Induction bottom). In addition one additional gasket, PRD, SRD as necessary s"
+          },
+          {
+            "chunk_id": "77438fbce679125964586fbe",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 2,
+            "reranker_score": 1.378129,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "Annex K\nIS 2347\nR\nOne from each\ncapacity and Type\nOnce in a month\n---\nFor Inner Lid Cooker\n8.6.2,\nAnnex L\nIS 2347\nR\nFor Cooker fastened by\nScrew Clamps or any other\nlocking device\n8.6.3\nIS 2347\nR\n\nFor Electrical pressure\ncooker\n8.6.4\nIS 234"
+          },
+          {
+            "chunk_id": "1c481dfff934eba889fe559c",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 3,
+            "reranker_score": 0.571639,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "that whole production should meet the requirements. Records shall be maintained\nThickness\n\nIS 5523\nIS 6012\nR\nOne\nEach Control Unit\n---\nAbrasion Resistance\n7\nIS 6057\nR\nOne\nEach Control Unit\n---\nHardness Test\n(Type Test)\nE-4.1\nIS 2347\nS\nOne\nO"
+          },
+          {
+            "chunk_id": "4304f5bb2844c45e23d0a682",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 4,
+            "reranker_score": 0.265462,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "IS 9806\nS\nOne\nOnce in six months\n8.12\nInternal Coating (Non-Stick Coating) as per IS 9730 (wherever applicable)\n\nVisual Defects\n4.2\nIS 9730\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Recor"
+          },
+          {
+            "chunk_id": "1a7107bce18c106dbe346e62",
+            "clause_number": "1.3.1",
+            "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "rank": 5,
+            "reranker_score": 0.051391,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+          }
+        ],
+        "What is the scope of the licence for electric kettles?": [
+          {
+            "chunk_id": "e90018d76982308e96d15054",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 1,
+            "reranker_score": 8.098899,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "6.\nScope of the Licence :\nName of the Product\nElectric Kettles / Jugs / Cordless Kettles etc for household and similar use\nRated Input power\n\nRated Voltage\n\nClass of appliance\n\nRated capacity\n\nDegree of protection"
+          },
+          {
+            "chunk_id": "e9f56a33810f1730d4e85132",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 2,
+            "reranker_score": 2.415274,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "ी आवेदकों द्वारा भी इस दस्तावेज़ का\nउपयोर् दकया जा सकता है ।\n\nPRODUCT MANUAL FOR\nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE\nACCORDING TO IS 367: 1993\n\nDocument No.- PM/ IS 367/ 1/ Feb 2022\n\nThis Product Manual shall be used as r"
+          },
+          {
+            "chunk_id": "fed35507246a8c7ddfe99fc6",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 3,
+            "reranker_score": 1.604165,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "6.\nलाइसŐस का दायरा /Scope of the\nLicence\n:\n\nLicence is granted to use Standard Mark as per IS 4250 : 2025 with the following scope:\n\nName of the Product\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers\n\nFunctions\nLiqu"
+          },
+          {
+            "chunk_id": "85369392cf774b147b942f5e",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 4,
+            "reranker_score": 0.177607,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "ANNEX – A\n\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n\n1) Manufacturer shall declare the parameters defined in scope of licence for each model of the\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers produced by them.\n2) F"
+          },
+          {
+            "chunk_id": "f9a4b15c774f2e9a39e851e5",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 5,
+            "reranker_score": -0.9092,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "ANNEX A\n\nGrouping Guidelines\n\n1(a). For the purpose of GoL/ CSoL, samples of Electric Kettles and Jugs shall be tested considering the following:\ni.\nType of the product (Kettle/ Jug/ Cordless Kettle etc) ii.\nRated voltage\niii.\nRated input p"
+          }
+        ],
+        "What requirements apply to electric food mixers?": [
+          {
+            "chunk_id": "d73f166c1afd0b6a18dfc978",
+            "clause_number": "3",
+            "clause_title": "MARKING – The Standard Mark as given in the Schedule of the licence shall be incorporated legibly and",
+            "rank": 1,
+            "reranker_score": 2.685616,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "3. MARKING – The Standard Mark as given in the Schedule of the licence shall be incorporated legibly and\nindelibly on each Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers and also on its packaging provided always tha"
+          },
+          {
+            "chunk_id": "85369392cf774b147b942f5e",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 2,
+            "reranker_score": 2.47631,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "ANNEX – A\n\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n\n1) Manufacturer shall declare the parameters defined in scope of licence for each model of the\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers produced by them.\n2) F"
+          },
+          {
+            "chunk_id": "e901e8863539cb42034498f9",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 3,
+            "reranker_score": -0.091294,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.\nमानक संƥा\nIS No.\n:\nIS 4250 : 2025\n\nशीषŊक\nTitle\n:\nElectric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers -\nSpecification (Second Revision)\n\nसंशोधनों की संƥा\nNo. of amendments\n:\nNIL"
+          },
+          {
+            "chunk_id": "68eafd97f52e6271dcdb7439",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 4,
+            "reranker_score": -0.098619,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "TABLE 1\n(ONLY FOR GUIDANCE PURPOSE)\n\n(1)\n(2)\n(3)\nTest Details\nTest\nequipment\nrequireme\nnt\nR: required (or)\nS: Subcontracting\npermitted\nLevels of Control\nCl. of IS\n4250\nRequirement\nTest Methods\nNo. of Sample\nFrequency\nRemarks\nClaus\ne\nReferen"
+          },
+          {
+            "chunk_id": "fed35507246a8c7ddfe99fc6",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 5,
+            "reranker_score": -0.859788,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "6.\nलाइसŐस का दायरा /Scope of the\nLicence\n:\n\nLicence is granted to use Standard Mark as per IS 4250 : 2025 with the following scope:\n\nName of the Product\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers\n\nFunctions\nLiqu"
+          }
+        ],
+        "What testing requirements are specified?": [
+          {
+            "chunk_id": "b5838e97f57a08185b3c42e1",
+            "clause_number": "2.2",
+            "clause_title": "For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing",
+            "rank": 1,
+            "reranker_score": 1.712377,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "2.2 For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing\nfacility for routine tests (indicated as “R” in Column 2 of Table 1) is also optional."
+          },
+          {
+            "chunk_id": "9f8da724e64cb74b1e00e964",
+            "clause_number": "2.2",
+            "clause_title": "For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing",
+            "rank": 2,
+            "reranker_score": 1.646721,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "2.2 For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing\nfacility for routine tests (indicated as “R” in Column 2 of Table 1) is also optional."
+          },
+          {
+            "chunk_id": "a50ccba70aeb33234935ab43",
+            "clause_number": "3",
+            "clause_title": "LABELLING AND MARKING – As per the requirements of IS 367: 1993.",
+            "rank": 3,
+            "reranker_score": 1.17854,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "3. LABELLING AND MARKING – As per the requirements of IS 367: 1993."
+          },
+          {
+            "chunk_id": "7346e98844fa505548af5d28",
+            "clause_number": "1",
+            "clause_title": "LABORATORY - A laboratory shall be maintained which shall be suitably equipped",
+            "rank": 4,
+            "reranker_score": -0.217172,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "1. LABORATORY - A laboratory shall be maintained which shall be suitably equipped\n(as per the requirement given in column 2 of Table 1) and staffed, where different tests given in the specification shall be carried out in accordance with th"
+          },
+          {
+            "chunk_id": "9019d77fdd5cea25e3f06274",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 5,
+            "reranker_score": -1.240649,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "Dimension\nSteel Rule\nCoating Thickness Test\nCoat Thickness meter\nAdhesion test\nSteel Ball of 500gms\nThermal Shock Test\nOven\nDry Heat Test\nLPG Stove or any suitable arrangement\nStaining Test\n99% Glacial Acetic acid\nSodium Chloride\nDistilled "
+          }
+        ],
+        "control unit": [
+          {
+            "chunk_id": "1a7107bce18c106dbe346e62",
+            "clause_number": "1.3.1",
+            "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "rank": 1,
+            "reranker_score": 8.103346,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+          },
+          {
+            "chunk_id": "599df61892e5c80712d6a817",
+            "clause_number": "1.3.1",
+            "clause_title": "For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+            "rank": 2,
+            "reranker_score": 7.646379,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit."
+          },
+          {
+            "chunk_id": "3fd5682dddf4ec2fd3915f31",
+            "clause_number": "4",
+            "clause_title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+            "rank": 3,
+            "reranker_score": 7.116283,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit."
+          },
+          {
+            "chunk_id": "28696516880b60b7589ee892",
+            "clause_number": "1.2",
+            "clause_title": "The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the",
+            "rank": 4,
+            "reranker_score": 4.623766,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the\nlevels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian\nStandard) a"
+          },
+          {
+            "chunk_id": "87ede6d000180d11e12c083f",
+            "clause_number": "1.2",
+            "clause_title": "The manufacturers shall define a Quality Assurance Plan defining the control unit i.e. Batch and",
+            "rank": 5,
+            "reranker_score": 3.124734,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit i.e. Batch and\nthe levels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian Standard) and submit t"
+          }
+        ]
+      },
+      "device": "cpu",
+      "layers": 4,
+      "max_input_tokens": 512,
+      "mean_reranking_ms": 692.027,
+      "measured_parameters": 19164673,
+      "model": "cross-encoder/ms-marco-MiniLM-L4-v2",
+      "parameters": 19164673,
+      "public_ms_marco_dev_mrr_at_10": 37.7,
+      "public_trec_dl_2019_ndcg_at_10": 73.04,
+      "queries_evaluated": 11,
+      "revision": "777b2f369bc1c2f850df8bd367ed1654bda4497b"
+    },
+    {
+      "actual_corpus_rankings": {
+        "Clause 1.3.1": [
+          {
+            "chunk_id": "5b4953389305bf3a7b6a0f43",
+            "clause_number": "1.3.3",
+            "clause_title": "The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan submitted by",
+            "rank": 1,
+            "reranker_score": 5.500596,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.3.3 The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan submitted by\nthem on the whole production of the factory which is covered by this plan. Alternatively, the manufacturer has the option of adherence"
+          },
+          {
+            "chunk_id": "69169c610103ffd4db7de27b",
+            "clause_number": "1.3.3",
+            "clause_title": "The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan",
+            "rank": 2,
+            "reranker_score": 5.489241,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.3 The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan\nsubmitted by them on the whole production of the factory which is covered by this plan. Alternatively, the manufacturer has the option of adherence"
+          },
+          {
+            "chunk_id": "1a7107bce18c106dbe346e62",
+            "clause_number": "1.3.1",
+            "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "rank": 3,
+            "reranker_score": 5.411325,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+          },
+          {
+            "chunk_id": "59885a0c7185261623391597",
+            "clause_number": "1.3.2",
+            "clause_title": "For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended",
+            "rank": 4,
+            "reranker_score": 4.907556,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.2 For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended\nlevels of control are given in Table 1."
+          },
+          {
+            "chunk_id": "fe77c1535344d8e95850a689",
+            "clause_number": "1.3.2",
+            "clause_title": "For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended levels of",
+            "rank": 5,
+            "reranker_score": 4.536919,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.3.2 For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended levels of\ncontrol are given in Table 1."
+          }
+        ],
+        "Clause 4": [
+          {
+            "chunk_id": "3fd5682dddf4ec2fd3915f31",
+            "clause_number": "4",
+            "clause_title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+            "rank": 1,
+            "reranker_score": 6.313931,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit."
+          },
+          {
+            "chunk_id": "6fbc4bee1451990e47ce8b29",
+            "clause_number": "4",
+            "clause_title": "REJECTION - All the production which conforms to the Indian Standard and covered under",
+            "rank": 2,
+            "reranker_score": 6.184193,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "4. REJECTION - All the production which conforms to the Indian Standard and covered under\nscope of the licence shall be marked with Standard Mark. Disposal of non-conforming product shall be done in such a way so as to ensure that there is "
+          },
+          {
+            "chunk_id": "e56f9d75b21c9754dc420e67",
+            "clause_number": "1.4",
+            "clause_title": "However, all manufacturers shall ensure compliance of their products to all the requirements of the",
+            "rank": 3,
+            "reranker_score": 5.107371,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.4 However, all manufacturers shall ensure compliance of their products to all the requirements of the\nIndian Standard."
+          },
+          {
+            "chunk_id": "60391b1d4c06ff4143ad7f63",
+            "clause_number": "4",
+            "clause_title": "A fully dimensioned sectional drawing of the pressure cooker and its material along with",
+            "rank": 4,
+            "reranker_score": 4.967279,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "4. A fully dimensioned sectional drawing of the pressure cooker and its material along with\ngrades, shall be submitted by the manufacturer for each variety as per Cl. 6.8 of IS 2347. Firm shall also declare optional accessories (Glass lid, "
+          },
+          {
+            "chunk_id": "e61002350100b000980a2bc3",
+            "clause_number": "1.4",
+            "clause_title": "However, all manufacturers shall ensure compliance of their products to all the requirements of",
+            "rank": 5,
+            "reranker_score": 4.921984,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.4 However, all manufacturers shall ensure compliance of their products to all the requirements of\nthe Indian Standard."
+          }
+        ],
+        "IS 2347:2023": [
+          {
+            "chunk_id": "34c4df55f8789af8e9ffe5ce",
+            "clause_number": "3",
+            "clause_title": "LABELLING AND MARKING – As per the requirement of IS 2347:2023. The Standard",
+            "rank": 1,
+            "reranker_score": 8.511716,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "3. LABELLING AND MARKING – As per the requirement of IS 2347:2023. The Standard\nMark, as given in the Schedule of the licence, shall be marked on each cooker provided always that the product thus marked conforms to all the requirement of th"
+          },
+          {
+            "chunk_id": "c16a29d10e8ad4cf45637a09",
+            "clause_number": "7",
+            "clause_title": "During the operation of the Licence, BO shall ensure that all the varieties covered in the",
+            "rank": 2,
+            "reranker_score": 8.492399,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "7. During the operation of the Licence, BO shall ensure that all the varieties covered in the\nLicence are tested in rotation, to the extent possible.\nPM/ IS 2347/9/February 2025"
+          },
+          {
+            "chunk_id": "8990c89dded32a219a94502b",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 3,
+            "reranker_score": 8.443949,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.\nProduct\n: IS 2347:2023\n\nTitle\n: Domestic Pressure Cooker\n\nNo. of Amendments\n: One"
+          },
+          {
+            "chunk_id": "e61002350100b000980a2bc3",
+            "clause_number": "1.4",
+            "clause_title": "However, all manufacturers shall ensure compliance of their products to all the requirements of",
+            "rank": 4,
+            "reranker_score": 8.40762,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.4 However, all manufacturers shall ensure compliance of their products to all the requirements of\nthe Indian Standard."
+          },
+          {
+            "chunk_id": "fe4c048bb8c84ba49c055858",
+            "clause_number": "3",
+            "clause_title": "In addition to the samples of varieties drawn for independent testing as per the above",
+            "rank": 5,
+            "reranker_score": 8.399009,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "3. In addition to the samples of varieties drawn for independent testing as per the above\nguidelines, factory test reports of all other varieties intended to be covered in scope of license, shall also be submitted by the manufacturer."
+          }
+        ],
+        "IS 367:1993": [
+          {
+            "chunk_id": "a50ccba70aeb33234935ab43",
+            "clause_number": "3",
+            "clause_title": "LABELLING AND MARKING – As per the requirements of IS 367: 1993.",
+            "rank": 1,
+            "reranker_score": 9.170784,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "3. LABELLING AND MARKING – As per the requirements of IS 367: 1993."
+          },
+          {
+            "chunk_id": "e9f56a33810f1730d4e85132",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 2,
+            "reranker_score": 9.037968,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "ी आवेदकों द्वारा भी इस दस्तावेज़ का\nउपयोर् दकया जा सकता है ।\n\nPRODUCT MANUAL FOR\nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE\nACCORDING TO IS 367: 1993\n\nDocument No.- PM/ IS 367/ 1/ Feb 2022\n\nThis Product Manual shall be used as r"
+          },
+          {
+            "chunk_id": "6313b1d8e7b68de420d06b0d",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 3,
+            "reranker_score": 9.009732,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "भारतीय मानक ब्यूरो\nBUREAU OF INDIAN STANDARDS\nमानक भवन, ९, बहादुर शाह ज़फ़र मार्ग\nManak Bhawan, 9, Bahadur Shah Zafar Marg\nनई ददल्ली- ११०००२\nNew Delhi – 110002\n\nउत्पाद मैन्युअल\nआई एस 367 : 1993 के अनुसार\n\nघरेलू और समान उपयोर् के ललए इलेलरिक क"
+          },
+          {
+            "chunk_id": "682a0567e42da626ea1f994d",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 4,
+            "reranker_score": 8.854338,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "1.\nProduct\n:\nIS 367: 1993\n\nTitle\n:\nElectric Kettles and Jugs for household and similar use\n\nNo. of Amendments\n:\nnil"
+          },
+          {
+            "chunk_id": "de0b05a84537f891e27900fd",
+            "clause_number": "2",
+            "clause_title": "TEST RECORDS – The manufacturer shall maintain test records for the tests carried out",
+            "rank": 5,
+            "reranker_score": 8.457956,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "2. TEST RECORDS – The manufacturer shall maintain test records for the tests carried out\nto establish conformity."
+          }
+        ],
+        "IS 4250:2025": [
+          {
+            "chunk_id": "d7feb74d61b96ddcdde0f962",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 1,
+            "reranker_score": 9.201183,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "उȋाद मैɊुअल\nिवद्युत् फ़ूड-िमƛर (िलƓीडाइज़र एवं Ťाइंडर) और अपकŐ ūी जूसर - िविशिʼ (दूसरा पुनरीƗण)\nआई एस 4250 : 2025 के अनुसार\n\nPRODUCT MANUAL\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification\n(Second Revisi"
+          },
+          {
+            "chunk_id": "e901e8863539cb42034498f9",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 2,
+            "reranker_score": 9.019108,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.\nमानक संƥा\nIS No.\n:\nIS 4250 : 2025\n\nशीषŊक\nTitle\n:\nElectric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers -\nSpecification (Second Revision)\n\nसंशोधनों की संƥा\nNo. of amendments\n:\nNIL"
+          },
+          {
+            "chunk_id": "82957f0e5235749ab2f794a8",
+            "clause_number": "4",
+            "clause_title": "Additional Marking Requirments:",
+            "rank": 3,
+            "reranker_score": 8.959837,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "4. Additional Marking Requirments:\n\na) The material shall also be marked with the following additional requirement on packaging:\n“For BIS certification details please visit www.bis.gov.in\";\nb) Instruction Booklet shall be provided as per th"
+          },
+          {
+            "chunk_id": "e56f9d75b21c9754dc420e67",
+            "clause_number": "1.4",
+            "clause_title": "However, all manufacturers shall ensure compliance of their products to all the requirements of the",
+            "rank": 4,
+            "reranker_score": 8.862346,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.4 However, all manufacturers shall ensure compliance of their products to all the requirements of the\nIndian Standard."
+          },
+          {
+            "chunk_id": "fed35507246a8c7ddfe99fc6",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 5,
+            "reranker_score": 8.858228,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "6.\nलाइसŐस का दायरा /Scope of the\nLicence\n:\n\nLicence is granted to use Standard Mark as per IS 4250 : 2025 with the following scope:\n\nName of the Product\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers\n\nFunctions\nLiqu"
+          }
+        ],
+        "What is the definition of a control unit?": [
+          {
+            "chunk_id": "599df61892e5c80712d6a817",
+            "clause_number": "1.3.1",
+            "clause_title": "For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+            "rank": 1,
+            "reranker_score": 8.464602,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit."
+          },
+          {
+            "chunk_id": "1a7107bce18c106dbe346e62",
+            "clause_number": "1.3.1",
+            "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "rank": 2,
+            "reranker_score": 8.376095,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+          },
+          {
+            "chunk_id": "3fd5682dddf4ec2fd3915f31",
+            "clause_number": "4",
+            "clause_title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+            "rank": 3,
+            "reranker_score": 5.045335,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit."
+          },
+          {
+            "chunk_id": "28696516880b60b7589ee892",
+            "clause_number": "1.2",
+            "clause_title": "The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the",
+            "rank": 4,
+            "reranker_score": 3.393859,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the\nlevels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian\nStandard) a"
+          },
+          {
+            "chunk_id": "87ede6d000180d11e12c083f",
+            "clause_number": "1.2",
+            "clause_title": "The manufacturers shall define a Quality Assurance Plan defining the control unit i.e. Batch and",
+            "rank": 5,
+            "reranker_score": 2.59578,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit i.e. Batch and\nthe levels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian Standard) and submit t"
+          }
+        ],
+        "What is the sampling plan for inspection of pressure cookers?": [
+          {
+            "chunk_id": "6ead7dcfbea32005380ab349",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 1,
+            "reranker_score": 3.109803,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "2.\nSampling Guidelines:\na)\nRaw material\n: Please refer ANNEX-A\nb)\nGrouping guidelines\n: Please refer ANNEX-B\nc)\nSample Size\n:\nOne Pressure Cooker (Two, in case of Induction bottom). In addition one additional gasket, PRD, SRD as necessary s"
+          },
+          {
+            "chunk_id": "77438fbce679125964586fbe",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 2,
+            "reranker_score": 0.92126,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "Annex K\nIS 2347\nR\nOne from each\ncapacity and Type\nOnce in a month\n---\nFor Inner Lid Cooker\n8.6.2,\nAnnex L\nIS 2347\nR\nFor Cooker fastened by\nScrew Clamps or any other\nlocking device\n8.6.3\nIS 2347\nR\n\nFor Electrical pressure\ncooker\n8.6.4\nIS 234"
+          },
+          {
+            "chunk_id": "1a7107bce18c106dbe346e62",
+            "clause_number": "1.3.1",
+            "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "rank": 3,
+            "reranker_score": 0.524615,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+          },
+          {
+            "chunk_id": "4304f5bb2844c45e23d0a682",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 4,
+            "reranker_score": 0.268199,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "IS 9806\nS\nOne\nOnce in six months\n8.12\nInternal Coating (Non-Stick Coating) as per IS 9730 (wherever applicable)\n\nVisual Defects\n4.2\nIS 9730\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Recor"
+          },
+          {
+            "chunk_id": "1c481dfff934eba889fe559c",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 5,
+            "reranker_score": -0.056453,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "that whole production should meet the requirements. Records shall be maintained\nThickness\n\nIS 5523\nIS 6012\nR\nOne\nEach Control Unit\n---\nAbrasion Resistance\n7\nIS 6057\nR\nOne\nEach Control Unit\n---\nHardness Test\n(Type Test)\nE-4.1\nIS 2347\nS\nOne\nO"
+          }
+        ],
+        "What is the scope of the licence for electric kettles?": [
+          {
+            "chunk_id": "e90018d76982308e96d15054",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 1,
+            "reranker_score": 8.09204,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "6.\nScope of the Licence :\nName of the Product\nElectric Kettles / Jugs / Cordless Kettles etc for household and similar use\nRated Input power\n\nRated Voltage\n\nClass of appliance\n\nRated capacity\n\nDegree of protection"
+          },
+          {
+            "chunk_id": "fed35507246a8c7ddfe99fc6",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 2,
+            "reranker_score": 2.774731,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "6.\nलाइसŐस का दायरा /Scope of the\nLicence\n:\n\nLicence is granted to use Standard Mark as per IS 4250 : 2025 with the following scope:\n\nName of the Product\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers\n\nFunctions\nLiqu"
+          },
+          {
+            "chunk_id": "e9f56a33810f1730d4e85132",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 3,
+            "reranker_score": 2.050469,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "ी आवेदकों द्वारा भी इस दस्तावेज़ का\nउपयोर् दकया जा सकता है ।\n\nPRODUCT MANUAL FOR\nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE\nACCORDING TO IS 367: 1993\n\nDocument No.- PM/ IS 367/ 1/ Feb 2022\n\nThis Product Manual shall be used as r"
+          },
+          {
+            "chunk_id": "85369392cf774b147b942f5e",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 4,
+            "reranker_score": 1.112554,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "ANNEX – A\n\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n\n1) Manufacturer shall declare the parameters defined in scope of licence for each model of the\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers produced by them.\n2) F"
+          },
+          {
+            "chunk_id": "15f86e9baf72ff158ed59a68",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 5,
+            "reranker_score": -0.129396,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "6.\nScope of the Licence :\n\nLicence is granted to use Standard Mark as per IS 2347 :2023 with the following scope:\n\nName of the product\nDomestic Pressure Cooker\n\nCapacities\n\nType of coating\n(if applicable)\nHard Anodized /Non-stick/Powder coa"
+          }
+        ],
+        "What requirements apply to electric food mixers?": [
+          {
+            "chunk_id": "d73f166c1afd0b6a18dfc978",
+            "clause_number": "3",
+            "clause_title": "MARKING – The Standard Mark as given in the Schedule of the licence shall be incorporated legibly and",
+            "rank": 1,
+            "reranker_score": 3.678515,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "3. MARKING – The Standard Mark as given in the Schedule of the licence shall be incorporated legibly and\nindelibly on each Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers and also on its packaging provided always tha"
+          },
+          {
+            "chunk_id": "85369392cf774b147b942f5e",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 2,
+            "reranker_score": 3.456141,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "ANNEX – A\n\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n\n1) Manufacturer shall declare the parameters defined in scope of licence for each model of the\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers produced by them.\n2) F"
+          },
+          {
+            "chunk_id": "68eafd97f52e6271dcdb7439",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 3,
+            "reranker_score": 0.995185,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "TABLE 1\n(ONLY FOR GUIDANCE PURPOSE)\n\n(1)\n(2)\n(3)\nTest Details\nTest\nequipment\nrequireme\nnt\nR: required (or)\nS: Subcontracting\npermitted\nLevels of Control\nCl. of IS\n4250\nRequirement\nTest Methods\nNo. of Sample\nFrequency\nRemarks\nClaus\ne\nReferen"
+          },
+          {
+            "chunk_id": "e901e8863539cb42034498f9",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 4,
+            "reranker_score": 0.129864,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.\nमानक संƥा\nIS No.\n:\nIS 4250 : 2025\n\nशीषŊक\nTitle\n:\nElectric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers -\nSpecification (Second Revision)\n\nसंशोधनों की संƥा\nNo. of amendments\n:\nNIL"
+          },
+          {
+            "chunk_id": "fed35507246a8c7ddfe99fc6",
+            "clause_number": null,
+            "clause_title": null,
+            "rank": 5,
+            "reranker_score": 0.098592,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "6.\nलाइसŐस का दायरा /Scope of the\nLicence\n:\n\nLicence is granted to use Standard Mark as per IS 4250 : 2025 with the following scope:\n\nName of the Product\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers\n\nFunctions\nLiqu"
+          }
+        ],
+        "What testing requirements are specified?": [
+          {
+            "chunk_id": "9f8da724e64cb74b1e00e964",
+            "clause_number": "2.2",
+            "clause_title": "For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing",
+            "rank": 1,
+            "reranker_score": 1.430424,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "2.2 For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing\nfacility for routine tests (indicated as “R” in Column 2 of Table 1) is also optional."
+          },
+          {
+            "chunk_id": "db4ad73fbe91cf8b9becd5e3",
+            "clause_number": "2",
+            "clause_title": "ENSURING",
+            "rank": 2,
+            "reranker_score": 1.071664,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "2. ENSURING\nCOMPLIANCE\nTHROUGH\nTESTING-\nIt\nis\nexpected\nthat\nmanufacturers\n(licensees/applicants) will establish a suitably equipped and staffed in house laboratory (In house testing facility) for testing at least those parameters of the Ind"
+          },
+          {
+            "chunk_id": "45f91226fc8f52c69a51be12",
+            "clause_number": "2",
+            "clause_title": "ENSURING COMPLIANCE THROUGH TESTING- It is expected that manufacturers",
+            "rank": 3,
+            "reranker_score": 0.838652,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "2. ENSURING COMPLIANCE THROUGH TESTING- It is expected that manufacturers\n(licensees/applicants) will establish a suitably equipped and staffed in-house laboratory (In house testing facility) for testing at least those parameters of the Ind"
+          },
+          {
+            "chunk_id": "b5838e97f57a08185b3c42e1",
+            "clause_number": "2.2",
+            "clause_title": "For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing",
+            "rank": 4,
+            "reranker_score": 0.8171,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "2.2 For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing\nfacility for routine tests (indicated as “R” in Column 2 of Table 1) is also optional."
+          },
+          {
+            "chunk_id": "7346e98844fa505548af5d28",
+            "clause_number": "1",
+            "clause_title": "LABORATORY - A laboratory shall be maintained which shall be suitably equipped",
+            "rank": 5,
+            "reranker_score": 0.633999,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "1. LABORATORY - A laboratory shall be maintained which shall be suitably equipped\n(as per the requirement given in column 2 of Table 1) and staffed, where different tests given in the specification shall be carried out in accordance with th"
+          }
+        ],
+        "control unit": [
+          {
+            "chunk_id": "599df61892e5c80712d6a817",
+            "clause_number": "1.3.1",
+            "clause_title": "For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+            "rank": 1,
+            "reranker_score": 8.71629,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit."
+          },
+          {
+            "chunk_id": "1a7107bce18c106dbe346e62",
+            "clause_number": "1.3.1",
+            "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "rank": 2,
+            "reranker_score": 8.171909,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+          },
+          {
+            "chunk_id": "3fd5682dddf4ec2fd3915f31",
+            "clause_number": "4",
+            "clause_title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+            "rank": 3,
+            "reranker_score": 6.701782,
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "text_preview": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit."
+          },
+          {
+            "chunk_id": "28696516880b60b7589ee892",
+            "clause_number": "1.2",
+            "clause_title": "The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the",
+            "rank": 4,
+            "reranker_score": 5.149589,
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "text_preview": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the\nlevels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian\nStandard) a"
+          },
+          {
+            "chunk_id": "87ede6d000180d11e12c083f",
+            "clause_number": "1.2",
+            "clause_title": "The manufacturers shall define a Quality Assurance Plan defining the control unit i.e. Batch and",
+            "rank": 5,
+            "reranker_score": 4.614179,
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "text_preview": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit i.e. Batch and\nthe levels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian Standard) and submit t"
+          }
+        ]
+      },
+      "device": "cpu",
+      "layers": 6,
+      "max_input_tokens": 512,
+      "mean_reranking_ms": 1072.126,
+      "measured_parameters": 22713601,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameters": 22713601,
+      "public_ms_marco_dev_mrr_at_10": 39.01,
+      "public_trec_dl_2019_ndcg_at_10": 74.3,
+      "queries_evaluated": 11,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a"
+    }
+  ],
+  "component": "reranker",
+  "corpus": "data/processed/chunks_v2/chunks.jsonl",
+  "corpus_chunks": 97,
+  "corpus_sha256": "e9dbad20da6dbbacb9f8fd8e95e4bc4c3f2db71f955a26ec3bf4aba19d8b4c1b",
+  "cpu_expectation": "CPU-only inference; 22.7M parameters, batches of 16, at most 40 query-document pairs per request. No GPU is required.",
+  "generated_at": "2026-09-29T01:00:38+00:00",
+  "manual_labels_assigned": false,
+  "score_interpretation": "raw cross-encoder logit; compare only within one query",
+  "selected_model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+  "selected_parameters": 22713601,
+  "selected_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "selection_reason": "The 6-layer MiniLM model remains CPU-friendly and was stronger than the 4-layer alternative on the published passage-ranking benchmarks. On this corpus both preserved exact identifiers in the final five; L6 additionally promoted direct ensuring-compliance/testing clauses for the broad frozen testing query. It is far smaller than the approximately 1.1 GB BGE reranker-base weights.",
+  "stage": "3.3",
+  "vector_store": "data/processed/vector_store",
+  "vector_store_unchanged": true
+}

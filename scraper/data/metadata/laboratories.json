@@ -1,0 +1,2805 @@
+[
+  {
+    "clause": [
+      "Cl-9 (Cl-8 of IS 302-2-15) (PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+      "Cl-9 (Cl-10 of IS 302-2-15) (POWER INPUT AND CURRENT)",
+      "Cl-9 (Cl-11 of IS 302-2-15) (HEATING)",
+      "Cl-9 (Cl-13 of IS 302-2-15) (LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+      "Cl-9 (Cl-15 of IS 302-2-15) (MOISTURE RESISTANCE)",
+      "Cl-9 (Cl-16 of IS 302-2-15) (LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+      "Cl-9 (Cl-19 of IS 302-2-15) (ABNORMAL OPERATION)",
+      "Cl-9 (Cl-20 of IS 302-2-15) (STABILITY AND MECHANICAL HAZARDS)",
+      "Cl-9 (Cl-21 of IS 302-2-15) (MECHANICAL STRENGTH)",
+      "Cl-9 (Cl-22 of IS 302-2-15) (CONSTRUCTION)",
+      "Cl-9 (Cl-23 of IS 302-2-15) (INTERNAL WIRING)",
+      "Cl-9 (Cl-24 of IS 302-2-15) (COMPONENTS)",
+      "Cl-9 (Cl-25 of IS 302-2-15) (SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+      "Cl-9 (Cl-26 of IS 302-2-15) (TERMINALS FOR EXTERNAL CONDUCTORS)",
+      "Cl-9 (Cl-27 of IS 302-2-15) (PROVISION FOR EARTHING)",
+      "Cl-9 (Cl-28 of IS 302-2-15) (SCREWS AND CONNECTIONS)",
+      "Cl-9 (Cl-29 of IS 302-2-15) (CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+      "Cl-9 (Cl-30 of IS 302-2-15) (RESISTANCE TO HEAT AND FIRE)",
+      "Cl-9 (Cl-31 of IS 302-2-15) (RESISTANCE TO RUSTING)",
+      "7 (Classification)",
+      "11 (Overall Dimensions)",
+      "12 (Mass)",
+      "13 (Water Capacity)",
+      "16 (Minimum quantity of water that can be boiled)",
+      "18 (Thermal Efficiency)",
+      "20 (Finish)",
+      "8 (Marking and Instruction)"
+    ],
+    "laboratory_id": null,
+    "laboratory_name": "BIS, Central Laboratory (CL)",
+    "location": "Central Laboratory (CL)",
+    "product_id": "kettle",
+    "recognition_status": "-",
+    "retrieved_at": "2026-09-28T20:22:02+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=367",
+    "standard_number": "IS 367 (1993)",
+    "status": "collected",
+    "test_method": [
+      {
+        "clause no.": "Cl-9 (Cl-8 of IS 302-2-15) (PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-10 of IS 302-2-15) (POWER INPUT AND CURRENT)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-11 of IS 302-2-15) (HEATING)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-13 of IS 302-2-15) (LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-15 of IS 302-2-15) (MOISTURE RESISTANCE)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-16 of IS 302-2-15) (LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-19 of IS 302-2-15) (ABNORMAL OPERATION)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-20 of IS 302-2-15) (STABILITY AND MECHANICAL HAZARDS)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-21 of IS 302-2-15) (MECHANICAL STRENGTH)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-22 of IS 302-2-15) (CONSTRUCTION)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-23 of IS 302-2-15) (INTERNAL WIRING)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-24 of IS 302-2-15) (COMPONENTS)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-25 of IS 302-2-15) (SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-26 of IS 302-2-15) (TERMINALS FOR EXTERNAL CONDUCTORS)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-27 of IS 302-2-15) (PROVISION FOR EARTHING)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-28 of IS 302-2-15) (SCREWS AND CONNECTIONS)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-29 of IS 302-2-15) (CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-30 of IS 302-2-15) (RESISTANCE TO HEAT AND FIRE)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-31 of IS 302-2-15) (RESISTANCE TO RUSTING)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "7 (Classification)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "11 (Overall Dimensions)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "12 (Mass)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "13 (Water Capacity)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "16 (Minimum quantity of water that can be boiled)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "18 (Thermal Efficiency)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "20 (Finish)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "8 (Marking and Instruction)",
+        "exclusion": "-"
+      }
+    ],
+    "testing_capability": "Electric kettles and jugs for household and similar use - Specification (Fourth Revision)"
+  },
+  {
+    "clause": [
+      "6 (Rating)",
+      "7 (Classification)",
+      "8 (Marking and Instruction)",
+      "9 (Safety Requirements)",
+      "11 (Overall Dimensions)",
+      "12 (Mass)",
+      "13 (Water Capacity)",
+      "14 (Time to boil one litre of water)",
+      "15 (Time to boil water capacity)",
+      "16 (Minimum quantity of water that can be boiled)",
+      "17 (Temperature of supporting surface)",
+      "18 (Thermal Efficiency)",
+      "19 (Endurance)",
+      "20 (Finish)"
+    ],
+    "laboratory_id": null,
+    "laboratory_name": "BIS, Western Regional Laboratory (WRL)",
+    "location": "Western Regional Laboratory (WRL)",
+    "product_id": "kettle",
+    "recognition_status": "-",
+    "retrieved_at": "2026-09-28T20:22:02+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=367",
+    "standard_number": "IS 367 (1993)",
+    "status": "collected",
+    "test_method": [
+      {
+        "clause no.": "6 (Rating)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "7 (Classification)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "8 (Marking and Instruction)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "9 (Safety Requirements)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "11 (Overall Dimensions)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "12 (Mass)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "13 (Water Capacity)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "14 (Time to boil one litre of water)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "15 (Time to boil water capacity)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "16 (Minimum quantity of water that can be boiled)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "17 (Temperature of supporting surface)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "18 (Thermal Efficiency)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "19 (Endurance)",
+        "exclusion": "-"
+      },
+      {
+        "clause no.": "20 (Finish)",
+        "exclusion": "-"
+      }
+    ],
+    "testing_capability": "Electric kettles and jugs for household and similar use - Specification (Fourth Revision)"
+  },
+  {
+    "clause": [
+      "6(Rating)",
+      "7(Classification)",
+      "8(Marking and Instruction)",
+      "9(Safety Requirements)",
+      "11(Overall Dimensions)",
+      "12(Mass)",
+      "13(Water Capacity)",
+      "14(Time to boil one litre of water)",
+      "15(Time to boil water capacity)",
+      "16(Minimum quantity of water that can be boiled)",
+      "17(Temperature of supporting surface)",
+      "18(Thermal Efficiency)",
+      "19(Endurance)",
+      "20(Finish)",
+      "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+      "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+      "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+      "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+      "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+      "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+      "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+      "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+      "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+      "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+      "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+      "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+      "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+      "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+      "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+      "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+      "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+      "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+      "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+      "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+      "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)"
+    ],
+    "laboratory_id": "9137826",
+    "laboratory_name": "Bharat Test House Pvt Ltd 781 Sonipat Haryana",
+    "location": null,
+    "product_id": "kettle",
+    "recognition_status": "31 Dec, 2029",
+    "retrieved_at": "2026-09-28T20:22:02+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=367",
+    "standard_number": "IS 367 (1993)",
+    "status": "collected",
+    "test_method": [
+      {
+        "clause no.": "6(Rating)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "7(Classification)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "8(Marking and Instruction)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "9(Safety Requirements)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "11(Overall Dimensions)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "12(Mass)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "13(Water Capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "14(Time to boil one litre of water)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "15(Time to boil water capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "16(Minimum quantity of water that can be boiled)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "17(Temperature of supporting surface)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "18(Thermal Efficiency)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "19(Endurance)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "20(Finish)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "200"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "350"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "250"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "300"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "300"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "200"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "350"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "300"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1250"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      }
+    ],
+    "testing_capability": "Electric kettles and jugs for household and similar use - Specification (Fourth Revision)"
+  },
+  {
+    "clause": [
+      "20(Finish)",
+      "19(Endurance)",
+      "18(Thermal Efficiency)",
+      "17(Temperature of supporting surface)",
+      "16(Minimum quantity of water that can be boiled)",
+      "15(Time to boil water capacity)",
+      "14(Time to boil one litre of water)",
+      "13(Water Capacity)",
+      "12(Mass)",
+      "11(Overall Dimensions)",
+      "9(Safety Requirements)",
+      "8(Marking and Instruction)",
+      "7(Classification)",
+      "6(Rating)",
+      "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+      "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+      "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+      "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+      "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+      "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+      "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+      "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+      "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+      "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+      "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+      "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+      "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+      "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+      "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+      "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+      "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+      "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+      "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+      "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+      "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+      "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)"
+    ],
+    "laboratory_id": "8180826",
+    "laboratory_name": "Classic Testing & Research Centre (B17), Noida",
+    "location": "Noida",
+    "product_id": "kettle",
+    "recognition_status": "15 Oct, 2027",
+    "retrieved_at": "2026-09-28T20:22:02+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=367",
+    "standard_number": "IS 367 (1993)",
+    "status": "collected",
+    "test_method": [
+      {
+        "clause no.": "20(Finish)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "19(Endurance)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "18(Thermal Efficiency)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "17(Temperature of supporting surface)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "16(Minimum quantity of water that can be boiled)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "15(Time to boil water capacity)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "14(Time to boil one litre of water)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "13(Water Capacity)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "12(Mass)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "11(Overall Dimensions)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "9(Safety Requirements)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "8(Marking and Instruction)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "7(Classification)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "6(Rating)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)",
+        "exclusion": "-",
+        "remark": "20% Discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      }
+    ],
+    "testing_capability": "Electric kettles and jugs for household and similar use - Specification (Fourth Revision)"
+  },
+  {
+    "clause": [
+      "6(Rating)",
+      "7(Classification)",
+      "8(Marking and Instruction)",
+      "9(Safety Requirements)",
+      "11(Overall Dimensions)",
+      "12(Mass)",
+      "13(Water Capacity)",
+      "14(Time to boil one litre of water)",
+      "15(Time to boil water capacity)",
+      "16(Minimum quantity of water that can be boiled)",
+      "17(Temperature of supporting surface)",
+      "18(Thermal Efficiency)",
+      "19(Endurance)",
+      "20(Finish)",
+      "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+      "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+      "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+      "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+      "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+      "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+      "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+      "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+      "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+      "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+      "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+      "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+      "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+      "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+      "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+      "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+      "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+      "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+      "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+      "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+      "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+      "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)"
+    ],
+    "laboratory_id": "8139626",
+    "laboratory_name": "Conformity Testing Labs Pvt. Ltd. Unit 2 (A33)",
+    "location": null,
+    "product_id": "kettle",
+    "recognition_status": "05 Apr, 2027",
+    "retrieved_at": "2026-09-28T20:22:02+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=367",
+    "standard_number": "IS 367 (1993)",
+    "status": "collected",
+    "test_method": [
+      {
+        "clause no.": "6(Rating)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "7(Classification)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "8(Marking and Instruction)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "9(Safety Requirements)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "50000"
+      },
+      {
+        "clause no.": "11(Overall Dimensions)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "12(Mass)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "13(Water Capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "14(Time to boil one litre of water)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "15(Time to boil water capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "16(Minimum quantity of water that can be boiled)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "17(Temperature of supporting surface)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "18(Thermal Efficiency)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "19(Endurance)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "20(Finish)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "20000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)",
+        "exclusion": "-",
+        "remark": "Pretested report as per IS 302-2-15 is required",
+        "testing charges (excl. of taxes)": "10000"
+      }
+    ],
+    "testing_capability": "Electric kettles and jugs for household and similar use - Specification (Fourth Revision)"
+  },
+  {
+    "clause": [
+      "20(Finish)",
+      "19(Endurance)",
+      "18(Thermal Efficiency)",
+      "17(Temperature of supporting surface)",
+      "16(Minimum quantity of water that can be boiled)",
+      "15(Time to boil water capacity)",
+      "14(Time to boil one litre of water)",
+      "13(Water Capacity)",
+      "12(Mass)",
+      "11(Overall Dimensions)",
+      "9(Safety Requirements)",
+      "8(Marking and Instruction)",
+      "7(Classification)",
+      "6(Rating)"
+    ],
+    "laboratory_id": "8166106",
+    "laboratory_name": "Cotecna Inspection India Private Limited, Gurugram",
+    "location": "Gurugram",
+    "product_id": "kettle",
+    "recognition_status": "-",
+    "retrieved_at": "2026-09-28T20:22:02+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=367",
+    "standard_number": "IS 367 (1993)",
+    "status": "collected",
+    "test_method": [
+      {
+        "clause no.": "20(Finish)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "19(Endurance)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "18(Thermal Efficiency)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "17(Temperature of supporting surface)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "16(Minimum quantity of water that can be boiled)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "15(Time to boil water capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "14(Time to boil one litre of water)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "13(Water Capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "12(Mass)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "11(Overall Dimensions)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "9(Safety Requirements)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "8(Marking and Instruction)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "7(Classification)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      },
+      {
+        "clause no.": "6(Rating)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2500"
+      }
+    ],
+    "testing_capability": "Electric kettles and jugs for household and similar use - Specification (Fourth Revision)"
+  },
+  {
+    "clause": [
+      "7(Classification)",
+      "8(Marking and Instruction)",
+      "9(Safety Requirements)",
+      "11(Overall Dimensions)",
+      "12(Mass)",
+      "13(Water Capacity)",
+      "14(Time to boil one litre of water)",
+      "15(Time to boil water capacity)",
+      "16(Minimum quantity of water that can be boiled)",
+      "17(Temperature of supporting surface)",
+      "18(Thermal Efficiency)",
+      "19(Endurance)",
+      "20(Finish)"
+    ],
+    "laboratory_id": "9136024",
+    "laboratory_name": "National Research and Technology Consortium (NRTC), Parwanoo",
+    "location": "Parwanoo",
+    "product_id": "kettle",
+    "recognition_status": "10 Apr, 2029",
+    "retrieved_at": "2026-09-28T20:22:02+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=367",
+    "standard_number": "IS 367 (1993)",
+    "status": "collected",
+    "test_method": [
+      {
+        "clause no.": "7(Classification)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "8(Marking and Instruction)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "9(Safety Requirements)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "11(Overall Dimensions)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "12(Mass)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "13(Water Capacity)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "14(Time to boil one litre of water)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "15(Time to boil water capacity)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "16(Minimum quantity of water that can be boiled)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "17(Temperature of supporting surface)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "18(Thermal Efficiency)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "19(Endurance)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "20(Finish)",
+        "exclusion": "-",
+        "remark": "charge of this clause is included",
+        "testing charges (excl. of taxes)": "0"
+      }
+    ],
+    "testing_capability": "Electric kettles and jugs for household and similar use - Specification (Fourth Revision)"
+  },
+  {
+    "clause": [
+      "9(Safety Requirements)",
+      "11(Overall Dimensions)",
+      "12(Mass)",
+      "13(Water Capacity)",
+      "14(Time to boil one litre of water)",
+      "15(Time to boil water capacity)",
+      "16(Minimum quantity of water that can be boiled)",
+      "17(Temperature of supporting surface)",
+      "18(Thermal Efficiency)",
+      "19(Endurance)",
+      "20(Finish)",
+      "6(Rating)",
+      "7(Classification)",
+      "8(Marking and Instruction)",
+      "9(Safety Requirements)",
+      "11(Overall Dimensions)",
+      "12(Mass)",
+      "13(Water Capacity)",
+      "14(Time to boil one litre of water)",
+      "15(Time to boil water capacity)",
+      "16(Minimum quantity of water that can be boiled)",
+      "17(Temperature of supporting surface)",
+      "18(Thermal Efficiency)",
+      "19(Endurance)",
+      "20(Finish)",
+      "6(Rating)",
+      "7(Classification)",
+      "8(Marking and Instruction)",
+      "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+      "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+      "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+      "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+      "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+      "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+      "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+      "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+      "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+      "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+      "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+      "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+      "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+      "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+      "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+      "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+      "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+      "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+      "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+      "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+      "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)"
+    ],
+    "laboratory_id": "7107604",
+    "laboratory_name": "National Test House (WR) - NTH, Mumbai",
+    "location": "Mumbai",
+    "product_id": "kettle",
+    "recognition_status": "-",
+    "retrieved_at": "2026-09-28T20:22:02+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=367",
+    "standard_number": "IS 367 (1993)",
+    "status": "collected",
+    "test_method": [
+      {
+        "clause no.": "9(Safety Requirements)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1500"
+      },
+      {
+        "clause no.": "11(Overall Dimensions)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "12(Mass)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "13(Water Capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "14(Time to boil one litre of water)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "15(Time to boil water capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "16(Minimum quantity of water that can be boiled)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "17(Temperature of supporting surface)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "2000"
+      },
+      {
+        "clause no.": "18(Thermal Efficiency)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1500"
+      },
+      {
+        "clause no.": "19(Endurance)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "20(Finish)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "6(Rating)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "7(Classification)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "8(Marking and Instruction)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "9(Safety Requirements)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "11(Overall Dimensions)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "12(Mass)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "13(Water Capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "14(Time to boil one litre of water)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "15(Time to boil water capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "16(Minimum quantity of water that can be boiled)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "17(Temperature of supporting surface)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "18(Thermal Efficiency)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "19(Endurance)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "20(Finish)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "6(Rating)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "7(Classification)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "8(Marking and Instruction)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      }
+    ],
+    "testing_capability": "Electric kettles and jugs for household and similar use - Specification (Fourth Revision)"
+  },
+  {
+    "clause": [
+      "20(Finish)",
+      "19(Endurance)",
+      "18(Thermal Efficiency)",
+      "17(Temperature of supporting surface)",
+      "16(Minimum quantity of water that can be boiled)",
+      "15(Time to boil water capacity)",
+      "14(Time to boil one litre of water)",
+      "13(Water Capacity)",
+      "12(Mass)",
+      "11(Overall Dimensions)",
+      "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+      "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+      "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+      "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+      "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+      "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+      "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+      "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+      "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+      "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+      "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+      "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+      "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+      "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+      "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+      "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+      "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+      "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+      "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+      "8(Marking and Instruction)",
+      "7(Classification)",
+      "6(Rating)",
+      "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+      "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+      "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)",
+      "9(Safety Requirements)",
+      "20(Finish)",
+      "19(Endurance)",
+      "18(Thermal Efficiency)",
+      "17(Temperature of supporting surface)",
+      "16(Minimum quantity of water that can be boiled)",
+      "15(Time to boil water capacity)",
+      "14(Time to boil one litre of water)",
+      "13(Water Capacity)",
+      "12(Mass)",
+      "11(Overall Dimensions)",
+      "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+      "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+      "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+      "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+      "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+      "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+      "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+      "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+      "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+      "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+      "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+      "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+      "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+      "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+      "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+      "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+      "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+      "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+      "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+      "8(Marking and Instruction)",
+      "7(Classification)",
+      "6(Rating)",
+      "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+      "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+      "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)",
+      "9(Safety Requirements)"
+    ],
+    "laboratory_id": "8170206",
+    "laboratory_name": "POWERONIC TEST & RESEARCH CENTRE PRIVATE LIMITED, GREATER NOIDA",
+    "location": "GREATER NOIDA",
+    "product_id": "kettle",
+    "recognition_status": "11 Apr, 2028",
+    "retrieved_at": "2026-09-28T20:22:02+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=367",
+    "standard_number": "IS 367 (1993)",
+    "status": "collected",
+    "test_method": [
+      {
+        "clause no.": "20(Finish)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "19(Endurance)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "18(Thermal Efficiency)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "17(Temperature of supporting surface)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "16(Minimum quantity of water that can be boiled)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "15(Time to boil water capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "14(Time to boil one litre of water)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "13(Water Capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "12(Mass)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "11(Overall Dimensions)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "250"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "200"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "350"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "250"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "300"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "300"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "200"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "350"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "300"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "250"
+      },
+      {
+        "clause no.": "8(Marking and Instruction)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "7(Classification)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "6(Rating)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "50"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "250"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "9(Safety Requirements)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "20(Finish)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "19(Endurance)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "18(Thermal Efficiency)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "17(Temperature of supporting surface)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "16(Minimum quantity of water that can be boiled)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "15(Time to boil water capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "14(Time to boil one litre of water)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "13(Water Capacity)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "12(Mass)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "11(Overall Dimensions)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "8(Marking and Instruction)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "7(Classification)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "6(Rating)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      },
+      {
+        "clause no.": "9(Safety Requirements)",
+        "exclusion": "-",
+        "remark": "-",
+        "testing charges (excl. of taxes)": "0"
+      }
+    ],
+    "testing_capability": "Electric kettles and jugs for household and similar use - Specification (Fourth Revision)"
+  },
+  {
+    "clause": [
+      "11(Overall Dimensions)",
+      "12(Mass)",
+      "13(Water Capacity)",
+      "14(Time to boil one litre of water)",
+      "15(Time to boil water capacity)",
+      "16(Minimum quantity of water that can be boiled)",
+      "17(Temperature of supporting surface)",
+      "18(Thermal Efficiency)",
+      "19(Endurance)",
+      "20(Finish)",
+      "9(Safety Requirements)",
+      "6(Rating)",
+      "7(Classification)",
+      "8(Marking and Instruction)",
+      "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+      "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+      "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+      "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+      "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+      "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+      "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+      "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+      "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+      "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+      "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+      "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+      "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+      "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+      "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+      "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+      "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+      "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+      "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+      "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+      "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+      "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)"
+    ],
+    "laboratory_id": "9111924",
+    "laboratory_name": "THE NATIONAL SMALL INDUSTRIES CORPORATION LIMITED, TECHNICAL SERVICES CENTRE - NSIC, Rajpura",
+    "location": "Rajpura",
+    "product_id": "kettle",
+    "recognition_status": "31 Dec, 2026",
+    "retrieved_at": "2026-09-28T20:22:02+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=367",
+    "standard_number": "IS 367 (1993)",
+    "status": "collected",
+    "test_method": [
+      {
+        "clause no.": "11(Overall Dimensions)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "12(Mass)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "13(Water Capacity)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "14(Time to boil one litre of water)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "200"
+      },
+      {
+        "clause no.": "15(Time to boil water capacity)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "300"
+      },
+      {
+        "clause no.": "16(Minimum quantity of water that can be boiled)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "300"
+      },
+      {
+        "clause no.": "17(Temperature of supporting surface)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "300"
+      },
+      {
+        "clause no.": "18(Thermal Efficiency)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "200"
+      },
+      {
+        "clause no.": "19(Endurance)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "20(Finish)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "9(Safety Requirements)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "12000"
+      },
+      {
+        "clause no.": "6(Rating)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "7(Classification)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "8(Marking and Instruction)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "600"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "600"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "600"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "400"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "400"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "600"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "600"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "900"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "900"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-24 of IS 302-2-15)(COMPONENTS)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "900"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "100"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "200"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "700"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "150"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "150"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)",
+        "exclusion": "-",
+        "remark": "20% discount to BIS on testing charges",
+        "testing charges (excl. of taxes)": "0"
+      }
+    ],
+    "testing_capability": "Electric kettles and jugs for household and similar use - Specification (Fourth Revision)"
+  },
+  {
+    "clause": [
+      "6(Rating)",
+      "7(Classification)",
+      "8(Marking and Instruction)",
+      "9(Safety Requirements)",
+      "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+      "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+      "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+      "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+      "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+      "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+      "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+      "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+      "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+      "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+      "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+      "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+      "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+      "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+      "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+      "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+      "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+      "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+      "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+      "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+      "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)",
+      "11(Overall Dimensions)",
+      "12(Mass)",
+      "13(Water Capacity)",
+      "14(Time to boil one litre of water)",
+      "15(Time to boil water capacity)",
+      "16(Minimum quantity of water that can be boiled)",
+      "17(Temperature of supporting surface)",
+      "18(Thermal Efficiency)",
+      "19(Endurance)",
+      "20(Finish)"
+    ],
+    "laboratory_id": "6126126",
+    "laboratory_name": "TUV Rheinland (India) Pvt. Ltd",
+    "location": null,
+    "product_id": "kettle",
+    "recognition_status": "17 Feb, 2028",
+    "retrieved_at": "2026-09-28T20:22:02+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=367",
+    "standard_number": "IS 367 (1993)",
+    "status": "collected",
+    "test_method": [
+      {
+        "clause no.": "6(Rating)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "7(Classification)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "8(Marking and Instruction)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "9(Safety Requirements)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-8 of IS 302-2-15)(PROTECTION AGAINST ACCESS TO LIVE PARTS)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-10 of IS 302-2-15)(POWER INPUT AND CURRENT)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-11 of IS 302-2-15)(HEATING)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-13 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH AT OPERATING TEMPERATURE)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-14 of IS 302-2-15)(TRANSIENT OVER VOLTAGES)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-15 of IS 302-2-15)(MOISTURE RESISTANCE)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-16 of IS 302-2-15)(LEAKAGE CURRENT AND ELECTRIC STRENGTH)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-17 of IS 302-2-15)(OVERLOAD PROTECTION OF TRANSFORMERS AND ASSOCIATED CIRCUITS)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-19 of IS 302-2-15)(ABNORMAL OPERATION)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-20 of IS 302-2-15)(STABILITY AND MECHANICAL HAZARDS)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-21 of IS 302-2-15)(MECHANICAL STRENGTH)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-22 of IS 302-2-15)(CONSTRUCTION)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-23 of IS 302-2-15)(INTERNAL WIRING)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-25 of IS 302-2-15)(SUPPLY CONNECTION AND EXTERNAL FLEXIBLE CORDS)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-26 of IS 302-2-15)(TERMINALS FOR EXTERNAL CONDUCTORS)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-27 of IS 302-2-15)(PROVISION FOR EARTHING)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-28 of IS 302-2-15)(SCREWS AND CONNECTIONS)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-29 of IS 302-2-15)(CLEARANCES, CREEPAGE DISTANCES AND SOLID INSULATION)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-30 of IS 302-2-15)(RESISTANCE TO HEAT AND FIRE)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-31 of IS 302-2-15)(RESISTANCE TO RUSTING)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "Cl-9 (Cl-32 of IS 302-2-15)(RADIATION, TOXICITY AND SIMILAR HAZARDS)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "11(Overall Dimensions)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "12(Mass)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "500"
+      },
+      {
+        "clause no.": "13(Water Capacity)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "14(Time to boil one litre of water)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "15(Time to boil water capacity)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "16(Minimum quantity of water that can be boiled)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "17(Temperature of supporting surface)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      },
+      {
+        "clause no.": "18(Thermal Efficiency)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "5000"
+      },
+      {
+        "clause no.": "19(Endurance)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "3000"
+      },
+      {
+        "clause no.": "20(Finish)",
+        "exclusion": "-",
+        "remark": "5% discount to BIS",
+        "testing charges (excl. of taxes)": "1000"
+      }
+    ],
+    "testing_capability": "Electric kettles and jugs for household and similar use - Specification (Fourth Revision)"
+  },
+  {
+    "failure_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "product_id": "mixer",
+    "retrieved_at": "2026-09-28T19:41:42+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=4250",
+    "status": "discovered_not_downloaded"
+  },
+  {
+    "clause": null,
+    "laboratory_id": "65",
+    "laboratory_name": "Delhi Test House (A Unit of Delhii Test House Global LLP)",
+    "location": "2029 - Included w.e.f 14.01.2026",
+    "product_id": "mixer",
+    "recognition_status": "Clause No.",
+    "retrieved_at": "2026-09-28T20:02:23+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=4250",
+    "standard_number": "IS 4250 (2025)",
+    "status": "collected",
+    "test_method": null,
+    "testing_capability": "Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers ï¿½ Specification ( Second Revision )"
+  },
+  {
+    "clause": null,
+    "laboratory_id": "1980",
+    "laboratory_name": "Electrical Research and Development Association, gujurat 7101125 IS 4250",
+    "location": "2028 - -",
+    "product_id": "mixer",
+    "recognition_status": "Clause No.",
+    "retrieved_at": "2026-09-28T20:02:23+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=4250",
+    "standard_number": "IS 4250 (1980)",
+    "status": "collected",
+    "test_method": null,
+    "testing_capability": "Specification for domestic electric food - Mixers (Liquidizers And Grinders) (First Revision)"
+  },
+  {
+    "clause": null,
+    "laboratory_id": "2025",
+    "laboratory_name": "Global Scientific Solution (P) Ltd. 8189526 IS 4250",
+    "location": "Cl 12 as per IS 302-2-14",
+    "product_id": "mixer",
+    "recognition_status": "Clause No.",
+    "retrieved_at": "2026-09-28T20:02:23+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=4250",
+    "standard_number": "IS 4250 (2025)",
+    "status": "collected",
+    "test_method": null,
+    "testing_capability": "Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers ï¿½ Specification ( Second Revision )"
+  },
+  {
+    "clause": null,
+    "laboratory_id": "142",
+    "laboratory_name": "SHRI KRISHNA TEST HOUSE PVT LTD",
+    "location": "2028 - Included w.e.f 02.07.2025 Exclusion: Cl 19.11.4.1-19.11.4.7(EMI/EMC)",
+    "product_id": "mixer",
+    "recognition_status": "Clause No.",
+    "retrieved_at": "2026-09-28T20:02:23+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=4250",
+    "standard_number": "IS 4250 (2025)",
+    "status": "collected",
+    "test_method": null,
+    "testing_capability": "Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers ï¿½ Specification ( Second Revision )"
+  },
+  {
+    "failure_reason": "HTTPSConnectionPool(host='lims.bis.gov.in', port=443): Max retries exceeded with url: /home/search_is_number/?is_number__doc_no=2347 (Caused by NameResolutionError(\"HTTPSConnection(host='lims.bis.gov.in', port=443): Failed to resolve 'lims.bis.gov.in' ([Errno -2] Name or service not known)\"))",
+    "product_id": "pressure_cooker",
+    "retrieved_at": "2026-09-28T19:14:05+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=2347",
+    "status": "discovered_not_downloaded"
+  },
+  {
+    "clause": null,
+    "laboratory_id": "2023",
+    "laboratory_name": "BIS, Bengaluru Branch Laboratory (BNBL) None IS 2347",
+    "location": "aluminium induction compatible base and 3 ply cooker\") - 8.10 (Testing of Handles of the cooker) - 8.10 Note 3 (Testing of Handles of the cooker) - 8.10 Note 4 (Testing of Handles of the cooker) - 8.10 Note 5 (Testing of Handles of the cooker) - 8.10 Note 6 (Testing of Handles of the cooker) - 8.11.1 (External Coating) - 8.12 (Internal Coating) - 8.14 (Ply construction cooker Body ) - 8.15.1 (Fragmentation Test on Tempered Glass lid) - 8.15.2 (Ball Drop Test on Tempered Glass lid) - 8.15.3 (Thermal Shock Test on Tempered Glass lid) - 8.15.4.1 (\"Free Fall Test ( Glass lid with rim) \") - 8.15.4.2 (Glass lid without rim) - 8.16 (PRD with chain) - 8.17 (Test for Effectiveness for Induction Bottom) - 8.3.1 (Operating Test for Pressure Regulating Device) - 8.4.1 (Test for Safety Relief Device) - Close - - Except Material Testing",
+    "product_id": "pressure_cooker",
+    "recognition_status": "Clause No.",
+    "retrieved_at": "2026-09-28T20:02:33+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=2347",
+    "standard_number": "IS 2347 (2023)",
+    "status": "collected",
+    "test_method": null,
+    "testing_capability": "DOMESTIC PRESSURE COOKER ï¿½ SPECIFICATION"
+  },
+  {
+    "clause": null,
+    "laboratory_id": "2017",
+    "laboratory_name": "INDIAN TESTING LABORATORY PRIVATE LIMITED, GREATER NOIDA 8171306 IS 2347",
+    "location": "2028 - for all grades except \"for pressure cooker operated by spring loaded mechanism test\"",
+    "product_id": "pressure_cooker",
+    "recognition_status": "Clause No.",
+    "retrieved_at": "2026-09-28T20:02:33+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=2347",
+    "standard_number": "IS 2347 (2017)",
+    "status": "collected",
+    "test_method": null,
+    "testing_capability": "Domestic pressure cooker - Specification (Sixth Revision)"
+  },
+  {
+    "clause": null,
+    "laboratory_id": "27",
+    "laboratory_name": "JBS TESTING SOLUTIONS PVT LTD",
+    "location": "aluminium induction compatible base and 3 ply cooker\") - 28000 - 8.10(Testing of Handles of the cooker) - 28000 - 8.10 Note 3(Testing of Handles of the cooker) - 28000 - 8.10 Note 4(Testing of Handles of the cooker) - 28000 - 8.10 Note 5(Testing of Handles of the cooker) - 28000 - 8.10 Note 6(Testing of Handles of the cooker) - 27999.99 - 8.10.1(Testing of Handles of the cooker) - 28000 - 8.11.1(External Coating) - 27999.99 - Cl 18.15.5 (Amendment No.2)(Nominal thickness of glass lid) - 28000 - Close - - Included w.e.f. 07.01.2026",
+    "product_id": "pressure_cooker",
+    "recognition_status": "Clause No.",
+    "retrieved_at": "2026-09-28T20:02:33+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=2347",
+    "standard_number": "IS 2347 (2023)",
+    "status": "collected",
+    "test_method": null,
+    "testing_capability": "DOMESTIC PRESSURE COOKER ï¿½ SPECIFICATION"
+  },
+  {
+    "clause": null,
+    "laboratory_id": "142",
+    "laboratory_name": "SHRI KRISHNA TEST HOUSE PVT LTD",
+    "location": "2028 - Included w.e.f 06.06.2025",
+    "product_id": "pressure_cooker",
+    "recognition_status": "Clause No.",
+    "retrieved_at": "2026-09-28T20:02:33+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=2347",
+    "standard_number": "IS 2347 (2023)",
+    "status": "collected",
+    "test_method": null,
+    "testing_capability": "DOMESTIC PRESSURE COOKER ï¿½ SPECIFICATION"
+  },
+  {
+    "clause": null,
+    "laboratory_id": "142",
+    "laboratory_name": "SHRI KRISHNA TEST HOUSE PVT LTD",
+    "location": "2028 - Included w.e.f 04.06.2025",
+    "product_id": "pressure_cooker",
+    "recognition_status": "Clause No.",
+    "retrieved_at": "2026-09-28T20:02:33+00:00",
+    "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=2347",
+    "standard_number": "IS 2347 (2017)",
+    "status": "collected",
+    "test_method": null,
+    "testing_capability": "Domestic pressure cooker - Specification (Sixth Revision)"
+  }
+]

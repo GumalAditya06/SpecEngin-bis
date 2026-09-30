@@ -1,0 +1,205 @@
+{
+  "annex_chunks": 74,
+  "chunks_created": 97,
+  "chunks_over_safe_limit": 0,
+  "chunks_per_document": {
+    "ba52fdad4caf5bc088bd": 25,
+    "bc5e2c188eaf267d3871": 42,
+    "d61562a653c02bee77be": 30
+  },
+  "chunks_per_standard": {
+    "IS 2347:2023": 42,
+    "IS 367:1993": 25,
+    "IS 4250:2025": 30
+  },
+  "chunks_that_would_truncate": 0,
+  "clauses_split": 0,
+  "documents": [
+    {
+      "annex_chunks": 34,
+      "chunks_created": 42,
+      "clauses_split": 0,
+      "document_id": "bc5e2c188eaf267d3871",
+      "pages_processed": 17,
+      "quality_checks": {
+        "all_chunks_have_document_id": true,
+        "all_chunks_have_pages": true,
+        "all_chunks_have_provenance": true,
+        "all_pages_represented": true,
+        "chunk_ids_deterministic": true,
+        "chunk_ids_unique": true,
+        "embedding_input_within_safe_limit": true,
+        "hard_max_respected": true,
+        "metadata_conflict_preserved": true,
+        "no_embedding_input_truncated": true,
+        "page_provenance_valid": true,
+        "passed": true,
+        "recorded_embedding_tokens_match": true,
+        "source_text_not_rewritten": true,
+        "tables_preserved": true
+      },
+      "standard_numbers": [
+        "IS 2347:2023"
+      ],
+      "structural_units_split": 3,
+      "tables_chunked": 1
+    },
+    {
+      "annex_chunks": 17,
+      "chunks_created": 25,
+      "clauses_split": 0,
+      "document_id": "ba52fdad4caf5bc088bd",
+      "pages_processed": 10,
+      "quality_checks": {
+        "all_chunks_have_document_id": true,
+        "all_chunks_have_pages": true,
+        "all_chunks_have_provenance": true,
+        "all_pages_represented": true,
+        "chunk_ids_deterministic": true,
+        "chunk_ids_unique": true,
+        "embedding_input_within_safe_limit": true,
+        "hard_max_respected": true,
+        "metadata_conflict_preserved": true,
+        "no_embedding_input_truncated": true,
+        "page_provenance_valid": true,
+        "passed": true,
+        "recorded_embedding_tokens_match": true,
+        "source_text_not_rewritten": true,
+        "tables_preserved": true
+      },
+      "standard_numbers": [
+        "IS 367:1993"
+      ],
+      "structural_units_split": 3,
+      "tables_chunked": 1
+    },
+    {
+      "annex_chunks": 23,
+      "chunks_created": 30,
+      "clauses_split": 0,
+      "document_id": "d61562a653c02bee77be",
+      "pages_processed": 11,
+      "quality_checks": {
+        "all_chunks_have_document_id": true,
+        "all_chunks_have_pages": true,
+        "all_chunks_have_provenance": true,
+        "all_pages_represented": true,
+        "chunk_ids_deterministic": true,
+        "chunk_ids_unique": true,
+        "embedding_input_within_safe_limit": true,
+        "hard_max_respected": true,
+        "metadata_conflict_preserved": true,
+        "no_embedding_input_truncated": true,
+        "page_provenance_valid": true,
+        "passed": true,
+        "recorded_embedding_tokens_match": true,
+        "source_text_not_rewritten": true,
+        "tables_preserved": true
+      },
+      "standard_numbers": [
+        "IS 4250:2025"
+      ],
+      "structural_units_split": 2,
+      "tables_chunked": 1
+    }
+  ],
+  "documents_processed": 3,
+  "generated_at": "2026-09-28T23:12:32+00:00",
+  "limits": {
+    "embedding_max_tokens": 450,
+    "overlap_tokens": 75,
+    "table_header_max_tokens": 60
+  },
+  "max_embedding_input_tokens": 450,
+  "mean_embedding_input_tokens": 178.54,
+  "pages_processed": 38,
+  "selection": "stage_3_1_chunks",
+  "stage": "3.1A",
+  "structural_units_requiring_splitting": 8,
+  "tables_chunked": 3,
+  "tokenizer": "bge",
+  "tokenizer_detail": {
+    "embedding_dimension": 768,
+    "library_versions": {
+      "python": "3.14.4",
+      "sentence_transformers": "6.1.0",
+      "torch": "2.14.0+cpu",
+      "transformers": "5.17.0"
+    },
+    "model": "BAAI/bge-base-en-v1.5",
+    "model_max_length": 512,
+    "model_revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "parameter_count": 109482240,
+    "provider": "sentence-transformers",
+    "special_token_count": 2,
+    "special_tokens": [
+      "[UNK]",
+      "[SEP]",
+      "[PAD]",
+      "[CLS]",
+      "[MASK]"
+    ],
+    "tokenizer": "bge",
+    "tokenizer_class": "BertTokenizer",
+    "usable_content_token_budget": 510
+  },
+  "upstream_inputs_unchanged": {
+    "chunks": {
+      "files": 2,
+      "tree_sha256": "4e877395dcc98cb0daaa1bef49bc00a5daa71745797abae2fb976478bb12b1d4"
+    },
+    "cleaned": {
+      "files": 4,
+      "tree_sha256": "472d58194f2f69266b0f2a2f4c9d3b34ecd7581fd7771d2b68d27f50b49f1e10"
+    },
+    "extracted": {
+      "files": 4,
+      "tree_sha256": "9c4153949f10493fa7d7d8ccdf7e69e747e1f62b4d57d8978345ef698ea96451"
+    },
+    "metadata": {
+      "files": 1,
+      "tree_sha256": "2670606d836b5a53beec757191dc6a2b4022c2ae0e3615590496ccd87eab7523"
+    },
+    "raw": {
+      "files": 32,
+      "tree_sha256": "b55250302fdf3a86ae575b2996578995e5c5d668c0903d9e8b188e549ce7553a"
+    },
+    "structured": {
+      "files": 4,
+      "tree_sha256": "7ee0b2440db2bfe2874d9b4f2bd60e6f0c1fa57df3c185f4a5c74227d1ddc832"
+    }
+  },
+  "validation": {
+    "checks": {
+      "all_embedding_inputs_within_safe_limit": true,
+      "annex_metadata_preserved": true,
+      "chunk_ids_deterministic": true,
+      "chunk_ids_unique": true,
+      "chunk_index_and_count_consistent": true,
+      "clause_metadata_preserved": true,
+      "document_id_preserved": true,
+      "no_source_content_dropped": true,
+      "no_truncation_possible": true,
+      "page_metadata_preserved": true,
+      "passed": true,
+      "recorded_token_counts_accurate": true,
+      "source_text_preserved": true,
+      "source_url_preserved": true,
+      "table_headers_available": true,
+      "table_metadata_preserved": true,
+      "unchanged_chunks_keep_provenance": true
+    },
+    "details": {
+      "chunk_index_error_units": [],
+      "chunks": 97,
+      "coverage_failure_units": [],
+      "max_embedding_input_tokens": 450,
+      "over_limit_chunk_ids": [],
+      "provenance_errors": [],
+      "safe_limit": 450,
+      "split_metadata_error_units": [],
+      "table_chunk_count": 12,
+      "units_not_found_in_structured_input": []
+    }
+  }
+}

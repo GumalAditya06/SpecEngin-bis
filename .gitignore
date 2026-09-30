@@ -41,3 +41,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local Python service state. Source code and the curated corpus data are tracked.
+/backend/.venv/
+/backend/.pytest_cache/
+/backend/.env
+/backend/local.db
+/backend/local.db.bak
+/backend/**/__pycache__/
+/scraper/.git/
+/scraper/.venv/
+/scraper/.pytest_cache/
+/scraper/.env
+/scraper/**/__pycache__/
+/scraper/data/raw/
+/scraper/data/metadata/crawl_log.jsonl
+*.py[cod]

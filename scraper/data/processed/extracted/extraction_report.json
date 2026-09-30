@@ -1,0 +1,75 @@
+{
+  "corpus_pdf_count": 14,
+  "corpus_validated_pdf_count": 14,
+  "data_directory": "/home/aditya/Aditya/new makings/scraper/data",
+  "documents": [
+    {
+      "document_id": "d61562a653c02bee77be",
+      "ocr_available": false,
+      "output_file": "data/processed/extracted/is_4250_2025_product_manual_d61562a6.json",
+      "pages_empty": 0,
+      "pages_good": 11,
+      "pages_low": 0,
+      "pages_ocr_failed": 0,
+      "pages_ocr_required": 0,
+      "pages_ocr_successful": 0,
+      "pages_processed": 11,
+      "product_id": "mixer",
+      "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+      "standard_numbers": [
+        "IS 4250:2025"
+      ],
+      "status": "successful"
+    },
+    {
+      "document_id": "ba52fdad4caf5bc088bd",
+      "ocr_available": false,
+      "output_file": "data/processed/extracted/is_367_1993_product_manual_ba52fdad.json",
+      "pages_empty": 0,
+      "pages_good": 10,
+      "pages_low": 0,
+      "pages_ocr_failed": 0,
+      "pages_ocr_required": 0,
+      "pages_ocr_successful": 0,
+      "pages_processed": 10,
+      "product_id": "kettle",
+      "source_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+      "standard_numbers": [
+        "IS 367:1993"
+      ],
+      "status": "successful"
+    },
+    {
+      "document_id": "bc5e2c188eaf267d3871",
+      "ocr_available": false,
+      "output_file": "data/processed/extracted/is_2347_2023_product_manual_bc5e2c18.json",
+      "pages_empty": 0,
+      "pages_good": 17,
+      "pages_low": 0,
+      "pages_ocr_failed": 0,
+      "pages_ocr_required": 0,
+      "pages_ocr_successful": 0,
+      "pages_processed": 17,
+      "product_id": "pressure_cooker",
+      "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+      "standard_numbers": [
+        "IS 2347:2023"
+      ],
+      "status": "successful"
+    }
+  ],
+  "failed_pdfs": 0,
+  "generated_at": "2026-09-28T20:39:59+00:00",
+  "output_directory": "/home/aditya/Aditya/new makings/scraper/data/processed/extracted",
+  "pages_empty": 0,
+  "pages_good": 38,
+  "pages_low": 0,
+  "pages_ocr_failed": 0,
+  "pages_ocr_required": 0,
+  "pages_ocr_successful": 0,
+  "processed_pdfs": 3,
+  "selection": "first_run_product_manuals",
+  "successful_pdfs": 3,
+  "total_pages": 38,
+  "total_pdfs": 3
+}

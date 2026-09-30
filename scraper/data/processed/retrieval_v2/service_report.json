@@ -1,0 +1,42 @@
+{
+  "stage": "3.4",
+  "component": "retrieval_service",
+  "generated_at": "2026-09-29",
+  "service": "scraper.retrieval_service.RetrievalService",
+  "endpoint": "POST /api/v1/search/retrieve",
+  "retrieval_implementation": "scraper.hybrid_retrieval.HybridRetriever",
+  "configuration_unchanged": {
+    "semantic_candidate_k": 20,
+    "bm25_candidate_k": 20,
+    "rrf_k": 60,
+    "rerank_k": 40,
+    "final_k": 5,
+    "embedding_model": "BAAI/bge-base-en-v1.5",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L6-v2"
+  },
+  "supported_filters": [
+    "annex_identifier",
+    "clause_number",
+    "document_id",
+    "document_type",
+    "product",
+    "standard_number"
+  ],
+  "unsupported_requested_filter": "source_id",
+  "warm_latency_ms": {
+    "bm25_ms": 0.257,
+    "semantic_ms": 25.125,
+    "fusion_ms": 0.081,
+    "reranking_ms": 1019.068,
+    "total_ms": 1044.577
+  },
+  "timed_queries": 5,
+  "latency_note": "Mean over the five frozen queries after one warm-up query on CPU. Model/process startup is excluded. Wall-clock values vary with CPU scheduling, PyTorch, and BLAS versions.",
+  "bottleneck": "The cross-encoder reranker accounts for approximately 97.6% of measured warm retrieval latency. It was not replaced or reconfigured in Stage 3.4.",
+  "exact_identifier_regression": {
+    "IS 367": ["IS 367:1993"],
+    "IS 2347": ["IS 2347:2023"],
+    "IS 4250": ["IS 4250:2025"]
+  },
+  "provenance_policy": "Unavailable source_id and document_version values are returned as null and are never inferred."
+}

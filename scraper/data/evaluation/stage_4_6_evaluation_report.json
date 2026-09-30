@@ -1,0 +1,2046 @@
+{
+  "assessment": {
+    "gemini_calls_avoided": 2,
+    "negative_evaluated": 2,
+    "negative_guarded": 2,
+    "provider_calls_made": 0,
+    "states": {
+      "INSUFFICIENT": 1,
+      "OUT_OF_DOMAIN": 1,
+      "SUFFICIENT": 25
+    },
+    "verified_positive_evaluated": 22,
+    "verified_positive_preserved": 22
+  },
+  "calibration": {
+    "candidate_returning_negative_questions": 1,
+    "candidate_returning_negative_top_score_max": -10.849028,
+    "limitation": "The dataset has only one negative question that returns candidates; the floor is provisional and is never used without other signals.",
+    "provisional_reranker_support_floor": 0.0,
+    "verified_positive_questions": 22,
+    "verified_positive_top_score_min": 1.069578,
+    "version": "stage-4.4-dataset-1.0.0"
+  },
+  "cases": [
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.808,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [
+            "IS 367:1993"
+          ],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "1993",
+            "367",
+            "product"
+          ],
+          "matched_standard_identifiers": [
+            "IS 367:1993"
+          ],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 4,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 4,
+          "supported_segment_count": 1,
+          "top_reranker_score": 7.836226
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "682a0567e42da626ea1f994d",
+        "e90018d76982308e96d15054",
+        "e9f56a33810f1730d4e85132",
+        "1b8827a9559c30573435d664",
+        "f9a4b15c774f2e9a39e851e5"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 898.347,
+      "provider_called": false,
+      "question_id": "q001",
+      "question_type": "exact_standard_lookup",
+      "retrieval_ms": 897.539,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "682a0567e42da626ea1f994d",
+        "e90018d76982308e96d15054",
+        "e9f56a33810f1730d4e85132",
+        "1b8827a9559c30573435d664",
+        "f9a4b15c774f2e9a39e851e5"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.395,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [
+            "IS 2347:2023"
+          ],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "2023",
+            "2347",
+            "covered",
+            "product"
+          ],
+          "matched_standard_identifiers": [
+            "IS 2347:2023"
+          ],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 4,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 6.938458
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "6fbc4bee1451990e47ce8b29",
+        "8990c89dded32a219a94502b",
+        "bc2c949d6e247565dd6947a6",
+        "69169c610103ffd4db7de27b",
+        "fe4c048bb8c84ba49c055858"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 972.213,
+      "provider_called": false,
+      "question_id": "q002",
+      "question_type": "exact_standard_lookup",
+      "retrieval_ms": 971.818,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "6fbc4bee1451990e47ce8b29",
+        "8990c89dded32a219a94502b",
+        "bc2c949d6e247565dd6947a6",
+        "69169c610103ffd4db7de27b",
+        "fe4c048bb8c84ba49c055858"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.447,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [
+            "IS 4250:2025"
+          ],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "2025",
+            "4250",
+            "covered",
+            "product"
+          ],
+          "matched_standard_identifiers": [
+            "IS 4250:2025"
+          ],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 4,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 4,
+          "supported_segment_count": 1,
+          "top_reranker_score": 7.292208
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "46a485c6d7011418a0ca8650",
+        "d7feb74d61b96ddcdde0f962",
+        "fed35507246a8c7ddfe99fc6",
+        "5b4953389305bf3a7b6a0f43",
+        "e901e8863539cb42034498f9"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1030.043,
+      "provider_called": false,
+      "question_id": "q003",
+      "question_type": "exact_standard_lookup",
+      "retrieval_ms": 1029.596,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "46a485c6d7011418a0ca8650",
+        "d7feb74d61b96ddcdde0f962",
+        "fed35507246a8c7ddfe99fc6",
+        "5b4953389305bf3a7b6a0f43",
+        "e901e8863539cb42034498f9"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.646,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [
+            "IS 2347:2023"
+          ],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "2023",
+            "2347",
+            "control",
+            "define",
+            "unit"
+          ],
+          "matched_standard_identifiers": [
+            "IS 2347:2023"
+          ],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 5,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 8.188351
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "1a7107bce18c106dbe346e62",
+        "87ede6d000180d11e12c083f",
+        "1c481dfff934eba889fe559c",
+        "ae5a8fdca612347b92eaccff",
+        "34d3fe1b2aabeefdcc360b29"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1056.65,
+      "provider_called": false,
+      "question_id": "q004",
+      "question_type": "definition",
+      "retrieval_ms": 1056.004,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "1a7107bce18c106dbe346e62",
+        "87ede6d000180d11e12c083f",
+        "1c481dfff934eba889fe559c",
+        "ae5a8fdca612347b92eaccff",
+        "34d3fe1b2aabeefdcc360b29"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.576,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [
+            "IS 367:1993"
+          ],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "1993",
+            "367",
+            "control",
+            "define",
+            "unit"
+          ],
+          "matched_standard_identifiers": [
+            "IS 367:1993"
+          ],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 5,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 7.527868
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "3fd5682dddf4ec2fd3915f31",
+        "be68906d06866878ea17a22e",
+        "faf2dbdca15af98706c753eb",
+        "dab2960b7993d8f378fcf9a0",
+        "a50ccba70aeb33234935ab43"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 951.304,
+      "provider_called": false,
+      "question_id": "q005",
+      "question_type": "definition",
+      "retrieval_ms": 950.728,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "3fd5682dddf4ec2fd3915f31",
+        "be68906d06866878ea17a22e",
+        "faf2dbdca15af98706c753eb",
+        "dab2960b7993d8f378fcf9a0",
+        "a50ccba70aeb33234935ab43"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.339,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "multi_signal_support",
+        "signal_types": [
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 3,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "electric",
+            "food",
+            "mixer"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 3,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 3.678515
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "d73f166c1afd0b6a18dfc978",
+        "85369392cf774b147b942f5e",
+        "68eafd97f52e6271dcdb7439",
+        "e901e8863539cb42034498f9",
+        "fed35507246a8c7ddfe99fc6"
+      ],
+      "expected_evidence_state": null,
+      "ground_truth_status": "UNVERIFIED",
+      "guarded_total_without_generation_ms": 1186.923,
+      "provider_called": false,
+      "question_id": "q006",
+      "question_type": "requirement",
+      "retrieval_ms": 1186.584,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "d73f166c1afd0b6a18dfc978",
+        "85369392cf774b147b942f5e",
+        "68eafd97f52e6271dcdb7439",
+        "e901e8863539cb42034498f9",
+        "fed35507246a8c7ddfe99fc6"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.613,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [
+            "IS 4250:2025"
+          ],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "2025",
+            "4250",
+            "electric",
+            "food",
+            "marking",
+            "mixer"
+          ],
+          "matched_standard_identifiers": [
+            "IS 4250:2025"
+          ],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 6,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 7.877815
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "d73f166c1afd0b6a18dfc978",
+        "68eafd97f52e6271dcdb7439",
+        "fed35507246a8c7ddfe99fc6",
+        "85369392cf774b147b942f5e",
+        "d7feb74d61b96ddcdde0f962"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1021.456,
+      "provider_called": false,
+      "question_id": "q007",
+      "question_type": "requirement",
+      "retrieval_ms": 1020.843,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "d73f166c1afd0b6a18dfc978",
+        "68eafd97f52e6271dcdb7439",
+        "fed35507246a8c7ddfe99fc6",
+        "85369392cf774b147b942f5e",
+        "d7feb74d61b96ddcdde0f962"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.5,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "multi_signal_support",
+        "signal_types": [
+          "configured_product",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 3,
+          "configured_product_ids": [
+            "mixer"
+          ],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [
+            "mixer"
+          ],
+          "matched_query_terms": [
+            "food",
+            "large",
+            "maintain",
+            "manufacturer",
+            "mixer",
+            "scale",
+            "testing"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 2,
+          "query_segment_count": 1,
+          "query_term_count": 9,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 3.950157
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "baseline_result_ids": [
+        "1f0f47a1b89aae5262e64eac",
+        "9d3e7c978c7ddc4df1158d16",
+        "b6bf2122ebc6ae44f68d2b14",
+        "011570bdfb70b19ac33e72d0",
+        "85369392cf774b147b942f5e"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1107.054,
+      "provider_called": false,
+      "question_id": "q008",
+      "question_type": "testing",
+      "retrieval_ms": 1106.554,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "1f0f47a1b89aae5262e64eac",
+        "9d3e7c978c7ddc4df1158d16",
+        "b6bf2122ebc6ae44f68d2b14",
+        "011570bdfb70b19ac33e72d0",
+        "85369392cf774b147b942f5e"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.4,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "multi_signal_support",
+        "signal_types": [
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "cooker",
+            "facilitie",
+            "house",
+            "manufacturer",
+            "msme",
+            "pressure",
+            "routine",
+            "test"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 9,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 4.840117
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "9f8da724e64cb74b1e00e964",
+        "b5838e97f57a08185b3c42e1",
+        "1f0f47a1b89aae5262e64eac",
+        "9d3e7c978c7ddc4df1158d16",
+        "45f91226fc8f52c69a51be12"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1185.796,
+      "provider_called": false,
+      "question_id": "q009",
+      "question_type": "testing",
+      "retrieval_ms": 1185.396,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "9f8da724e64cb74b1e00e964",
+        "b5838e97f57a08185b3c42e1",
+        "1f0f47a1b89aae5262e64eac",
+        "9d3e7c978c7ddc4df1158d16",
+        "45f91226fc8f52c69a51be12"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.521,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "multi_signal_support",
+        "signal_types": [
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "cooker",
+            "domestic",
+            "pressure",
+            "sample",
+            "size"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 2,
+          "query_segment_count": 1,
+          "query_term_count": 5,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 4.383273
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "baseline_result_ids": [
+        "6ead7dcfbea32005380ab349",
+        "b56cdaa1710a2e7ca728cc27",
+        "bc2c949d6e247565dd6947a6",
+        "77438fbce679125964586fbe",
+        "15f86e9baf72ff158ed59a68"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1025.284,
+      "provider_called": false,
+      "question_id": "q010",
+      "question_type": "sampling",
+      "retrieval_ms": 1024.763,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "6ead7dcfbea32005380ab349",
+        "b56cdaa1710a2e7ca728cc27",
+        "bc2c949d6e247565dd6947a6",
+        "77438fbce679125964586fbe",
+        "15f86e9baf72ff158ed59a68"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.53,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "multi_signal_support",
+        "signal_types": [
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 2,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "electric",
+            "food",
+            "mixer",
+            "sample"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 1,
+          "query_segment_count": 1,
+          "query_term_count": 5,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 1.423583
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1"
+        ]
+      },
+      "baseline_result_ids": [
+        "85369392cf774b147b942f5e",
+        "e901e8863539cb42034498f9",
+        "68eafd97f52e6271dcdb7439",
+        "d73f166c1afd0b6a18dfc978",
+        "fed35507246a8c7ddfe99fc6"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1220.237,
+      "provider_called": false,
+      "question_id": "q011",
+      "question_type": "sampling",
+      "retrieval_ms": 1219.707,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "85369392cf774b147b942f5e",
+        "e901e8863539cb42034498f9",
+        "68eafd97f52e6271dcdb7439",
+        "d73f166c1afd0b6a18dfc978",
+        "fed35507246a8c7ddfe99fc6"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.347,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "multi_signal_support",
+        "signal_types": [
+          "configured_product",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [
+            "kettle"
+          ],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [
+            "kettle"
+          ],
+          "matched_query_terms": [
+            "electric",
+            "kettle",
+            "licence",
+            "scope"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 4,
+          "query_segment_count": 1,
+          "query_term_count": 5,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 7.218161
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4"
+        ]
+      },
+      "baseline_result_ids": [
+        "e90018d76982308e96d15054",
+        "fed35507246a8c7ddfe99fc6",
+        "e9f56a33810f1730d4e85132",
+        "85369392cf774b147b942f5e",
+        "3fd5682dddf4ec2fd3915f31"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1072.851,
+      "provider_called": false,
+      "question_id": "q012",
+      "question_type": "licensing_certification",
+      "retrieval_ms": 1072.504,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "e90018d76982308e96d15054",
+        "fed35507246a8c7ddfe99fc6",
+        "e9f56a33810f1730d4e85132",
+        "85369392cf774b147b942f5e",
+        "3fd5682dddf4ec2fd3915f31"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.393,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "multi_signal_support",
+        "signal_types": [
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "cooker",
+            "domestic",
+            "licence",
+            "pressure",
+            "scope"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 6,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 7.516194
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "bc2c949d6e247565dd6947a6",
+        "15f86e9baf72ff158ed59a68",
+        "b58bb450b65964ebb8d2e773",
+        "b56cdaa1710a2e7ca728cc27",
+        "e90018d76982308e96d15054"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1094.347,
+      "provider_called": false,
+      "question_id": "q013",
+      "question_type": "licensing_certification",
+      "retrieval_ms": 1093.954,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "bc2c949d6e247565dd6947a6",
+        "15f86e9baf72ff158ed59a68",
+        "b58bb450b65964ebb8d2e773",
+        "b56cdaa1710a2e7ca728cc27",
+        "e90018d76982308e96d15054"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.164,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 1,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [
+            "1.3.1"
+          ],
+          "exact_standard_identifiers": [
+            "IS 2347:2023"
+          ],
+          "exact_structural_identifiers": [
+            "Annex D"
+          ],
+          "included_evidence_count": 1,
+          "lexical_support_count": 1,
+          "matched_clause_identifiers": [
+            "1.3.1"
+          ],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "2023",
+            "2347",
+            "annex",
+            "clause"
+          ],
+          "matched_standard_identifiers": [
+            "IS 2347:2023"
+          ],
+          "matched_structural_identifiers": [
+            "Annex D"
+          ],
+          "positive_reranker_count": 1,
+          "query_segment_count": 1,
+          "query_term_count": 4,
+          "retrieval_candidate_count": 1,
+          "semantic_support_count": 1,
+          "supported_segment_count": 1,
+          "top_reranker_score": 6.429535
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1"
+        ]
+      },
+      "baseline_result_ids": [
+        "1a7107bce18c106dbe346e62"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 42.744,
+      "provider_called": false,
+      "question_id": "q014",
+      "question_type": "clause_specific",
+      "retrieval_ms": 42.58,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "1a7107bce18c106dbe346e62"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.362,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [
+            "2.4"
+          ],
+          "exact_standard_identifiers": [
+            "IS 4250:2025"
+          ],
+          "exact_structural_identifiers": [
+            "Annex C"
+          ],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [
+            "2.4"
+          ],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "2025",
+            "4250",
+            "annex",
+            "clause",
+            "record",
+            "test"
+          ],
+          "matched_standard_identifiers": [
+            "IS 4250:2025"
+          ],
+          "matched_structural_identifiers": [
+            "Annex C"
+          ],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 6,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 8.346367
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "4f76aa8eeec01605a80e2fbb",
+        "b5838e97f57a08185b3c42e1",
+        "28696516880b60b7589ee892",
+        "db4ad73fbe91cf8b9becd5e3",
+        "9d3e7c978c7ddc4df1158d16"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1046.539,
+      "provider_called": false,
+      "question_id": "q015",
+      "question_type": "clause_specific",
+      "retrieval_ms": 1046.177,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "4f76aa8eeec01605a80e2fbb",
+        "b5838e97f57a08185b3c42e1",
+        "28696516880b60b7589ee892",
+        "db4ad73fbe91cf8b9becd5e3",
+        "9d3e7c978c7ddc4df1158d16"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.826,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "configured_product",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 2,
+          "configured_product_ids": [
+            "kettle"
+          ],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [
+            "Table 1"
+          ],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [
+            "kettle"
+          ],
+          "matched_query_terms": [
+            "dimension",
+            "electric",
+            "mass",
+            "overall",
+            "table",
+            "test"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [
+            "Table 1"
+          ],
+          "positive_reranker_count": 2,
+          "query_segment_count": 2,
+          "query_term_count": 8,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 2,
+          "top_reranker_score": 2.171557
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "faf2dbdca15af98706c753eb",
+        "dab2960b7993d8f378fcf9a0",
+        "68eafd97f52e6271dcdb7439",
+        "4304f5bb2844c45e23d0a682",
+        "1c481dfff934eba889fe559c"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1308.769,
+      "provider_called": false,
+      "question_id": "q016",
+      "question_type": "table",
+      "retrieval_ms": 1307.943,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "faf2dbdca15af98706c753eb",
+        "dab2960b7993d8f378fcf9a0",
+        "68eafd97f52e6271dcdb7439",
+        "4304f5bb2844c45e23d0a682",
+        "1c481dfff934eba889fe559c"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.465,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [
+            "IS 4250"
+          ],
+          "exact_structural_identifiers": [
+            "Table 1"
+          ],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "4250",
+            "control",
+            "each",
+            "table",
+            "test",
+            "unit"
+          ],
+          "matched_standard_identifiers": [
+            "IS 4250"
+          ],
+          "matched_structural_identifiers": [
+            "Table 1"
+          ],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 6,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 4,
+          "supported_segment_count": 1,
+          "top_reranker_score": 6.45184
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "68eafd97f52e6271dcdb7439",
+        "4a41af9dc1e97291c4ff98d4",
+        "28696516880b60b7589ee892",
+        "5b4953389305bf3a7b6a0f43",
+        "b5838e97f57a08185b3c42e1"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1082.373,
+      "provider_called": false,
+      "question_id": "q017",
+      "question_type": "table",
+      "retrieval_ms": 1081.908,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "68eafd97f52e6271dcdb7439",
+        "4a41af9dc1e97291c4ff98d4",
+        "28696516880b60b7589ee892",
+        "5b4953389305bf3a7b6a0f43",
+        "b5838e97f57a08185b3c42e1"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.606,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "multi_signal_support",
+        "signal_types": [
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 4,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "abrasion",
+            "control",
+            "cooker",
+            "level",
+            "pressure",
+            "resistance",
+            "test"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 1,
+          "query_segment_count": 1,
+          "query_term_count": 7,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 3.324983
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1"
+        ]
+      },
+      "baseline_result_ids": [
+        "1c481dfff934eba889fe559c",
+        "34d3fe1b2aabeefdcc360b29",
+        "1a7107bce18c106dbe346e62",
+        "ae5a8fdca612347b92eaccff",
+        "77438fbce679125964586fbe"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1220.055,
+      "provider_called": false,
+      "question_id": "q018",
+      "question_type": "table",
+      "retrieval_ms": 1219.449,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "1c481dfff934eba889fe559c",
+        "34d3fe1b2aabeefdcc360b29",
+        "1a7107bce18c106dbe346e62",
+        "ae5a8fdca612347b92eaccff",
+        "77438fbce679125964586fbe"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.226,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "configured_product",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 1,
+          "configured_product_ids": [
+            "kettle"
+          ],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [
+            "Annex D"
+          ],
+          "included_evidence_count": 1,
+          "lexical_support_count": 1,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [
+            "kettle"
+          ],
+          "matched_query_terms": [
+            "annex",
+            "day",
+            "electric",
+            "test"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [
+            "Annex D"
+          ],
+          "positive_reranker_count": 1,
+          "query_segment_count": 1,
+          "query_term_count": 6,
+          "retrieval_candidate_count": 1,
+          "semantic_support_count": 1,
+          "supported_segment_count": 1,
+          "top_reranker_score": 4.833829
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1"
+        ]
+      },
+      "baseline_result_ids": [
+        "1c0e719dec7f0937d79dbd13"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 50.132,
+      "provider_called": false,
+      "question_id": "q019",
+      "question_type": "annex",
+      "retrieval_ms": 49.906,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "1c0e719dec7f0937d79dbd13"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.379,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 4,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [
+            "Annex A"
+          ],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "annex",
+            "cooker",
+            "domestic",
+            "material",
+            "pressure",
+            "raw",
+            "reference"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [
+            "Annex A"
+          ],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 8,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 4.163912
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "b56cdaa1710a2e7ca728cc27",
+        "6ead7dcfbea32005380ab349",
+        "bc2c949d6e247565dd6947a6",
+        "b58bb450b65964ebb8d2e773",
+        "63d09053ec865587358ef41a"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1139.75,
+      "provider_called": false,
+      "question_id": "q020",
+      "question_type": "annex",
+      "retrieval_ms": 1139.371,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "b56cdaa1710a2e7ca728cc27",
+        "6ead7dcfbea32005380ab349",
+        "bc2c949d6e247565dd6947a6",
+        "b58bb450b65964ebb8d2e773",
+        "63d09053ec865587358ef41a"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.595,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 4,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [
+            "Annex D"
+          ],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "annex",
+            "day",
+            "electric",
+            "food",
+            "mixer",
+            "test"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [
+            "Annex D"
+          ],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 7,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 4,
+          "supported_segment_count": 1,
+          "top_reranker_score": 3.761026
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "1c0e719dec7f0937d79dbd13",
+        "173630da7f0c62b7dece0950",
+        "85369392cf774b147b942f5e",
+        "68eafd97f52e6271dcdb7439",
+        "ee3404bc1726b6fe80532905"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1356.646,
+      "provider_called": false,
+      "question_id": "q021",
+      "question_type": "annex",
+      "retrieval_ms": 1356.051,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "1c0e719dec7f0937d79dbd13",
+        "173630da7f0c62b7dece0950",
+        "85369392cf774b147b942f5e",
+        "68eafd97f52e6271dcdb7439",
+        "ee3404bc1726b6fe80532905"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.463,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "multi_signal_support",
+        "signal_types": [
+          "configured_product",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 5,
+          "configured_product_ids": [
+            "kettle"
+          ],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [
+            "kettle"
+          ],
+          "matched_query_terms": [
+            "control",
+            "cooker",
+            "definition",
+            "electric",
+            "food",
+            "kettle",
+            "mixer",
+            "pressure",
+            "unit"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 3,
+          "query_segment_count": 2,
+          "query_term_count": 10,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 3,
+          "supported_segment_count": 2,
+          "top_reranker_score": 4.274999
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      "baseline_result_ids": [
+        "599df61892e5c80712d6a817",
+        "1a7107bce18c106dbe346e62",
+        "3fd5682dddf4ec2fd3915f31",
+        "85369392cf774b147b942f5e",
+        "e901e8863539cb42034498f9"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1280.792,
+      "provider_called": false,
+      "question_id": "q022",
+      "question_type": "cross_document",
+      "retrieval_ms": 1280.329,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "599df61892e5c80712d6a817",
+        "1a7107bce18c106dbe346e62",
+        "3fd5682dddf4ec2fd3915f31",
+        "85369392cf774b147b942f5e",
+        "e901e8863539cb42034498f9"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.298,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "multi_signal_support",
+        "signal_types": [
+          "configured_product",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 4,
+          "configured_product_ids": [
+            "mixer"
+          ],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [
+            "mixer"
+          ],
+          "matched_query_terms": [
+            "cooker",
+            "food",
+            "house",
+            "large",
+            "manufacturer",
+            "mixer",
+            "pressure",
+            "scale",
+            "testing"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 4,
+          "query_segment_count": 2,
+          "query_term_count": 10,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 2,
+          "top_reranker_score": 1.069578
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4"
+        ]
+      },
+      "baseline_result_ids": [
+        "1f0f47a1b89aae5262e64eac",
+        "b6bf2122ebc6ae44f68d2b14",
+        "011570bdfb70b19ac33e72d0",
+        "9d3e7c978c7ddc4df1158d16",
+        "bc2c949d6e247565dd6947a6"
+      ],
+      "expected_evidence_state": "VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1215.158,
+      "provider_called": false,
+      "question_id": "q023",
+      "question_type": "cross_document",
+      "retrieval_ms": 1214.86,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "1f0f47a1b89aae5262e64eac",
+        "b6bf2122ebc6ae44f68d2b14",
+        "011570bdfb70b19ac33e72d0",
+        "9d3e7c978c7ddc4df1158d16",
+        "bc2c949d6e247565dd6947a6"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "NO_VERIFIED_EVIDENCE",
+        "assessment_ms": 0.46,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "no_domain_alignment",
+        "signal_types": [
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 0,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 0,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 0,
+          "query_segment_count": 1,
+          "query_term_count": 2,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 0,
+          "top_reranker_score": -10.849028
+        },
+        "state": "OUT_OF_DOMAIN",
+        "supporting_evidence_ids": []
+      },
+      "baseline_result_ids": [
+        "6313b1d8e7b68de420d06b0d",
+        "22e96b962b54f3cd66591860",
+        "74993e38bbda94ee14ca88ef",
+        "ede47c100893bc026e2ab184",
+        "4304f5bb2844c45e23d0a682"
+      ],
+      "expected_evidence_state": "NO_VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": 1359.12,
+      "provider_called": false,
+      "question_id": "q024",
+      "question_type": "negative_insufficient_evidence",
+      "retrieval_ms": 1358.66,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "6313b1d8e7b68de420d06b0d",
+        "22e96b962b54f3cd66591860",
+        "74993e38bbda94ee14ca88ef",
+        "ede47c100893bc026e2ab184",
+        "4304f5bb2844c45e23d0a682"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "NO_VERIFIED_EVIDENCE",
+        "assessment_ms": 0.061,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "empty_evidence",
+        "signal_types": [],
+        "signals": {
+          "bm25_support_count": 0,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [
+            "IS 99999:2099"
+          ],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 0,
+          "lexical_support_count": 0,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 0,
+          "query_segment_count": 1,
+          "query_term_count": 2,
+          "retrieval_candidate_count": 0,
+          "semantic_support_count": 0,
+          "supported_segment_count": 0,
+          "top_reranker_score": null
+        },
+        "state": "INSUFFICIENT",
+        "supporting_evidence_ids": []
+      },
+      "baseline_result_ids": [],
+      "expected_evidence_state": "NO_VERIFIED_EVIDENCE",
+      "ground_truth_status": "VERIFIED",
+      "guarded_total_without_generation_ms": null,
+      "provider_called": false,
+      "question_id": "q025",
+      "question_type": "negative_insufficient_evidence",
+      "retrieval_ms": null,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": []
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.238,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "multi_signal_support",
+        "signal_types": [
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 0,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "testing"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 1,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 5,
+          "supported_segment_count": 1,
+          "top_reranker_score": 1.430424
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "9f8da724e64cb74b1e00e964",
+        "db4ad73fbe91cf8b9becd5e3",
+        "45f91226fc8f52c69a51be12",
+        "b5838e97f57a08185b3c42e1",
+        "7346e98844fa505548af5d28"
+      ],
+      "expected_evidence_state": null,
+      "ground_truth_status": "UNVERIFIED",
+      "guarded_total_without_generation_ms": 1027.267,
+      "provider_called": false,
+      "question_id": "q026",
+      "question_type": "ambiguous",
+      "retrieval_ms": 1027.029,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "9f8da724e64cb74b1e00e964",
+        "db4ad73fbe91cf8b9becd5e3",
+        "45f91226fc8f52c69a51be12",
+        "b5838e97f57a08185b3c42e1",
+        "7346e98844fa505548af5d28"
+      ]
+    },
+    {
+      "assessment": {
+        "answer_evidence_state": "VERIFIED_EVIDENCE",
+        "assessment_ms": 0.269,
+        "calibration_version": "stage-4.4-dataset-1.0.0",
+        "reason": "exact_identifier_match",
+        "signal_types": [
+          "exact_identifier",
+          "bm25",
+          "lexical_overlap",
+          "positive_reranker",
+          "semantic"
+        ],
+        "signals": {
+          "bm25_support_count": 3,
+          "configured_product_ids": [],
+          "context_omitted_count": 0,
+          "exact_clause_identifiers": [
+            "4"
+          ],
+          "exact_standard_identifiers": [],
+          "exact_structural_identifiers": [],
+          "included_evidence_count": 5,
+          "lexical_support_count": 5,
+          "matched_clause_identifiers": [
+            "4"
+          ],
+          "matched_product_ids": [],
+          "matched_query_terms": [
+            "clause"
+          ],
+          "matched_standard_identifiers": [],
+          "matched_structural_identifiers": [],
+          "positive_reranker_count": 5,
+          "query_segment_count": 1,
+          "query_term_count": 1,
+          "retrieval_candidate_count": 5,
+          "semantic_support_count": 4,
+          "supported_segment_count": 1,
+          "top_reranker_score": 3.913897
+        },
+        "state": "SUFFICIENT",
+        "supporting_evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      "baseline_result_ids": [
+        "e61002350100b000980a2bc3",
+        "e56f9d75b21c9754dc420e67",
+        "82957f0e5235749ab2f794a8",
+        "6fbc4bee1451990e47ce8b29",
+        "3fd5682dddf4ec2fd3915f31"
+      ],
+      "expected_evidence_state": null,
+      "ground_truth_status": "UNVERIFIED",
+      "guarded_total_without_generation_ms": 1303.56,
+      "provider_called": false,
+      "question_id": "q027",
+      "question_type": "ambiguous",
+      "retrieval_ms": 1303.291,
+      "retrieval_order_unchanged": true,
+      "retrieval_result_ids": [
+        "e61002350100b000980a2bc3",
+        "e56f9d75b21c9754dc420e67",
+        "82957f0e5235749ab2f794a8",
+        "6fbc4bee1451990e47ce8b29",
+        "3fd5682dddf4ec2fd3915f31"
+      ]
+    }
+  ],
+  "dataset": {
+    "path": "data/evaluation/questions.jsonl",
+    "questions": 27,
+    "sha256": "4664d2a827c9861b501b90b82fd37bbbf0c0283f42142804f09e77446c105f0c"
+  },
+  "generated_at": "2026-09-29T09:49:53+00:00",
+  "latency_ms": {
+    "generation": null,
+    "guard": {
+      "count": 27,
+      "max": 0.826,
+      "mean": 0.441741,
+      "median": 0.447
+    },
+    "guarded_total_without_generation": {
+      "count": 26,
+      "max": 1359.12,
+      "mean": 1048.285,
+      "median": 1088.36
+    },
+    "note": "Generation was not run because no configured provider was available.",
+    "retrieval": {
+      "count": 26,
+      "max": 1358.66,
+      "mean": 1047.828615,
+      "median": 1087.931
+    }
+  },
+  "no_overall_rag_accuracy": true,
+  "stage": "4.6",
+  "stage_4_4_baseline": {
+    "baseline_files_modified": false,
+    "evaluated": 27,
+    "path": "data/evaluation/retrieval_results.jsonl",
+    "retrieval_orders_unchanged": 27,
+    "sha256": "8d43dd0042921cccfaaaf26bab3cb05661b04fbcc983c45433898428f1e814d6"
+  }
+}

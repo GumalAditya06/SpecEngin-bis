@@ -1,0 +1,1869 @@
+{
+  "average_document_tokens": 118.0,
+  "b": 0.75,
+  "component": "bm25",
+  "corpus": "data/processed/chunks_v2/chunks.jsonl",
+  "corpus_chunks": 97,
+  "corpus_sha256": "e9dbad20da6dbbacb9f8fd8e95e4bc4c3f2db71f955a26ec3bf4aba19d8b4c1b",
+  "exact_identifier_tests": [
+    {
+      "manual_relevance_label": null,
+      "query": "IS 4250:2025",
+      "results": [
+        {
+          "bm25_score": 2.327943,
+          "chunk_id": "137d1e85b5e48bd4b87d6554",
+          "metadata": {
+            "_unit_signature": "456fa20eedf5406a895af6ff4591878e",
+            "chunk_count": 1,
+            "chunk_id": "137d1e85b5e48bd4b87d6554",
+            "chunk_index": 0,
+            "context_prefix": "IS 4250:2025 | Section 3 — परीƗण उपकरणों की सूची",
+            "context_token_count": 26,
+            "document_id": "d61562a653c02bee77be",
+            "document_title": "View 1601 IS 4250 : 2025 Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification (Second Revision) 572 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 56,
+            "embedding_max_tokens": 450,
+            "end_page": 2,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              2
+            ],
+            "product": "mixer",
+            "retrieval_token_count": 54,
+            "section_number": "3",
+            "section_title": "परीƗण उपकरणों की सूची",
+            "sha256": "4961f69ac9a81d32a8b3c74cfc239fdb3059fed2259012501c294b18b91b765f",
+            "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "start_page": 2,
+            "structural_path": [
+              {
+                "number": "3",
+                "title": "परीƗण उपकरणों की सूची",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_4250_2025_product_manual_d61562a6.json",
+            "structured_input_sha256": "df58a62f8cd9b31c736ea4a25b178826020283bde17fb68f1d4ab69f4d0cfed8",
+            "text": "3.\nपरीƗण उपकरणों की सूची\nList of Test Equipment\n:\nPlease refer ANNEX – B",
+            "token_count": 28,
+            "tokenizer": "bge",
+            "unit_text_end": 72,
+            "unit_text_length": 72,
+            "unit_text_sha256": "deaa65c1a06b5d965d8482ee57a45bb2f720fa32bbd16eda97e910dc4dec5b84",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 1,
+          "text": "3.\nपरीƗण उपकरणों की सूची\nList of Test Equipment\n:\nPlease refer ANNEX – B"
+        },
+        {
+          "bm25_score": 2.327943,
+          "chunk_id": "ee3404bc1726b6fe80532905",
+          "metadata": {
+            "_unit_signature": "7c6e42d8368f3375c16965d1e59fe291",
+            "chunk_count": 1,
+            "chunk_id": "ee3404bc1726b6fe80532905",
+            "chunk_index": 0,
+            "context_prefix": "IS 4250:2025 | Section 5 — एक िदन मŐ संभािवत परीƗण",
+            "context_token_count": 28,
+            "document_id": "d61562a653c02bee77be",
+            "document_title": "View 1601 IS 4250 : 2025 Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification (Second Revision) 572 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 62,
+            "embedding_max_tokens": 450,
+            "end_page": 2,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              2
+            ],
+            "product": "mixer",
+            "retrieval_token_count": 60,
+            "section_number": "5",
+            "section_title": "एक िदन मŐ संभािवत परीƗण",
+            "sha256": "4961f69ac9a81d32a8b3c74cfc239fdb3059fed2259012501c294b18b91b765f",
+            "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "start_page": 2,
+            "structural_path": [
+              {
+                "number": "5",
+                "title": "एक िदन मŐ संभािवत परीƗण",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_4250_2025_product_manual_d61562a6.json",
+            "structured_input_sha256": "df58a62f8cd9b31c736ea4a25b178826020283bde17fb68f1d4ab69f4d0cfed8",
+            "text": "5.\nएक िदन मŐ संभािवत परीƗण\nPossible tests in a day:\n:\nPlease refer ANNEX-D",
+            "token_count": 32,
+            "tokenizer": "bge",
+            "unit_text_end": 74,
+            "unit_text_length": 74,
+            "unit_text_sha256": "a78fb6d189afef5a2a1fe73ebee946ddcb69a8be8ac4cfd5620bfeb6afc61bd9",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 2,
+          "text": "5.\nएक िदन मŐ संभािवत परीƗण\nPossible tests in a day:\n:\nPlease refer ANNEX-D"
+        },
+        {
+          "bm25_score": 2.319162,
+          "chunk_id": "849de21b715a6db5db7cafdb",
+          "metadata": {
+            "_unit_signature": "d9a959bb255ac42e7412b98e23165b7b",
+            "chunk_count": 1,
+            "chunk_id": "849de21b715a6db5db7cafdb",
+            "chunk_index": 0,
+            "context_prefix": "IS 4250:2025 | Section 4 — िनरीƗण और परीƗण की ˋीम",
+            "context_token_count": 25,
+            "document_id": "d61562a653c02bee77be",
+            "document_title": "View 1601 IS 4250 : 2025 Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification (Second Revision) 572 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 55,
+            "embedding_max_tokens": 450,
+            "end_page": 2,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              2
+            ],
+            "product": "mixer",
+            "retrieval_token_count": 53,
+            "section_number": "4",
+            "section_title": "िनरीƗण और परीƗण की ˋीम",
+            "sha256": "4961f69ac9a81d32a8b3c74cfc239fdb3059fed2259012501c294b18b91b765f",
+            "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "start_page": 2,
+            "structural_path": [
+              {
+                "number": "4",
+                "title": "िनरीƗण और परीƗण की ˋीम",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_4250_2025_product_manual_d61562a6.json",
+            "structured_input_sha256": "df58a62f8cd9b31c736ea4a25b178826020283bde17fb68f1d4ab69f4d0cfed8",
+            "text": "4.\nिनरीƗण और परीƗण की ˋीम\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C",
+            "token_count": 28,
+            "tokenizer": "bge",
+            "unit_text_end": 83,
+            "unit_text_length": 83,
+            "unit_text_sha256": "01d98e02ca014210db16bed66689a96ce4e90a24289cdafe06791a4e2b20d164",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 3,
+          "text": "4.\nिनरीƗण और परीƗण की ˋीम\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C"
+        },
+        {
+          "bm25_score": 2.251229,
+          "chunk_id": "64cb2ed2ebd94e8b3cf13e15",
+          "metadata": {
+            "_unit_signature": "31ac5100352f20dda1017693c70a1fec",
+            "chunk_count": 1,
+            "chunk_id": "64cb2ed2ebd94e8b3cf13e15",
+            "chunk_index": 0,
+            "context_prefix": "IS 4250:2025 | Section 2 — नमूना ǑदशाǓनदȶश",
+            "context_token_count": 15,
+            "document_id": "d61562a653c02bee77be",
+            "document_title": "View 1601 IS 4250 : 2025 Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification (Second Revision) 572 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 81,
+            "embedding_max_tokens": 450,
+            "end_page": 2,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              1,
+              2
+            ],
+            "product": "mixer",
+            "retrieval_token_count": 79,
+            "section_number": "2",
+            "section_title": "नमूना ǑदशाǓनदȶश",
+            "sha256": "4961f69ac9a81d32a8b3c74cfc239fdb3059fed2259012501c294b18b91b765f",
+            "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "start_page": 1,
+            "structural_path": [
+              {
+                "number": "2",
+                "title": "नमूना ǑदशाǓनदȶश",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_4250_2025_product_manual_d61562a6.json",
+            "structured_input_sha256": "df58a62f8cd9b31c736ea4a25b178826020283bde17fb68f1d4ab69f4d0cfed8",
+            "text": "2.\nनमूना ǑदशाǓनदȶश\nSampling Guidelines:\na)\nकǄा माल\nRaw material\n:\n-\nb)\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n:\nPlease refer ANNEX – A\nc)\nनमूने का पįरमाण\nSample Quantity\n:\n2 numbers",
+            "token_count": 64,
+            "tokenizer": "bge",
+            "unit_text_end": 181,
+            "unit_text_length": 181,
+            "unit_text_sha256": "ff3eccff452e9e3f199a783e50254450a09e2c96e299b8de30e0668e8c0fd351",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 4,
+          "text": "2.\nनमूना ǑदशाǓनदȶश\nSampling Guidelines:\na)\nकǄा माल\nRaw material\n:\n-\nb)\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n:\nPlease refer ANNEX – A\nc)\nनमूने का पįरमाण\nSample Quantity\n:\n2 numbers"
+        },
+        {
+          "bm25_score": 2.220072,
+          "chunk_id": "e901e8863539cb42034498f9",
+          "metadata": {
+            "_unit_signature": "a5916521aa4c44bbe7f4151727898a46",
+            "chunk_count": 1,
+            "chunk_id": "e901e8863539cb42034498f9",
+            "chunk_index": 0,
+            "context_prefix": "IS 4250:2025 | Section 1 — मानक संƥा",
+            "context_token_count": 15,
+            "document_id": "d61562a653c02bee77be",
+            "document_title": "View 1601 IS 4250 : 2025 Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification (Second Revision) 572 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 83,
+            "embedding_max_tokens": 450,
+            "end_page": 1,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              1
+            ],
+            "product": "mixer",
+            "retrieval_token_count": 81,
+            "section_number": "1",
+            "section_title": "मानक संƥा",
+            "sha256": "4961f69ac9a81d32a8b3c74cfc239fdb3059fed2259012501c294b18b91b765f",
+            "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "start_page": 1,
+            "structural_path": [
+              {
+                "number": "1",
+                "title": "मानक संƥा",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_4250_2025_product_manual_d61562a6.json",
+            "structured_input_sha256": "df58a62f8cd9b31c736ea4a25b178826020283bde17fb68f1d4ab69f4d0cfed8",
+            "text": "1.\nमानक संƥा\nIS No.\n:\nIS 4250 : 2025\n\nशीषŊक\nTitle\n:\nElectric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers -\nSpecification (Second Revision)\n\nसंशोधनों की संƥा\nNo. of amendments\n:\nNIL",
+            "token_count": 66,
+            "tokenizer": "bge",
+            "unit_text_end": 199,
+            "unit_text_length": 199,
+            "unit_text_sha256": "bade64fea6fcecf5a6348df1fb53bcd776cefb071ec63aa39c26c3480917cf1f",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 5,
+          "text": "1.\nमानक संƥा\nIS No.\n:\nIS 4250 : 2025\n\nशीषŊक\nTitle\n:\nElectric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers -\nSpecification (Second Revision)\n\nसंशोधनों की संƥा\nNo. of amendments\n:\nNIL"
+        }
+      ]
+    },
+    {
+      "manual_relevance_label": null,
+      "query": "IS 367:1993",
+      "results": [
+        {
+          "bm25_score": 2.673356,
+          "chunk_id": "77b691362b77d98cf955cdcf",
+          "metadata": {
+            "_unit_signature": "6538159ee4255e1763a0199e08b3d970",
+            "chunk_count": 1,
+            "chunk_id": "77b691362b77d98cf955cdcf",
+            "chunk_index": 0,
+            "context_prefix": "IS 367:1993 | Section 3 — List",
+            "context_token_count": 10,
+            "document_id": "ba52fdad4caf5bc088bd",
+            "document_title": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 25,
+            "embedding_max_tokens": 450,
+            "end_page": 2,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              2
+            ],
+            "product": "kettle",
+            "retrieval_token_count": 23,
+            "section_number": "3",
+            "section_title": "List",
+            "sha256": "0edc5ddcc7346739bccf89bc94609bb31f498b748af8bf66e7161fe5700d8979",
+            "source_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "start_page": 2,
+            "structural_path": [
+              {
+                "number": "3",
+                "title": "List",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_367_1993_product_manual_ba52fdad.json",
+            "structured_input_sha256": "2cd424548078018ce0752de5ec58f69bf6166774e5364076c81e002e07c532bc",
+            "text": "3.\nList\nof\nTest\nEquipment\n:\nPlease refer ANNEX – B.",
+            "token_count": 13,
+            "tokenizer": "bge",
+            "unit_text_end": 51,
+            "unit_text_length": 51,
+            "unit_text_sha256": "4b1e3a8cc87f2de4948cae5fda6b6b045e261f350d2f3444a52476cba05f8ca3",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 1,
+          "text": "3.\nList\nof\nTest\nEquipment\n:\nPlease refer ANNEX – B."
+        },
+        {
+          "bm25_score": 2.643443,
+          "chunk_id": "422df75aaf158016d505a56f",
+          "metadata": {
+            "_unit_signature": "03ae2948aaa676c4efc0aff1cd4f403a",
+            "chunk_count": 1,
+            "chunk_id": "422df75aaf158016d505a56f",
+            "chunk_index": 0,
+            "context_prefix": "IS 367:1993 | Section 4 — Scheme of Inspection",
+            "context_token_count": 12,
+            "document_id": "ba52fdad4caf5bc088bd",
+            "document_title": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 28,
+            "embedding_max_tokens": 450,
+            "end_page": 2,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              2
+            ],
+            "product": "kettle",
+            "retrieval_token_count": 26,
+            "section_number": "4",
+            "section_title": "Scheme of Inspection",
+            "sha256": "0edc5ddcc7346739bccf89bc94609bb31f498b748af8bf66e7161fe5700d8979",
+            "source_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "start_page": 2,
+            "structural_path": [
+              {
+                "number": "4",
+                "title": "Scheme of Inspection",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_367_1993_product_manual_ba52fdad.json",
+            "structured_input_sha256": "2cd424548078018ce0752de5ec58f69bf6166774e5364076c81e002e07c532bc",
+            "text": "4.\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C.",
+            "token_count": 14,
+            "tokenizer": "bge",
+            "unit_text_end": 61,
+            "unit_text_length": 61,
+            "unit_text_sha256": "68424b154dcea408aa01d09876970c1b4ac7942cf984b47fd03a6fa733dec6bd",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 2,
+          "text": "4.\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C."
+        },
+        {
+          "bm25_score": 2.63362,
+          "chunk_id": "cfcb3af139ec4b8950e7b72c",
+          "metadata": {
+            "_unit_signature": "4f2bc6e812f22de16f88c4ae221d2179",
+            "chunk_count": 1,
+            "chunk_id": "cfcb3af139ec4b8950e7b72c",
+            "chunk_index": 0,
+            "context_prefix": "IS 367:1993 | Section 5 — Possible tests in a",
+            "context_token_count": 13,
+            "document_id": "ba52fdad4caf5bc088bd",
+            "document_title": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 28,
+            "embedding_max_tokens": 450,
+            "end_page": 2,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              2
+            ],
+            "product": "kettle",
+            "retrieval_token_count": 26,
+            "section_number": "5",
+            "section_title": "Possible tests in a",
+            "sha256": "0edc5ddcc7346739bccf89bc94609bb31f498b748af8bf66e7161fe5700d8979",
+            "source_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "start_page": 2,
+            "structural_path": [
+              {
+                "number": "5",
+                "title": "Possible tests in a",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_367_1993_product_manual_ba52fdad.json",
+            "structured_input_sha256": "2cd424548078018ce0752de5ec58f69bf6166774e5364076c81e002e07c532bc",
+            "text": "5.\nPossible tests in a\nday\n:\nPlease refer ANNEX - D",
+            "token_count": 13,
+            "tokenizer": "bge",
+            "unit_text_end": 51,
+            "unit_text_length": 51,
+            "unit_text_sha256": "2527c7872b1eee90030a7bb72adc6fd90bbe53e2059c7dd3df1e629885498d7d",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 3,
+          "text": "5.\nPossible tests in a\nday\n:\nPlease refer ANNEX - D"
+        },
+        {
+          "bm25_score": 2.577021,
+          "chunk_id": "682a0567e42da626ea1f994d",
+          "metadata": {
+            "_unit_signature": "a9b1c62d3b62962a353f1b335c436903",
+            "chunk_count": 1,
+            "chunk_id": "682a0567e42da626ea1f994d",
+            "chunk_index": 0,
+            "context_prefix": "IS 367:1993 | Section 1 — Product",
+            "context_token_count": 10,
+            "document_id": "ba52fdad4caf5bc088bd",
+            "document_title": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 41,
+            "embedding_max_tokens": 450,
+            "end_page": 2,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              2
+            ],
+            "product": "kettle",
+            "retrieval_token_count": 39,
+            "section_number": "1",
+            "section_title": "Product",
+            "sha256": "0edc5ddcc7346739bccf89bc94609bb31f498b748af8bf66e7161fe5700d8979",
+            "source_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "start_page": 2,
+            "structural_path": [
+              {
+                "number": "1",
+                "title": "Product",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_367_1993_product_manual_ba52fdad.json",
+            "structured_input_sha256": "2cd424548078018ce0752de5ec58f69bf6166774e5364076c81e002e07c532bc",
+            "text": "1.\nProduct\n:\nIS 367: 1993\n\nTitle\n:\nElectric Kettles and Jugs for household and similar use\n\nNo. of Amendments\n:\nnil",
+            "token_count": 29,
+            "tokenizer": "bge",
+            "unit_text_end": 115,
+            "unit_text_length": 115,
+            "unit_text_sha256": "9a186ac04f2343e938afe3aaf1b3cf85dba2fa9a8f4a9aa6b88bf84132f1240d",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 4,
+          "text": "1.\nProduct\n:\nIS 367: 1993\n\nTitle\n:\nElectric Kettles and Jugs for household and similar use\n\nNo. of Amendments\n:\nnil"
+        },
+        {
+          "bm25_score": 2.576182,
+          "chunk_id": "0e6d984eb9e53aed1da5d146",
+          "metadata": {
+            "_unit_signature": "2fc96720eacec93a3037e109b30f1115",
+            "chunk_count": 1,
+            "chunk_id": "0e6d984eb9e53aed1da5d146",
+            "chunk_index": 0,
+            "context_prefix": "IS 367:1993 | Section 2 — Sampling Guidelines:",
+            "context_token_count": 12,
+            "document_id": "ba52fdad4caf5bc088bd",
+            "document_title": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 42,
+            "embedding_max_tokens": 450,
+            "end_page": 2,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              2
+            ],
+            "product": "kettle",
+            "retrieval_token_count": 40,
+            "section_number": "2",
+            "section_title": "Sampling Guidelines:",
+            "sha256": "0edc5ddcc7346739bccf89bc94609bb31f498b748af8bf66e7161fe5700d8979",
+            "source_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "start_page": 2,
+            "structural_path": [
+              {
+                "number": "2",
+                "title": "Sampling Guidelines:",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_367_1993_product_manual_ba52fdad.json",
+            "structured_input_sha256": "2cd424548078018ce0752de5ec58f69bf6166774e5364076c81e002e07c532bc",
+            "text": "2.\nSampling Guidelines:\na)\nRaw material\n:\n-\nb)\nGrouping guidelines\n:\nPlease refer ANNEX – A\nc)\nSample Size\n:\nTwo pieces",
+            "token_count": 28,
+            "tokenizer": "bge",
+            "unit_text_end": 119,
+            "unit_text_length": 119,
+            "unit_text_sha256": "b63a4732e673e7d4b7c59bda76b08174f69d229d314866df617d383dabefd6cb",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 5,
+          "text": "2.\nSampling Guidelines:\na)\nRaw material\n:\n-\nb)\nGrouping guidelines\n:\nPlease refer ANNEX – A\nc)\nSample Size\n:\nTwo pieces"
+        }
+      ]
+    },
+    {
+      "manual_relevance_label": null,
+      "query": "IS 2347:2023",
+      "results": [
+        {
+          "bm25_score": 1.772802,
+          "chunk_id": "8990c89dded32a219a94502b",
+          "metadata": {
+            "_unit_signature": "9e1ad23462a3f21171bef57b70a4b3ac",
+            "chunk_count": 1,
+            "chunk_id": "8990c89dded32a219a94502b",
+            "chunk_index": 0,
+            "context_prefix": "IS 2347:2023 | Section 1 — Product",
+            "context_token_count": 11,
+            "document_id": "bc5e2c188eaf267d3871",
+            "document_title": "View 146 IS 2347:2023 Domestic Pressure Cooker 975 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 35,
+            "embedding_max_tokens": 450,
+            "end_page": 1,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              1
+            ],
+            "product": "pressure_cooker",
+            "retrieval_token_count": 33,
+            "section_number": "1",
+            "section_title": "Product",
+            "sha256": "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480",
+            "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "start_page": 1,
+            "structural_path": [
+              {
+                "number": "1",
+                "title": "Product",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_2347_2023_product_manual_bc5e2c18.json",
+            "structured_input_sha256": "f5cc7d321e102daa0adc2fcb76389206e43a0c5efb12ae6359ce7d41da330b1e",
+            "text": "1.\nProduct\n: IS 2347:2023\n\nTitle\n: Domestic Pressure Cooker\n\nNo. of Amendments\n: One",
+            "token_count": 22,
+            "tokenizer": "bge",
+            "unit_text_end": 84,
+            "unit_text_length": 84,
+            "unit_text_sha256": "b8a5998d14db05a5c99ec30a843d460fe7bc177e68f13baeb042e5ca1f419ac5",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 1,
+          "text": "1.\nProduct\n: IS 2347:2023\n\nTitle\n: Domestic Pressure Cooker\n\nNo. of Amendments\n: One"
+        },
+        {
+          "bm25_score": 1.644231,
+          "chunk_id": "c25257e838eaafd3336db71c",
+          "metadata": {
+            "_unit_signature": "9679b12bce9acc568af01e93a6690954",
+            "chunk_count": 1,
+            "chunk_id": "c25257e838eaafd3336db71c",
+            "chunk_index": 0,
+            "context_prefix": "IS 2347:2023 | Section 3 — List of Test Equipment",
+            "context_token_count": 14,
+            "document_id": "bc5e2c188eaf267d3871",
+            "document_title": "View 146 IS 2347:2023 Domestic Pressure Cooker 975 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 28,
+            "embedding_max_tokens": 450,
+            "end_page": 1,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              1
+            ],
+            "product": "pressure_cooker",
+            "retrieval_token_count": 26,
+            "section_number": "3",
+            "section_title": "List of Test Equipment",
+            "sha256": "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480",
+            "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "start_page": 1,
+            "structural_path": [
+              {
+                "number": "3",
+                "title": "List of Test Equipment",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_2347_2023_product_manual_bc5e2c18.json",
+            "structured_input_sha256": "f5cc7d321e102daa0adc2fcb76389206e43a0c5efb12ae6359ce7d41da330b1e",
+            "text": "3.\nList of Test Equipment\n: Please refer ANNEX – C",
+            "token_count": 12,
+            "tokenizer": "bge",
+            "unit_text_end": 50,
+            "unit_text_length": 50,
+            "unit_text_sha256": "8e6fea0452fbc0eda43c5ee0070cb10500ddff3fa83758bd0e6aebd96dd59312",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 2,
+          "text": "3.\nList of Test Equipment\n: Please refer ANNEX – C"
+        },
+        {
+          "bm25_score": 1.638122,
+          "chunk_id": "1432c4fc5511412e47625a47",
+          "metadata": {
+            "_unit_signature": "041f0d03a05e6f35f117f13c45150bb2",
+            "chunk_count": 1,
+            "chunk_id": "1432c4fc5511412e47625a47",
+            "chunk_index": 0,
+            "context_prefix": "IS 2347:2023 | Section 4 — Scheme of Inspection and",
+            "context_token_count": 14,
+            "document_id": "bc5e2c188eaf267d3871",
+            "document_title": "View 146 IS 2347:2023 Domestic Pressure Cooker 975 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 29,
+            "embedding_max_tokens": 450,
+            "end_page": 1,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              1
+            ],
+            "product": "pressure_cooker",
+            "retrieval_token_count": 27,
+            "section_number": "4",
+            "section_title": "Scheme of Inspection and",
+            "sha256": "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480",
+            "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "start_page": 1,
+            "structural_path": [
+              {
+                "number": "4",
+                "title": "Scheme of Inspection and",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_2347_2023_product_manual_bc5e2c18.json",
+            "structured_input_sha256": "f5cc7d321e102daa0adc2fcb76389206e43a0c5efb12ae6359ce7d41da330b1e",
+            "text": "4.\nScheme of Inspection and\nTesting\n: Please refer ANNEX – D",
+            "token_count": 13,
+            "tokenizer": "bge",
+            "unit_text_end": 60,
+            "unit_text_length": 60,
+            "unit_text_sha256": "9a8c05dcc1eb04fccebcf1ca23e812311b35af9dcee31d2845a9c30ce89de6d9",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 3,
+          "text": "4.\nScheme of Inspection and\nTesting\n: Please refer ANNEX – D"
+        },
+        {
+          "bm25_score": 1.62844,
+          "chunk_id": "34c4df55f8789af8e9ffe5ce",
+          "metadata": {
+            "_unit_signature": "7f86c416ced3e131396f05a5830fceeb",
+            "annex_identifier": "D",
+            "annex_title": "Scheme of Inspection and Testing",
+            "chunk_count": 1,
+            "chunk_id": "34c4df55f8789af8e9ffe5ce",
+            "chunk_index": 0,
+            "clause_number": "3",
+            "clause_title": "LABELLING AND MARKING – As per the requirement of IS 2347:2023. The Standard",
+            "context_prefix": "IS 2347:2023 | Annex D — Scheme of Inspection and Testing | Clause 3 — LABELLING AND MARKING – As per the requirement of IS 2347:2023. The Standard",
+            "context_token_count": 38,
+            "document_id": "bc5e2c188eaf267d3871",
+            "document_title": "View 146 IS 2347:2023 Domestic Pressure Cooker 975 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 153,
+            "embedding_max_tokens": 450,
+            "end_page": 8,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              8
+            ],
+            "product": "pressure_cooker",
+            "retrieval_token_count": 151,
+            "sha256": "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480",
+            "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "start_page": 8,
+            "structural_path": [
+              {
+                "identifier": "D",
+                "title": "Scheme of Inspection and Testing",
+                "type": "annex"
+              },
+              {
+                "number": "3",
+                "title": "LABELLING AND MARKING – As per the requirement of IS 2347:2023. The Standard",
+                "type": "clause"
+              }
+            ],
+            "structural_type": "clause",
+            "structured_input_file": "data/processed/structured/is_2347_2023_product_manual_bc5e2c18.json",
+            "structured_input_sha256": "f5cc7d321e102daa0adc2fcb76389206e43a0c5efb12ae6359ce7d41da330b1e",
+            "text": "3. LABELLING AND MARKING – As per the requirement of IS 2347:2023. The Standard\nMark, as given in the Schedule of the licence, shall be marked on each cooker provided always that the product thus marked conforms to all the requirement of the specification. In addition, the licence no. CM/L-__________ and details of BIS website shall be marked at an appropriate place on product or package as follows: “For details of BIS certification please visit www.bis.gov.in”.",
+            "token_count": 113,
+            "tokenizer": "bge",
+            "unit_text_end": 466,
+            "unit_text_length": 466,
+            "unit_text_sha256": "1248d423f41f2b0ed3407d9cf18cfb57f1a7af30fbe218e5f27d01834a26ec32",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 4,
+          "text": "3. LABELLING AND MARKING – As per the requirement of IS 2347:2023. The Standard\nMark, as given in the Schedule of the licence, shall be marked on each cooker provided always that the product thus marked conforms to all the requirement of the specification. In addition, the licence no. CM/L-__________ and details of BIS website shall be marked at an appropriate place on product or package as follows: “For details of BIS certification please visit www.bis.gov.in”."
+        },
+        {
+          "bm25_score": 1.620061,
+          "chunk_id": "604bf78dc7b39573ad6870fd",
+          "metadata": {
+            "_unit_signature": "0b21055f95edb1ee6311e3006644078a",
+            "chunk_count": 1,
+            "chunk_id": "604bf78dc7b39573ad6870fd",
+            "chunk_index": 0,
+            "context_prefix": "IS 2347:2023 | Section 5 — Possible tests in a day",
+            "context_token_count": 15,
+            "document_id": "bc5e2c188eaf267d3871",
+            "document_title": "View 146 IS 2347:2023 Domestic Pressure Cooker 975 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 31,
+            "embedding_max_tokens": 450,
+            "end_page": 1,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              1
+            ],
+            "product": "pressure_cooker",
+            "retrieval_token_count": 29,
+            "section_number": "5",
+            "section_title": "Possible tests in a day",
+            "sha256": "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480",
+            "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "start_page": 1,
+            "structural_path": [
+              {
+                "number": "5",
+                "title": "Possible tests in a day",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_2347_2023_product_manual_bc5e2c18.json",
+            "structured_input_sha256": "f5cc7d321e102daa0adc2fcb76389206e43a0c5efb12ae6359ce7d41da330b1e",
+            "text": "5.\nPossible tests in a day\n: All tests except for coating tests",
+            "token_count": 14,
+            "tokenizer": "bge",
+            "unit_text_end": 63,
+            "unit_text_length": 63,
+            "unit_text_sha256": "0cba23d58429d3d1e8de27b55fc187d3bf989963ec1579d72b41e56d959f578c",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 5,
+          "text": "5.\nPossible tests in a day\n: All tests except for coating tests"
+        }
+      ]
+    },
+    {
+      "manual_relevance_label": null,
+      "query": "Clause 4",
+      "results": [
+        {
+          "bm25_score": 4.495793,
+          "chunk_id": "82957f0e5235749ab2f794a8",
+          "metadata": {
+            "_unit_signature": "bd0adf92c269931cac6c11aee6c8e440",
+            "annex_identifier": "C",
+            "annex_title": "िनरीƗण और परीƗण की ˋीम",
+            "chunk_count": 1,
+            "chunk_id": "82957f0e5235749ab2f794a8",
+            "chunk_index": 0,
+            "clause_number": "4",
+            "clause_title": "Additional Marking Requirments:",
+            "context_prefix": "IS 4250:2025 | Annex C — िनरीƗण और परीƗण की ˋीम | Clause 4 — Additional Marking Requirments:",
+            "context_token_count": 36,
+            "document_id": "d61562a653c02bee77be",
+            "document_title": "View 1601 IS 4250 : 2025 Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification (Second Revision) 572 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 104,
+            "embedding_max_tokens": 450,
+            "end_page": 7,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              7
+            ],
+            "product": "mixer",
+            "retrieval_token_count": 102,
+            "sha256": "4961f69ac9a81d32a8b3c74cfc239fdb3059fed2259012501c294b18b91b765f",
+            "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "start_page": 7,
+            "structural_path": [
+              {
+                "identifier": "C",
+                "title": "िनरीƗण और परीƗण की ˋीम",
+                "type": "annex"
+              },
+              {
+                "number": "4",
+                "title": "Additional Marking Requirments:",
+                "type": "clause"
+              }
+            ],
+            "structural_type": "clause",
+            "structured_input_file": "data/processed/structured/is_4250_2025_product_manual_d61562a6.json",
+            "structured_input_sha256": "df58a62f8cd9b31c736ea4a25b178826020283bde17fb68f1d4ab69f4d0cfed8",
+            "text": "4. Additional Marking Requirments:\n\na) The material shall also be marked with the following additional requirement on packaging:\n“For BIS certification details please visit www.bis.gov.in\";\nb) Instruction Booklet shall be provided as per the requirements of Cl. 7.2 of IS 4250 : 2025.",
+            "token_count": 66,
+            "tokenizer": "bge",
+            "unit_text_end": 284,
+            "unit_text_length": 284,
+            "unit_text_sha256": "c8c3a69ca6ada99629c1a3c7f51043b3c6ce2b95e3d213c5b5aaeadb6875e100",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 1,
+          "text": "4. Additional Marking Requirments:\n\na) The material shall also be marked with the following additional requirement on packaging:\n“For BIS certification details please visit www.bis.gov.in\";\nb) Instruction Booklet shall be provided as per the requirements of Cl. 7.2 of IS 4250 : 2025."
+        },
+        {
+          "bm25_score": 4.393903,
+          "chunk_id": "3fd5682dddf4ec2fd3915f31",
+          "metadata": {
+            "_unit_signature": "11a825e8e9d232798f4183f5c74a6e94",
+            "annex_identifier": "C",
+            "annex_title": "Scheme Of Inspection And Testing",
+            "chunk_count": 1,
+            "chunk_id": "3fd5682dddf4ec2fd3915f31",
+            "chunk_index": 0,
+            "clause_number": "4",
+            "clause_title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+            "context_prefix": "IS 367:1993 | Annex C — Scheme Of Inspection And Testing | Clause 4 — CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+            "context_token_count": 35,
+            "document_id": "ba52fdad4caf5bc088bd",
+            "document_title": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 65,
+            "embedding_max_tokens": 450,
+            "end_page": 7,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              7
+            ],
+            "product": "kettle",
+            "retrieval_token_count": 63,
+            "sha256": "0edc5ddcc7346739bccf89bc94609bb31f498b748af8bf66e7161fe5700d8979",
+            "source_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "start_page": 7,
+            "structural_path": [
+              {
+                "identifier": "C",
+                "title": "Scheme Of Inspection And Testing",
+                "type": "annex"
+              },
+              {
+                "number": "4",
+                "title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+                "type": "clause"
+              }
+            ],
+            "structural_type": "clause",
+            "structured_input_file": "data/processed/structured/is_367_1993_product_manual_ba52fdad.json",
+            "structured_input_sha256": "2cd424548078018ce0752de5ec58f69bf6166774e5364076c81e002e07c532bc",
+            "text": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit.",
+            "token_count": 28,
+            "tokenizer": "bge",
+            "unit_text_end": 132,
+            "unit_text_length": 132,
+            "unit_text_sha256": "47547bfabe987269cf5362c0148ea7127e1eea89dfe9d9eadebe0e6faffcf4b4",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 2,
+          "text": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit."
+        },
+        {
+          "bm25_score": 4.105834,
+          "chunk_id": "6fbc4bee1451990e47ce8b29",
+          "metadata": {
+            "_unit_signature": "2035145dfd690a3d34418f5f2fc088d2",
+            "annex_identifier": "D",
+            "annex_title": "Scheme of Inspection and Testing",
+            "chunk_count": 1,
+            "chunk_id": "6fbc4bee1451990e47ce8b29",
+            "chunk_index": 0,
+            "clause_number": "4",
+            "clause_title": "REJECTION - All the production which conforms to the Indian Standard and covered under",
+            "context_prefix": "IS 2347:2023 | Annex D — Scheme of Inspection and Testing | Clause 4 — REJECTION - All the production which conforms to the Indian Standard and covered under",
+            "context_token_count": 34,
+            "document_id": "bc5e2c188eaf267d3871",
+            "document_title": "View 146 IS 2347:2023 Domestic Pressure Cooker 975 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 94,
+            "embedding_max_tokens": 450,
+            "end_page": 8,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              8
+            ],
+            "product": "pressure_cooker",
+            "retrieval_token_count": 92,
+            "sha256": "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480",
+            "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "start_page": 8,
+            "structural_path": [
+              {
+                "identifier": "D",
+                "title": "Scheme of Inspection and Testing",
+                "type": "annex"
+              },
+              {
+                "number": "4",
+                "title": "REJECTION - All the production which conforms to the Indian Standard and covered under",
+                "type": "clause"
+              }
+            ],
+            "structural_type": "clause",
+            "structured_input_file": "data/processed/structured/is_2347_2023_product_manual_bc5e2c18.json",
+            "structured_input_sha256": "f5cc7d321e102daa0adc2fcb76389206e43a0c5efb12ae6359ce7d41da330b1e",
+            "text": "4. REJECTION - All the production which conforms to the Indian Standard and covered under\nscope of the licence shall be marked with Standard Mark. Disposal of non-conforming product shall be done in such a way so as to ensure that there is no violation of provisions of BIS Act,2016",
+            "token_count": 58,
+            "tokenizer": "bge",
+            "unit_text_end": 282,
+            "unit_text_length": 282,
+            "unit_text_sha256": "6731b23f51b240264d5533224393119deec78224a01e0a62862540dde2268030",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 3,
+          "text": "4. REJECTION - All the production which conforms to the Indian Standard and covered under\nscope of the licence shall be marked with Standard Mark. Disposal of non-conforming product shall be done in such a way so as to ensure that there is no violation of provisions of BIS Act,2016"
+        },
+        {
+          "bm25_score": 3.932246,
+          "chunk_id": "60391b1d4c06ff4143ad7f63",
+          "metadata": {
+            "_unit_signature": "1efdcf0500edef37d038007efc413055",
+            "annex_identifier": "B",
+            "annex_title": "Grouping Guidelines",
+            "chunk_count": 1,
+            "chunk_id": "60391b1d4c06ff4143ad7f63",
+            "chunk_index": 0,
+            "clause_number": "4",
+            "clause_title": "A fully dimensioned sectional drawing of the pressure cooker and its material along with",
+            "context_prefix": "IS 2347:2023 | Annex B — Grouping Guidelines | Clause 4 — A fully dimensioned sectional drawing of the pressure cooker and its material along with",
+            "context_token_count": 32,
+            "document_id": "bc5e2c188eaf267d3871",
+            "document_title": "View 146 IS 2347:2023 Domestic Pressure Cooker 975 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 123,
+            "embedding_max_tokens": 450,
+            "end_page": 3,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              3
+            ],
+            "product": "pressure_cooker",
+            "retrieval_token_count": 121,
+            "sha256": "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480",
+            "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "start_page": 3,
+            "structural_path": [
+              {
+                "identifier": "B",
+                "title": "Grouping Guidelines",
+                "type": "annex"
+              },
+              {
+                "number": "4",
+                "title": "A fully dimensioned sectional drawing of the pressure cooker and its material along with",
+                "type": "clause"
+              }
+            ],
+            "structural_type": "clause",
+            "structured_input_file": "data/processed/structured/is_2347_2023_product_manual_bc5e2c18.json",
+            "structured_input_sha256": "f5cc7d321e102daa0adc2fcb76389206e43a0c5efb12ae6359ce7d41da330b1e",
+            "text": "4. A fully dimensioned sectional drawing of the pressure cooker and its material along with\ngrades, shall be submitted by the manufacturer for each variety as per Cl. 6.8 of IS 2347. Firm shall also declare optional accessories (Glass lid, Visual Pressure Indicator, Chain for linking\nPRD with Vent Tube) with each variety. Wherever supplied, Conformity of these optional accessories shall be ensured as per IS 2347: 2023.",
+            "token_count": 89,
+            "tokenizer": "bge",
+            "unit_text_end": 422,
+            "unit_text_length": 422,
+            "unit_text_sha256": "9865c37e230feced99ce575bbee2b280d32950e638b4c16d90327219ee0360cb",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 4,
+          "text": "4. A fully dimensioned sectional drawing of the pressure cooker and its material along with\ngrades, shall be submitted by the manufacturer for each variety as per Cl. 6.8 of IS 2347. Firm shall also declare optional accessories (Glass lid, Visual Pressure Indicator, Chain for linking\nPRD with Vent Tube) with each variety. Wherever supplied, Conformity of these optional accessories shall be ensured as per IS 2347: 2023."
+        },
+        {
+          "bm25_score": 3.779994,
+          "chunk_id": "849de21b715a6db5db7cafdb",
+          "metadata": {
+            "_unit_signature": "d9a959bb255ac42e7412b98e23165b7b",
+            "chunk_count": 1,
+            "chunk_id": "849de21b715a6db5db7cafdb",
+            "chunk_index": 0,
+            "context_prefix": "IS 4250:2025 | Section 4 — िनरीƗण और परीƗण की ˋीम",
+            "context_token_count": 25,
+            "document_id": "d61562a653c02bee77be",
+            "document_title": "View 1601 IS 4250 : 2025 Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification (Second Revision) 572 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 55,
+            "embedding_max_tokens": 450,
+            "end_page": 2,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              2
+            ],
+            "product": "mixer",
+            "retrieval_token_count": 53,
+            "section_number": "4",
+            "section_title": "िनरीƗण और परीƗण की ˋीम",
+            "sha256": "4961f69ac9a81d32a8b3c74cfc239fdb3059fed2259012501c294b18b91b765f",
+            "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "start_page": 2,
+            "structural_path": [
+              {
+                "number": "4",
+                "title": "िनरीƗण और परीƗण की ˋीम",
+                "type": "section"
+              }
+            ],
+            "structural_type": "section",
+            "structured_input_file": "data/processed/structured/is_4250_2025_product_manual_d61562a6.json",
+            "structured_input_sha256": "df58a62f8cd9b31c736ea4a25b178826020283bde17fb68f1d4ab69f4d0cfed8",
+            "text": "4.\nिनरीƗण और परीƗण की ˋीम\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C",
+            "token_count": 28,
+            "tokenizer": "bge",
+            "unit_text_end": 83,
+            "unit_text_length": 83,
+            "unit_text_sha256": "01d98e02ca014210db16bed66689a96ce4e90a24289cdafe06791a4e2b20d164",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 5,
+          "text": "4.\nिनरीƗण और परीƗण की ˋीम\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C"
+        }
+      ]
+    },
+    {
+      "manual_relevance_label": null,
+      "query": "Clause 1.3.1",
+      "results": [
+        {
+          "bm25_score": 7.477778,
+          "chunk_id": "1a7107bce18c106dbe346e62",
+          "metadata": {
+            "_unit_signature": "8181d2db4ef0178b758a3da6cbed59ae",
+            "annex_identifier": "D",
+            "annex_title": "Scheme of Inspection and Testing",
+            "chunk_count": 1,
+            "chunk_id": "1a7107bce18c106dbe346e62",
+            "chunk_index": 0,
+            "clause_number": "1.3.1",
+            "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "context_prefix": "IS 2347:2023 | Annex D — Scheme of Inspection and Testing | Clause 1.3.1 — Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "context_token_count": 38,
+            "document_id": "bc5e2c188eaf267d3871",
+            "document_title": "View 146 IS 2347:2023 Domestic Pressure Cooker 975 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 84,
+            "embedding_max_tokens": 450,
+            "end_page": 7,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              7
+            ],
+            "parent_clause_number": "1.3",
+            "product": "pressure_cooker",
+            "retrieval_token_count": 82,
+            "sha256": "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480",
+            "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "start_page": 7,
+            "structural_path": [
+              {
+                "identifier": "D",
+                "title": "Scheme of Inspection and Testing",
+                "type": "annex"
+              },
+              {
+                "number": "1",
+                "title": "QUALITY ASSURANCE PLAN",
+                "type": "clause"
+              },
+              {
+                "number": "1.3",
+                "title": "RECOMMENDED LEVELS OF CONTROL/CONTROL UNIT:",
+                "type": "subclause"
+              },
+              {
+                "number": "1.3.1",
+                "title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+                "type": "subclause"
+              }
+            ],
+            "structural_type": "subclause",
+            "structured_input_file": "data/processed/structured/is_2347_2023_product_manual_bc5e2c18.json",
+            "structured_input_sha256": "f5cc7d321e102daa0adc2fcb76389206e43a0c5efb12ae6359ce7d41da330b1e",
+            "text": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day.",
+            "token_count": 44,
+            "tokenizer": "bge",
+            "unit_text_end": 236,
+            "unit_text_length": 236,
+            "unit_text_sha256": "5654577419e92dc3de2758bf2bf54dcf225043d65c83e752ba7892281f285514",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 1,
+          "text": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+        },
+        {
+          "bm25_score": 7.167623,
+          "chunk_id": "599df61892e5c80712d6a817",
+          "metadata": {
+            "_unit_signature": "0edccfbb0b898e2bb363e439b5c439c5",
+            "annex_identifier": "C",
+            "annex_title": "िनरीƗण और परीƗण की ˋीम",
+            "chunk_count": 1,
+            "chunk_id": "599df61892e5c80712d6a817",
+            "chunk_index": 0,
+            "clause_number": "1.3.1",
+            "clause_title": "For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+            "context_prefix": "IS 4250:2025 | Annex C — िनरीƗण और परीƗण की ˋीम | Clause 1.3.1 — For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+            "context_token_count": 51,
+            "document_id": "d61562a653c02bee77be",
+            "document_title": "View 1601 IS 4250 : 2025 Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification (Second Revision) 572 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 130,
+            "embedding_max_tokens": 450,
+            "end_page": 6,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              6
+            ],
+            "parent_clause_number": "1.3",
+            "product": "mixer",
+            "retrieval_token_count": 128,
+            "sha256": "4961f69ac9a81d32a8b3c74cfc239fdb3059fed2259012501c294b18b91b765f",
+            "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "start_page": 6,
+            "structural_path": [
+              {
+                "identifier": "C",
+                "title": "िनरीƗण और परीƗण की ˋीम",
+                "type": "annex"
+              },
+              {
+                "number": "1",
+                "title": "QUALITY ASSURANCE PLAN",
+                "type": "clause"
+              },
+              {
+                "number": "1.3",
+                "title": "RECOMMENDED LEVELS OF CONTROL/CONTROL UNIT:",
+                "type": "subclause"
+              },
+              {
+                "number": "1.3.1",
+                "title": "For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+                "type": "subclause"
+              }
+            ],
+            "structural_type": "subclause",
+            "structured_input_file": "data/processed/structured/is_4250_2025_product_manual_d61562a6.json",
+            "structured_input_sha256": "df58a62f8cd9b31c736ea4a25b178826020283bde17fb68f1d4ab69f4d0cfed8",
+            "text": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit. The manufacturer has the choice to define their own control unit/batch/lot and submit the same to the BIS.",
+            "token_count": 77,
+            "tokenizer": "bge",
+            "unit_text_end": 347,
+            "unit_text_length": 347,
+            "unit_text_sha256": "f27145bb681fc402458cc72efc22c595393008ab5413ddccf5da1b847d69d0c1",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 2,
+          "text": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit. The manufacturer has the choice to define their own control unit/batch/lot and submit the same to the BIS."
+        },
+        {
+          "bm25_score": 1.359225,
+          "chunk_id": "63d09053ec865587358ef41a",
+          "metadata": {
+            "_unit_signature": "7a77405c2ed051d9b6ec91d8e79582d4",
+            "annex_identifier": "A",
+            "annex_title": "Raw Material",
+            "chunk_count": 1,
+            "chunk_id": "63d09053ec865587358ef41a",
+            "chunk_index": 0,
+            "context_prefix": "IS 2347:2023 | Annex A — Raw Material",
+            "context_token_count": 12,
+            "document_id": "bc5e2c188eaf267d3871",
+            "document_title": "View 146 IS 2347:2023 Domestic Pressure Cooker 975 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 221,
+            "embedding_max_tokens": 450,
+            "end_page": 2,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              2
+            ],
+            "product": "pressure_cooker",
+            "retrieval_token_count": 219,
+            "sha256": "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480",
+            "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "start_page": 2,
+            "structural_path": [
+              {
+                "identifier": "A",
+                "title": "Raw Material",
+                "type": "annex"
+              }
+            ],
+            "structural_type": "annex",
+            "structured_input_file": "data/processed/structured/is_2347_2023_product_manual_bc5e2c18.json",
+            "structured_input_sha256": "f5cc7d321e102daa0adc2fcb76389206e43a0c5efb12ae6359ce7d41da330b1e",
+            "text": "ANNEX- A\n\nRaw Material\n\nComponents\nRaw Material\nBody, Lid, Containers and Grid\nClause 5.1 of IS 2347\nSafety Relief Device\nClause 5.2 of IS 2347\nGasket\nConforming to IS 7466\nHandles and Knobs\nClause 5.4 of IS 2347\nPressure Regulating Device\nClause 5.5 of IS 2347\nVent Seal Pin for Pressure Regulating Device\nClause 5.6 of IS 2347\nVent Pipe\nClause 5.7 of IS 2347\nVent Pipe Nut\nClause 5.8 of IS 2347\nSpring\nClause 5.9 of IS 2347\nTempered glass lid (for serving purpose only), if provided\nClause 5.10 of IS 2347\nRim of tempered glass lid (for serving purpose only), if used\nIS 5522 or IS 15997\nVisual Pressure Indicator, if provided\nConforming to IS 733/IS 739\nfor Aluminum material\nConforming to IS 6527/IS\n6528 for Stainless Steel\nConforming to IS 7466 for\nrubber parts\nGasket release System\nClause 5.12 of IS 2347",
+            "token_count": 207,
+            "tokenizer": "bge",
+            "unit_text_end": 812,
+            "unit_text_length": 812,
+            "unit_text_sha256": "5a4e41c388f144255ec4fc513f99b710b54ecedeb38f3b317dab01fedfe44858",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 3,
+          "text": "ANNEX- A\n\nRaw Material\n\nComponents\nRaw Material\nBody, Lid, Containers and Grid\nClause 5.1 of IS 2347\nSafety Relief Device\nClause 5.2 of IS 2347\nGasket\nConforming to IS 7466\nHandles and Knobs\nClause 5.4 of IS 2347\nPressure Regulating Device\nClause 5.5 of IS 2347\nVent Seal Pin for Pressure Regulating Device\nClause 5.6 of IS 2347\nVent Pipe\nClause 5.7 of IS 2347\nVent Pipe Nut\nClause 5.8 of IS 2347\nSpring\nClause 5.9 of IS 2347\nTempered glass lid (for serving purpose only), if provided\nClause 5.10 of IS 2347\nRim of tempered glass lid (for serving purpose only), if used\nIS 5522 or IS 15997\nVisual Pressure Indicator, if provided\nConforming to IS 733/IS 739\nfor Aluminum material\nConforming to IS 6527/IS\n6528 for Stainless Steel\nConforming to IS 7466 for\nrubber parts\nGasket release System\nClause 5.12 of IS 2347"
+        },
+        {
+          "bm25_score": 0.877682,
+          "chunk_id": "d80c9f6529334c6b3ffda98c",
+          "metadata": {
+            "_unit_signature": "931acfcc616f454da3bbc74681bbdbb6",
+            "annex_identifier": "C",
+            "annex_title": "Scheme Of Inspection And Testing",
+            "chunk_count": 1,
+            "chunk_id": "d80c9f6529334c6b3ffda98c",
+            "chunk_index": 0,
+            "clause_number": "1.1",
+            "clause_title": "The manufacturer shall prepare a calibration plan for the test equipment.",
+            "context_prefix": "IS 367:1993 | Annex C — Scheme Of Inspection And Testing | Clause 1.1 — The manufacturer shall prepare a calibration plan for the test equipment.",
+            "context_token_count": 34,
+            "document_id": "ba52fdad4caf5bc088bd",
+            "document_title": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 53,
+            "embedding_max_tokens": 450,
+            "end_page": 7,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              7
+            ],
+            "parent_clause_number": "1",
+            "product": "kettle",
+            "retrieval_token_count": 51,
+            "sha256": "0edc5ddcc7346739bccf89bc94609bb31f498b748af8bf66e7161fe5700d8979",
+            "source_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "start_page": 7,
+            "structural_path": [
+              {
+                "identifier": "C",
+                "title": "Scheme Of Inspection And Testing",
+                "type": "annex"
+              },
+              {
+                "number": "1",
+                "title": "LABORATORY - A laboratory shall be maintained which shall be suitably equipped",
+                "type": "clause"
+              },
+              {
+                "number": "1.1",
+                "title": "The manufacturer shall prepare a calibration plan for the test equipment.",
+                "type": "subclause"
+              }
+            ],
+            "structural_type": "subclause",
+            "structured_input_file": "data/processed/structured/is_367_1993_product_manual_ba52fdad.json",
+            "structured_input_sha256": "2cd424548078018ce0752de5ec58f69bf6166774e5364076c81e002e07c532bc",
+            "text": "1.1 The manufacturer shall prepare a calibration plan for the test equipment.",
+            "token_count": 17,
+            "tokenizer": "bge",
+            "unit_text_end": 77,
+            "unit_text_length": 77,
+            "unit_text_sha256": "20da8f8c78d53fa1fb4cc409cb9754d3ab90700299d693073df9d8a29201803c",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 4,
+          "text": "1.1 The manufacturer shall prepare a calibration plan for the test equipment."
+        },
+        {
+          "bm25_score": 0.877682,
+          "chunk_id": "a50ccba70aeb33234935ab43",
+          "metadata": {
+            "_unit_signature": "6e5d91dbde4f9368b586a1c2d50a9f14",
+            "annex_identifier": "C",
+            "annex_title": "Scheme Of Inspection And Testing",
+            "chunk_count": 1,
+            "chunk_id": "a50ccba70aeb33234935ab43",
+            "chunk_index": 0,
+            "clause_number": "3",
+            "clause_title": "LABELLING AND MARKING – As per the requirements of IS 367: 1993.",
+            "context_prefix": "IS 367:1993 | Annex C — Scheme Of Inspection And Testing | Clause 3 — LABELLING AND MARKING – As per the requirements of IS 367: 1993.",
+            "context_token_count": 34,
+            "document_id": "ba52fdad4caf5bc088bd",
+            "document_title": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 54,
+            "embedding_max_tokens": 450,
+            "end_page": 7,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              7
+            ],
+            "product": "kettle",
+            "retrieval_token_count": 52,
+            "sha256": "0edc5ddcc7346739bccf89bc94609bb31f498b748af8bf66e7161fe5700d8979",
+            "source_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "start_page": 7,
+            "structural_path": [
+              {
+                "identifier": "C",
+                "title": "Scheme Of Inspection And Testing",
+                "type": "annex"
+              },
+              {
+                "number": "3",
+                "title": "LABELLING AND MARKING – As per the requirements of IS 367: 1993.",
+                "type": "clause"
+              }
+            ],
+            "structural_type": "clause",
+            "structured_input_file": "data/processed/structured/is_367_1993_product_manual_ba52fdad.json",
+            "structured_input_sha256": "2cd424548078018ce0752de5ec58f69bf6166774e5364076c81e002e07c532bc",
+            "text": "3. LABELLING AND MARKING – As per the requirements of IS 367: 1993.",
+            "token_count": 18,
+            "tokenizer": "bge",
+            "unit_text_end": 67,
+            "unit_text_length": 67,
+            "unit_text_sha256": "8923d586984a55fc9b6a7f3a8572ab48b9634702d79d86cea72014bb994cc85f",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 5,
+          "text": "3. LABELLING AND MARKING – As per the requirements of IS 367: 1993."
+        }
+      ]
+    },
+    {
+      "manual_relevance_label": null,
+      "query": "control unit",
+      "results": [
+        {
+          "bm25_score": 7.924079,
+          "chunk_id": "1a7107bce18c106dbe346e62",
+          "metadata": {
+            "_unit_signature": "8181d2db4ef0178b758a3da6cbed59ae",
+            "annex_identifier": "D",
+            "annex_title": "Scheme of Inspection and Testing",
+            "chunk_count": 1,
+            "chunk_id": "1a7107bce18c106dbe346e62",
+            "chunk_index": 0,
+            "clause_number": "1.3.1",
+            "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "context_prefix": "IS 2347:2023 | Annex D — Scheme of Inspection and Testing | Clause 1.3.1 — Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+            "context_token_count": 38,
+            "document_id": "bc5e2c188eaf267d3871",
+            "document_title": "View 146 IS 2347:2023 Domestic Pressure Cooker 975 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 84,
+            "embedding_max_tokens": 450,
+            "end_page": 7,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              7
+            ],
+            "parent_clause_number": "1.3",
+            "product": "pressure_cooker",
+            "retrieval_token_count": 82,
+            "sha256": "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480",
+            "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "start_page": 7,
+            "structural_path": [
+              {
+                "identifier": "D",
+                "title": "Scheme of Inspection and Testing",
+                "type": "annex"
+              },
+              {
+                "number": "1",
+                "title": "QUALITY ASSURANCE PLAN",
+                "type": "clause"
+              },
+              {
+                "number": "1.3",
+                "title": "RECOMMENDED LEVELS OF CONTROL/CONTROL UNIT:",
+                "type": "subclause"
+              },
+              {
+                "number": "1.3.1",
+                "title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+                "type": "subclause"
+              }
+            ],
+            "structural_type": "subclause",
+            "structured_input_file": "data/processed/structured/is_2347_2023_product_manual_bc5e2c18.json",
+            "structured_input_sha256": "f5cc7d321e102daa0adc2fcb76389206e43a0c5efb12ae6359ce7d41da330b1e",
+            "text": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day.",
+            "token_count": 44,
+            "tokenizer": "bge",
+            "unit_text_end": 236,
+            "unit_text_length": 236,
+            "unit_text_sha256": "5654577419e92dc3de2758bf2bf54dcf225043d65c83e752ba7892281f285514",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 1,
+          "text": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+        },
+        {
+          "bm25_score": 7.508968,
+          "chunk_id": "3fd5682dddf4ec2fd3915f31",
+          "metadata": {
+            "_unit_signature": "11a825e8e9d232798f4183f5c74a6e94",
+            "annex_identifier": "C",
+            "annex_title": "Scheme Of Inspection And Testing",
+            "chunk_count": 1,
+            "chunk_id": "3fd5682dddf4ec2fd3915f31",
+            "chunk_index": 0,
+            "clause_number": "4",
+            "clause_title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+            "context_prefix": "IS 367:1993 | Annex C — Scheme Of Inspection And Testing | Clause 4 — CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+            "context_token_count": 35,
+            "document_id": "ba52fdad4caf5bc088bd",
+            "document_title": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 65,
+            "embedding_max_tokens": 450,
+            "end_page": 7,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              7
+            ],
+            "product": "kettle",
+            "retrieval_token_count": 63,
+            "sha256": "0edc5ddcc7346739bccf89bc94609bb31f498b748af8bf66e7161fe5700d8979",
+            "source_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+            "standard_numbers": [
+              "IS 367:1993"
+            ],
+            "start_page": 7,
+            "structural_path": [
+              {
+                "identifier": "C",
+                "title": "Scheme Of Inspection And Testing",
+                "type": "annex"
+              },
+              {
+                "number": "4",
+                "title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+                "type": "clause"
+              }
+            ],
+            "structural_type": "clause",
+            "structured_input_file": "data/processed/structured/is_367_1993_product_manual_ba52fdad.json",
+            "structured_input_sha256": "2cd424548078018ce0752de5ec58f69bf6166774e5364076c81e002e07c532bc",
+            "text": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit.",
+            "token_count": 28,
+            "tokenizer": "bge",
+            "unit_text_end": 132,
+            "unit_text_length": 132,
+            "unit_text_sha256": "47547bfabe987269cf5362c0148ea7127e1eea89dfe9d9eadebe0e6faffcf4b4",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 2,
+          "text": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit."
+        },
+        {
+          "bm25_score": 7.273223,
+          "chunk_id": "599df61892e5c80712d6a817",
+          "metadata": {
+            "_unit_signature": "0edccfbb0b898e2bb363e439b5c439c5",
+            "annex_identifier": "C",
+            "annex_title": "िनरीƗण और परीƗण की ˋीम",
+            "chunk_count": 1,
+            "chunk_id": "599df61892e5c80712d6a817",
+            "chunk_index": 0,
+            "clause_number": "1.3.1",
+            "clause_title": "For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+            "context_prefix": "IS 4250:2025 | Annex C — िनरीƗण और परीƗण की ˋीम | Clause 1.3.1 — For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+            "context_token_count": 51,
+            "document_id": "d61562a653c02bee77be",
+            "document_title": "View 1601 IS 4250 : 2025 Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification (Second Revision) 572 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 130,
+            "embedding_max_tokens": 450,
+            "end_page": 6,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              6
+            ],
+            "parent_clause_number": "1.3",
+            "product": "mixer",
+            "retrieval_token_count": 128,
+            "sha256": "4961f69ac9a81d32a8b3c74cfc239fdb3059fed2259012501c294b18b91b765f",
+            "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "start_page": 6,
+            "structural_path": [
+              {
+                "identifier": "C",
+                "title": "िनरीƗण और परीƗण की ˋीम",
+                "type": "annex"
+              },
+              {
+                "number": "1",
+                "title": "QUALITY ASSURANCE PLAN",
+                "type": "clause"
+              },
+              {
+                "number": "1.3",
+                "title": "RECOMMENDED LEVELS OF CONTROL/CONTROL UNIT:",
+                "type": "subclause"
+              },
+              {
+                "number": "1.3.1",
+                "title": "For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+                "type": "subclause"
+              }
+            ],
+            "structural_type": "subclause",
+            "structured_input_file": "data/processed/structured/is_4250_2025_product_manual_d61562a6.json",
+            "structured_input_sha256": "df58a62f8cd9b31c736ea4a25b178826020283bde17fb68f1d4ab69f4d0cfed8",
+            "text": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit. The manufacturer has the choice to define their own control unit/batch/lot and submit the same to the BIS.",
+            "token_count": 77,
+            "tokenizer": "bge",
+            "unit_text_end": 347,
+            "unit_text_length": 347,
+            "unit_text_sha256": "f27145bb681fc402458cc72efc22c595393008ab5413ddccf5da1b847d69d0c1",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 3,
+          "text": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit. The manufacturer has the choice to define their own control unit/batch/lot and submit the same to the BIS."
+        },
+        {
+          "bm25_score": 6.727947,
+          "chunk_id": "34d3fe1b2aabeefdcc360b29",
+          "metadata": {
+            "_unit_signature": "d1cd7774f2162b9edb01a207b9a03412",
+            "annex_identifier": "D",
+            "annex_title": "Scheme of Inspection and Testing",
+            "chunk_count": 7,
+            "chunk_id": "34d3fe1b2aabeefdcc360b29",
+            "chunk_index": 1,
+            "context_prefix": "IS 2347:2023 | Annex D — Scheme of Inspection and Testing | Table 1",
+            "context_token_count": 18,
+            "document_id": "bc5e2c188eaf267d3871",
+            "document_title": "View 146 IS 2347:2023 Domestic Pressure Cooker 975 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 449,
+            "embedding_max_tokens": 450,
+            "end_page": 11,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 75,
+            "pages": [
+              10,
+              11
+            ],
+            "product": "pressure_cooker",
+            "retrieval_token_count": 398,
+            "sha256": "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480",
+            "source_file": "data/raw/pressure_cooker/view-146-is-2347-2023-domestic-pressure-cooker-975-kb-pdf-view-download-bc5e2c18.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+            "standard_numbers": [
+              "IS 2347:2023"
+            ],
+            "start_page": 10,
+            "structural_path": [
+              {
+                "identifier": "D",
+                "title": "Scheme of Inspection and Testing",
+                "type": "annex"
+              },
+              {
+                "identifier": "1",
+                "type": "table"
+              }
+            ],
+            "structural_type": "table",
+            "structured_input_file": "data/processed/structured/is_2347_2023_product_manual_bc5e2c18.json",
+            "structured_input_sha256": "f5cc7d321e102daa0adc2fcb76389206e43a0c5efb12ae6359ce7d41da330b1e",
+            "table_header_context": "TABLE 1\n(For guidance only)\n(1)\n(2)\n(3)\nTEST DETAILS\nTest equipment\nrequirement\nLEVELS OF CONTROL\nClause\nRequirement\n\nTest Methods\nClause Reference\nR: required (or)\nS: Subcontracting\npermitted\nNo. of Sample\nFrequency\nRemarks",
+            "table_identifier": "1",
+            "text": "IS 733\nIS 739\nIS6527\nIS6528\nIS 7466\nIS 1068\nIS 1868\nIS 6057\nS\nOne\nEach consignment\n#\n5.12\nGasket Release system\n5.12\nIS 2347\nR\nOne\nEach consignment\n\n6\nCONSTRUCTION\n6.1\nPressure Regulating Device\n6.1.1 to\n6.1.5\nIS 2347\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Records shall be maintained.\n\n6.1.6\nChain for linking PRD, if\nprovided\n6.1.6\nIS 2347\nR\n6.2\nSafety Relief Device\n6.2\nIS 2347\nR\n6.3\n\nTemperature Responsive\nDevice\n\n6.3.1,\nAnnex C\nIS 2347\nR\nOne\nEach Control Unit\n---\n6.3.2,\nAnnex D\nIS 2347\nR\nOne\nEach Control Unit\n---\n6.3.3\nIS 2347\nR\nOne\nEach Control Unit\n\n6.4\nHandles and Knobs\n6.4\nIS 2347\nS\nOne from each\nComponent\nEach control unit\n#\n7.1,\n7.2\nWorkmanship and Finish\n7.1,7.2\n\nIS 2347\n\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Records shall be maintained.\n7.3\n7.3\n\nIS 2347\nS\nOne from each\nComponent\nEach consignment\n#\n7.4\n\nTest for Hard Anodized Surface Annex- E IS 2347\nFinish and Appearance\n5.1, 5.2\nIS 6057\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Records shall be maintained\nThickness\n\nIS 5523\nIS 6012\nR\nOne\nEach Control Unit\n---\nAbrasion Resistance\n7\nIS 6057\nR\nOne\nEach Control Unit\n---\nHardness Test\n(Type Test)\nE-4.1\nIS 2347\nS\nOne\nOnce in Six months or\nTwo\nLakh\ncookers\nwhichever is earlier\n---\n",
+            "token_count": 380,
+            "tokenizer": "bge",
+            "unit_text_end": 2397,
+            "unit_text_length": 7803,
+            "unit_text_sha256": "0b49d9f263746bf4eaac73c61cddd22fea988f0c1ece4beb9b7d52aa8ffc951a",
+            "unit_text_start": 1027,
+            "verification_status": "verified"
+          },
+          "rank": 4,
+          "text": "IS 733\nIS 739\nIS6527\nIS6528\nIS 7466\nIS 1068\nIS 1868\nIS 6057\nS\nOne\nEach consignment\n#\n5.12\nGasket Release system\n5.12\nIS 2347\nR\nOne\nEach consignment\n\n6\nCONSTRUCTION\n6.1\nPressure Regulating Device\n6.1.1 to\n6.1.5\nIS 2347\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Records shall be maintained.\n\n6.1.6\nChain for linking PRD, if\nprovided\n6.1.6\nIS 2347\nR\n6.2\nSafety Relief Device\n6.2\nIS 2347\nR\n6.3\n\nTemperature Responsive\nDevice\n\n6.3.1,\nAnnex C\nIS 2347\nR\nOne\nEach Control Unit\n---\n6.3.2,\nAnnex D\nIS 2347\nR\nOne\nEach Control Unit\n---\n6.3.3\nIS 2347\nR\nOne\nEach Control Unit\n\n6.4\nHandles and Knobs\n6.4\nIS 2347\nS\nOne from each\nComponent\nEach control unit\n#\n7.1,\n7.2\nWorkmanship and Finish\n7.1,7.2\n\nIS 2347\n\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Records shall be maintained.\n7.3\n7.3\n\nIS 2347\nS\nOne from each\nComponent\nEach consignment\n#\n7.4\n\nTest for Hard Anodized Surface Annex- E IS 2347\nFinish and Appearance\n5.1, 5.2\nIS 6057\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Records shall be maintained\nThickness\n\nIS 5523\nIS 6012\nR\nOne\nEach Control Unit\n---\nAbrasion Resistance\n7\nIS 6057\nR\nOne\nEach Control Unit\n---\nHardness Test\n(Type Test)\nE-4.1\nIS 2347\nS\nOne\nOnce in Six months or\nTwo\nLakh\ncookers\nwhichever is earlier\n---\n"
+        },
+        {
+          "bm25_score": 6.623119,
+          "chunk_id": "28696516880b60b7589ee892",
+          "metadata": {
+            "_unit_signature": "df8d758a60de14cf14a1679667746a99",
+            "annex_identifier": "C",
+            "annex_title": "िनरीƗण और परीƗण की ˋीम",
+            "chunk_count": 1,
+            "chunk_id": "28696516880b60b7589ee892",
+            "chunk_index": 0,
+            "clause_number": "1.2",
+            "clause_title": "The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the",
+            "context_prefix": "IS 4250:2025 | Annex C — िनरीƗण और परीƗण की ˋीम | Clause 1.2 — The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the",
+            "context_token_count": 56,
+            "document_id": "d61562a653c02bee77be",
+            "document_title": "View 1601 IS 4250 : 2025 Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification (Second Revision) 572 KB Pdf View Download",
+            "document_type": "product_manual",
+            "embedding_input_tokens": 141,
+            "embedding_max_tokens": 450,
+            "end_page": 6,
+            "metadata_conflict": false,
+            "organization": "Bureau of Indian Standards",
+            "overlap_tokens": 0,
+            "pages": [
+              6
+            ],
+            "parent_clause_number": "1",
+            "product": "mixer",
+            "retrieval_token_count": 139,
+            "sha256": "4961f69ac9a81d32a8b3c74cfc239fdb3059fed2259012501c294b18b91b765f",
+            "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+            "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+            "standard_numbers": [
+              "IS 4250:2025"
+            ],
+            "start_page": 6,
+            "structural_path": [
+              {
+                "identifier": "C",
+                "title": "िनरीƗण और परीƗण की ˋीम",
+                "type": "annex"
+              },
+              {
+                "number": "1",
+                "title": "QUALITY ASSURANCE PLAN",
+                "type": "clause"
+              },
+              {
+                "number": "1.2",
+                "title": "The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the",
+                "type": "subclause"
+              }
+            ],
+            "structural_type": "subclause",
+            "structured_input_file": "data/processed/structured/is_4250_2025_product_manual_d61562a6.json",
+            "structured_input_sha256": "df58a62f8cd9b31c736ea4a25b178826020283bde17fb68f1d4ab69f4d0cfed8",
+            "text": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the\nlevels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian\nStandard) and submit the same to BIS Branch Office for information. The manufacturer shall comply with the same and maintain test records in accordance with para 2.4.",
+            "token_count": 83,
+            "tokenizer": "bge",
+            "unit_text_end": 395,
+            "unit_text_length": 395,
+            "unit_text_sha256": "73cfa1c16723c71d099bf72fbf1726363fab68ab910023b486fe4ae40fa54547",
+            "unit_text_start": 0,
+            "verification_status": "verified"
+          },
+          "rank": 5,
+          "text": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the\nlevels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian\nStandard) and submit the same to BIS Branch Office for information. The manufacturer shall comply with the same and maintain test records in accordance with para 2.4."
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-09-29T01:00:38+00:00",
+  "implementation": "in_repo_okapi_bm25",
+  "indexed_field_note": "Only context_prefix, authoritative text, standard_numbers, clause_number, and clause_title are indexed. Exact duplicate components are removed; no other metadata is concatenated.",
+  "indexed_fields": [
+    "context_prefix",
+    "text",
+    "standard_numbers",
+    "clause_number",
+    "clause_title"
+  ],
+  "k1": 1.5,
+  "mean_query_ms": 0.198,
+  "stage": "3.3",
+  "timed_queries": 11,
+  "tokenizer": "lowercase regex; dotted/colon/slash/hyphen identifiers stay intact",
+  "vector_store": "data/processed/vector_store",
+  "vector_store_unchanged": true,
+  "vocabulary_terms": 1171
+}

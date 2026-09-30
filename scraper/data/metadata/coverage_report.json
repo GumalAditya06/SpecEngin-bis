@@ -1,0 +1,150 @@
+{
+  "assessment": "THREE_PRODUCT_MVP_READY_NOT_FULL_SIH_SCOPE",
+  "capabilities": {
+    "clause_level_technical_answers": {
+      "reason": "Full official standard texts are not present; product manuals and metadata cannot replace normative clauses.",
+      "status": "blocked"
+    },
+    "consumer_complaints": {
+      "evidence_ids": [
+        "972147e1facbb5b4bb6e",
+        "e2a1b597af5731a43b16"
+      ],
+      "status": "covered"
+    },
+    "hallmarking": {
+      "evidence_ids": [
+        "12d6b4b117fc4ea779f7",
+        "27f6c2683759d82f0d44",
+        "44c56e9203c467c6f1cf",
+        "65e72e97a102885b7111",
+        "6a12567bf05a2c831555",
+        "716c25a998df05677170",
+        "7d1d742654f95c7a41f4",
+        "972147e1facbb5b4bb6e",
+        "ab6cfe5ac6a1f978c7a3",
+        "c6fe56e111575ed33375",
+        "caa09483ee19b975d0c8",
+        "e2a1b597af5731a43b16",
+        "f0cd5e8d70167fa77d7f",
+        "84949c046f4c403ad839",
+        "cc526c96f58acfa25861",
+        "d49256486d9ffe39aace",
+        "b133229056406dfb6f74"
+      ],
+      "status": "covered"
+    },
+    "multilingual_source_material": {
+      "evidence_ids": [
+        "ba52fdad4caf5bc088bd",
+        "84949c046f4c403ad839"
+      ],
+      "status": "partial"
+    },
+    "product_certification_and_scheme_i": {
+      "evidence_ids": [
+        "44c56e9203c467c6f1cf",
+        "609d30c39999fbe8da0b",
+        "65e72e97a102885b7111",
+        "6a12567bf05a2c831555",
+        "c6fe56e111575ed33375",
+        "caa09483ee19b975d0c8",
+        "f0cd5e8d70167fa77d7f",
+        "d49256486d9ffe39aace",
+        "b133229056406dfb6f74"
+      ],
+      "status": "covered"
+    },
+    "source_backed_citations": {
+      "evidence_count": 32,
+      "status": "covered"
+    },
+    "standard_recommendation": {
+      "scope": "Only the three configured product domains; not the full BIS catalogue.",
+      "status": "partial"
+    },
+    "standards_clubs": {
+      "evidence_ids": [
+        "ab6cfe5ac6a1f978c7a3"
+      ],
+      "status": "covered"
+    },
+    "testing_laboratories": {
+      "record_count": 20,
+      "status": "covered"
+    },
+    "three_product_mvp": {
+      "evidence_count": 16,
+      "status": "covered"
+    },
+    "training": {
+      "evidence_ids": [
+        "12d6b4b117fc4ea779f7",
+        "27f6c2683759d82f0d44",
+        "44c56e9203c467c6f1cf",
+        "65e72e97a102885b7111",
+        "6a12567bf05a2c831555",
+        "716c25a998df05677170",
+        "7d1d742654f95c7a41f4",
+        "972147e1facbb5b4bb6e",
+        "ab6cfe5ac6a1f978c7a3",
+        "c6fe56e111575ed33375",
+        "caa09483ee19b975d0c8",
+        "e2a1b597af5731a43b16",
+        "f0cd5e8d70167fa77d7f",
+        "84949c046f4c403ad839",
+        "cc526c96f58acfa25861",
+        "d49256486d9ffe39aace",
+        "b133229056406dfb6f74"
+      ],
+      "status": "covered"
+    }
+  },
+  "downloaded_documents": 32,
+  "full_sih_ready": false,
+  "generated_at": "2026-09-28T20:22:02+00:00",
+  "limitations": [
+    "The product recommendation catalogue is deliberately limited to three products.",
+    "Full normative Indian Standards are unavailable in the automated corpus, so clause-level answers must abstain.",
+    "Multilingual coverage is source-limited and does not by itself implement multilingual retrieval or generation.",
+    "Live licence, laboratory, and regulatory status should be refreshed before production answers."
+  ],
+  "problem_statement": "SIH26107 — AI-powered Intelligent Assistant for Indian Standards and BIS Services",
+  "product_coverage": {
+    "kettle": {
+      "downloaded_documents": 3,
+      "evidenced_standard_versions": [
+        "IS 367:1993"
+      ],
+      "laboratory_records": 11,
+      "required_standard_versions": [
+        "IS 367:1993"
+      ],
+      "status": "covered"
+    },
+    "mixer": {
+      "downloaded_documents": 6,
+      "evidenced_standard_versions": [
+        "IS 4250:2025"
+      ],
+      "laboratory_records": 4,
+      "required_standard_versions": [
+        "IS 4250:2025"
+      ],
+      "status": "covered"
+    },
+    "pressure_cooker": {
+      "downloaded_documents": 7,
+      "evidenced_standard_versions": [
+        "IS 2347:2017",
+        "IS 2347:2023"
+      ],
+      "laboratory_records": 5,
+      "required_standard_versions": [
+        "IS 2347:2023",
+        "IS 2347:2017"
+      ],
+      "status": "covered"
+    }
+  }
+}

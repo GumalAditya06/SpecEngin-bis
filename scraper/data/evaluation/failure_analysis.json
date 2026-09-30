@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "RERANKING_ERROR": 1
+  },
+  "failures": [
+    {
+      "categories": [
+        "RERANKING_ERROR"
+      ],
+      "question": "What sample quantity is specified for electric food mixers?",
+      "question_id": "q011",
+      "stage": "retrieval"
+    }
+  ],
+  "generated_at": "2026-09-29T08:54:21+00:00"
+}

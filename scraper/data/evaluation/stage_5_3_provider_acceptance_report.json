@@ -1,0 +1,362 @@
+{
+  "stage": "5.3",
+  "generated_at": "2026-09-29T16:24:02Z",
+  "status": "FAILED_GEMINI_INVALID_ARGUMENT",
+  "acceptance_complete": false,
+  "frozen_architecture_changed": false,
+  "blocker": {
+    "category": "gemini_invalid_argument",
+    "detail": "The single authorized diagnostic request reached Google Gemini and was rejected with upstream HTTP 400 and sanitized category INVALID_ARGUMENT. Authentication, permission, missing-model, quota, transport, and AnswerValidator failures are ruled out by this classification. Gemini rejected the request payload or one of its structured-output/generation configuration fields. The exact rejected field remains unavailable because raw provider message text was intentionally neither retained nor logged.",
+    "required_to_resume": "Perform a separate provider request-compatibility review before proposing any fix. Do not change the frozen model or architecture merely to force a pass.",
+    "architecture_change_required": false
+  },
+  "resume_attempt": {
+    "timestamp": "2026-09-29T16:24:02Z",
+    "provider_environment_visible": true,
+    "provider_factory_result": "service readiness reported provider configured",
+    "recognized_dotenv_files_found": 0,
+    "shell_startup_files_with_gemini_variable_names": 0,
+    "live_requests_made": 2,
+    "result": "DIAGNOSED_HTTP_400_INVALID_ARGUMENT"
+  },
+  "provider": {
+    "implementation": "existing scraper.llm_provider.GeminiProvider",
+    "selected_provider": "gemini",
+    "reported_provider_name": "google_gemini",
+    "model": "gemini-3.6-flash",
+    "configuration": {
+      "temperature": 0.0,
+      "max_output_tokens": 1200,
+      "response_mime_type": "application/json",
+      "structured_schema": "ANSWER_RESPONSE_SCHEMA",
+      "thinking_budget": 0,
+      "timeout_seconds_default": 20.0,
+      "provider_fallback": false
+    },
+    "configuration_loading": {
+      "provider_present_in_environment": true,
+      "model_present_in_environment": true,
+      "api_key_present_in_environment": true,
+      "dotenv_file_present": false,
+      "secret_value_inspected_or_printed": false
+    },
+    "configuration_contract_tests": "PASS",
+    "live_provider_smoke_test": "FAIL_UPSTREAM_HTTP_400_INVALID_ARGUMENT",
+    "structured_provider_response": "NOT_AVAILABLE",
+    "provider_answer_draft_parse": "NOT_AVAILABLE",
+    "usage_metadata": "unavailable",
+    "provider_latency_ms": "unavailable because no validated API response metadata was returned"
+  },
+  "request_accounting": {
+    "real_gemini_requests": 2,
+    "successful_gemini_requests": 0,
+    "failed_gemini_http_requests": 2,
+    "retries": 0,
+    "live_acceptance_api_requests": 4,
+    "provider_configuration_blocked_api_requests": 1,
+    "stage_4_6_blocked_api_requests": 1,
+    "provider_calls_avoided_by_stage_4_6_in_acceptance": 1,
+    "provider_calls_avoided_by_stage_4_6_regression": 2,
+    "pricing_or_cost": "unavailable; provider returned no usage/cost metadata and no price was invented"
+  },
+  "production_api_diagnostics": [
+    {
+      "question": "What is IS 367:1993?",
+      "purpose": "single authorized sanitized diagnostic",
+      "api_http_status": 502,
+      "upstream_http_status": 400,
+      "provider_error_category": "INVALID_ARGUMENT",
+      "provider": "google_gemini",
+      "total_api_latency_ms": 3510.933,
+      "result": "Gemini rejected request arguments",
+      "validated_answer_returned": false,
+      "raw_provider_body_retained": false,
+      "credentials_disclosed": false
+    },
+    {
+      "question": "What is IS 367:1993?",
+      "http_status": 502,
+      "total_api_latency_ms": 1254.473,
+      "result": "real provider smoke test failed safely",
+      "public_detail": "The configured model provider did not return a valid grounded answer.",
+      "provider_configured_by_readiness": true,
+      "validated_answer_returned": false,
+      "token_usage": "unavailable",
+      "credentials_disclosed": false
+    },
+    {
+      "question": "What is IS 367:1993?",
+      "http_status": 503,
+      "result": "controlled provider configuration failure",
+      "public_detail": "The answer provider is not configured.",
+      "gemini_called": false,
+      "credentials_disclosed": false
+    },
+    {
+      "question": "What is the weather in Pune?",
+      "http_status": 200,
+      "evidence_state": "NO_VERIFIED_EVIDENCE",
+      "assessment_state": "OUT_OF_DOMAIN",
+      "citations": [],
+      "evidence": [],
+      "gemini_called": false,
+      "gemini_call_avoided": true,
+      "retrieval_ms": 1312.457,
+      "assessment_ms": 0.727,
+      "generation_ms": 0.0,
+      "result": "PASS"
+    }
+  ],
+  "question_by_question_results": [
+    {
+      "category": "exact_lookup",
+      "question": "What is IS 367:1993?",
+      "execution_status": "FAIL_REAL_PROVIDER_HTTP_502",
+      "evidence_state": "unavailable",
+      "assessment_state": "SUFFICIENT before provider resolution",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "No validated provider answer exists; the real smoke request returned controlled HTTP 502."}
+    },
+    {
+      "category": "definition",
+      "question": "What is the definition of a control unit?",
+      "execution_status": "NOT_RUN_MISSING_CREDENTIAL",
+      "evidence_state": "unavailable",
+      "assessment_state": "unavailable",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "No provider answer available for human review."}
+    },
+    {
+      "category": "requirement",
+      "question": "What requirements apply to electric food mixers?",
+      "execution_status": "NOT_RUN_MISSING_CREDENTIAL",
+      "evidence_state": "unavailable",
+      "assessment_state": "unavailable",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "No provider answer available for human review."}
+    },
+    {
+      "category": "testing",
+      "question": "What testing requirements are specified?",
+      "execution_status": "NOT_RUN_MISSING_CREDENTIAL",
+      "evidence_state": "unavailable",
+      "assessment_state": "unavailable",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "No provider answer available for human review."}
+    },
+    {
+      "category": "sampling",
+      "question": "What is the sampling plan for pressure cookers?",
+      "execution_status": "NOT_RUN_MISSING_CREDENTIAL",
+      "evidence_state": "unavailable",
+      "assessment_state": "unavailable",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "No provider answer available for human review."}
+    },
+    {
+      "category": "licensing_certification",
+      "question": "What is the scope of the licence for electric kettles?",
+      "execution_status": "NOT_RUN_MISSING_CREDENTIAL",
+      "evidence_state": "unavailable",
+      "assessment_state": "unavailable",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "No provider answer available for human review."}
+    },
+    {
+      "category": "clause",
+      "question": "What does clause 1.3.1 of Annex D in IS 2347:2023 establish?",
+      "execution_status": "NOT_RUN_MISSING_CREDENTIAL",
+      "evidence_state": "unavailable",
+      "assessment_state": "unavailable",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "No provider answer available for human review."}
+    },
+    {
+      "category": "table",
+      "question": "How often does Table 1 require overall-dimensions and mass tests for electric kettles?",
+      "execution_status": "NOT_RUN_MISSING_CREDENTIAL",
+      "evidence_state": "unavailable",
+      "assessment_state": "unavailable",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "No provider answer available for human review."}
+    },
+    {
+      "category": "annex",
+      "question": "Which tests can be performed in a day for electric kettles according to Annex D?",
+      "execution_status": "NOT_RUN_MISSING_CREDENTIAL",
+      "evidence_state": "unavailable",
+      "assessment_state": "unavailable",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "No provider answer available for human review."}
+    },
+    {
+      "category": "cross_document",
+      "question": "How do the control-unit definitions differ for pressure cookers, electric kettles, and electric food mixers?",
+      "execution_status": "NOT_RUN_MISSING_CREDENTIAL",
+      "evidence_state": "unavailable",
+      "assessment_state": "unavailable",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "No provider answer available for human review."}
+    },
+    {
+      "category": "partial_evidence",
+      "question": "What is the scope of the licence for electric kettles, and what warranty period does BIS require?",
+      "execution_status": "NOT_RUN_MISSING_CREDENTIAL",
+      "evidence_state": "unavailable",
+      "assessment_state": "unavailable",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "No provider answer available; PARTIAL_EVIDENCE acceptance is unverified."}
+    },
+    {
+      "category": "unknown_insufficient",
+      "question": "What requirements are specified by IS 99999:2099?",
+      "execution_status": "NOT_RUN_MISSING_CREDENTIAL",
+      "evidence_state": "unavailable",
+      "assessment_state": "unavailable",
+      "citations": [],
+      "human_review": {"grounded": "UNCLEAR", "citation_correct": "UNCLEAR", "answer_supported_by_evidence": "UNCLEAR", "unsupported_claim_detected": "NO", "notes": "Guard behavior remains covered by the frozen Stage 4.6 evaluation."}
+    },
+    {
+      "category": "out_of_domain",
+      "question": "What is the weather in Pune?",
+      "execution_status": "PASS",
+      "evidence_state": "NO_VERIFIED_EVIDENCE",
+      "assessment_state": "OUT_OF_DOMAIN",
+      "citations": [],
+      "human_review": {"grounded": "YES", "citation_correct": "YES", "answer_supported_by_evidence": "YES", "unsupported_claim_detected": "NO", "notes": "Controlled no-evidence answer; Gemini was not resolved or called."}
+    }
+  ],
+  "citation_validation": {
+    "real_gemini_answers_reviewed": 0,
+    "stage_5_3_status": "NOT_RUN_MISSING_CREDENTIAL",
+    "regression_tests": {
+      "backend_metadata_reconstruction": "PASS",
+      "E1": "PASS_WITH_MOCK",
+      "E1_E2": "PASS_WITH_MOCK",
+      "repeated_citations": "PASS_WITH_MOCK",
+      "unsupported_E99": "PASS_REJECTED",
+      "provider_metadata_override": "PASS_PREVENTED_BY_ANSWER_VALIDATOR"
+    },
+    "acceptance_conclusion": "Real-provider citation integrity is not accepted until at least one live validated answer is reviewed."
+  },
+  "source_drawer_validation": {
+    "real_gemini_answer": "NOT_RUN_MISSING_CREDENTIAL",
+    "assistant_regression": "PASS",
+    "sources_regression": "PASS",
+    "standards_regression": "PASS",
+    "laboratories_regression": "PASS",
+    "two_real_citations_checked": 0,
+    "focus_restoration_regression": "PASS",
+    "shared_component_unchanged": true
+  },
+  "latency": {
+    "real_provider": "unavailable because the provider did not return a validated response",
+    "real_generation": "unavailable",
+    "real_total_api": {"count": 2, "min_ms": 1254.473, "max_ms": 3510.933, "mean_ms": 2382.703},
+    "real_request_count": 2,
+    "out_of_domain_api": {"retrieval_ms": 1312.457, "guard_ms": 0.727, "generation_ms": 0.0},
+    "stage_4_4_retrieval_mean_ms": 1041.01637,
+    "stage_4_6_guard": {"count": 27, "min": "not reported by evaluator", "mean": 0.424037, "max": 0.899},
+    "cold_and_warm_real_gemini_statistics": "unavailable"
+  },
+  "token_usage": {
+    "input_tokens": "unavailable",
+    "output_tokens": "unavailable",
+    "total_tokens": "unavailable",
+    "reason": "The real smoke request returned controlled HTTP 502 without validated response metadata."
+  },
+  "failure_tests": {
+    "timeout": "PASS_WITH_EXISTING_MOCK",
+    "transient_http_408_429_500_503": "PASS_WITH_EXISTING_MOCK",
+    "malformed_provider_envelope": "PASS_WITH_EXISTING_MOCK",
+    "malformed_structured_answer": "PASS_WITH_EXISTING_MOCK_AND_BOUNDED_RETRY",
+    "invalid_structured_answer": "PASS_WITH_EXISTING_MOCK_AND_BOUNDED_RETRY",
+    "invalid_citation": "PASS_WITH_EXISTING_MOCK; E99 rejected",
+    "authentication_failure": "PASS_WITH_EXISTING_MOCK; HTTP 401 classified permanent and body redacted",
+    "missing_credentials": "PASS_LIVE_API_BOUNDARY; controlled 503",
+    "fallback_provider_used": false
+  },
+  "provider_diagnostic": {
+    "upstream_http_status": 400,
+    "provider_error_category": "INVALID_ARGUMENT",
+    "provider": "google_gemini",
+    "classification": "request or generation-configuration argument rejected by Gemini",
+    "ruled_out": ["authentication failure", "permission failure", "missing model", "quota/rate limit", "transport failure", "AnswerValidator rejection"],
+    "exact_rejected_field": "unavailable",
+    "additional_real_requests_after_diagnosis": 0,
+    "diagnostic_change": "retained as safe permanent observability: bounded status/category/provider only; no raw body, message, prompt, header, or key",
+    "diagnostic_tests": {"focused_passed": 29, "complete_backend_passed": 497}
+  },
+  "security_checks": {
+    "api_key_in_logs": false,
+    "authorization_headers_in_logs": false,
+    "secret_in_reports": false,
+    "provider_raw_response_persisted": false,
+    "full_user_queries_logged": false,
+    "user_queries_persisted_by_stage_5_3": false,
+    "filesystem_paths_in_public_api": false,
+    "repository_secret_pattern_scan": "PASS",
+    "diagnostic_log_fields": ["request_id", "provider failure category", "upstream status", "sanitized provider error category", "provider name", "response status", "duration_ms"],
+    "notes": "The API key, headers, request body, raw Gemini response, prompt, and provider message were not logged or persisted."
+  },
+  "regression": {
+    "backend_tests": {"passed": 497, "failed": 0, "warnings": 1},
+    "frontend_tests": {"passed": 32, "failed": 0},
+    "typescript": "PASS",
+    "eslint": "PASS",
+    "production_build": "PASS",
+    "stage_4_4": {
+      "status": "PASS",
+      "output": "/tmp/specengine-stage-5-3-stage44",
+      "historical_report_overwritten": false,
+      "expected_standard": "22/22",
+      "expected_document": "22/22",
+      "expected_clause": "9/9",
+      "mrr": 0.768182,
+      "recall_at_1": 0.560606,
+      "recall_at_3": 0.818182,
+      "recall_at_5": 0.931818,
+      "known_failures": {"RERANKING_ERROR": 1}
+    },
+    "stage_4_6": {
+      "status": "PASS",
+      "output": "/tmp/specengine-stage-5-3-stage46",
+      "historical_report_overwritten": false,
+      "states": {"SUFFICIENT": 25, "INSUFFICIENT": 1, "OUT_OF_DOMAIN": 1},
+      "positive_cases": "22/22",
+      "negative_cases": "2/2",
+      "retrieval_ordering": "27/27"
+    },
+    "frozen_artifacts_match_stage_5_2": true,
+    "frozen_hashes": {
+      "data/raw": "fac379a4c54d512f6358918b5a2f79372c724c57be80f24a84f7285761a5bd1b",
+      "data/processed/extracted": "24f2a6117e226af4fbb3215baa21a3321431475e95d98317a20d4e3d747a9ce4",
+      "data/processed/cleaned": "bc764f820a980d9c0507054f1d939fbc795496e21155a8f50688ada411ae9087",
+      "data/processed/structured": "eadb1095d56fa85513b4fb1bec7ce2655c2bfc0202aa70c443df4e49fb088661",
+      "data/processed/chunks": "7990d18ebe3b10239e763018be47e2ec50e1a9250b17bdcc83df8ee537941ba8",
+      "data/processed/chunks_v2": "f1ab85f7270deba9033c3baab6a5bf9ff1bc6a59ccf19692470f8ae00530eaab",
+      "data/processed/embeddings": "365e9e60664afa827004bd8dba067553a1826a084d4a9278b0069ec96db4ace5",
+      "data/processed/embeddings_v2": "1f34afc7616545d427e5e0cfda5b140e92969b19ad258e0ad0a27e4842eae92d",
+      "data/processed/vector_store": "fcca9f01e18a9ab009624a810ff4fa933541aa4d88c033b9ea8f4d699d2b9e3c"
+    }
+  },
+  "known_limitations": [
+    "Both real Gemini requests were rejected with permanent HTTP 400 INVALID_ARGUMENT; no validated answer was available.",
+    "No real Gemini-generated answer, citation set, token usage, provider latency, retry behavior, or human semantic-entailment review is available.",
+    "Source Drawer interaction remains regression-tested but was not exercised from a real Gemini answer or two real citations.",
+    "The PARTIAL_EVIDENCE live acceptance case remains unverified.",
+    "Stage 5.3 cannot be marked complete until the incompatible request argument is identified and separately authorized remediation is completed."
+  ],
+  "final_status": {
+    "real_gemini_provider": "FAIL_HTTP_400_INVALID_ARGUMENT",
+    "end_to_end_api": "FAIL_GEMINI_REJECTED_REQUEST_ARGUMENTS",
+    "grounded_answers": "FAIL_NOT_GENERATED",
+    "citation_integrity": "FAIL_REAL_PROVIDER_NOT_VALIDATED",
+    "source_drawer": "FAIL_REAL_PROVIDER_NOT_VALIDATED",
+    "out_of_domain_protection": "PASS",
+    "stage_4_4_regression": "PASS",
+    "stage_4_6_regression": "PASS",
+    "security": "PASS",
+    "production_build": "PASS"
+  }
+}

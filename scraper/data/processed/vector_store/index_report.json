@@ -1,0 +1,155 @@
+{
+  "ann_approximation": false,
+  "backend": "numpy_exact_flat",
+  "creation_timestamp": "2026-09-28T23:33:21+00:00",
+  "dimension": 768,
+  "documents": [
+    "ba52fdad4caf5bc088bd",
+    "bc5e2c188eaf267d3871",
+    "d61562a653c02bee77be"
+  ],
+  "embedding_model": "BAAI/bge-base-en-v1.5",
+  "filter_capabilities": {
+    "annex_identifier": {
+      "coverage": 0.7629,
+      "example_values": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "rows_total": 97,
+      "rows_with_value": 74,
+      "state": "partial",
+      "stored_field": "annex_identifier"
+    },
+    "clause_number": {
+      "coverage": 0.4845,
+      "example_values": [
+        "1",
+        "1.1",
+        "1.2",
+        "1.3.1",
+        "1.3.2",
+        "1.3.3",
+        "1.4",
+        "2",
+        "2.1",
+        "2.2"
+      ],
+      "rows_total": 97,
+      "rows_with_value": 47,
+      "state": "partial",
+      "stored_field": "clause_number"
+    },
+    "document_id": {
+      "coverage": 1.0,
+      "example_values": [
+        "ba52fdad4caf5bc088bd",
+        "bc5e2c188eaf267d3871",
+        "d61562a653c02bee77be"
+      ],
+      "rows_total": 97,
+      "rows_with_value": 97,
+      "state": "supported",
+      "stored_field": "document_id"
+    },
+    "document_type": {
+      "coverage": 1.0,
+      "example_values": [
+        "product_manual"
+      ],
+      "rows_total": 97,
+      "rows_with_value": 97,
+      "state": "supported",
+      "stored_field": "document_type"
+    },
+    "product": {
+      "coverage": 1.0,
+      "example_values": [
+        "kettle",
+        "mixer",
+        "pressure_cooker"
+      ],
+      "rows_total": 97,
+      "rows_with_value": 97,
+      "state": "supported",
+      "stored_field": "product"
+    },
+    "standard_number": {
+      "coverage": 1.0,
+      "example_values": [
+        "IS 2347:2023",
+        "IS 367:1993",
+        "IS 4250:2025"
+      ],
+      "rows_total": 97,
+      "rows_with_value": 97,
+      "state": "supported",
+      "stored_field": "standard_numbers"
+    }
+  },
+  "filterable_fields": [
+    "standard_number",
+    "document_id",
+    "clause_number",
+    "annex_identifier",
+    "document_type",
+    "product"
+  ],
+  "generated_at": "2026-09-28T23:33:21+00:00",
+  "index_location": "data/processed/vector_store",
+  "index_type": "exact_exhaustive_flat",
+  "max_norm_deviation": 1.0786550075359003e-07,
+  "metadata_fields": [
+    "chunk_id",
+    "document_id",
+    "standard_numbers",
+    "document_title",
+    "document_type",
+    "organization",
+    "section_number",
+    "section_title",
+    "clause_number",
+    "clause_title",
+    "parent_clause_number",
+    "annex_identifier",
+    "annex_title",
+    "table_identifier",
+    "pages",
+    "start_page",
+    "end_page",
+    "source_url",
+    "source_file",
+    "sha256",
+    "context_prefix",
+    "text",
+    "chunk_index",
+    "chunk_count",
+    "structural_type",
+    "structural_path",
+    "product"
+  ],
+  "model_revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+  "normalization": true,
+  "normalization_tolerance": 1e-05,
+  "number_of_chunks": 97,
+  "number_of_documents": 3,
+  "number_of_vectors": 97,
+  "products_indexed": [
+    "kettle",
+    "mixer",
+    "pressure_cooker"
+  ],
+  "similarity_implementation": "dot_product_on_normalized_vectors",
+  "similarity_metric": "cosine",
+  "single_dimension": true,
+  "single_embedding_model": true,
+  "single_model_revision": true,
+  "source_chunks_file": "data/processed/chunks_v2/chunks.jsonl",
+  "source_chunks_sha256": "e9dbad20da6dbbacb9f8fd8e95e4bc4c3f2db71f955a26ec3bf4aba19d8b4c1b",
+  "source_embeddings_file": "data/processed/embeddings_v2/embeddings.jsonl",
+  "source_embeddings_sha256": "53badf25689e9f700d3e292b670c5062c2b4086be9f4e877e26bb5e6db93329e",
+  "stage": "3.2"
+}

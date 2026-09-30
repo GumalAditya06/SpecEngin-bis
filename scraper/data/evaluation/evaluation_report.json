@@ -1,0 +1,317 @@
+{
+  "answers": {
+    "completed": 0,
+    "errors": 0,
+    "evaluated": 0,
+    "groundedness_review": {
+      "note": "Populate PASS, FAIL, or UNCERTAIN only after human review.",
+      "reviewed": 0
+    },
+    "status": "not_run_provider_not_requested"
+  },
+  "citations": {
+    "correct": 0,
+    "correctness_rate": null,
+    "evaluated": 0
+  },
+  "dataset": {
+    "categories": {
+      "ambiguous": 2,
+      "annex": 3,
+      "clause_specific": 2,
+      "cross_document": 2,
+      "definition": 2,
+      "exact_standard_lookup": 3,
+      "licensing_certification": 2,
+      "negative_insufficient_evidence": 2,
+      "requirement": 2,
+      "sampling": 2,
+      "table": 3,
+      "testing": 2
+    },
+    "full_dataset_size": 27,
+    "path": "data/evaluation/questions.jsonl",
+    "size": 27,
+    "unverified_ground_truth": 3,
+    "verified_ground_truth": 24
+  },
+  "evaluation_mode": "retrieval_only",
+  "exact_identifier": {
+    "all_deterministic": true,
+    "evaluated": 10,
+    "unrelated_standard_cases": 0
+  },
+  "failures": {
+    "categories": {
+      "RERANKING_ERROR": 1
+    },
+    "count": 1
+  },
+  "generated_at": "2026-09-29T08:54:21+00:00",
+  "latency_ms": {
+    "answer_total": {
+      "count": 0,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "p95": null
+    },
+    "first_query_total": 911.305,
+    "note": "Cold start is process/model initialization; filesystem and OS caches may already be warm.",
+    "service_initialization_process_cold": 2819.808,
+    "warm_queries": {
+      "bm25_ms": {
+        "count": 25,
+        "max": 0.324,
+        "mean": 0.22564,
+        "median": 0.225,
+        "min": 0.157,
+        "p95": 0.296
+      },
+      "fusion_ms": {
+        "count": 25,
+        "max": 0.1,
+        "mean": 0.06336,
+        "median": 0.061,
+        "min": 0.018,
+        "p95": 0.094
+      },
+      "reranking_ms": {
+        "count": 25,
+        "max": 1343.951,
+        "mean": 1034.39996,
+        "median": 1078.642,
+        "min": 14.921,
+        "p95": 1334.162
+      },
+      "semantic_ms": {
+        "count": 25,
+        "max": 30.522,
+        "mean": 25.73364,
+        "median": 26.363,
+        "min": 20.701,
+        "p95": 30.415
+      },
+      "total_ms": {
+        "count": 25,
+        "max": 1365.835,
+        "mean": 1060.4634,
+        "median": 1099.593,
+        "min": 42.103,
+        "p95": 1357.017
+      }
+    }
+  },
+  "no_evidence_behavior": {
+    "answer_cases": 0,
+    "expected_state_returned": 0,
+    "note": "Retrieval candidate counts are observations, not semantic answer judgments. Answer-state and citation checks require answer evaluation.",
+    "retrieval_cases": 2,
+    "retrieval_returned_candidates": 1,
+    "retrieval_returned_zero": 1,
+    "without_citations": 0
+  },
+  "no_overall_rag_accuracy": true,
+  "reproducibility": {
+    "bm25": {
+      "b": 0.75,
+      "implementation": "in_repo_okapi_bm25",
+      "indexed_fields": [
+        "context_prefix",
+        "text",
+        "standard_numbers",
+        "clause_number",
+        "clause_title"
+      ],
+      "k1": 1.5
+    },
+    "chunks_sha256": "e9dbad20da6dbbacb9f8fd8e95e4bc4c3f2db71f955a26ec3bf4aba19d8b4c1b",
+    "corpus_sha256": "86c4860171a209816548d2d20da8f56db58da44bb375503ff50c2d9b8eaf012b",
+    "dataset_sha256": "4664d2a827c9861b501b90b82fd37bbbf0c0283f42142804f09e77446c105f0c",
+    "dataset_version": "1.0.0",
+    "embedding": {
+      "model": "BAAI/bge-base-en-v1.5",
+      "normalize": true,
+      "pooling": "cls",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a"
+    },
+    "embeddings_sha256": "53badf25689e9f700d3e292b670c5062c2b4086be9f4e877e26bb5e6db93329e",
+    "evaluation_version": "4.4.0",
+    "llm": {
+      "model": "gemini-3.6-flash",
+      "provider": null
+    },
+    "reranker": {
+      "final_k": 5,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "rerank_k": 40,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a"
+    },
+    "rrf": {
+      "bm25_candidate_k": 20,
+      "k": 60,
+      "semantic_candidate_k": 20
+    },
+    "runtime": {
+      "numpy": "2.5.3",
+      "python": "3.14.4",
+      "sentence_transformers": "6.1.0",
+      "torch": "2.14.0+cpu"
+    },
+    "vector_store_config_sha256": "a51fc1c488648a52f43f926753054697fb5fbdc947ede6ca842c5b3719dfa766",
+    "vector_store_configuration": {
+      "backend": "numpy_exact_flat",
+      "created_at": "2026-09-28T23:33:21+00:00",
+      "dimension": 768,
+      "format_version": 1,
+      "indexer_version": "1.0.0",
+      "max_norm_deviation": 1.0786550075359003e-07,
+      "metric": "cosine",
+      "normalization_tolerance": 1e-05,
+      "normalized": true,
+      "search": "exact_exhaustive",
+      "similarity_implementation": "dot_product_on_normalized_vectors",
+      "size": 97
+    }
+  },
+  "retrieval": {
+    "bm25": {
+      "latency_ms": {
+        "count": 27,
+        "max": 0.355,
+        "mean": 0.248037,
+        "median": 0.241,
+        "min": 0.158,
+        "p95": 0.321
+      },
+      "mrr": {
+        "evaluated_questions": 22,
+        "mean": 0.438059
+      },
+      "recall_at_1": {
+        "evaluated_questions": 22,
+        "mean": 0.242424
+      },
+      "recall_at_10": {
+        "evaluated_questions": 22,
+        "mean": 0.818182
+      },
+      "recall_at_3": {
+        "evaluated_questions": 22,
+        "mean": 0.462121
+      },
+      "recall_at_5": {
+        "evaluated_questions": 22,
+        "mean": 0.643939
+      }
+    },
+    "hybrid_reranked": {
+      "expected_clause_retrieval": {
+        "evaluated_questions": 9,
+        "matched": 9,
+        "rate": 1.0
+      },
+      "expected_document_retrieval": {
+        "evaluated_questions": 22,
+        "matched": 22,
+        "rate": 1.0
+      },
+      "expected_standard_retrieval": {
+        "evaluated_questions": 22,
+        "matched": 22,
+        "rate": 1.0
+      },
+      "latency_ms": {
+        "count": 27,
+        "max": 1365.835,
+        "mean": 1015.665963,
+        "median": 1094.241,
+        "min": 0.091,
+        "p95": 1357.017
+      },
+      "mrr": {
+        "evaluated_questions": 22,
+        "mean": 0.768182
+      },
+      "recall_at_1": {
+        "evaluated_questions": 22,
+        "mean": 0.560606
+      },
+      "recall_at_10": {
+        "evaluated_questions": 0,
+        "mean": null,
+        "note": "not available: frozen RetrievalService returns at most 5"
+      },
+      "recall_at_3": {
+        "evaluated_questions": 22,
+        "mean": 0.818182
+      },
+      "recall_at_5": {
+        "evaluated_questions": 22,
+        "mean": 0.931818
+      }
+    },
+    "rrf_hybrid": {
+      "latency_ms": {
+        "count": 27,
+        "max": 0.091,
+        "mean": 0.064889,
+        "median": 0.064,
+        "min": 0.012,
+        "p95": 0.087
+      },
+      "mrr": {
+        "evaluated_questions": 22,
+        "mean": 0.716162
+      },
+      "recall_at_1": {
+        "evaluated_questions": 22,
+        "mean": 0.515152
+      },
+      "recall_at_10": {
+        "evaluated_questions": 22,
+        "mean": 0.954545
+      },
+      "recall_at_3": {
+        "evaluated_questions": 22,
+        "mean": 0.795455
+      },
+      "recall_at_5": {
+        "evaluated_questions": 22,
+        "mean": 0.863636
+      }
+    },
+    "semantic": {
+      "latency_ms": {
+        "count": 27,
+        "max": 31.22,
+        "mean": 25.785444,
+        "median": 26.047,
+        "min": 20.685,
+        "p95": 30.483
+      },
+      "mrr": {
+        "evaluated_questions": 22,
+        "mean": 0.680736
+      },
+      "recall_at_1": {
+        "evaluated_questions": 22,
+        "mean": 0.44697
+      },
+      "recall_at_10": {
+        "evaluated_questions": 22,
+        "mean": 0.954545
+      },
+      "recall_at_3": {
+        "evaluated_questions": 22,
+        "mean": 0.863636
+      },
+      "recall_at_5": {
+        "evaluated_questions": 22,
+        "mean": 0.863636
+      }
+    }
+  },
+  "stage": "4.4"
+}

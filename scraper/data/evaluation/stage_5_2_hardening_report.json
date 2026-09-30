@@ -1,0 +1,244 @@
+{
+  "stage": "5.2",
+  "generated_at": "2026-09-29T15:24:06Z",
+  "status": "COMPLETE",
+  "scope": "Production hardening and deployment readiness only; frozen RAG ranking, generation, evidence, citation, entity, corpus, and evaluation behavior was not redesigned.",
+  "changes_made": [
+    "Made frontend demo data opt-in only; the exact value NEXT_PUBLIC_DEMO_MODE=true enables demo mode and false/absent/malformed values use the live API.",
+    "Applied an exact HTTPS BIS/LIMS source-host allow-list to every external-source link surface.",
+    "Added bounded request bodies, generated request IDs, redacted validation/errors, strict production CORS parsing, and a bounded data-root resolver.",
+    "Added structured privacy-conscious request, retrieval, assessment, generation, and failure events without request bodies, full queries, credentials, or authorization headers.",
+    "Added liveness and readiness endpoints which distinguish process, retrieval assets, models, and optional provider configuration.",
+    "Replaced the frontend development-container command with a production multi-stage build/start configuration.",
+    "Disabled Next 16's experimental native TypeScript CLI because it failed to parse the generated route configuration; the standard TypeScript build path passes.",
+    "Documented platform-neutral backend/frontend deployment, environment separation, frozen model assets, and measured resource requirements."
+  ],
+  "files_created": {
+    "backend": [
+      "scraper/production.py",
+      "tests/test_stage_5_2_hardening.py",
+      ".env.production.example",
+      "DEPLOYMENT.md",
+      "data/evaluation/stage_5_2_hardening_report.json"
+    ],
+    "frontend": [
+      "lib/sources/url.ts",
+      "tests/stage-5-2-hardening.test.tsx",
+      ".env.production.example"
+    ]
+  },
+  "files_modified": {
+    "backend": [
+      "scraper/retrieval_api.py",
+      "scraper/assistant_api.py",
+      "scraper/grounded_answer.py",
+      "tests/test_assistant_api.py",
+      ".env.example",
+      ".gitignore",
+      "README.md"
+    ],
+    "frontend": [
+      "lib/api/config.ts",
+      "components/sources/SourceMetadata.tsx",
+      "components/SearchResults.tsx",
+      "app/sources/[id]/content.tsx",
+      "tests/grounded-answer-ux.test.tsx",
+      "Dockerfile",
+      "next.config.ts",
+      ".env.example",
+      ".gitignore",
+      "README.md",
+      "FRONTEND_BACKEND_CONTRACT.md"
+    ]
+  },
+  "environment_variables": {
+    "development": {
+      "SPECENGINE_ENV": "development",
+      "NEXT_PUBLIC_DEMO_MODE": "true only when local sample data is explicitly wanted",
+      "defaults": "localhost CORS and local API URLs are documented for development"
+    },
+    "demo": {
+      "SPECENGINE_ENV": "demo",
+      "NEXT_PUBLIC_DEMO_MODE": "true"
+    },
+    "production": {
+      "SPECENGINE_ENV": "production",
+      "SPECENGINE_DATA_ROOT": "required mounted data root",
+      "SPECENGINE_DATA_DIR": "must resolve within SPECENGINE_DATA_ROOT",
+      "SPECENGINE_CORS_ORIGINS": "explicit comma-separated HTTPS origins; wildcard rejected",
+      "SPECENGINE_MAX_REQUEST_BYTES": "optional; default 16384, minimum 4096",
+      "NEXT_PUBLIC_DEMO_MODE": "false at build time",
+      "NEXT_PUBLIC_API_URL": "required at frontend build time",
+      "NEXT_PUBLIC_RETRIEVAL_API_URL": "required at frontend build time",
+      "HF_HUB_OFFLINE": "recommended 1 after frozen model preloading",
+      "TRANSFORMERS_OFFLINE": "recommended 1 after frozen model preloading"
+    },
+    "provider": {
+      "BIS_LLM_PROVIDER": "gemini when generation is enabled",
+      "BIS_LLM_MODEL": "existing frozen model",
+      "BIS_LLM_API_KEY": "secret-managed; absent during this validation",
+      "BIS_LLM_API_URL": "existing endpoint override",
+      "BIS_LLM_TIMEOUT_SECONDS": "existing timeout"
+    },
+    "secret_exposure": false,
+    "live_gemini_request_made": false
+  },
+  "security_checks": {
+    "request_validation": "PASS: malformed JSON, missing/unsupported fields, and invalid top_k/filters return 422 with input values removed from validation details",
+    "query_contract": "PASS: 2000 characters accepted; 2001 rejected",
+    "request_size": "PASS: request bodies over the configured cap return controlled 413 before parsing",
+    "http_methods": "PASS: route-level unsupported methods return 405",
+    "cors": "PASS: production requires explicit HTTPS origins; wildcard and HTTP origins fail closed; credentials disabled",
+    "error_redaction": "PASS: provider, retrieval, readiness, validation, and unexpected failure responses do not expose keys, paths, stack traces, or upstream detail",
+    "secrets_scan": "PASS: no committed Gemini/API-key value found; example credentials remain blank",
+    "logging_privacy": "PASS: structured events contain request ID, path, status, timings, assessment, and failure category but no body, full query, authorization header, or key",
+    "data_boundary": "PASS: runtime data directory must resolve within an explicitly configured root",
+    "prompt_injection_boundary": "UNCHANGED: retrieved text remains evidence data under the frozen grounding instruction and AnswerValidator",
+    "user_controlled_ids": "UNCHANGED: citation IDs remain provider-validated against EvidencePackage; request filters remain schema-constrained"
+  },
+  "url_allow_list": {
+    "policy": "Exact hostname, HTTPS only, no credentials, no non-default port, invalid values omitted rather than rewritten",
+    "hosts": [
+      "bis.gov.in",
+      "www.bis.gov.in",
+      "standards.bis.gov.in",
+      "services.bis.gov.in",
+      "www.services.bis.gov.in",
+      "lims.bis.gov.in"
+    ],
+    "surfaces": [
+      "shared SourceMetadata/SourceDrawer",
+      "retrieval SearchResults",
+      "source detail sidebar",
+      "source detail record tab"
+    ],
+    "invalid_host_behavior": "No external link is rendered",
+    "valid_url_rewriting": false,
+    "tests": "PASS: 6 allowed cases and 7 rejection cases plus shared-component fail-closed rendering"
+  },
+  "health_readiness_behavior": {
+    "live_http_validation": "PASS against a temporary localhost Uvicorn process; both endpoints returned 200 with generated X-Request-ID headers",
+    "liveness": {
+      "endpoint": "GET /health/live",
+      "meaning": "application process alive",
+      "model_load": false,
+      "provider_required": false
+    },
+    "readiness": {
+      "endpoint": "GET /health/ready",
+      "meaning": "required retrieval files exist and frozen retrieval models initialize",
+      "components": ["application", "retrieval_assets", "models", "provider"],
+      "asset_or_model_failure_status": 503,
+      "missing_provider_status": 200,
+      "missing_provider_state": "unconfigured",
+      "failure_detail_redacted": true
+    }
+  },
+  "deployment_requirements": {
+    "backend_install": "python -m pip install -e '.[embeddings,service]'",
+    "backend_start": "uvicorn scraper.assistant_api:app --host 0.0.0.0 --port 8001 --no-access-log",
+    "frontend_build": "NEXT_PUBLIC_DEMO_MODE=false NEXT_PUBLIC_API_URL=<url> NEXT_PUBLIC_RETRIEVAL_API_URL=<url> npm run build -- --webpack",
+    "frontend_start": "npm start",
+    "proxy": "HTTPS reverse proxy recommended with independent body/timeout limits",
+    "data": "existing data tree mounted read-only",
+    "models": [
+      "BAAI/bge-base-en-v1.5@a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "cross-encoder/ms-marco-MiniLM-L6-v2@233902d25c440f23af6f7d6e94d2946bac0bee0a"
+    ],
+    "minimum_recommended_host": "2 CPU cores, 4 GB RAM, 2 GB free model/data disk; no GPU required"
+  },
+  "model_startup_measurements": {
+    "host": "validation CPU host, offline cached models",
+    "resolved_model_disk_mb": {
+      "embedding": 419,
+      "reranker": 805,
+      "combined": 1224
+    },
+    "data_tree_mb": 25,
+    "retrieval_service_cold_initialization_ms": 2709.317,
+    "first_retrieval_ms": 958.179,
+    "first_retrieval_reranking_ms": 932.88,
+    "peak_resident_kb": 1100336,
+    "warm_behavior": "models are cached by the process; request retrieval remains CPU-reranker dominated"
+  },
+  "test_results": {
+    "backend": {
+      "command": ".venv/bin/python -m pytest -q",
+      "passed": 495,
+      "failed": 0,
+      "warnings": 1,
+      "warning": "existing FastAPI TestClient httpx deprecation warning"
+    },
+    "frontend": {
+      "command": "npm test -- --run",
+      "passed": 32,
+      "failed": 0
+    },
+    "combined_passed": 527,
+    "stage_5_2_focused": {
+      "backend_test_functions": 12,
+      "frontend_cases": 15,
+      "status": "PASS"
+    },
+    "typescript": "PASS: npx tsc --noEmit",
+    "eslint": "PASS: npm run lint",
+    "production_build": "PASS: NEXT_PUBLIC_DEMO_MODE=false npm run build -- --webpack"
+  },
+  "regression_results": {
+    "stage_5_1_baseline_tests": 500,
+    "current_tests": 527,
+    "frozen_architecture_changed": false,
+    "retrieval_ordering": "UNCHANGED 27/27",
+    "evidence_ids": "UNCHANGED by Stage 4.6 case comparison and integration suite",
+    "citation_reconstruction": "UNCHANGED; complete backend and frontend citation tests pass",
+    "source_drawer_behavior": "UNCHANGED except unsafe external links now fail closed; interaction/focus/stale-evidence tests pass",
+    "stage_4_4": {
+      "execution": "fresh offline run written only to /tmp/specengine-stage-5-2-stage44",
+      "expected_standard_retrieval": "22/22",
+      "expected_document_retrieval": "22/22",
+      "expected_clause_retrieval": "9/9",
+      "mrr": 0.768182,
+      "recall_at_1": 0.560606,
+      "recall_at_3": 0.818182,
+      "recall_at_5": 0.931818,
+      "known_failure_count": 1,
+      "known_failure_category": "RERANKING_ERROR",
+      "hybrid_mean_ms": 1052.050815,
+      "historical_report_overwritten": false
+    },
+    "stage_4_6": {
+      "execution": "fresh offline run written only to /tmp/specengine-stage-5-2-stage46",
+      "states": {"SUFFICIENT": 25, "INSUFFICIENT": 1, "OUT_OF_DOMAIN": 1},
+      "verified_positive_preserved": "22/22",
+      "negative_guarded": "2/2",
+      "retrieval_order_unchanged": "27/27",
+      "gemini_calls_avoided": 2,
+      "provider_calls_made": 0,
+      "historical_report_overwritten": false
+    }
+  },
+  "frozen_artifact_hashes": {
+    "method": "SHA-256 of sorted sha256sum records; all match Stage 5.1 exactly",
+    "data/raw": {"sha256": "fac379a4c54d512f6358918b5a2f79372c724c57be80f24a84f7285761a5bd1b", "files": 32, "bytes": 19674728},
+    "data/processed/extracted": {"sha256": "24f2a6117e226af4fbb3215baa21a3321431475e95d98317a20d4e3d747a9ce4", "files": 4, "bytes": 143939},
+    "data/processed/cleaned": {"sha256": "bc764f820a980d9c0507054f1d939fbc795496e21155a8f50688ada411ae9087", "files": 4, "bytes": 141037},
+    "data/processed/structured": {"sha256": "eadb1095d56fa85513b4fb1bec7ce2655c2bfc0202aa70c443df4e49fb088661", "files": 4, "bytes": 311249},
+    "data/processed/chunks": {"sha256": "7990d18ebe3b10239e763018be47e2ec50e1a9250b17bdcc83df8ee537941ba8", "files": 2, "bytes": 202270},
+    "data/processed/chunks_v2": {"sha256": "f1ab85f7270deba9033c3baab6a5bf9ff1bc6a59ccf19692470f8ae00530eaab", "files": 3, "bytes": 258698},
+    "data/processed/embeddings": {"sha256": "365e9e60664afa827004bd8dba067553a1826a084d4a9278b0069ec96db4ace5", "files": 3, "bytes": 1665830},
+    "data/processed/embeddings_v2": {"sha256": "1f34afc7616545d427e5e0cfda5b140e92969b19ad258e0ad0a27e4842eae92d", "files": 3, "bytes": 1935045},
+    "data/processed/vector_store": {"sha256": "fcca9f01e18a9ab009624a810ff4fa933541aa4d88c033b9ea8f4d699d2b9e3c", "files": 5, "bytes": 542265},
+    "evaluation_dataset_sha256": "4664d2a827c9861b501b90b82fd37bbbf0c0283f42142804f09e77446c105f0c",
+    "historical_stage_4_4_report_sha256": "03100944822c79edd0a5621d896424499fd1d057d411890600259a1a9b18f51f",
+    "historical_stage_4_6_report_sha256": "fbec18373a236846e8c8c4386a72f9b2e494226000c18364892b1e23bb67fa06",
+    "all_match_stage_5_1": true
+  },
+  "known_limitations": [
+    "Gemini credentials were absent, so no live provider request was made; the real boundary and missing/auth/timeout/malformed-output behavior remain covered by deterministic tests.",
+    "Readiness verifies provider configuration presence, not remote Gemini reachability, to avoid making health depend on a billable external request.",
+    "Cold readiness intentionally loads both frozen retrieval models and can take several seconds; orchestration probes need an appropriate initial delay/timeout.",
+    "Application-level authentication, authorization, and rate limiting are not part of the current single-user MVP and must be supplied before multi-user exposure, normally at the gateway plus an authenticated application layer.",
+    "The frontend source allow-list is intentionally exact; a new authoritative BIS/LIMS hostname requires explicit review and a code/test update.",
+    "The existing FastAPI TestClient/httpx deprecation warning remains and does not affect runtime behavior."
+  ]
+}

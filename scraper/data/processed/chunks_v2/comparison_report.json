@@ -1,0 +1,160 @@
+{
+  "bge_over_regex_understatement": 1.0867,
+  "chunks_exceeding_safe_limit_after": 0,
+  "chunks_exceeding_safe_limit_before": 10,
+  "chunks_truncated_after": 0,
+  "chunks_truncated_before": 10,
+  "generated_at": "2026-09-28T23:12:32+00:00",
+  "max_bge_token_count_after": 450,
+  "max_bge_token_count_before": 1006,
+  "max_regex_token_count_before": 862,
+  "model_max_length": 512,
+  "new_chunk_count": 97,
+  "newly_created_chunks": 24,
+  "old_chunk_count": 83,
+  "old_chunk_ids": [
+    "08cb5f835d699d90bf06f9d4",
+    "24dea232fd1b7b704e2cee9b",
+    "492d5e4e667b20ce04aed357",
+    "639bd0673282ee1ddd933069",
+    "83d37a09e64ef578866c0ffd",
+    "8439983a9ecbdb72d56ac23c",
+    "ab92c63e2e2bc5bca6a23d72",
+    "e07a10ef9cf49c3b090695bd",
+    "e2d2ae9c51dd12cabe8112dc",
+    "fa6164d48ec0e3744ae19f6b"
+  ],
+  "retired_chunks": 10,
+  "safe_limit": 450,
+  "source_text_coverage": {
+    "characters_dropped": 0,
+    "chunks_preserved_exactly": 73,
+    "summary": "Every structural unit's character range is tiled exactly by its chunks, verified by offset, not by string matching.",
+    "units_requiring_split": 8
+  },
+  "split_unit_detail": [
+    {
+      "annex_identifier": "C",
+      "chunk_ids": [
+        "68eafd97f52e6271dcdb7439",
+        "ede47c100893bc026e2ab184"
+      ],
+      "clause_number": null,
+      "max_embedding_input_tokens": 444,
+      "new_chunk_count": 2,
+      "previous_chunk_count": 1,
+      "structural_type": "table",
+      "table_identifier": "1",
+      "unit_key": "363f5c4d23a3e36b5055807c5f845fbe"
+    },
+    {
+      "annex_identifier": "B",
+      "chunk_ids": [
+        "22e96b962b54f3cd66591860",
+        "74993e38bbda94ee14ca88ef",
+        "195b973c2c8d3b50ec6b3f47"
+      ],
+      "clause_number": null,
+      "max_embedding_input_tokens": 450,
+      "new_chunk_count": 3,
+      "previous_chunk_count": 1,
+      "structural_type": "annex",
+      "table_identifier": null,
+      "unit_key": "6f92818850a6ac896b820e606e92e797"
+    },
+    {
+      "annex_identifier": "C",
+      "chunk_ids": [
+        "faf2dbdca15af98706c753eb",
+        "dab2960b7993d8f378fcf9a0",
+        "ea07f3f962b0dc92a5b0bef2"
+      ],
+      "clause_number": null,
+      "max_embedding_input_tokens": 448,
+      "new_chunk_count": 3,
+      "previous_chunk_count": 1,
+      "structural_type": "table",
+      "table_identifier": "1",
+      "unit_key": "717fa987f798b95639afe1e6a084bd04"
+    },
+    {
+      "annex_identifier": "B",
+      "chunk_ids": [
+        "6700345cc767a13bcea4e8aa",
+        "08d9c75410606a74ee58db54",
+        "e9892519c74ea6cead229b4b"
+      ],
+      "clause_number": null,
+      "max_embedding_input_tokens": 441,
+      "new_chunk_count": 3,
+      "previous_chunk_count": 1,
+      "structural_type": "annex",
+      "table_identifier": null,
+      "unit_key": "8d630efbc336ba65467f0f4ffabf90b9"
+    },
+    {
+      "annex_identifier": "D",
+      "chunk_ids": [
+        "ae5a8fdca612347b92eaccff",
+        "34d3fe1b2aabeefdcc360b29",
+        "1c481dfff934eba889fe559c",
+        "77438fbce679125964586fbe",
+        "4304f5bb2844c45e23d0a682",
+        "064381d762e2f5bb4e130f34",
+        "2889d2274b9aea47bf167ea8"
+      ],
+      "clause_number": null,
+      "max_embedding_input_tokens": 450,
+      "new_chunk_count": 7,
+      "previous_chunk_count": 3,
+      "structural_type": "table",
+      "table_identifier": "1",
+      "unit_key": "d1cd7774f2162b9edb01a207b9a03412"
+    },
+    {
+      "annex_identifier": "C",
+      "chunk_ids": [
+        "4c041c1af36fb2124920cbda",
+        "9019d77fdd5cea25e3f06274"
+      ],
+      "clause_number": null,
+      "max_embedding_input_tokens": 449,
+      "new_chunk_count": 2,
+      "previous_chunk_count": 1,
+      "structural_type": "annex",
+      "table_identifier": null,
+      "unit_key": "d4cccd7868ed3f60a7a1ba99cb4fc728"
+    },
+    {
+      "annex_identifier": "E",
+      "chunk_ids": [
+        "cd79088efb13be4d71c7b557",
+        "e08197d10ceaadc3a03114ef"
+      ],
+      "clause_number": null,
+      "max_embedding_input_tokens": 447,
+      "new_chunk_count": 2,
+      "previous_chunk_count": 1,
+      "structural_type": "annex",
+      "table_identifier": null,
+      "unit_key": "dd28f35874d07f25fa4701ac2bd784d1"
+    },
+    {
+      "annex_identifier": null,
+      "chunk_ids": [
+        "6313b1d8e7b68de420d06b0d",
+        "e9f56a33810f1730d4e85132"
+      ],
+      "clause_number": null,
+      "max_embedding_input_tokens": 434,
+      "new_chunk_count": 2,
+      "previous_chunk_count": 1,
+      "structural_type": "front_matter",
+      "table_identifier": null,
+      "unit_key": "f6cf7c6d8df468377a3ae23bfa998cb2"
+    }
+  ],
+  "split_units": 8,
+  "unchanged_chunks": 73,
+  "unchanged_units": 73
+}

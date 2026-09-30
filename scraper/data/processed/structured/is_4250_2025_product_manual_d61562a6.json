@@ -1,0 +1,945 @@
+{
+  "ambiguous_detections": [],
+  "cleaned_at": "2026-09-28T21:05:25+00:00",
+  "cleaned_input_file": "/home/aditya/Aditya/new makings/scraper/data/processed/cleaned/is_4250_2025_product_manual_d61562a6.json",
+  "cleaned_input_sha256": "3bac23e04a64e2f76922170e7f2e50e4eff0fbedae816a085db1680879660444",
+  "conflict_type": null,
+  "document_detected_standard_numbers": [
+    "IS 4250:2025"
+  ],
+  "document_id": "d61562a653c02bee77be",
+  "document_type": "product_manual",
+  "extracted_at": "2026-09-28T20:39:59+00:00",
+  "local_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+  "manifest_standard_numbers": [
+    "IS 4250:2025"
+  ],
+  "metadata_conflict": false,
+  "organization": "Bureau of Indian Standards",
+  "pages": [
+    {
+      "character_count_cleaned": 1318,
+      "character_count_raw": 1429,
+      "cleaned_text": "उȋाद मैɊुअल\nिवद्युत् फ़ूड-िमƛर (िलƓीडाइज़र एवं Ťाइंडर) और अपकŐ ūी जूसर - िविशिʼ (दूसरा पुनरीƗण)\nआई एस 4250 : 2025 के अनुसार\n\nPRODUCT MANUAL\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification\n(Second Revision)\nACCORDINGTO IS 4250 : 2025\n\nिविभɄ उȋादों के िलए भारतीय मानक ɯूरो (अनुŝपता मूʞांकन) िविनयम, 2018 की योजना- I के तहत Ůमाणन\nके संचालन मŐ एकŝपता और पारदिशŊता के िलए इस उȋाद मैनुअल का उपयोग सभी Ɨेũीय / शाखा कायाŊलयों और\nलाइसŐसधाįरयों Ȫारा संदभŊ सामŤी के ŝप मŐ िकया जाएगा। दˑावेज़ का उपयोग बीआईएस Ůमाणन Ůाɑ करने के\nइǅुक संभािवत आवेदकों Ȫारा भी िकया जा सकता हैI\nThis Product Manual shall be used as reference material by all Regional/Branch Offices & licensees to ensure uniformity of practice and transparency in operation of certification under\nScheme-I of Bureau of Indian Standards (Conformity Assessment) Regulations, 2018 for various products. The document may also be used by prospective applicants desirous of obtaining BIS certification.\n\n1.\nमानक संƥा\nIS No.\n:\nIS 4250 : 2025\n\nशीषŊक\nTitle\n:\nElectric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers -\nSpecification (Second Revision)\n\nसंशोधनों की संƥा\nNo. of amendments\n:\nNIL\n2.\nनमूना ǑदशाǓनदȶश\nSampling Guidelines:\na)\nकǄा माल\nRaw material\n:\n-\nb)\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n:\nPlease refer ANNEX – A",
+      "cleaning_statistics": {
+        "blank_lines_removed": 2,
+        "headers_removed": 1,
+        "line_joins": 3,
+        "page_numbers_removed": 1
+      },
+      "page_number": 1,
+      "raw_text": " \n \nPM/IS 4250/4/April 2025 \n \n1 | P a g e \n \n \n \n \n \n \n \n \nउȋाद मैɊुअल \nिवद्युत् फ़ूड-िमƛर (िलƓीडाइज़र एवं Ťाइंडर) और अपकŐ ūी जूसर - िविशिʼ (दूसरा पुनरीƗण)  \nआई एस 4250 : 2025 के अनुसार \n \nPRODUCT MANUAL \nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification  \n(Second Revision) \n ACCORDINGTO IS 4250 : 2025 \n \nिविभɄ उȋादों के िलए भारतीय मानक ɯूरो (अनुŝपता मूʞांकन) िविनयम, 2018 की योजना- I के तहत Ůमाणन \nके संचालन मŐ एकŝपता और पारदिशŊता के िलए इस उȋाद मैनुअल का उपयोग सभी Ɨेũीय / शाखा कायाŊलयों और \nलाइसŐसधाįरयों Ȫारा संदभŊ सामŤी के ŝप मŐ िकया जाएगा। दˑावेज़ का उपयोग बीआईएस Ůमाणन Ůाɑ करने के \nइǅुक संभािवत आवेदकों Ȫारा भी िकया जा सकता हैI \nThis Product Manual shall be used as reference material by all Regional/Branch Offices & \nlicensees to ensure uniformity of practice and transparency in operation of certification under \nScheme-I of Bureau of Indian Standards (Conformity Assessment) Regulations, 2018 for various \nproducts. The document may also be used by prospective applicants desirous of obtaining BIS \ncertification. \n \n \n \n1. \nमानक संƥा   \nIS No. \n:\nIS 4250 : 2025\n \nशीषŊक \nTitle \n:\nElectric Food-Mixers (Liquidizers and \nGrinders) and Centrifugal Juicers -\nSpecification (Second Revision) \n \nसंशोधनों की संƥा \nNo. of amendments \n:\nNIL\n2. \nनमूना ǑदशाǓनदȶश  \nSampling Guidelines:\na) \nकǄा माल \nRaw material \n:\n- \nb) \nसमूहीकरण िदशािनदőश  \nGrouping Guidelines \n:\nPlease refer ANNEX – A\n"
+    },
+    {
+      "character_count_cleaned": 637,
+      "character_count_raw": 734,
+      "cleaned_text": "c)\nनमूने का पįरमाण\nSample Quantity\n:\n2 numbers\n3.\nपरीƗण उपकरणों की सूची\nList of Test Equipment\n:\nPlease refer ANNEX – B\n4.\nिनरीƗण और परीƗण की ˋीम\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C\n5.\nएक िदन मŐ संभािवत परीƗण\nPossible tests in a day:\n:\nPlease refer ANNEX-D\n6.\nलाइसŐस का दायरा /Scope of the\nLicence\n:\n\nLicence is granted to use Standard Mark as per IS 4250 : 2025 with the following scope:\n\nName of the Product\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers\n\nFunctions\nLiquidizer and/or Grinder and/or Centrifugal Juicer\n\nModel No.\n\nClass\nClass of Appliance I/II/III\n\nRating\n\nW,\nV,\nHz,\nPhase",
+      "cleaning_statistics": {
+        "blank_lines_removed": 2,
+        "headers_removed": 1,
+        "line_joins": 2,
+        "page_numbers_removed": 1,
+        "whitespace_normalizations": 1
+      },
+      "page_number": 2,
+      "raw_text": " \n \nPM/IS 4250/4/April 2025 \n \n2 | P a g e \n \n \n \n \nc) \nनमूने का पįरमाण  \nSample Quantity \n:\n2 numbers \n3. \nपरीƗण उपकरणों की सूची  \nList of Test Equipment \n:\nPlease refer ANNEX – B \n4. \nिनरीƗण और परीƗण की ˋीम \nScheme of Inspection \nand Testing\n:\nPlease refer ANNEX – C \n5. \nएक िदन मŐ संभािवत परीƗण  \nPossible tests in a day: \n:\nPlease refer ANNEX-D \n6. \nलाइसŐस का दायरा /Scope of the \nLicence\n:\n \n \nLicence is granted to use Standard Mark as per IS 4250 : 2025 with  the following \nscope: \n \nName of the Product \nElectric Food-Mixers (Liquidizers and Grinders) \nand Centrifugal Juicers \n \nFunctions\nLiquidizer and/or Grinder and/or Centrifugal Juicer\n \nModel No.\n \n \nClass\nClass of Appliance I/II/III \n \nRating\n  \nW, \nV, \nHz, \nPhase \n"
+    },
+    {
+      "character_count_cleaned": 1481,
+      "character_count_raw": 1575,
+      "cleaned_text": "ANNEX – A\n\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n\n1) Manufacturer shall declare the parameters defined in scope of licence for each model of the\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers produced by them.\n2) For grant of licnce/ change in scope of licence, each model of Electric Food-Mixers (Liquidizers\nand Grinders) and Centrifugal Juicers to be tested.\n3) However, following relaxation is testing is given:\na) Change in aesthetics, i.e colour, visual design etc may not be treated as different\nmodel.\n\n4) The Firm shall declare the varieties of Electric Food-Mixers (Liquidizers and Grinders) and\nCentrifugal Juicers they intend to cover in the Licence. The Scope of Licence may be restricted based on the Manufacturing capability and testing facilities of the Manufacturer.\n5) Further, the manufacturer shall submit the following:\na) Instruction Manual as per the requirements of Cl. 7.2;\nb) Declaration of following parameters for each model:\ni). Grade (Pollution degree:__, Material group:__);\nii). Rated capacities of each function(Liquidizer and/or Grinder and/or\nCentrifugal Juicer);\n\niii). Normal Load (in terms of recipe);\n\niv). Time rating: Continuous/ Short term (ON time)/ Intermittent (ON time, OFF time);\nv). Insulation Class; and\nvi). Suitability / unsuitability for certain functions.\n\n6) During the operation of the Licence, BO shall ensure that all the models covered in the Licence\nare tested in rotation to the extent possible.",
+      "cleaning_statistics": {
+        "blank_lines_removed": 4,
+        "headers_removed": 1,
+        "line_joins": 2,
+        "page_numbers_removed": 1
+      },
+      "page_number": 3,
+      "raw_text": " \n \nPM/IS 4250/4/April 2025 \n \n3 | P a g e \n \n \nANNEX – A \n \nसमूहीकरण िदशािनदőश \nGrouping Guidelines \n \n1) Manufacturer shall declare the parameters defined in scope of licence for each model of the \nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers produced by them.  \n2) For grant of licnce/ change in scope of licence, each model of Electric Food-Mixers (Liquidizers \nand Grinders) and Centrifugal Juicers to be tested.  \n3) However, following relaxation is testing is given: \na) Change in aesthetics, i.e colour, visual design etc may not be treated as different \nmodel. \n \n \n4) The Firm shall declare the varieties of Electric Food-Mixers (Liquidizers and Grinders) and \nCentrifugal Juicers they intend to cover in the Licence. The Scope of Licence may be restricted \nbased on the Manufacturing capability and testing facilities of the Manufacturer.  \n5) Further, the manufacturer shall submit the following: \na) Instruction Manual as per the requirements of Cl. 7.2; \nb) Declaration of following parameters for each model: \ni). Grade (Pollution degree:__, Material group:__); \nii). Rated capacities of each function(Liquidizer and/or Grinder and/or \nCentrifugal Juicer);  \n \niii). Normal Load (in terms of recipe); \n \niv). Time rating: Continuous/ Short term (ON time)/ Intermittent (ON time, OFF \ntime); \nv). Insulation Class; and \nvi). Suitability / unsuitability for certain functions. \n \n \n6) During the operation of the Licence, BO shall ensure that all the models covered in the Licence \nare tested in rotation to the extent possible.  \n \n \n"
+    },
+    {
+      "character_count_cleaned": 1877,
+      "character_count_raw": 1983,
+      "cleaned_text": "ANNEX – B\n\nपरीƗण उपकरणों की सूची\nList Of Test Equipment\n(INDICATIVE LIST, FOR GUIDANCE ONLY)\n\nMajor test equipment required to test as per the Indian Standard\n\nSl.\nNo.\nTests Used In WithClause\nReference\nTest Equipment/Chemical\n1.\nMarking\nPetroleum Spirit, cotton swab\n2.\nCl. 8 (Protection against electric shock) (IS 302-2-14)\nVoltmeter, Finger Test Apparatus\n3.\nCl. 13.3 (High Voltage test) (IS 302-2-\n14)\nHigh Voltage Tester, Voltmeter, mili Ammeter\n4.\nCl. 10 (Power input and current),\nCl. 13 (Leakage current & Electric strength at operating temperature),\nCl. 16 (Leakage current & Electric strength),\nCl. 27 (Provision for earthing) (IS 302-\n2-14)\nVoltmeter, Ammeter, Wattmeter, Micro ammeter, Mega Ohm Meter, Frequency Meter,\nTest Finger, Mili Ammeter\n5.\nCl. 30 (Resistance to Heat, Fire and\nTracking) (IS 302-2-14)\nGlow Wire Test Apparatus, Oven, Ball\nPressure Apparatus, Heating Oven with\nTemperature Indicator, Timer\n6.\nCl. 14 (Transient Overvoltage),\nCl. 17 (Overload Protection of\nTransformers and associated circuits,\nCl. 19 (Abnormal operation) (IS 302-2-\n14)\nEndurance Test Apparatus (Voltmeter,\nAmmeter, Wattmeter, Energy Meter, Counter\nMeter, Timer)\n7.\nCl. 11 (Temperature Rise) (IS 302-2-\n14)\nTest Corner consisting of dull-black painted plywood, Temperature Controller\n8.\nCl. 15 (Moisture Resistance) (IS 302-\n2-14)\nHumidity Chamber (Temperature Indicator,\nTemperature Controller, Thermo hygrometer,\nHour Meter), Test set up for degree of protection against moisture\n9.\nCl. 21 (Mechanical Strength) (IS 302-\n2-14)\nImpact tester, Spring Hammer, Finger Test\nApparatus\n10. Cl. 22 (Construction) (IS 302-2-14)\nMicrometer, VAW meter, Pressure Test\nApparatus\n11. Cl. 23 (Internal wiring) (IS 302-2-14)\nFlexing Test Apparatus\n12. Cl. 25 (Supply Connection and\nExternal Flexible Cables and Cords)\n(IS 302-2-14)\nCord Grip Test Apparatus, Measuring Tape,\nMicro-ohmmeter",
+      "cleaning_statistics": {
+        "blank_lines_removed": 1,
+        "headers_removed": 1,
+        "line_joins": 6,
+        "page_numbers_removed": 1
+      },
+      "page_number": 4,
+      "raw_text": " \n \nPM/IS 4250/4/April 2025 \n \n4 | P a g e \n \nANNEX – B \n \nपरीƗण उपकरणों की सूची \nList Of Test Equipment \n(INDICATIVE LIST, FOR GUIDANCE ONLY) \n \n \nMajor test equipment required to test as per the Indian Standard \n \nSl. \nNo. \nTests Used In WithClause\nReference \nTest Equipment/Chemical \n1.\nMarking \nPetroleum Spirit, cotton swab \n2.\nCl. 8 (Protection against electric\nshock) (IS 302-2-14) \nVoltmeter, Finger Test Apparatus \n3.\nCl. 13.3 (High Voltage test) (IS 302-2-\n14) \nHigh Voltage Tester, Voltmeter, mili Ammeter \n4.\nCl. 10 (Power input and current),\nCl. 13 (Leakage current & Electric \nstrength at operating temperature), \nCl. 16 (Leakage current & Electric \nstrength), \nCl. 27 (Provision for earthing) (IS 302-\n2-14) \nVoltmeter, Ammeter, Wattmeter, Micro \nammeter, Mega Ohm Meter, Frequency Meter, \nTest Finger, Mili Ammeter \n5.\nCl. 30 (Resistance to Heat, Fire and \nTracking) (IS 302-2-14) \nGlow Wire Test Apparatus, Oven, Ball \nPressure Apparatus, Heating Oven with \nTemperature Indicator, Timer \n6.\nCl. 14 (Transient Overvoltage),\nCl. 17 (Overload Protection of \nTransformers and associated circuits, \nCl. 19 (Abnormal operation) (IS 302-2-\n14) \nEndurance Test Apparatus (Voltmeter, \nAmmeter, Wattmeter, Energy Meter, Counter \nMeter, Timer) \n7.\nCl. 11 (Temperature Rise) (IS 302-2-\n14) \nTest Corner consisting of dull-black painted \nplywood, Temperature Controller \n8.\nCl. 15 (Moisture Resistance) (IS 302-\n2-14) \nHumidity Chamber (Temperature Indicator, \nTemperature Controller, Thermo hygrometer, \nHour Meter), Test set up for degree of \nprotection against moisture \n9.\nCl. 21 (Mechanical Strength) (IS 302-\n2-14) \nImpact tester, Spring Hammer, Finger Test \nApparatus \n10. Cl. 22 (Construction) (IS 302-2-14) \nMicrometer, VAW meter, Pressure Test \nApparatus \n11. Cl. 23 (Internal wiring) (IS 302-2-14) \nFlexing Test Apparatus \n12. Cl. 25 (Supply Connection and\nExternal Flexible Cables and Cords) \n(IS 302-2-14) \nCord Grip Test Apparatus, Measuring Tape, \nMicro-ohmmeter \n"
+    },
+    {
+      "character_count_cleaned": 1332,
+      "character_count_raw": 1427,
+      "cleaned_text": "Note: The above list is indicative only and may not be treated as exhaustive.\n\n13. Cl. 26 (Terminals for external\nconductors) (IS 302-2-14)\nTorque Screwdriver\n14. Cl. 27 (Provision for earthing) (IS 302-\n2-14)\nEarth Contact Resistance Testing Panel (ECR\nMeasurement), Voltmeter, Ammeter\n15. Cl. 28 (Screws and Connections) (IS\n302-2-14)\nTorque Wrench\n16. Cl. 29 (Creepage Distances and\nClearances) (IS 302-2-14)\nFiller Gauge, Vernier Calliper, Micrometer\n17. Cl. 20 Stability & Mechanical Hazards,\n(IS 302-2-14)\nInclination Plane with Test Panel\n18. Cl. 31 (Resistance to Rusting) (IS 302-\n2-14)\nHumidity Chamber with Temp and Humidity Controller\nMeasuring Cylinder 500 ml, Ammonium Chloride,\nCarbon Tetrachloride, Distilled Water\n19. Cl. 19.1 (Abnormal Operation) (IS 302-\n2-14)\nFacility to lock the rotor\n20. Cl. 9 (Endurance test)\nEndurance test panel, programmable on-off timer, artificial load\n21.\nCl. 10 (Operational Tests)\nCoffee Seeds, Urad Dal, Boiled Rice, Eggs, Stop watch\nMeasuring jar, Sieves set 710,500, 355,1000,1400 microns, Weighing Balance\n22. Cl. 11(Temperature withstand test for\nbowl)\nHotplate\n\n23. Cl. 12 (Test for Controls)\nVoltmeter, Ammeter, Arrangement to stall the motor\n24. Cl. 13 (Strength of Assembly)\nArrangement to apply force on the bowl assembly\n25. To maintain ambient temperature\nAir conditioner",
+      "cleaning_statistics": {
+        "blank_lines_removed": 3,
+        "headers_removed": 1,
+        "line_joins": 2,
+        "page_numbers_removed": 1
+      },
+      "page_number": 5,
+      "raw_text": " \n \nPM/IS 4250/4/April 2025 \n \n5 | P a g e \n \n \n \n \nNote: The above list is indicative only and may not be treated as exhaustive. \n \n \n \n \n13. Cl. 26 (Terminals for external\nconductors) (IS 302-2-14) \nTorque Screwdriver \n14. Cl. 27 (Provision for earthing) (IS 302-\n2-14) \nEarth Contact Resistance Testing Panel (ECR \nMeasurement), Voltmeter, Ammeter \n15. Cl. 28 (Screws and Connections) (IS\n302-2-14) \nTorque Wrench \n16. Cl. 29 (Creepage Distances and\nClearances) (IS 302-2-14) \nFiller Gauge, Vernier Calliper, Micrometer \n17. Cl. 20 Stability & Mechanical Hazards,\n(IS 302-2-14) \nInclination Plane with Test Panel \n18. Cl. 31 (Resistance to Rusting) (IS 302-\n2-14) \nHumidity Chamber with Temp and Humidity Controller \nMeasuring Cylinder 500 ml, Ammonium Chloride, \nCarbon Tetrachloride, Distilled Water \n19. Cl. 19.1 (Abnormal Operation) (IS 302-\n2-14) \nFacility to lock the rotor \n20. Cl. 9 (Endurance test) \nEndurance test panel, programmable on-off timer, \nartificial load \n21.\nCl. 10 (Operational Tests) \nCoffee Seeds, Urad Dal, Boiled Rice, Eggs, Stop watch \nMeasuring jar, Sieves set 710,500, 355,1000,1400 \nmicrons, Weighing Balance \n22. Cl. 11(Temperature withstand test for \nbowl) \nHotplate \n \n23. Cl. 12 (Test for Controls) \nVoltmeter, Ammeter, Arrangement to stall the motor \n24. Cl. 13 (Strength of Assembly) \nArrangement to apply force on the bowl assembly \n25. To maintain ambient temperature \nAir conditioner \n"
+    },
+    {
+      "character_count_cleaned": 2911,
+      "character_count_raw": 3016,
+      "cleaned_text": "ANNEX – C\n\nिनरीƗण और परीƗण की ˋीम\nScheme Of Inspection And Testing\n\n1. QUALITY ASSURANCE PLAN\n\n1.1 It is expected that manufacturers (licensees/applicants) will implement a Quality Assurance Plan\ni.e. a plan of regular testing and in-process controls, designed to ensure that the product bearing the Standard\nMark conforms to all requirements of the Indian Standard.\n\n1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the\nlevels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian\nStandard) and submit the same to BIS Branch Office for information. The manufacturer shall comply with the same and maintain test records in accordance with para 2.4.\n\n1.3 RECOMMENDED LEVELS OF CONTROL/CONTROL UNIT:\n\n1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit. The manufacturer has the choice to define their own control unit/batch/lot and submit the same to the BIS.\n\n1.3.2 For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended levels of\ncontrol are given in Table 1.\n\n1.3.3 The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan submitted by\nthem on the whole production of the factory which is covered by this plan. Alternatively, the manufacturer has the option of adherence to the quality plan as per levels of control recommended in column 3 of Table 1.\n\n1.4 However, all manufacturers shall ensure compliance of their products to all the requirements of the\nIndian Standard.\n2. ENSURING\nCOMPLIANCE\nTHROUGH\nTESTING-\nIt\nis\nexpected\nthat\nmanufacturers\n(licensees/applicants) will establish a suitably equipped and staffed in house laboratory (In house testing facility) for testing at least those parameters of the Indian Standard which require routine testing for ensuring quality of the product. This includes in-process controls as may be defined and put in place by the manufacturer and testing parameters/requirements which can only be performed in the factory.\n\n2.1 For the guidance of manufacturers, Table 1 giving the recommended levels of control is given below.\nColumn 2 of Table 1 indicates routine tests where test equipment is required in house as “R” or other tests which can be subcontracted as “S”. Subcontracting is permitted to BIS recognized/empanelled laboratory or any other laboratory having valid NABL accreditation as per IS/ISO/IEC 17025.\n\n2.2 For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing\nfacility for routine tests (indicated as “R” in Column 2 of Table 1) is also optional.\n\n2.2.1 MSME manufacturers may utilize common cluster based facilities as per guidelines for the utilization",
+      "cleaning_statistics": {
+        "blank_lines_removed": 1,
+        "headers_removed": 1,
+        "line_joins": 9,
+        "page_numbers_removed": 1
+      },
+      "page_number": 6,
+      "raw_text": " \n \nPM/IS 4250/4/April 2025 \n \n6 | P a g e \n \nANNEX – C  \n \nिनरीƗण और परीƗण की ˋीम \nScheme Of Inspection And Testing \n \n1. QUALITY ASSURANCE PLAN \n \n1.1 It is expected that manufacturers (licensees/applicants) will implement a Quality Assurance Plan \ni.e. a plan of regular testing and in-process controls, designed to ensure that the product bearing the Standard \nMark conforms to all requirements of the Indian Standard. \n \n1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the \nlevels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian \nStandard) and submit the same to BIS Branch Office for information. The manufacturer shall comply with the \nsame and maintain test records in accordance with para 2.4. \n \n \n1.3 RECOMMENDED LEVELS OF CONTROL/CONTROL UNIT: \n \n1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day \nshall constitute a control unit. The manufacturer has the choice to define their own control unit/batch/lot and \nsubmit the same to the BIS.  \n \n1.3.2 For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended levels of \ncontrol are given in Table 1. \n \n1.3.3 The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan submitted by \nthem on the whole production of the factory which is covered by this plan. Alternatively, the manufacturer has the \noption of adherence to the quality plan as per levels of control recommended in column 3 of Table 1. \n \n1.4 However, all manufacturers shall ensure compliance of their products to all the requirements of the \nIndian Standard. \n2. ENSURING \nCOMPLIANCE \nTHROUGH \nTESTING- \nIt \nis \nexpected \nthat \nmanufacturers \n(licensees/applicants) will establish a suitably equipped and staffed in house laboratory (In house testing \nfacility) for testing at least those parameters of the Indian Standard which require routine testing for ensuring \nquality of the product. This includes in-process controls as may be defined and put in place by the \nmanufacturer and testing parameters/requirements which can only be performed in the factory. \n \n2.1 For the guidance of manufacturers, Table 1 giving the recommended levels of control is given below. \nColumn 2 of Table 1 indicates routine tests where test equipment is required in house as “R” or other tests \nwhich can be subcontracted as “S”. Subcontracting is permitted to BIS recognized/empanelled laboratory or \nany other laboratory having valid NABL accreditation as per IS/ISO/IEC 17025. \n \n2.2 For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing \nfacility for routine tests (indicated as “R” in Column 2 of Table 1) is also optional. \n \n2.2.1 MSME manufacturers may utilize common cluster based facilities as per guidelines for the utilization \n"
+    },
+    {
+      "character_count_cleaned": 2483,
+      "character_count_raw": 2570,
+      "cleaned_text": "of cluster based test facilities by MSMEs or the provisions of Sharing of testing facilities or get testing done from BIS recognized/empaneled laboratory or any other laboratory having valid NABL accreditation as per\nIS/ISO/IEC 17025.\n2.3 Large Scale manufacturers shall maintain an in-house laboratory equipped at least with test\nfacilities for routine tests (indicated as “R” in Column 2 of Table 1), where different tests given in the specification shall be carried out in accordance with the method given in the specification. They shall also implement a calibration plan for the in-house test equipment.\n2.3.1 Alternatively, in lieu of an in-house laboratory, large scale manufacturers can also utilize the provisions\nof Sharing of testing facilities as per the Guidelines for Grant of Licence available on BIS website www.bis.gov.in. (Under Conformity Assessment>Product Certification Process). Even for subcontracted tests, provisions for sharing of testing facilities can be utilized.\n\n2.4 TEST RECORDS- The manufacturers maintaining an in-house laboratory or utilizing common cluster\nbased facilities or shared test facilities shall maintain test records for the tests carried out to establish conformity. For the tests being subcontracted to BIS recognized/empanelled laboratory or any other laboratory having valid NABL accreditation as per IS/ISO/IEC 17025, test reports issued by the laboratories shall be available for inspection by BIS.\n\n3. MARKING – The Standard Mark as given in the Schedule of the licence shall be incorporated legibly and\nindelibly on each Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers and also on its packaging provided always that the Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal\nJuicers so marked conforms to the requirements of the specification. In addition, marking shall also be done as per Cl. 7 of IS 4250 : 2025.\n\n4. Additional Marking Requirments:\n\na) The material shall also be marked with the following additional requirement on packaging:\n“For BIS certification details please visit www.bis.gov.in\";\nb) Instruction Booklet shall be provided as per the requirements of Cl. 7.2 of IS 4250 : 2025.\n\n5. REJECTION - All the production which conforms to the Indian Standard and covered under the scope\nof this licence shall be marked with the Standard Mark. Disposal of non-conforming product shall be done in such a way so as to ensure that there is no violation of provisions of BIS Act,2016.",
+      "cleaning_statistics": {
+        "blank_lines_removed": 2,
+        "headers_removed": 1,
+        "line_joins": 11,
+        "page_numbers_removed": 1,
+        "whitespace_normalizations": 1
+      },
+      "page_number": 7,
+      "raw_text": " \n \nPM/IS 4250/4/April 2025 \n \n7 | P a g e \n \nof cluster based test facilities by MSMEs or the provisions of Sharing of testing facilities or get testing done \nfrom BIS recognized/empaneled laboratory or any other laboratory having valid NABL accreditation as per \nIS/ISO/IEC 17025. \n2.3 Large Scale manufacturers shall maintain an in-house laboratory equipped at least with test \nfacilities for routine tests (indicated as “R” in Column 2 of Table 1), where different tests given in the \nspecification shall be carried out in accordance with the method given in the specification. They shall also \nimplement a calibration plan for the in-house test equipment. \n2.3.1 Alternatively, in lieu of an in-house laboratory, large scale manufacturers can also utilize the provisions \nof Sharing of testing facilities as per the Guidelines for Grant of Licence available on BIS website \nwww.bis.gov.in. (Under Conformity Assessment>Product Certification Process). Even for subcontracted \ntests, provisions for sharing of testing facilities can be utilized. \n \n2.4 TEST RECORDS- The manufacturers maintaining an in-house laboratory or utilizing common cluster \nbased facilities or shared test facilities shall maintain test records for the tests carried out to establish \nconformity. For the tests being subcontracted to BIS recognized/empanelled laboratory or any other laboratory \nhaving valid NABL accreditation as per IS/ISO/IEC 17025, test reports issued by the laboratories shall be \navailable for inspection by BIS. \n \n \n3. MARKING – The Standard Mark as given in the Schedule of the licence shall be incorporated legibly and \nindelibly on each Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers and also on \nits packaging provided always that the Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal \nJuicers so marked conforms to the requirements of the specification. In addition, marking shall also be \ndone as per Cl. 7 of IS 4250 : 2025.  \n \n4. Additional Marking Requirments: \n \na) The material shall also be marked with the following additional  requirement on packaging:  \n“For BIS certification details please visit www.bis.gov.in\"; \nb) Instruction Booklet shall be provided as per the requirements of Cl. 7.2 of IS 4250 : 2025. \n \n \n5. REJECTION - All the production which conforms to the Indian Standard and covered under the scope \nof this licence shall be marked with the Standard Mark. Disposal of non-conforming product shall be done \nin such a way so as to ensure that there is no violation of provisions of BIS Act,2016. \n"
+    },
+    {
+      "character_count_cleaned": 878,
+      "character_count_raw": 991,
+      "cleaned_text": "TABLE 1\n(ONLY FOR GUIDANCE PURPOSE)\n\n(1)\n(2)\n(3)\nTest Details\nTest\nequipment\nrequireme\nnt\nR: required (or)\nS: Subcontracting\npermitted\nLevels of Control\nCl. of IS\n4250\nRequirement\nTest Methods\nNo. of Sample\nFrequency\nRemarks\nClaus\ne\nReference\n8\nComponents\n24\nIS 302-2-14\nS\nEach\nconsignment of\ncomponents\nreceived\n\nFurther testing is not required if supplied with BIS Standard Mark or with Test certificate, which ever applicable\nEarth Continuity Test\nA-1\nIS 302-1\nR\nEach Electric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers\n\nElectric Strength Test\nA-2\nIS 302-1\nR\n\nFunctional Test\nA-3\nIS 302-1\nR\n\nProvision for Earthing\n27\nIS 302-2-14\nR\n\nLeakage current & electric strength at operating temperature\n\n13\nIS 302-2-14\nR\n\n7\nMarking\n7\nIS 4250\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Records shall be maintained",
+      "cleaning_statistics": {
+        "blank_lines_removed": 1,
+        "dehyphenations": 1,
+        "headers_removed": 1,
+        "line_joins": 7,
+        "page_numbers_removed": 1
+      },
+      "page_number": 8,
+      "raw_text": " \n \nPM/IS 4250/4/April 2025 \n \n8 | P a g e \n \nTABLE 1 \n(ONLY FOR GUIDANCE PURPOSE) \n  \n(1)\n(2)\n(3)\nTest Details\nTest \nequipment \nrequireme\nnt \nR: required (or)\nS: Sub-\ncontracting \npermitted \nLevels of Control\nCl. of IS\n4250 \nRequirement\nTest Methods\nNo. of Sample\nFrequency\nRemarks\nClaus\ne \nReference\n8 \nComponents \n24 \nIS 302-2-14 \nS \nEach \nconsignment of \ncomponents \nreceived \n \nFurther testing is not required if \nsupplied with BIS Standard Mark or \nwith Test certificate, which ever \napplicable \nEarth Continuity Test \nA-1 \nIS 302-1 \nR \nEach Electric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers \n \nElectric Strength Test \nA-2 \nIS 302-1 \nR \n \nFunctional Test \nA-3 \nIS 302-1 \nR \n \nProvision for Earthing \n27 \nIS 302-2-14 \nR \n \nLeakage current & electric strength at \noperating temperature \n \n13 \nIS 302-2-14 \nR \n \n \n7 \nMarking \n7  \nIS 4250 \nR \nFirm should exercise adequate control so that whole \nproduction should meet the requirements. Records shall \nbe maintained \n"
+    },
+    {
+      "character_count_cleaned": 850,
+      "character_count_raw": 987,
+      "cleaned_text": "8\nProtection against access to live parts\n8\nIS 302-2-14\nR\nOne\nEach Control Unit\n10\nOperational Tests\n10\nIS 4250\nR\nOne\nEach Control Unit\n11\nTemperature withstand test for bowl\n11\nIS 4250\nR\nOne\nEach Control Unit\n\n8\nPower Input & Current\n10\nIS 302-2-14\nS\nOne\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\nHeating\n11\nIS 302-2-14\nS\nOne\nLeakage current & electric strength at operating temperature\n\n13\nIS 302-2-14\nS\nOne\nTransient Overvoltage\n14\nIS 302-2-14\nS\nOne\nMoisture Resistance\n15\nIS 302-2-14\nS\nOne\nLeakage Current & Electric Strength\n16\nIS 302-2-14\nS\nOne\nOverload Protection of Transformers and associated circuits\n17\nIS 302-2-14\nS\nOne\nAbnormal Operation\n19\nIS 302-2-14\nS\nOne\nStability & Mechanical Hazards\n20\nIS 302-2-14\nS\nOne\nMechanical Strength\n21\nIS 302-2-14\nS\nOne",
+      "cleaning_statistics": {
+        "headers_removed": 1,
+        "line_joins": 3,
+        "page_numbers_removed": 1
+      },
+      "page_number": 9,
+      "raw_text": " \n \nPM/IS 4250/4/April 2025 \n \n9 | P a g e \n \n8 \nProtection against access to live parts \n8 \nIS 302-2-14 \nR \nOne \nEach Control Unit \n10 \nOperational Tests \n10 \nIS 4250 \nR \nOne \nEach Control Unit \n11 \nTemperature withstand test for bowl \n11 \nIS 4250 \nR \nOne \nEach Control Unit \n \n8 \nPower Input & Current \n10 \nIS 302-2-14 \nS \nOne  \nEach model of Electric Food-Mixers \n(Liquidizers and Grinders) and \nCentrifugal Juicers manufactured in \nthe period of six months. \nHeating \n11 \nIS 302-2-14 \nS \nOne  \nLeakage current & electric strength at \noperating temperature \n \n13 \nIS 302-2-14 \nS \nOne  \nTransient Overvoltage \n14 \nIS 302-2-14 \nS \nOne  \nMoisture Resistance \n15 \nIS 302-2-14 \nS \nOne  \nLeakage Current & Electric Strength \n16 \nIS 302-2-14 \nS \nOne  \nOverload Protection of Transformers \nand associated circuits \n17 \nIS 302-2-14 \nS \nOne  \nAbnormal Operation \n19 \nIS 302-2-14 \nS \nOne  \nStability & Mechanical Hazards \n20 \nIS 302-2-14 \nS \nOne  \nMechanical Strength \n21 \nIS 302-2-14 \nS \nOne  \n"
+    },
+    {
+      "character_count_cleaned": 850,
+      "character_count_raw": 988,
+      "cleaned_text": "8\nConstruction\n22\nIS 302-2-14\nS\nOne\n\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\nInternal Wiring\n23\nIS 302-2-14\nS\nOne\nSupply Connections & external flexible cords\n25\nIS 302-2-14\nS\nOne\nTerminals for external conductors\n26\nIS 302-2-14\nS\nOne\nScrews & Connections\n28\nIS 302-2-14\nS\nOne\nClearances, creepage distances & solid insulation\n29\nIS 302-2-14\nS\nOne\nResistance to heat & fire\n30\nIS 302-2-14\nS\nOne\nResistance to rusting\n31\nIS 302-2-14\nS\nOne\nRadiation, toxicity and similar hazards\n32\nIS 302-2-14\nS\nOne\n9\nEndurance for motor and base assembly\n9\nIS 4250\nS\nOne\n\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\n12\nTest for controls\n12\nIS 4250\nS\nOne\n13\nStrength of assembly\n13\nIS 4250\nS\nOne",
+      "cleaning_statistics": {
+        "blank_lines_removed": 3,
+        "headers_removed": 1,
+        "line_joins": 3,
+        "page_numbers_removed": 1
+      },
+      "page_number": 10,
+      "raw_text": " \n \nPM/IS 4250/4/April 2025 \n \n10 | P a g e \n \n8 \nConstruction \n22 \nIS 302-2-14 \nS \nOne  \n \nEach model of Electric Food-Mixers \n(Liquidizers and Grinders) and \nCentrifugal Juicers manufactured in \nthe period of six months. \nInternal Wiring \n23 \nIS 302-2-14 \nS \nOne  \nSupply Connections & external flexible cords\n25 \nIS 302-2-14 \nS \nOne  \nTerminals for external conductors \n26 \nIS 302-2-14 \nS \nOne  \nScrews & Connections \n28 \nIS 302-2-14 \nS \nOne  \nClearances, creepage distances & solid \ninsulation \n29 \nIS 302-2-14 \nS \nOne  \nResistance to heat & fire \n30 \nIS 302-2-14 \nS \nOne  \nResistance to rusting \n31 \nIS 302-2-14 \nS \nOne  \nRadiation, toxicity and similar hazards \n32 \nIS 302-2-14 \nS \nOne  \n9 \nEndurance for motor and base assembly \n9 \nIS 4250  \nS \nOne \n \nEach model of Electric Food-Mixers \n(Liquidizers and Grinders) and \nCentrifugal Juicers manufactured in \nthe period of six months. \n12 \nTest for controls \n12 \nIS 4250 \nS \nOne \n13 \nStrength of assembly \n13 \nIS 4250 \nS \nOne \n \n \n \n"
+    },
+    {
+      "character_count_cleaned": 518,
+      "character_count_raw": 597,
+      "cleaned_text": "ANNEX – D\n\nएक िदन मŐ संभािवत परीƗण\nPossible Tests in a day\n\n1. Marking (Cl. 7)\n2. Protection against access to live parts (Cl. 8 of IS 302-2-14)\n3. Power Input and Current (Cl. 10 of IS 302-2-14)\n4. High Voltage (Cl. 13.2.2 of IS 302-2-14)\n5. Leakage Current & Electric Strength at operating temperature (Cl. 13 of IS 302-2-14)\n6. Provision for Earthing (Cl. 27 of IS 302-2-14)\n7. Leakage Current & Electric Strength (Cl. 16 of IS 302-2-14)\n8. Temperature withstand test for bowl (Cl. 11)\n9. Test for controls (Cl. 12)",
+      "cleaning_statistics": {
+        "blank_lines_removed": 2,
+        "headers_removed": 1,
+        "page_numbers_removed": 1,
+        "whitespace_normalizations": 1
+      },
+      "page_number": 11,
+      "raw_text": " \n \n \n \nPM/IS 4250/4/April 2025 \n \n11 | P a g e \n \n  \n \nANNEX – D  \n \nएक िदन मŐ संभािवत परीƗण \nPossible Tests in a day  \n  \n1. Marking (Cl. 7) \n2. Protection against access to live parts (Cl. 8 of IS 302-2-14) \n3. Power Input and Current (Cl. 10 of IS 302-2-14) \n4. High Voltage (Cl. 13.2.2 of IS 302-2-14) \n5. Leakage Current & Electric Strength at operating temperature (Cl. 13 of IS 302-2-14) \n6. Provision for Earthing (Cl. 27 of IS 302-2-14) \n7. Leakage Current & Electric Strength (Cl. 16 of IS 302-2-14) \n8. Temperature withstand test for bowl ( Cl. 11) \n9. Test for controls (Cl. 12) \n \n \n"
+    }
+  ],
+  "pdf_page_count": 11,
+  "product_id": "mixer",
+  "quality_checks": {
+    "clause_numbers_preserved": true,
+    "dates_preserved": true,
+    "no_page_silently_removed": true,
+    "notes_preserved": true,
+    "numerical_values_preserved": true,
+    "page_numbers_preserved": true,
+    "passed": true,
+    "same_page_count": true,
+    "standard_numbers_preserved": true,
+    "table_content_not_aggressively_removed": true,
+    "units_preserved": true
+  },
+  "raw_extraction_file": "/home/aditya/Aditya/new makings/scraper/data/processed/extracted/is_4250_2025_product_manual_d61562a6.json",
+  "raw_extraction_sha256": "7ddcd17618a425ba940a512d159f502f97c452e1ab0effeae81c803c72d1d6f9",
+  "repeated_footers_detected": [],
+  "repeated_headers_detected": [
+    "pm/is 4250/4/april 2025"
+  ],
+  "retrieved_at": "2026-09-28T19:34:04+00:00",
+  "sha256": "4961f69ac9a81d32a8b3c74cfc239fdb3059fed2259012501c294b18b91b765f",
+  "source_file": "data/raw/mixer/view-1601-is-4250-2025-electric-food-mixers-liquidizers-and-grinders-and-centrifugal-juice-d61562a6.pdf",
+  "source_sha256_verified": true,
+  "source_status": "downloaded",
+  "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+  "standard_numbers": [
+    "IS 4250:2025"
+  ],
+  "structure": [
+    {
+      "children": [],
+      "confidence": "high",
+      "end_page": 1,
+      "page_segments": [
+        {
+          "page_number": 1,
+          "text": "उȋाद मैɊुअल\nिवद्युत् फ़ूड-िमƛर (िलƓीडाइज़र एवं Ťाइंडर) और अपकŐ ūी जूसर - िविशिʼ (दूसरा पुनरीƗण)\nआई एस 4250 : 2025 के अनुसार\n\nPRODUCT MANUAL\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification\n(Second Revision)\nACCORDINGTO IS 4250 : 2025\n\nिविभɄ उȋादों के िलए भारतीय मानक ɯूरो (अनुŝपता मूʞांकन) िविनयम, 2018 की योजना- I के तहत Ůमाणन\nके संचालन मŐ एकŝपता और पारदिशŊता के िलए इस उȋाद मैनुअल का उपयोग सभी Ɨेũीय / शाखा कायाŊलयों और\nलाइसŐसधाįरयों Ȫारा संदभŊ सामŤी के ŝप मŐ िकया जाएगा। दˑावेज़ का उपयोग बीआईएस Ůमाणन Ůाɑ करने के\nइǅुक संभािवत आवेदकों Ȫारा भी िकया जा सकता हैI\nThis Product Manual shall be used as reference material by all Regional/Branch Offices & licensees to ensure uniformity of practice and transparency in operation of certification under\nScheme-I of Bureau of Indian Standards (Conformity Assessment) Regulations, 2018 for various products. The document may also be used by prospective applicants desirous of obtaining BIS certification."
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "start_page": 1,
+      "text": "उȋाद मैɊुअल\nिवद्युत् फ़ूड-िमƛर (िलƓीडाइज़र एवं Ťाइंडर) और अपकŐ ūी जूसर - िविशिʼ (दूसरा पुनरीƗण)\nआई एस 4250 : 2025 के अनुसार\n\nPRODUCT MANUAL\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification\n(Second Revision)\nACCORDINGTO IS 4250 : 2025\n\nिविभɄ उȋादों के िलए भारतीय मानक ɯूरो (अनुŝपता मूʞांकन) िविनयम, 2018 की योजना- I के तहत Ůमाणन\nके संचालन मŐ एकŝपता और पारदिशŊता के िलए इस उȋाद मैनुअल का उपयोग सभी Ɨेũीय / शाखा कायाŊलयों और\nलाइसŐसधाįरयों Ȫारा संदभŊ सामŤी के ŝप मŐ िकया जाएगा। दˑावेज़ का उपयोग बीआईएस Ůमाणन Ůाɑ करने के\nइǅुक संभािवत आवेदकों Ȫारा भी िकया जा सकता हैI\nThis Product Manual shall be used as reference material by all Regional/Branch Offices & licensees to ensure uniformity of practice and transparency in operation of certification under\nScheme-I of Bureau of Indian Standards (Conformity Assessment) Regulations, 2018 for various products. The document may also be used by prospective applicants desirous of obtaining BIS certification.",
+      "title": null,
+      "type": "front_matter"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 1,
+      "number": "1",
+      "page_segments": [
+        {
+          "page_number": 1,
+          "text": "1.\nमानक संƥा\nIS No.\n:\nIS 4250 : 2025\n\nशीषŊक\nTitle\n:\nElectric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers -\nSpecification (Second Revision)\n\nसंशोधनों की संƥा\nNo. of amendments\n:\nNIL"
+        }
+      ],
+      "pages": [
+        1
+      ],
+      "source_start": {
+        "line_number": 17,
+        "page_number": 1
+      },
+      "start_page": 1,
+      "text": "1.\nमानक संƥा\nIS No.\n:\nIS 4250 : 2025\n\nशीषŊक\nTitle\n:\nElectric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers -\nSpecification (Second Revision)\n\nसंशोधनों की संƥा\nNo. of amendments\n:\nNIL",
+      "title": "मानक संƥा",
+      "type": "section"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 2,
+      "number": "2",
+      "page_segments": [
+        {
+          "page_number": 1,
+          "text": "2.\nनमूना ǑदशाǓनदȶश\nSampling Guidelines:\na)\nकǄा माल\nRaw material\n:\n-\nb)\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n:\nPlease refer ANNEX – A"
+        },
+        {
+          "page_number": 2,
+          "text": "c)\nनमूने का पįरमाण\nSample Quantity\n:\n2 numbers"
+        }
+      ],
+      "pages": [
+        1,
+        2
+      ],
+      "source_start": {
+        "line_number": 34,
+        "page_number": 1
+      },
+      "start_page": 1,
+      "text": "2.\nनमूना ǑदशाǓनदȶश\nSampling Guidelines:\na)\nकǄा माल\nRaw material\n:\n-\nb)\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n:\nPlease refer ANNEX – A\nc)\nनमूने का पįरमाण\nSample Quantity\n:\n2 numbers",
+      "title": "नमूना ǑदशाǓनदȶश",
+      "type": "section"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 2,
+      "number": "3",
+      "page_segments": [
+        {
+          "page_number": 2,
+          "text": "3.\nपरीƗण उपकरणों की सूची\nList of Test Equipment\n:\nPlease refer ANNEX – B"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "source_start": {
+        "line_number": 6,
+        "page_number": 2
+      },
+      "start_page": 2,
+      "text": "3.\nपरीƗण उपकरणों की सूची\nList of Test Equipment\n:\nPlease refer ANNEX – B",
+      "title": "परीƗण उपकरणों की सूची",
+      "type": "section"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 2,
+      "number": "4",
+      "page_segments": [
+        {
+          "page_number": 2,
+          "text": "4.\nिनरीƗण और परीƗण की ˋीम\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "source_start": {
+        "line_number": 11,
+        "page_number": 2
+      },
+      "start_page": 2,
+      "text": "4.\nिनरीƗण और परीƗण की ˋीम\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C",
+      "title": "िनरीƗण और परीƗण की ˋीम",
+      "type": "section"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 2,
+      "number": "5",
+      "page_segments": [
+        {
+          "page_number": 2,
+          "text": "5.\nएक िदन मŐ संभािवत परीƗण\nPossible tests in a day:\n:\nPlease refer ANNEX-D"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "source_start": {
+        "line_number": 17,
+        "page_number": 2
+      },
+      "start_page": 2,
+      "text": "5.\nएक िदन मŐ संभािवत परीƗण\nPossible tests in a day:\n:\nPlease refer ANNEX-D",
+      "title": "एक िदन मŐ संभािवत परीƗण",
+      "type": "section"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 2,
+      "number": "6",
+      "page_segments": [
+        {
+          "page_number": 2,
+          "text": "6.\nलाइसŐस का दायरा /Scope of the\nLicence\n:\n\nLicence is granted to use Standard Mark as per IS 4250 : 2025 with the following scope:\n\nName of the Product\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers\n\nFunctions\nLiquidizer and/or Grinder and/or Centrifugal Juicer\n\nModel No.\n\nClass\nClass of Appliance I/II/III\n\nRating\n\nW,\nV,\nHz,\nPhase"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "source_start": {
+        "line_number": 22,
+        "page_number": 2
+      },
+      "start_page": 2,
+      "text": "6.\nलाइसŐस का दायरा /Scope of the\nLicence\n:\n\nLicence is granted to use Standard Mark as per IS 4250 : 2025 with the following scope:\n\nName of the Product\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers\n\nFunctions\nLiquidizer and/or Grinder and/or Centrifugal Juicer\n\nModel No.\n\nClass\nClass of Appliance I/II/III\n\nRating\n\nW,\nV,\nHz,\nPhase",
+      "title": "लाइसŐस का दायरा /Scope of the",
+      "type": "section"
+    },
+    {
+      "children": [],
+      "confidence": "high",
+      "content_mode": "narrative_or_mixed",
+      "end_page": 3,
+      "identifier": "A",
+      "page_segments": [
+        {
+          "page_number": 3,
+          "text": "ANNEX – A\n\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n\n1) Manufacturer shall declare the parameters defined in scope of licence for each model of the\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers produced by them.\n2) For grant of licnce/ change in scope of licence, each model of Electric Food-Mixers (Liquidizers\nand Grinders) and Centrifugal Juicers to be tested.\n3) However, following relaxation is testing is given:\na) Change in aesthetics, i.e colour, visual design etc may not be treated as different\nmodel.\n\n4) The Firm shall declare the varieties of Electric Food-Mixers (Liquidizers and Grinders) and\nCentrifugal Juicers they intend to cover in the Licence. The Scope of Licence may be restricted based on the Manufacturing capability and testing facilities of the Manufacturer.\n5) Further, the manufacturer shall submit the following:\na) Instruction Manual as per the requirements of Cl. 7.2;\nb) Declaration of following parameters for each model:\ni). Grade (Pollution degree:__, Material group:__);\nii). Rated capacities of each function(Liquidizer and/or Grinder and/or\nCentrifugal Juicer);\n\niii). Normal Load (in terms of recipe);\n\niv). Time rating: Continuous/ Short term (ON time)/ Intermittent (ON time, OFF time);\nv). Insulation Class; and\nvi). Suitability / unsuitability for certain functions.\n\n6) During the operation of the Licence, BO shall ensure that all the models covered in the Licence\nare tested in rotation to the extent possible."
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "source_start": {
+        "line_number": 1,
+        "page_number": 3
+      },
+      "start_page": 3,
+      "text": "ANNEX – A\n\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n\n1) Manufacturer shall declare the parameters defined in scope of licence for each model of the\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers produced by them.\n2) For grant of licnce/ change in scope of licence, each model of Electric Food-Mixers (Liquidizers\nand Grinders) and Centrifugal Juicers to be tested.\n3) However, following relaxation is testing is given:\na) Change in aesthetics, i.e colour, visual design etc may not be treated as different\nmodel.\n\n4) The Firm shall declare the varieties of Electric Food-Mixers (Liquidizers and Grinders) and\nCentrifugal Juicers they intend to cover in the Licence. The Scope of Licence may be restricted based on the Manufacturing capability and testing facilities of the Manufacturer.\n5) Further, the manufacturer shall submit the following:\na) Instruction Manual as per the requirements of Cl. 7.2;\nb) Declaration of following parameters for each model:\ni). Grade (Pollution degree:__, Material group:__);\nii). Rated capacities of each function(Liquidizer and/or Grinder and/or\nCentrifugal Juicer);\n\niii). Normal Load (in terms of recipe);\n\niv). Time rating: Continuous/ Short term (ON time)/ Intermittent (ON time, OFF time);\nv). Insulation Class; and\nvi). Suitability / unsuitability for certain functions.\n\n6) During the operation of the Licence, BO shall ensure that all the models covered in the Licence\nare tested in rotation to the extent possible.",
+      "title": "समूहीकरण िदशािनदőश",
+      "type": "annex"
+    },
+    {
+      "children": [],
+      "confidence": "high",
+      "content_mode": "list_or_table",
+      "end_page": 5,
+      "identifier": "B",
+      "page_segments": [
+        {
+          "page_number": 4,
+          "text": "ANNEX – B\n\nपरीƗण उपकरणों की सूची\nList Of Test Equipment\n(INDICATIVE LIST, FOR GUIDANCE ONLY)\n\nMajor test equipment required to test as per the Indian Standard\n\nSl.\nNo.\nTests Used In WithClause\nReference\nTest Equipment/Chemical\n1.\nMarking\nPetroleum Spirit, cotton swab\n2.\nCl. 8 (Protection against electric shock) (IS 302-2-14)\nVoltmeter, Finger Test Apparatus\n3.\nCl. 13.3 (High Voltage test) (IS 302-2-\n14)\nHigh Voltage Tester, Voltmeter, mili Ammeter\n4.\nCl. 10 (Power input and current),\nCl. 13 (Leakage current & Electric strength at operating temperature),\nCl. 16 (Leakage current & Electric strength),\nCl. 27 (Provision for earthing) (IS 302-\n2-14)\nVoltmeter, Ammeter, Wattmeter, Micro ammeter, Mega Ohm Meter, Frequency Meter,\nTest Finger, Mili Ammeter\n5.\nCl. 30 (Resistance to Heat, Fire and\nTracking) (IS 302-2-14)\nGlow Wire Test Apparatus, Oven, Ball\nPressure Apparatus, Heating Oven with\nTemperature Indicator, Timer\n6.\nCl. 14 (Transient Overvoltage),\nCl. 17 (Overload Protection of\nTransformers and associated circuits,\nCl. 19 (Abnormal operation) (IS 302-2-\n14)\nEndurance Test Apparatus (Voltmeter,\nAmmeter, Wattmeter, Energy Meter, Counter\nMeter, Timer)\n7.\nCl. 11 (Temperature Rise) (IS 302-2-\n14)\nTest Corner consisting of dull-black painted plywood, Temperature Controller\n8.\nCl. 15 (Moisture Resistance) (IS 302-\n2-14)\nHumidity Chamber (Temperature Indicator,\nTemperature Controller, Thermo hygrometer,\nHour Meter), Test set up for degree of protection against moisture\n9.\nCl. 21 (Mechanical Strength) (IS 302-\n2-14)\nImpact tester, Spring Hammer, Finger Test\nApparatus\n10. Cl. 22 (Construction) (IS 302-2-14)\nMicrometer, VAW meter, Pressure Test\nApparatus\n11. Cl. 23 (Internal wiring) (IS 302-2-14)\nFlexing Test Apparatus\n12. Cl. 25 (Supply Connection and\nExternal Flexible Cables and Cords)\n(IS 302-2-14)\nCord Grip Test Apparatus, Measuring Tape,\nMicro-ohmmeter"
+        },
+        {
+          "page_number": 5,
+          "text": "Note: The above list is indicative only and may not be treated as exhaustive.\n\n13. Cl. 26 (Terminals for external\nconductors) (IS 302-2-14)\nTorque Screwdriver\n14. Cl. 27 (Provision for earthing) (IS 302-\n2-14)\nEarth Contact Resistance Testing Panel (ECR\nMeasurement), Voltmeter, Ammeter\n15. Cl. 28 (Screws and Connections) (IS\n302-2-14)\nTorque Wrench\n16. Cl. 29 (Creepage Distances and\nClearances) (IS 302-2-14)\nFiller Gauge, Vernier Calliper, Micrometer\n17. Cl. 20 Stability & Mechanical Hazards,\n(IS 302-2-14)\nInclination Plane with Test Panel\n18. Cl. 31 (Resistance to Rusting) (IS 302-\n2-14)\nHumidity Chamber with Temp and Humidity Controller\nMeasuring Cylinder 500 ml, Ammonium Chloride,\nCarbon Tetrachloride, Distilled Water\n19. Cl. 19.1 (Abnormal Operation) (IS 302-\n2-14)\nFacility to lock the rotor\n20. Cl. 9 (Endurance test)\nEndurance test panel, programmable on-off timer, artificial load\n21.\nCl. 10 (Operational Tests)\nCoffee Seeds, Urad Dal, Boiled Rice, Eggs, Stop watch\nMeasuring jar, Sieves set 710,500, 355,1000,1400 microns, Weighing Balance\n22. Cl. 11(Temperature withstand test for\nbowl)\nHotplate\n\n23. Cl. 12 (Test for Controls)\nVoltmeter, Ammeter, Arrangement to stall the motor\n24. Cl. 13 (Strength of Assembly)\nArrangement to apply force on the bowl assembly\n25. To maintain ambient temperature\nAir conditioner"
+        }
+      ],
+      "pages": [
+        4,
+        5
+      ],
+      "source_start": {
+        "line_number": 1,
+        "page_number": 4
+      },
+      "start_page": 4,
+      "text": "ANNEX – B\n\nपरीƗण उपकरणों की सूची\nList Of Test Equipment\n(INDICATIVE LIST, FOR GUIDANCE ONLY)\n\nMajor test equipment required to test as per the Indian Standard\n\nSl.\nNo.\nTests Used In WithClause\nReference\nTest Equipment/Chemical\n1.\nMarking\nPetroleum Spirit, cotton swab\n2.\nCl. 8 (Protection against electric shock) (IS 302-2-14)\nVoltmeter, Finger Test Apparatus\n3.\nCl. 13.3 (High Voltage test) (IS 302-2-\n14)\nHigh Voltage Tester, Voltmeter, mili Ammeter\n4.\nCl. 10 (Power input and current),\nCl. 13 (Leakage current & Electric strength at operating temperature),\nCl. 16 (Leakage current & Electric strength),\nCl. 27 (Provision for earthing) (IS 302-\n2-14)\nVoltmeter, Ammeter, Wattmeter, Micro ammeter, Mega Ohm Meter, Frequency Meter,\nTest Finger, Mili Ammeter\n5.\nCl. 30 (Resistance to Heat, Fire and\nTracking) (IS 302-2-14)\nGlow Wire Test Apparatus, Oven, Ball\nPressure Apparatus, Heating Oven with\nTemperature Indicator, Timer\n6.\nCl. 14 (Transient Overvoltage),\nCl. 17 (Overload Protection of\nTransformers and associated circuits,\nCl. 19 (Abnormal operation) (IS 302-2-\n14)\nEndurance Test Apparatus (Voltmeter,\nAmmeter, Wattmeter, Energy Meter, Counter\nMeter, Timer)\n7.\nCl. 11 (Temperature Rise) (IS 302-2-\n14)\nTest Corner consisting of dull-black painted plywood, Temperature Controller\n8.\nCl. 15 (Moisture Resistance) (IS 302-\n2-14)\nHumidity Chamber (Temperature Indicator,\nTemperature Controller, Thermo hygrometer,\nHour Meter), Test set up for degree of protection against moisture\n9.\nCl. 21 (Mechanical Strength) (IS 302-\n2-14)\nImpact tester, Spring Hammer, Finger Test\nApparatus\n10. Cl. 22 (Construction) (IS 302-2-14)\nMicrometer, VAW meter, Pressure Test\nApparatus\n11. Cl. 23 (Internal wiring) (IS 302-2-14)\nFlexing Test Apparatus\n12. Cl. 25 (Supply Connection and\nExternal Flexible Cables and Cords)\n(IS 302-2-14)\nCord Grip Test Apparatus, Measuring Tape,\nMicro-ohmmeter\nNote: The above list is indicative only and may not be treated as exhaustive.\n\n13. Cl. 26 (Terminals for external\nconductors) (IS 302-2-14)\nTorque Screwdriver\n14. Cl. 27 (Provision for earthing) (IS 302-\n2-14)\nEarth Contact Resistance Testing Panel (ECR\nMeasurement), Voltmeter, Ammeter\n15. Cl. 28 (Screws and Connections) (IS\n302-2-14)\nTorque Wrench\n16. Cl. 29 (Creepage Distances and\nClearances) (IS 302-2-14)\nFiller Gauge, Vernier Calliper, Micrometer\n17. Cl. 20 Stability & Mechanical Hazards,\n(IS 302-2-14)\nInclination Plane with Test Panel\n18. Cl. 31 (Resistance to Rusting) (IS 302-\n2-14)\nHumidity Chamber with Temp and Humidity Controller\nMeasuring Cylinder 500 ml, Ammonium Chloride,\nCarbon Tetrachloride, Distilled Water\n19. Cl. 19.1 (Abnormal Operation) (IS 302-\n2-14)\nFacility to lock the rotor\n20. Cl. 9 (Endurance test)\nEndurance test panel, programmable on-off timer, artificial load\n21.\nCl. 10 (Operational Tests)\nCoffee Seeds, Urad Dal, Boiled Rice, Eggs, Stop watch\nMeasuring jar, Sieves set 710,500, 355,1000,1400 microns, Weighing Balance\n22. Cl. 11(Temperature withstand test for\nbowl)\nHotplate\n\n23. Cl. 12 (Test for Controls)\nVoltmeter, Ammeter, Arrangement to stall the motor\n24. Cl. 13 (Strength of Assembly)\nArrangement to apply force on the bowl assembly\n25. To maintain ambient temperature\nAir conditioner",
+      "title": "परीƗण उपकरणों की सूची",
+      "type": "annex"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "confidence": "high",
+              "end_page": 6,
+              "number": "1.1",
+              "page_segments": [
+                {
+                  "page_number": 6,
+                  "text": "1.1 It is expected that manufacturers (licensees/applicants) will implement a Quality Assurance Plan\ni.e. a plan of regular testing and in-process controls, designed to ensure that the product bearing the Standard\nMark conforms to all requirements of the Indian Standard."
+                }
+              ],
+              "pages": [
+                6
+              ],
+              "source_start": {
+                "line_number": 8,
+                "page_number": 6
+              },
+              "start_page": 6,
+              "text": "1.1 It is expected that manufacturers (licensees/applicants) will implement a Quality Assurance Plan\ni.e. a plan of regular testing and in-process controls, designed to ensure that the product bearing the Standard\nMark conforms to all requirements of the Indian Standard.",
+              "title": "It is expected that manufacturers (licensees/applicants) will implement a Quality Assurance Plan",
+              "type": "subclause"
+            },
+            {
+              "children": [],
+              "confidence": "high",
+              "end_page": 6,
+              "number": "1.2",
+              "page_segments": [
+                {
+                  "page_number": 6,
+                  "text": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the\nlevels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian\nStandard) and submit the same to BIS Branch Office for information. The manufacturer shall comply with the same and maintain test records in accordance with para 2.4."
+                }
+              ],
+              "pages": [
+                6
+              ],
+              "source_start": {
+                "line_number": 12,
+                "page_number": 6
+              },
+              "start_page": 6,
+              "text": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the\nlevels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian\nStandard) and submit the same to BIS Branch Office for information. The manufacturer shall comply with the same and maintain test records in accordance with para 2.4.",
+              "title": "The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the",
+              "type": "subclause"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "confidence": "high",
+                  "end_page": 6,
+                  "number": "1.3.1",
+                  "page_segments": [
+                    {
+                      "page_number": 6,
+                      "text": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit. The manufacturer has the choice to define their own control unit/batch/lot and submit the same to the BIS."
+                    }
+                  ],
+                  "pages": [
+                    6
+                  ],
+                  "source_start": {
+                    "line_number": 18,
+                    "page_number": 6
+                  },
+                  "start_page": 6,
+                  "text": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit. The manufacturer has the choice to define their own control unit/batch/lot and submit the same to the BIS.",
+                  "title": "For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+                  "type": "subclause"
+                },
+                {
+                  "children": [],
+                  "confidence": "high",
+                  "end_page": 6,
+                  "number": "1.3.2",
+                  "page_segments": [
+                    {
+                      "page_number": 6,
+                      "text": "1.3.2 For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended levels of\ncontrol are given in Table 1."
+                    }
+                  ],
+                  "pages": [
+                    6
+                  ],
+                  "source_start": {
+                    "line_number": 21,
+                    "page_number": 6
+                  },
+                  "start_page": 6,
+                  "text": "1.3.2 For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended levels of\ncontrol are given in Table 1.",
+                  "title": "For the guidance of manufacturers in preparing the Quality Assurance Plan, recommended levels of",
+                  "type": "subclause"
+                },
+                {
+                  "children": [],
+                  "confidence": "high",
+                  "end_page": 6,
+                  "number": "1.3.3",
+                  "page_segments": [
+                    {
+                      "page_number": 6,
+                      "text": "1.3.3 The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan submitted by\nthem on the whole production of the factory which is covered by this plan. Alternatively, the manufacturer has the option of adherence to the quality plan as per levels of control recommended in column 3 of Table 1."
+                    }
+                  ],
+                  "pages": [
+                    6
+                  ],
+                  "source_start": {
+                    "line_number": 24,
+                    "page_number": 6
+                  },
+                  "start_page": 6,
+                  "text": "1.3.3 The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan submitted by\nthem on the whole production of the factory which is covered by this plan. Alternatively, the manufacturer has the option of adherence to the quality plan as per levels of control recommended in column 3 of Table 1.",
+                  "title": "The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan submitted by",
+                  "type": "subclause"
+                }
+              ],
+              "confidence": "high",
+              "end_page": 6,
+              "number": "1.3",
+              "page_segments": [
+                {
+                  "page_number": 6,
+                  "text": "1.3 RECOMMENDED LEVELS OF CONTROL/CONTROL UNIT:"
+                }
+              ],
+              "pages": [
+                6
+              ],
+              "source_start": {
+                "line_number": 16,
+                "page_number": 6
+              },
+              "start_page": 6,
+              "text": "1.3 RECOMMENDED LEVELS OF CONTROL/CONTROL UNIT:",
+              "title": "RECOMMENDED LEVELS OF CONTROL/CONTROL UNIT:",
+              "type": "subclause"
+            },
+            {
+              "children": [],
+              "confidence": "high",
+              "end_page": 6,
+              "number": "1.4",
+              "page_segments": [
+                {
+                  "page_number": 6,
+                  "text": "1.4 However, all manufacturers shall ensure compliance of their products to all the requirements of the\nIndian Standard."
+                }
+              ],
+              "pages": [
+                6
+              ],
+              "source_start": {
+                "line_number": 27,
+                "page_number": 6
+              },
+              "start_page": 6,
+              "text": "1.4 However, all manufacturers shall ensure compliance of their products to all the requirements of the\nIndian Standard.",
+              "title": "However, all manufacturers shall ensure compliance of their products to all the requirements of the",
+              "type": "subclause"
+            }
+          ],
+          "confidence": "high",
+          "end_page": 6,
+          "number": "1",
+          "page_segments": [
+            {
+              "page_number": 6,
+              "text": "1. QUALITY ASSURANCE PLAN"
+            }
+          ],
+          "pages": [
+            6
+          ],
+          "source_start": {
+            "line_number": 6,
+            "page_number": 6
+          },
+          "start_page": 6,
+          "text": "1. QUALITY ASSURANCE PLAN",
+          "title": "QUALITY ASSURANCE PLAN",
+          "type": "clause"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "confidence": "high",
+              "end_page": 6,
+              "number": "2.1",
+              "page_segments": [
+                {
+                  "page_number": 6,
+                  "text": "2.1 For the guidance of manufacturers, Table 1 giving the recommended levels of control is given below.\nColumn 2 of Table 1 indicates routine tests where test equipment is required in house as “R” or other tests which can be subcontracted as “S”. Subcontracting is permitted to BIS recognized/empanelled laboratory or any other laboratory having valid NABL accreditation as per IS/ISO/IEC 17025."
+                }
+              ],
+              "pages": [
+                6
+              ],
+              "source_start": {
+                "line_number": 40,
+                "page_number": 6
+              },
+              "start_page": 6,
+              "text": "2.1 For the guidance of manufacturers, Table 1 giving the recommended levels of control is given below.\nColumn 2 of Table 1 indicates routine tests where test equipment is required in house as “R” or other tests which can be subcontracted as “S”. Subcontracting is permitted to BIS recognized/empanelled laboratory or any other laboratory having valid NABL accreditation as per IS/ISO/IEC 17025.",
+              "title": "For the guidance of manufacturers, Table 1 giving the recommended levels of control is given below.",
+              "type": "subclause"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "confidence": "high",
+                  "end_page": 7,
+                  "number": "2.2.1",
+                  "page_segments": [
+                    {
+                      "page_number": 6,
+                      "text": "2.2.1 MSME manufacturers may utilize common cluster based facilities as per guidelines for the utilization"
+                    },
+                    {
+                      "page_number": 7,
+                      "text": "of cluster based test facilities by MSMEs or the provisions of Sharing of testing facilities or get testing done from BIS recognized/empaneled laboratory or any other laboratory having valid NABL accreditation as per\nIS/ISO/IEC 17025."
+                    }
+                  ],
+                  "pages": [
+                    6,
+                    7
+                  ],
+                  "source_start": {
+                    "line_number": 46,
+                    "page_number": 6
+                  },
+                  "start_page": 6,
+                  "text": "2.2.1 MSME manufacturers may utilize common cluster based facilities as per guidelines for the utilization\nof cluster based test facilities by MSMEs or the provisions of Sharing of testing facilities or get testing done from BIS recognized/empaneled laboratory or any other laboratory having valid NABL accreditation as per\nIS/ISO/IEC 17025.",
+                  "title": "MSME manufacturers may utilize common cluster based facilities as per guidelines for the utilization",
+                  "type": "subclause"
+                }
+              ],
+              "confidence": "high",
+              "end_page": 7,
+              "number": "2.2",
+              "page_segments": [
+                {
+                  "page_number": 6,
+                  "text": "2.2 For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing\nfacility for routine tests (indicated as “R” in Column 2 of Table 1) is also optional."
+                }
+              ],
+              "pages": [
+                6,
+                7
+              ],
+              "source_start": {
+                "line_number": 43,
+                "page_number": 6
+              },
+              "start_page": 6,
+              "text": "2.2 For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing\nfacility for routine tests (indicated as “R” in Column 2 of Table 1) is also optional.",
+              "title": "For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing",
+              "type": "subclause"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "confidence": "high",
+                  "end_page": 7,
+                  "number": "2.3.1",
+                  "page_segments": [
+                    {
+                      "page_number": 7,
+                      "text": "2.3.1 Alternatively, in lieu of an in-house laboratory, large scale manufacturers can also utilize the provisions\nof Sharing of testing facilities as per the Guidelines for Grant of Licence available on BIS website www.bis.gov.in. (Under Conformity Assessment>Product Certification Process). Even for subcontracted tests, provisions for sharing of testing facilities can be utilized."
+                    }
+                  ],
+                  "pages": [
+                    7
+                  ],
+                  "source_start": {
+                    "line_number": 5,
+                    "page_number": 7
+                  },
+                  "start_page": 7,
+                  "text": "2.3.1 Alternatively, in lieu of an in-house laboratory, large scale manufacturers can also utilize the provisions\nof Sharing of testing facilities as per the Guidelines for Grant of Licence available on BIS website www.bis.gov.in. (Under Conformity Assessment>Product Certification Process). Even for subcontracted tests, provisions for sharing of testing facilities can be utilized.",
+                  "title": "Alternatively, in lieu of an in-house laboratory, large scale manufacturers can also utilize the provisions",
+                  "type": "subclause"
+                }
+              ],
+              "confidence": "high",
+              "end_page": 7,
+              "number": "2.3",
+              "page_segments": [
+                {
+                  "page_number": 7,
+                  "text": "2.3 Large Scale manufacturers shall maintain an in-house laboratory equipped at least with test\nfacilities for routine tests (indicated as “R” in Column 2 of Table 1), where different tests given in the specification shall be carried out in accordance with the method given in the specification. They shall also implement a calibration plan for the in-house test equipment."
+                }
+              ],
+              "pages": [
+                7
+              ],
+              "source_start": {
+                "line_number": 3,
+                "page_number": 7
+              },
+              "start_page": 7,
+              "text": "2.3 Large Scale manufacturers shall maintain an in-house laboratory equipped at least with test\nfacilities for routine tests (indicated as “R” in Column 2 of Table 1), where different tests given in the specification shall be carried out in accordance with the method given in the specification. They shall also implement a calibration plan for the in-house test equipment.",
+              "title": "Large Scale manufacturers shall maintain an in-house laboratory equipped at least with test",
+              "type": "subclause"
+            },
+            {
+              "children": [],
+              "confidence": "high",
+              "end_page": 7,
+              "number": "2.4",
+              "page_segments": [
+                {
+                  "page_number": 7,
+                  "text": "2.4 TEST RECORDS- The manufacturers maintaining an in-house laboratory or utilizing common cluster\nbased facilities or shared test facilities shall maintain test records for the tests carried out to establish conformity. For the tests being subcontracted to BIS recognized/empanelled laboratory or any other laboratory having valid NABL accreditation as per IS/ISO/IEC 17025, test reports issued by the laboratories shall be available for inspection by BIS."
+                }
+              ],
+              "pages": [
+                7
+              ],
+              "source_start": {
+                "line_number": 8,
+                "page_number": 7
+              },
+              "start_page": 7,
+              "text": "2.4 TEST RECORDS- The manufacturers maintaining an in-house laboratory or utilizing common cluster\nbased facilities or shared test facilities shall maintain test records for the tests carried out to establish conformity. For the tests being subcontracted to BIS recognized/empanelled laboratory or any other laboratory having valid NABL accreditation as per IS/ISO/IEC 17025, test reports issued by the laboratories shall be available for inspection by BIS.",
+              "title": "TEST RECORDS- The manufacturers maintaining an in-house laboratory or utilizing common cluster",
+              "type": "subclause"
+            }
+          ],
+          "confidence": "high",
+          "end_page": 7,
+          "number": "2",
+          "page_segments": [
+            {
+              "page_number": 6,
+              "text": "2. ENSURING\nCOMPLIANCE\nTHROUGH\nTESTING-\nIt\nis\nexpected\nthat\nmanufacturers\n(licensees/applicants) will establish a suitably equipped and staffed in house laboratory (In house testing facility) for testing at least those parameters of the Indian Standard which require routine testing for ensuring quality of the product. This includes in-process controls as may be defined and put in place by the manufacturer and testing parameters/requirements which can only be performed in the factory."
+            }
+          ],
+          "pages": [
+            6,
+            7
+          ],
+          "source_start": {
+            "line_number": 29,
+            "page_number": 6
+          },
+          "start_page": 6,
+          "text": "2. ENSURING\nCOMPLIANCE\nTHROUGH\nTESTING-\nIt\nis\nexpected\nthat\nmanufacturers\n(licensees/applicants) will establish a suitably equipped and staffed in house laboratory (In house testing facility) for testing at least those parameters of the Indian Standard which require routine testing for ensuring quality of the product. This includes in-process controls as may be defined and put in place by the manufacturer and testing parameters/requirements which can only be performed in the factory.",
+          "title": "ENSURING",
+          "type": "clause"
+        },
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 7,
+          "number": "3",
+          "page_segments": [
+            {
+              "page_number": 7,
+              "text": "3. MARKING – The Standard Mark as given in the Schedule of the licence shall be incorporated legibly and\nindelibly on each Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers and also on its packaging provided always that the Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal\nJuicers so marked conforms to the requirements of the specification. In addition, marking shall also be done as per Cl. 7 of IS 4250 : 2025."
+            }
+          ],
+          "pages": [
+            7
+          ],
+          "source_start": {
+            "line_number": 11,
+            "page_number": 7
+          },
+          "start_page": 7,
+          "text": "3. MARKING – The Standard Mark as given in the Schedule of the licence shall be incorporated legibly and\nindelibly on each Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers and also on its packaging provided always that the Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal\nJuicers so marked conforms to the requirements of the specification. In addition, marking shall also be done as per Cl. 7 of IS 4250 : 2025.",
+          "title": "MARKING – The Standard Mark as given in the Schedule of the licence shall be incorporated legibly and",
+          "type": "clause"
+        },
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 7,
+          "number": "4",
+          "page_segments": [
+            {
+              "page_number": 7,
+              "text": "4. Additional Marking Requirments:\n\na) The material shall also be marked with the following additional requirement on packaging:\n“For BIS certification details please visit www.bis.gov.in\";\nb) Instruction Booklet shall be provided as per the requirements of Cl. 7.2 of IS 4250 : 2025."
+            }
+          ],
+          "pages": [
+            7
+          ],
+          "source_start": {
+            "line_number": 15,
+            "page_number": 7
+          },
+          "start_page": 7,
+          "text": "4. Additional Marking Requirments:\n\na) The material shall also be marked with the following additional requirement on packaging:\n“For BIS certification details please visit www.bis.gov.in\";\nb) Instruction Booklet shall be provided as per the requirements of Cl. 7.2 of IS 4250 : 2025.",
+          "title": "Additional Marking Requirments:",
+          "type": "clause"
+        },
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 7,
+          "number": "5",
+          "page_segments": [
+            {
+              "page_number": 7,
+              "text": "5. REJECTION - All the production which conforms to the Indian Standard and covered under the scope\nof this licence shall be marked with the Standard Mark. Disposal of non-conforming product shall be done in such a way so as to ensure that there is no violation of provisions of BIS Act,2016."
+            }
+          ],
+          "pages": [
+            7
+          ],
+          "source_start": {
+            "line_number": 21,
+            "page_number": 7
+          },
+          "start_page": 7,
+          "text": "5. REJECTION - All the production which conforms to the Indian Standard and covered under the scope\nof this licence shall be marked with the Standard Mark. Disposal of non-conforming product shall be done in such a way so as to ensure that there is no violation of provisions of BIS Act,2016.",
+          "title": "REJECTION - All the production which conforms to the Indian Standard and covered under the scope",
+          "type": "clause"
+        },
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 10,
+          "identifier": "1",
+          "page_segments": [
+            {
+              "page_number": 8,
+              "text": "TABLE 1\n(ONLY FOR GUIDANCE PURPOSE)\n\n(1)\n(2)\n(3)\nTest Details\nTest\nequipment\nrequireme\nnt\nR: required (or)\nS: Subcontracting\npermitted\nLevels of Control\nCl. of IS\n4250\nRequirement\nTest Methods\nNo. of Sample\nFrequency\nRemarks\nClaus\ne\nReference\n8\nComponents\n24\nIS 302-2-14\nS\nEach\nconsignment of\ncomponents\nreceived\n\nFurther testing is not required if supplied with BIS Standard Mark or with Test certificate, which ever applicable\nEarth Continuity Test\nA-1\nIS 302-1\nR\nEach Electric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers\n\nElectric Strength Test\nA-2\nIS 302-1\nR\n\nFunctional Test\nA-3\nIS 302-1\nR\n\nProvision for Earthing\n27\nIS 302-2-14\nR\n\nLeakage current & electric strength at operating temperature\n\n13\nIS 302-2-14\nR\n\n7\nMarking\n7\nIS 4250\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Records shall be maintained"
+            },
+            {
+              "page_number": 9,
+              "text": "8\nProtection against access to live parts\n8\nIS 302-2-14\nR\nOne\nEach Control Unit\n10\nOperational Tests\n10\nIS 4250\nR\nOne\nEach Control Unit\n11\nTemperature withstand test for bowl\n11\nIS 4250\nR\nOne\nEach Control Unit\n\n8\nPower Input & Current\n10\nIS 302-2-14\nS\nOne\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\nHeating\n11\nIS 302-2-14\nS\nOne\nLeakage current & electric strength at operating temperature\n\n13\nIS 302-2-14\nS\nOne\nTransient Overvoltage\n14\nIS 302-2-14\nS\nOne\nMoisture Resistance\n15\nIS 302-2-14\nS\nOne\nLeakage Current & Electric Strength\n16\nIS 302-2-14\nS\nOne\nOverload Protection of Transformers and associated circuits\n17\nIS 302-2-14\nS\nOne\nAbnormal Operation\n19\nIS 302-2-14\nS\nOne\nStability & Mechanical Hazards\n20\nIS 302-2-14\nS\nOne\nMechanical Strength\n21\nIS 302-2-14\nS\nOne"
+            },
+            {
+              "page_number": 10,
+              "text": "8\nConstruction\n22\nIS 302-2-14\nS\nOne\n\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\nInternal Wiring\n23\nIS 302-2-14\nS\nOne\nSupply Connections & external flexible cords\n25\nIS 302-2-14\nS\nOne\nTerminals for external conductors\n26\nIS 302-2-14\nS\nOne\nScrews & Connections\n28\nIS 302-2-14\nS\nOne\nClearances, creepage distances & solid insulation\n29\nIS 302-2-14\nS\nOne\nResistance to heat & fire\n30\nIS 302-2-14\nS\nOne\nResistance to rusting\n31\nIS 302-2-14\nS\nOne\nRadiation, toxicity and similar hazards\n32\nIS 302-2-14\nS\nOne\n9\nEndurance for motor and base assembly\n9\nIS 4250\nS\nOne\n\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\n12\nTest for controls\n12\nIS 4250\nS\nOne\n13\nStrength of assembly\n13\nIS 4250\nS\nOne"
+            }
+          ],
+          "pages": [
+            8,
+            9,
+            10
+          ],
+          "source_start": {
+            "line_number": 1,
+            "page_number": 8
+          },
+          "start_page": 8,
+          "text": "TABLE 1\n(ONLY FOR GUIDANCE PURPOSE)\n\n(1)\n(2)\n(3)\nTest Details\nTest\nequipment\nrequireme\nnt\nR: required (or)\nS: Subcontracting\npermitted\nLevels of Control\nCl. of IS\n4250\nRequirement\nTest Methods\nNo. of Sample\nFrequency\nRemarks\nClaus\ne\nReference\n8\nComponents\n24\nIS 302-2-14\nS\nEach\nconsignment of\ncomponents\nreceived\n\nFurther testing is not required if supplied with BIS Standard Mark or with Test certificate, which ever applicable\nEarth Continuity Test\nA-1\nIS 302-1\nR\nEach Electric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers\n\nElectric Strength Test\nA-2\nIS 302-1\nR\n\nFunctional Test\nA-3\nIS 302-1\nR\n\nProvision for Earthing\n27\nIS 302-2-14\nR\n\nLeakage current & electric strength at operating temperature\n\n13\nIS 302-2-14\nR\n\n7\nMarking\n7\nIS 4250\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Records shall be maintained\n8\nProtection against access to live parts\n8\nIS 302-2-14\nR\nOne\nEach Control Unit\n10\nOperational Tests\n10\nIS 4250\nR\nOne\nEach Control Unit\n11\nTemperature withstand test for bowl\n11\nIS 4250\nR\nOne\nEach Control Unit\n\n8\nPower Input & Current\n10\nIS 302-2-14\nS\nOne\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\nHeating\n11\nIS 302-2-14\nS\nOne\nLeakage current & electric strength at operating temperature\n\n13\nIS 302-2-14\nS\nOne\nTransient Overvoltage\n14\nIS 302-2-14\nS\nOne\nMoisture Resistance\n15\nIS 302-2-14\nS\nOne\nLeakage Current & Electric Strength\n16\nIS 302-2-14\nS\nOne\nOverload Protection of Transformers and associated circuits\n17\nIS 302-2-14\nS\nOne\nAbnormal Operation\n19\nIS 302-2-14\nS\nOne\nStability & Mechanical Hazards\n20\nIS 302-2-14\nS\nOne\nMechanical Strength\n21\nIS 302-2-14\nS\nOne\n8\nConstruction\n22\nIS 302-2-14\nS\nOne\n\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\nInternal Wiring\n23\nIS 302-2-14\nS\nOne\nSupply Connections & external flexible cords\n25\nIS 302-2-14\nS\nOne\nTerminals for external conductors\n26\nIS 302-2-14\nS\nOne\nScrews & Connections\n28\nIS 302-2-14\nS\nOne\nClearances, creepage distances & solid insulation\n29\nIS 302-2-14\nS\nOne\nResistance to heat & fire\n30\nIS 302-2-14\nS\nOne\nResistance to rusting\n31\nIS 302-2-14\nS\nOne\nRadiation, toxicity and similar hazards\n32\nIS 302-2-14\nS\nOne\n9\nEndurance for motor and base assembly\n9\nIS 4250\nS\nOne\n\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\n12\nTest for controls\n12\nIS 4250\nS\nOne\n13\nStrength of assembly\n13\nIS 4250\nS\nOne",
+          "title": null,
+          "type": "table"
+        }
+      ],
+      "confidence": "high",
+      "content_mode": "narrative_or_mixed",
+      "end_page": 10,
+      "identifier": "C",
+      "page_segments": [
+        {
+          "page_number": 6,
+          "text": "ANNEX – C\n\nिनरीƗण और परीƗण की ˋीम\nScheme Of Inspection And Testing"
+        }
+      ],
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_start": {
+        "line_number": 1,
+        "page_number": 6
+      },
+      "start_page": 6,
+      "text": "ANNEX – C\n\nिनरीƗण और परीƗण की ˋीम\nScheme Of Inspection And Testing",
+      "title": "िनरीƗण और परीƗण की ˋीम",
+      "type": "annex"
+    },
+    {
+      "children": [],
+      "confidence": "high",
+      "content_mode": "list_or_table",
+      "end_page": 11,
+      "identifier": "D",
+      "page_segments": [
+        {
+          "page_number": 11,
+          "text": "ANNEX – D\n\nएक िदन मŐ संभािवत परीƗण\nPossible Tests in a day\n\n1. Marking (Cl. 7)\n2. Protection against access to live parts (Cl. 8 of IS 302-2-14)\n3. Power Input and Current (Cl. 10 of IS 302-2-14)\n4. High Voltage (Cl. 13.2.2 of IS 302-2-14)\n5. Leakage Current & Electric Strength at operating temperature (Cl. 13 of IS 302-2-14)\n6. Provision for Earthing (Cl. 27 of IS 302-2-14)\n7. Leakage Current & Electric Strength (Cl. 16 of IS 302-2-14)\n8. Temperature withstand test for bowl (Cl. 11)\n9. Test for controls (Cl. 12)"
+        }
+      ],
+      "pages": [
+        11
+      ],
+      "source_start": {
+        "line_number": 1,
+        "page_number": 11
+      },
+      "start_page": 11,
+      "text": "ANNEX – D\n\nएक िदन मŐ संभािवत परीƗण\nPossible Tests in a day\n\n1. Marking (Cl. 7)\n2. Protection against access to live parts (Cl. 8 of IS 302-2-14)\n3. Power Input and Current (Cl. 10 of IS 302-2-14)\n4. High Voltage (Cl. 13.2.2 of IS 302-2-14)\n5. Leakage Current & Electric Strength at operating temperature (Cl. 13 of IS 302-2-14)\n6. Provision for Earthing (Cl. 27 of IS 302-2-14)\n7. Leakage Current & Electric Strength (Cl. 16 of IS 302-2-14)\n8. Temperature withstand test for bowl (Cl. 11)\n9. Test for controls (Cl. 12)",
+      "title": "एक िदन मŐ संभािवत परीƗण",
+      "type": "annex"
+    }
+  ],
+  "structure_method": "deterministic_bis_rules_v1",
+  "structure_quality_checks": {
+    "clause_numbers_present_in_text": true,
+    "cleaned_text_preserved": true,
+    "every_page_represented": true,
+    "hierarchy_consistent": true,
+    "metadata_conflict_preserved": true,
+    "page_numbers_preserved": true,
+    "passed": true,
+    "raw_text_preserved": true,
+    "same_document_id": true,
+    "same_page_count": true,
+    "source_sha256_preserved": true,
+    "source_url_preserved": true,
+    "tables_have_no_clause_children": true
+  },
+  "structured_at": "2026-09-28T21:17:08+00:00",
+  "title": "View 1601 IS 4250 : 2025 Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers - Specification (Second Revision) 572 KB Pdf View Download",
+  "validated_at": "2026-09-28T20:20:52+00:00",
+  "validation_status": "valid",
+  "verification_status": "verified"
+}

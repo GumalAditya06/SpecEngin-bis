@@ -1,0 +1,116 @@
+{
+  "annex_chunks": 61,
+  "average_token_count": 142.39,
+  "chunks_above_hard_maximum": 0,
+  "chunks_above_soft_maximum": 0,
+  "chunks_below_target": 80,
+  "chunks_created": 83,
+  "chunks_per_document": {
+    "ba52fdad4caf5bc088bd": 20,
+    "bc5e2c188eaf267d3871": 36,
+    "d61562a653c02bee77be": 27
+  },
+  "chunks_per_standard": {
+    "IS 2347:2023": 36,
+    "IS 367:1993": 20,
+    "IS 4250:2025": 27
+  },
+  "chunks_with_missing_metadata": 0,
+  "clauses_split": 0,
+  "documents": [
+    {
+      "annex_chunks": 28,
+      "chunks_created": 36,
+      "clauses_split": 0,
+      "document_id": "bc5e2c188eaf267d3871",
+      "pages_processed": 17,
+      "quality_checks": {
+        "all_chunks_have_document_id": true,
+        "all_chunks_have_pages": true,
+        "all_chunks_have_provenance": true,
+        "all_pages_represented": true,
+        "chunk_ids_deterministic": true,
+        "chunk_ids_unique": true,
+        "hard_max_respected": true,
+        "metadata_conflict_preserved": true,
+        "page_provenance_valid": true,
+        "passed": true,
+        "source_text_not_rewritten": true,
+        "tables_preserved": true
+      },
+      "standard_numbers": [
+        "IS 2347:2023"
+      ],
+      "structural_units_split": 1,
+      "tables_chunked": 1
+    },
+    {
+      "annex_chunks": 13,
+      "chunks_created": 20,
+      "clauses_split": 0,
+      "document_id": "ba52fdad4caf5bc088bd",
+      "pages_processed": 10,
+      "quality_checks": {
+        "all_chunks_have_document_id": true,
+        "all_chunks_have_pages": true,
+        "all_chunks_have_provenance": true,
+        "all_pages_represented": true,
+        "chunk_ids_deterministic": true,
+        "chunk_ids_unique": true,
+        "hard_max_respected": true,
+        "metadata_conflict_preserved": true,
+        "page_provenance_valid": true,
+        "passed": true,
+        "source_text_not_rewritten": true,
+        "tables_preserved": true
+      },
+      "standard_numbers": [
+        "IS 367:1993"
+      ],
+      "structural_units_split": 0,
+      "tables_chunked": 1
+    },
+    {
+      "annex_chunks": 20,
+      "chunks_created": 27,
+      "clauses_split": 0,
+      "document_id": "d61562a653c02bee77be",
+      "pages_processed": 11,
+      "quality_checks": {
+        "all_chunks_have_document_id": true,
+        "all_chunks_have_pages": true,
+        "all_chunks_have_provenance": true,
+        "all_pages_represented": true,
+        "chunk_ids_deterministic": true,
+        "chunk_ids_unique": true,
+        "hard_max_respected": true,
+        "metadata_conflict_preserved": true,
+        "page_provenance_valid": true,
+        "passed": true,
+        "source_text_not_rewritten": true,
+        "tables_preserved": true
+      },
+      "standard_numbers": [
+        "IS 4250:2025"
+      ],
+      "structural_units_split": 0,
+      "tables_chunked": 1
+    }
+  ],
+  "documents_processed": 3,
+  "generated_at": "2026-09-28T21:32:35+00:00",
+  "limits": {
+    "hard_max_tokens": 1200,
+    "overlap_tokens": 75,
+    "soft_max_tokens": 1000,
+    "target_tokens": 700
+  },
+  "maximum_token_count": 862,
+  "metadata_errors": [],
+  "minimum_token_count": 12,
+  "pages_processed": 38,
+  "selection": "stage_2_4_test_documents",
+  "structural_units_requiring_splitting": 1,
+  "tables_chunked": 3,
+  "tokenizer": "regex_v1"
+}

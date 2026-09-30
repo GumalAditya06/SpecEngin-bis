@@ -1,0 +1,115 @@
+{
+  "batch_detail": {
+    "batch_sizes_observed": [
+      32,
+      32,
+      19
+    ],
+    "batches_encoded": 3,
+    "batches_failed": 0,
+    "final_partial_batch": 19
+  },
+  "batch_size": 32,
+  "chunks_per_document": {
+    "ba52fdad4caf5bc088bd": 20,
+    "bc5e2c188eaf267d3871": 36,
+    "d61562a653c02bee77be": 27
+  },
+  "chunks_per_standard": {
+    "IS 2347:2023": 36,
+    "IS 367:1993": 20,
+    "IS 4250:2025": 27
+  },
+  "documents": 3,
+  "embedding_dimension": 768,
+  "failed_embeddings": 0,
+  "failures": [],
+  "generated_at": "2026-09-28T21:57:18+00:00",
+  "input_chunks": 83,
+  "input_provenance": {
+    "chunks_file": "data/processed/chunks/chunks.jsonl",
+    "chunks_sha256": "447e13e28b69ab5f7f7536a4d99841150cd3aecfedddcdd5ba76f4ce64596df1",
+    "chunks_unchanged": true
+  },
+  "model": "BAAI/bge-base-en-v1.5",
+  "model_detail": {
+    "device": "cpu",
+    "embedding_dimension": 768,
+    "library_versions": {
+      "python": "3.14.4",
+      "sentence_transformers": "6.1.0",
+      "torch": "2.14.0+cpu",
+      "transformers": "5.17.0"
+    },
+    "license": null,
+    "load_seconds": 2.067,
+    "max_seq_length": 512,
+    "model": "BAAI/bge-base-en-v1.5",
+    "model_revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "normalized": true,
+    "parameter_count": 109482240,
+    "pooling_mode": "cls",
+    "provider": "sentence-transformers"
+  },
+  "normalized": true,
+  "outputs": {
+    "embeddings": "data/processed/embeddings/embeddings.jsonl",
+    "report": "data/processed/embeddings/embedding_report.json",
+    "semantic_test": "data/processed/embeddings/semantic_test.json"
+  },
+  "selection": "stage_2_5_chunks",
+  "stage": "3.1",
+  "successful_embeddings": 83,
+  "timing": {
+    "average_seconds_per_chunk": 0.4174,
+    "embedding_generation_seconds": 34.648,
+    "model_load_seconds": 2.067,
+    "total_runtime_seconds": 39.362
+  },
+  "truncation": {
+    "chunks_truncated": 10,
+    "model_max_seq_length": 512,
+    "note": "Chunks longer than the model's context window are encoded from their leading tokens. The stored text remains complete and unchanged; only the embedded string is windowed.",
+    "truncated_chunk_ids": [
+      "08cb5f835d699d90bf06f9d4",
+      "e07a10ef9cf49c3b090695bd",
+      "fa6164d48ec0e3744ae19f6b",
+      "639bd0673282ee1ddd933069",
+      "24dea232fd1b7b704e2cee9b",
+      "83d37a09e64ef578866c0ffd",
+      "ab92c63e2e2bc5bca6a23d72",
+      "e2d2ae9c51dd12cabe8112dc",
+      "8439983a9ecbdb72d56ac23c",
+      "492d5e4e667b20ce04aed357"
+    ]
+  },
+  "validation": {
+    "checks": {
+      "all_chunks_embedded_or_failed": true,
+      "all_dimensions_match_model": true,
+      "chunk_ids_unique": true,
+      "chunks_input_unchanged": true,
+      "every_embedding_maps_to_chunk": true,
+      "failure_count_matches": true,
+      "input_chunk_count_matches": true,
+      "no_infinite_values": true,
+      "no_nan_values": true,
+      "passed": true,
+      "source_metadata_preserved": true,
+      "successful_embedding_count_matches": true
+    },
+    "details": {
+      "duplicate_chunk_ids": [],
+      "duplicate_input_chunk_ids": [],
+      "expected_embedding_dimension": 768,
+      "failed_embeddings": 0,
+      "input_chunks": 83,
+      "metadata_errors": [],
+      "non_finite_chunk_ids": [],
+      "successful_embeddings": 83,
+      "unaccounted_chunk_ids": [],
+      "unmapped_chunk_ids": [],
+      "wrong_dimension_chunk_ids": []
+    }
+  }
+}

@@ -1,0 +1,702 @@
+{
+  "ambiguous_detections": [],
+  "cleaned_at": "2026-09-28T21:05:25+00:00",
+  "cleaned_input_file": "/home/aditya/Aditya/new makings/scraper/data/processed/cleaned/is_367_1993_product_manual_ba52fdad.json",
+  "cleaned_input_sha256": "a76af62c4d801f4d1b4af9dbb80d96010c67588c68e474d8de179e2958226432",
+  "conflict_type": null,
+  "document_detected_standard_numbers": [
+    "IS 367:1993"
+  ],
+  "document_id": "ba52fdad4caf5bc088bd",
+  "document_type": "product_manual",
+  "extracted_at": "2026-09-28T20:39:59+00:00",
+  "local_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+  "manifest_standard_numbers": [
+    "IS 367:1993"
+  ],
+  "metadata_conflict": false,
+  "organization": "Bureau of Indian Standards",
+  "pages": [
+    {
+      "character_count_cleaned": 1242,
+      "character_count_raw": 1297,
+      "cleaned_text": "भारतीय मानक ब्यूरो\nBUREAU OF INDIAN STANDARDS\nमानक भवन, ९, बहादुर शाह ज़फ़र मार्ग\nManak Bhawan, 9, Bahadur Shah Zafar Marg\nनई ददल्ली- ११०००२\nNew Delhi – 110002\n\nउत्पाद मैन्युअल\nआई एस 367 : 1993 के अनुसार\n\nघरेलू और समान उपयोर् के ललए इलेलरिक केतली और जर्\nके ललए\n\nदस्तावेज़ संख्या – पी एम/आई एस 367 / 1/फ़रवरी 2022\n\nभारतीय मानक ब्यूरो की स्कीम-I (अनुरूपता मूलयाााांकन) लवलनयम, 2018 के तहत यह उत्पाद मैन्युअल प्रमाणीकरण के प्रचालन\nमें रीलत और पाररर्शगता की सुसंर्तता सुलनलित करने के ललए सभी क्षेत्रीय/शाखा कायागलयों और लाइसेंसी द्वारा संदभग सामग्री के रूप\nमें उपयोर् दकया जाएर्ा। बीआईएस प्रमाणीकरण लाइसेंस/ प्रमाणपत्र प्राप्त करने के इच्छुक भावी आवेदकों द्वारा भी इस दस्तावेज़ का\nउपयोर् दकया जा सकता है ।\n\nPRODUCT MANUAL FOR\nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE\nACCORDING TO IS 367: 1993\n\nDocument No.- PM/ IS 367/ 1/ Feb 2022\n\nThis Product Manual shall be used as reference material by all Regional/Branch Offices & licensees to ensure coherence of practice and transparency in operation of certification under Scheme-I of Bureau of Indian Standards (Conformity Assessment) Regulations, 2018 for various products. The document may also be used by prospective applicants desirous of obtaining BIS certification licence/certificate.",
+      "cleaning_statistics": {
+        "blank_lines_removed": 3,
+        "line_joins": 3,
+        "whitespace_normalizations": 1
+      },
+      "page_number": 1,
+      "raw_text": " \n \n \nभारतीय मानक ब्यूरो \nBUREAU OF INDIAN STANDARDS \nमानक भवन, ९, बहादुर शाह ज़फ़र मार्ग \nManak Bhawan, 9, Bahadur Shah Zafar Marg \nनई ददल्ली- ११०००२ \nNew Delhi – 110002 \n \n \nउत्पाद मैन्युअल \nआई एस 367 : 1993 के अनुसार \n \nघरेलू और समान उपयोर् के ललए इलेलरिक केतली और जर्         \n के ललए \n \nदस्तावेज़ संख्या – पी एम/आई एस 367 / 1/फ़रवरी 2022 \n \nभारतीय मानक ब्यूरो की स्कीम-I (अनुरूपता मूलयाााांकन) लवलनयम , 2018 के तहत यह उत्पाद मैन्युअल प्रमाणीकरण के प्रचालन \nमें रीलत और पाररर्शगता की सुसंर्तता सुलनलित करने के ललए सभी क्षेत्रीय/शाखा कायागलयों और लाइसेंसी द्वारा संदभग सामग्री के रूप \nमें उपयोर् दकया जाएर्ा। बीआईएस प्रमाणीकरण लाइसेंस/ प्रमाणपत्र प्राप्त करने के इच्छुक भावी आवेदकों द्वारा भी इस दस्तावेज़ का \nउपयोर् दकया जा सकता है । \n \nPRODUCT MANUAL FOR \nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE  \nACCORDING TO IS 367: 1993  \n \nDocument No.- PM/ IS 367/ 1/ Feb 2022 \n \nThis Product Manual shall be used as reference material by all Regional/Branch Offices & licensees to \nensure coherence of practice and transparency in operation of certification under Scheme-I of Bureau \nof Indian Standards (Conformity Assessment) Regulations, 2018 for various products. The document \nmay also be used by prospective applicants desirous of obtaining BIS certification licence/certificate. \n \n \n"
+    },
+    {
+      "character_count_cleaned": 1214,
+      "character_count_raw": 1363,
+      "cleaned_text": "BUREAU OF INDIAN STANDARDS\nManak Bhawan, 9, Bahadur Shah Zafar Marg,\nNew Delhi – 110002\n\nPRODUCT MANUAL FOR\nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE\nACCORDING TO IS 367: 1993\n\nThis Product Manual shall be used as reference material by all Regional/Branch Offices & licensees to ensure coherence of practice and transparency in operation of certification under\nScheme-I of Bureau of Indian Standards (Conformity Assessment) Regulations, 2019 for various products. The document may also be used by prospective applicants desirous of obtaining BIS certification licence/certificate.\n1.\nProduct\n:\nIS 367: 1993\n\nTitle\n:\nElectric Kettles and Jugs for household and similar use\n\nNo. of Amendments\n:\nnil\n2.\nSampling Guidelines:\na)\nRaw material\n:\n-\nb)\nGrouping guidelines\n:\nPlease refer ANNEX – A\nc)\nSample Size\n:\nTwo pieces\n\n3.\nList\nof\nTest\nEquipment\n:\nPlease refer ANNEX – B.\n\n4.\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C.\n\n5.\nPossible tests in a\nday\n:\nPlease refer ANNEX - D\n\n6.\nScope of the Licence :\nName of the Product\nElectric Kettles / Jugs / Cordless Kettles etc for household and similar use\nRated Input power\n\nRated Voltage\n\nClass of appliance\n\nRated capacity\n\nDegree of protection",
+      "cleaning_statistics": {
+        "blank_lines_removed": 11,
+        "headers_removed": 1,
+        "line_joins": 4,
+        "page_numbers_removed": 1,
+        "whitespace_normalizations": 1
+      },
+      "page_number": 2,
+      "raw_text": "  \nPM/ IS 367/ 1/ Feb 2022 \nBUREAU OF INDIAN STANDARDS  \nManak Bhawan, 9, Bahadur Shah Zafar Marg,  \nNew Delhi – 110002 \nPage 1 \n \nPRODUCT MANUAL FOR  \nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE \n ACCORDING TO IS 367: 1993 \n \nThis Product Manual shall be used as reference material by all Regional/Branch Offices & \nlicensees to ensure coherence of practice and transparency in operation of certification under \nScheme-I of Bureau of Indian Standards (Conformity Assessment) Regulations, 2019 for \nvarious products. The document may also be used by prospective applicants desirous of \nobtaining BIS certification licence/certificate. \n1. \nProduct \n: \nIS 367: 1993 \n \nTitle \n: \nElectric Kettles and Jugs for household and similar use \n \nNo. of Amendments \n: \nnil \n2. \nSampling Guidelines: \na) \nRaw material \n: \n- \nb) \nGrouping guidelines \n: \nPlease refer ANNEX – A  \nc) \nSample Size \n: \nTwo  pieces \n \n \n \n \n3. \nList \nof \nTest \nEquipment \n: \nPlease refer ANNEX – B. \n \n \n \n \n4. \nScheme of Inspection \nand Testing \n: \nPlease refer ANNEX – C. \n \n \n \n \n5. \nPossible tests in a \nday  \n: \nPlease refer ANNEX - D \n \n \n6. \nScope of the Licence :        \nName of the Product \nElectric Kettles / Jugs / Cordless Kettles etc \nfor household and similar use \nRated Input power  \n \nRated Voltage  \n \nClass of appliance \n \nRated capacity \n \nDegree of protection \n \n"
+    },
+    {
+      "character_count_cleaned": 1055,
+      "character_count_raw": 1143,
+      "cleaned_text": "ANNEX A\n\nGrouping Guidelines\n\n1(a). For the purpose of GoL/ CSoL, samples of Electric Kettles and Jugs shall be tested considering the following:\ni.\nType of the product (Kettle/ Jug/ Cordless Kettle etc) ii.\nRated voltage\niii.\nRated input power\niv.\nClass of appliance\nv.\nRated capacity\nvi.\nDegree of protection against harmful ingress of water\n\n1(b). All other parameters stated above remaining the same, the following relaxation may be given when a variety is tested for all the requirements:\ni. To cover a range of rated inputs, samples of minimum, maximum and an interim\nrated power may be tested.\nii. To cover a range of rated capacities, samples of minimum, maximum and an interim rated capacity may be tested.\n\n2. The Firm shall declare the varieties they intend to cover in the Licence. The Scope of\nLicence may be restricted based on the manufacturing and testing capabilities of the manufacturer.\n\n3. During the operation of the Licence, BO shall ensure that all the varieties covered in the\nLicence are tested in rotation to the extent possible.",
+      "cleaning_statistics": {
+        "blank_lines_removed": 9,
+        "headers_removed": 1,
+        "line_joins": 5
+      },
+      "page_number": 3,
+      "raw_text": "PM/ IS 367/ 1/ Feb 2022 \n \n \n \nANNEX A \n \nGrouping Guidelines \n \n \n    1(a). For the purpose of GoL/ CSoL, samples of Electric Kettles and Jugs shall be tested \nconsidering the following: \ni. \nType of the product (Kettle/ Jug/ Cordless Kettle etc) \nii. \nRated voltage \niii. \nRated input power \niv. \nClass of appliance \nv. \nRated capacity \nvi. \nDegree of protection against harmful ingress of water  \n \n1(b). All other parameters stated above remaining the same, the following relaxation may be \ngiven when a variety is tested for all the requirements:  \ni. To cover a range of rated inputs, samples of minimum, maximum and an interim \nrated power may be tested. \nii. To cover a range of rated capacities, samples of minimum, maximum and an \ninterim rated capacity may be tested. \n \n2. The Firm shall declare the varieties they intend to cover in the Licence. The Scope of \nLicence may be restricted based on the manufacturing and testing capabilities of the \nmanufacturer. \n \n3. During the operation of the Licence, BO shall ensure that all the varieties covered in the \nLicence are tested in rotation to the extent possible. \n \n \n \n \n \n \n \n \n"
+    },
+    {
+      "character_count_cleaned": 1761,
+      "character_count_raw": 1867,
+      "cleaned_text": "ANNEX B\n\nList Of Test Equipment\n\nMajor test equipment required to test as per the Indian Standard\n\nSr. No.\nTest Equipment\nTests used in with Clause\nReference\n1\nPetroleum spirit\nMarking and instructions, Cl 8 of\nIS 367\n2\nTest probe B, 13 and 41 of IS 1401,\nVoltmeter, mill-ammeter, oscilloscope, force gauges, 2000 ohm non-inductive resistor, coulombmeter, energymeter\nProtection Against Electric Shock,\nCl. 8 of IS 302-2-15\n3\nVoltmeter, Ammeter, Wattmeter, Timer\nPower input and current, Cl 10 of\nIS 302-2-15\n4\nTemp recorder, Fine wire thermocouples,\nWinding resistance measurement system, Test\nCorner, probe for measurement of surface temperature\nHeating, Cl 11 of IS 302-2-15\n5\nMetal foil, Leakage Current Tester, Isolation transformer, HV test supply, Network as per relevant fig. of IS 302-1\nLeakage current and electric\nstrength at operating temperature,\nCl 13 of IS 302-2-15\n6\nImpulse voltage test generator and monitor\nTransient voltages, Cl 14 of IS\n302-2-15\n7\nIP test equipment, Measuring beaker, Spray\nNozzle (only when the second numeral is greater than 0), Spillage test apparatus,\nHumidity Chamber with Temperature and\nHumidity controller, HV test facilities\nMoisture resistance, Cl. 15 of IS\n302-2-15\n8\nMetal foil, Low impedance ammeter, HV test supply\nLeakage current and Electric\nStrength, Cl. 16 of IS 302-2-15\n9\nTemp recorder, Fine wire thermocouples,\nWinding resistance measurement system, Test\nCorner, probe for measurement of surface temperature\nOverload protection of\ntransformers and associated\ncircuits, Cl. 17 of IS 302-2-15\n10\nPlywood board,\nElectrostatic discharge test apparatus,\nRadiated field test apparatus, Fast transient burst test apparatus, Voltage dip and interruption test apparatus\nAbnormal Operation, Cl. 19 of IS\n302-2-15",
+      "cleaning_statistics": {
+        "headers_removed": 1,
+        "line_joins": 10,
+        "whitespace_normalizations": 1
+      },
+      "page_number": 4,
+      "raw_text": "PM/ IS 367/ 1/ Feb 2022 \n \n \nANNEX B  \n \nList Of Test Equipment \n \nMajor test equipment required to test as per the Indian Standard \n \nSr. No. \nTest Equipment \nTests used in with Clause \nReference \n1 \nPetroleum spirit \nMarking and instructions, Cl 8 of \nIS 367 \n2 \nTest probe B, 13 and 41 of IS 1401, \nVoltmeter, mill-ammeter, oscilloscope, force \ngauges, 2000 ohm non-inductive resistor, \ncoulombmeter, energymeter  \nProtection Against Electric Shock, \nCl. 8 of IS 302-2-15 \n3 \nVoltmeter, Ammeter, Wattmeter, Timer  \nPower input and current, Cl 10 of \nIS 302-2-15 \n4 \nTemp recorder, Fine wire thermocouples, \nWinding resistance measurement system, Test \nCorner, probe for measurement of surface \ntemperature \nHeating, Cl 11 of IS 302-2-15 \n5 \nMetal foil, Leakage Current Tester, Isolation \ntransformer, HV test supply, Network as per \nrelevant fig. of IS 302-1 \nLeakage current and electric \nstrength at operating temperature, \nCl 13 of IS 302-2-15 \n6 \nImpulse voltage test generator and monitor \nTransient voltages, Cl 14 of IS \n302-2-15 \n7 \nIP test equipment, Measuring beaker, Spray \nNozzle (only when the second numeral is \ngreater than 0), Spillage test apparatus, \nHumidity Chamber with Temperature and \nHumidity controller, HV test facilities \nMoisture resistance, Cl. 15 of IS \n302-2-15 \n8 \nMetal foil, Low impedance ammeter, HV test \nsupply \nLeakage current and Electric \nStrength,  Cl. 16 of IS 302-2-15 \n9 \nTemp recorder, Fine wire thermocouples, \nWinding resistance measurement system, Test \nCorner, probe for measurement of surface \ntemperature \nOverload protection of \ntransformers and associated \ncircuits, Cl. 17 of IS 302-2-15 \n10 \nPlywood board,  \nElectrostatic discharge test apparatus, \nRadiated field test apparatus, Fast transient \nburst test apparatus, Voltage dip and \ninterruption test apparatus \nAbnormal Operation, Cl. 19 of IS \n302-2-15 \n"
+    },
+    {
+      "character_count_cleaned": 1759,
+      "character_count_raw": 1870,
+      "cleaned_text": "11\nInclined plane, masses, force gauges, test probe similar to test probe B of IS 1401 with circular stop face 50 mm Ø, Stop plate, test rod\nStability & Mechanical Hazards,\nCl. 20. of IS 302-2-15\n12\nSpring hammer, Hardened steel pin, Force gauges\nMechanical Strength, Cl. 21 of IS\n302-2-15\n13\nTest rig for torque on pin supported appliance,\nHeating cabinet, Test probe 11 of IS 1401,\nTest fingernail, Force gauge, Pressure test apparatus\nAutomatic cord reel test apparatus\nOxygen bomb with pressure apparatus\nMethylated spirits\nConstruction, Cl 22 of IS 302-2-\n15\n14\nFlexing test apparatus\nInternal wiring, Cl 23 of IS 302-2-\n15\n15\nFlexing test apparatus, Cord anchorage force\n& torque tester, Cold chamber\nSupply connection and external flexible cords, Cl 25 of IS 302-2-\n15\n16\nTorque screwdriver\nTerminals for external conductors,\nCl 26 of IS 302-2-15\n17\nEarth continuity tester\nProvision for earthing, Cl 27 of IS\n302-2-15\n18\nTorque gauge\nScrews and connections, Cl 28 of\nIS 302-2-15\n19\nMechanical measurement tools, Rod or ball gauges, Proof tracking test apparatus\nCreepage Distance clearance and\nDistance through Insulation, Cl.\n29 of IS 302-2-15\n20\nHeating Oven with Temp controller,\nBall pressure Apparatus,\nGlow wire test apparatus\nResistance to heat and fire, Cl 30 of IS 302-2-15\n21\nHumidity Chamber with Temp and Humidity\nController\nMeasuring Cylinder 500 ml\nAmmonium Chloride, Carbon Tetrachloride,\nDistilled Water\nResistance to Rusting, Cl. 31 of IS\n302-2-15\n22\nAir conditioner\nTo maintain ambient temperature\n23\nVernier Calipers, Scale, Micrometer\nOverall dimensions, Cl 11 of IS\n367\n24\nWeighing scale\nMass, Cl 12 of IS 367\n25\nVolumetric flask\nWater capacity, Cl 13 of IS 367\n26\nThermocouple, stopwatch\nTime to boil 1L of water, Cl 14 of\nIS 367",
+      "cleaning_statistics": {
+        "headers_removed": 1,
+        "line_joins": 8,
+        "whitespace_normalizations": 2
+      },
+      "page_number": 5,
+      "raw_text": "PM/ IS 367/ 1/ Feb 2022 \n \n \n11 \nInclined plane, masses, force gauges, test \nprobe similar to test probe B of IS 1401 with \ncircular stop face 50 mm Ø, Stop plate, test \nrod \nStability & Mechanical Hazards, \nCl. 20. of IS 302-2-15 \n12 \nSpring hammer, Hardened steel pin, Force \ngauges \nMechanical Strength, Cl. 21 of IS \n302-2-15 \n13 \nTest rig for torque on pin supported appliance, \nHeating cabinet, Test probe 11 of  IS 1401, \nTest fingernail , Force gauge, Pressure test \napparatus \nAutomatic cord reel test apparatus \nOxygen bomb with pressure apparatus \nMethylated spirits \nConstruction, Cl 22 of IS 302-2-\n15 \n14 \nFlexing test apparatus \nInternal wiring, Cl 23 of IS 302-2-\n15 \n15 \nFlexing test apparatus, Cord anchorage force \n& torque tester, Cold chamber \nSupply connection and external \nflexible cords, Cl 25 of IS 302-2-\n15 \n16 \nTorque screwdriver \nTerminals for external conductors, \nCl 26 of IS 302-2-15 \n17 \nEarth continuity tester \nProvision for earthing, Cl 27 of IS \n302-2-15 \n18 \nTorque gauge \nScrews and connections, Cl 28 of \nIS 302-2-15 \n19 \nMechanical measurement tools, Rod or ball \ngauges, Proof tracking test apparatus \nCreepage Distance clearance and \nDistance through Insulation, Cl. \n29 of IS 302-2-15 \n20 \nHeating Oven with Temp controller, \nBall pressure Apparatus, \nGlow wire test apparatus \nResistance to heat and fire, Cl 30 \nof IS 302-2-15 \n21 \nHumidity Chamber with Temp and Humidity \nController \nMeasuring Cylinder 500 ml \nAmmonium Chloride, Carbon Tetrachloride, \nDistilled Water \nResistance to Rusting, Cl. 31 of IS \n302-2-15 \n22 \nAir conditioner \nTo maintain ambient temperature  \n23 \nVernier Calipers, Scale, Micrometer \nOverall dimensions, Cl 11 of IS \n367 \n24 \nWeighing scale \nMass, Cl 12 of IS 367 \n25 \nVolumetric flask \nWater capacity, Cl 13 of IS 367 \n26 \nThermocouple, stopwatch \nTime to boil 1L of water, Cl 14 of \nIS 367 \n"
+    },
+    {
+      "character_count_cleaned": 613,
+      "character_count_raw": 684,
+      "cleaned_text": "27\nThermocouple, stopwatch\nTime to boil water capacity, Cl 15 of IS 367\n28\nVolumetric flask, stopwatch\nMin. quantity of water that can be boiled, Cl 16 of IS 367\n29\nSupport as per Cl 5 of IS 367, thermocouple\nTemperature of supporting\nsurface, Cl 17 of IS 367\n30\nCalorimeter, energymeter\nThermal efficiency, Cl 18 of IS\n367\n31\nTest jig for endurance test\nEndurance, Cl 19 of IS 367\n32\ncarbon tetrachloride or trichlorethane, ammonium chloride, heating cabinet, TE as per IS 1068 for thickness, adhesion and corrosion\nFinish, Cl 20 of IS 367\n\nThe above list is indicative only and may not be treated as exhaustive.",
+      "cleaning_statistics": {
+        "blank_lines_removed": 3,
+        "headers_removed": 1,
+        "line_joins": 5
+      },
+      "page_number": 6,
+      "raw_text": "  \nPM/ IS 367/ 1/ Feb 2022 \n \n27 \nThermocouple, stopwatch \nTime to boil water capacity, Cl 15 \nof IS 367 \n28 \nVolumetric flask, stopwatch \nMin. quantity of water that can be \nboiled, Cl 16 of IS 367 \n29 \nSupport as per Cl 5 of IS 367, thermocouple \nTemperature of supporting \nsurface, Cl 17 of IS 367 \n30 \nCalorimeter, energymeter \nThermal efficiency, Cl 18 of IS \n367 \n31 \nTest jig for endurance test \nEndurance, Cl 19 of IS 367 \n32 \ncarbon tetrachloride or trichlorethane, \nammonium chloride, heating cabinet, TE as \nper IS 1068 for thickness, adhesion and \ncorrosion   \nFinish, Cl 20 of IS 367 \n \n     The above list is indicative only and may not be treated as exhaustive. \n \n \n \n"
+    },
+    {
+      "character_count_cleaned": 1155,
+      "character_count_raw": 1231,
+      "cleaned_text": "ANNEX C\n\nScheme Of Inspection And Testing\n\n1. LABORATORY - A laboratory shall be maintained which shall be suitably equipped\n(as per the requirement given in column 2 of Table 1) and staffed, where different tests given in the specification shall be carried out in accordance with the methods given in the specification.\n\n1.1 The manufacturer shall prepare a calibration plan for the test equipment.\n\n2. TEST RECORDS – The manufacturer shall maintain test records for the tests carried out\nto establish conformity.\n\n3. LABELLING AND MARKING – As per the requirements of IS 367: 1993.\n\n4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit.\n\n5. LEVELS OF CONTROL - The tests as indicated in column 1 of Table 1 and the levels of\ncontrol in column 3 of Table 1, shall be carried out on the whole production of the factory which is covered by this plan and appropriate records maintained in accordance with paragraph 2 above.\n\n6. REJECTIONS – Disposal of non-conforming product shall be done in such a way so as to\nensure that there is no violation of provisions of BIS Act, 2016.",
+      "cleaning_statistics": {
+        "blank_lines_removed": 2,
+        "headers_removed": 1,
+        "line_joins": 4
+      },
+      "page_number": 7,
+      "raw_text": "PM/ IS 367/ 1/ Feb 2022 \n \n \nANNEX C \n \nScheme Of Inspection And Testing  \n \n1. LABORATORY - A laboratory shall be maintained which shall be suitably equipped          \n(as per the requirement given in column 2 of Table 1) and staffed, where different tests given \nin the specification shall be carried out in accordance with the methods given in the \nspecification. \n \n1.1 The manufacturer shall prepare a calibration plan for the test equipment. \n \n2. TEST RECORDS – The manufacturer shall maintain test records for the tests carried out \nto establish conformity. \n \n3. LABELLING AND MARKING – As per the requirements of IS 367: 1993. \n \n4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured \nin one day shall constitute a control unit.   \n \n5. LEVELS OF CONTROL - The tests as indicated in column 1 of Table 1 and the levels of \ncontrol in column 3 of Table 1, shall be carried out on the whole production of the factory \nwhich is covered by this plan and appropriate records maintained in accordance with    \nparagraph 2 above.  \n \n6. REJECTIONS – Disposal of non-conforming product shall be done in such a way so as to \nensure that there is no violation of provisions of BIS Act, 2016. \n \n \n"
+    },
+    {
+      "character_count_cleaned": 1914,
+      "character_count_raw": 2145,
+      "cleaned_text": "TABLE 1\n\n(1)\n(2)\n(3)\nTest Details\nTest\nequipment\nrequirement\nR: required\n(or) S: Subcontracting\npermitted\nLevels of Control\nCl.\nRequirement\nTest Methods\n\nNo. of\nSampl\ne\nFrequency\nCl.\nRef\n8\nMarking\n8\nIS 367\nR\nEach appliance\n8\nMarking (indelibility)\n7.14\nIS 302-1\nR\nOne\nEach control unit\n9\nEarth continuity test\nA-1\nIS 302-1\nR\nEach appliance\n9\nElectric strength test\nA-2\nIS 302-1\nR\nEach appliance\n9\nFunctional test\nA-3\nIS 302-1\nR\nEach appliance\n9\nProtection against access to live parts\n8\nIS 302-2-15\nR\nOne\nEach control unit\n9\nProvisions for earthing\n27\nIS 302-2-15\nR\nOne\nEach control unit\n9\nPower Input and Current\n10\nIS 302-2-15\nR\nOne\nEach control unit\n9\nHeating\n11\nIS 302-2-15\nR\nOne\nOnce in a month for each type and rating\n9\nLeakage current and Electric strength at operating temperature\n13\nIS 302-2-15\nR\nOne\nOnce in a week for each type and rating\n9\nMoisture Resistance\n15\nIS 302-2-15\nR\nOne\nOnce in a month for each type, rating & IP\n9\nLeakage current and Electric strength\n16\nIS 302-2-15\nR\nOne\nOnce in a month for each type and rating\n13\nCapacity\n13\nIS 367\nR\nOne\nOnce in a week for each type and rating\n15\nTime to boil water capacity\n15\nIS 367\nR\nOne\nOnce in a week for each type and rating\n11\nOverall dimensions\n11\nIS 367\nR\nOne\nOnce in a week for each type and rating\n12\nMass\n12\nIS 367\nR\nOne\nOnce in a week for each type and rating\n14\nTime to boil 1.0 1 of water\n14\nIS 367\nR\nOne\nOnce in a week for each type and rating\n16\nMinimum quantity of water that can be boiled\n16\nIS 367\nR\nOne\nOnce in a week for each type and rating\n17\nTemperature of supporting surface\n17\nIS 367\nR\nOne\nOnce in a week for each type and rating\n18\nThermal efficiency\n18\nIS 367\nR\nOne\nOnce in a week for each type and rating\n19\nEndurance\n19\nIS 367\nS\nOne\nEvery six months for each type and rating\n20\nFinish\n20\nIS 367\nS\nOne\nEvery six months for any rating\n9\nTransient Overvoltages\n14\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating",
+      "cleaning_statistics": {
+        "dehyphenations": 1,
+        "headers_removed": 1,
+        "line_joins": 1,
+        "whitespace_normalizations": 12
+      },
+      "page_number": 8,
+      "raw_text": "PM/ IS 367/ 1/ Feb 2022 \n \n \nTABLE 1 \n \n(1) \n(2) \n(3) \nTest Details \nTest \nequipment \nrequirement \nR: required \n(or) S: Sub- \ncontracting \npermitted \nLevels of Control \nCl. \nRequirement \nTest Methods \n \nNo. of \nSampl\ne \nFrequency \nCl.     \nRef \n8 \nMarking \n8 \nIS 367 \nR \nEach appliance \n8 \nMarking (indelibility)  \n7.14 \nIS 302-1 \nR \nOne \nEach control unit \n9 \nEarth continuity test \nA-1 \nIS 302-1 \nR \nEach appliance \n9 \nElectric strength test \nA-2 \nIS 302-1 \nR \nEach appliance \n9 \nFunctional test \nA-3 \nIS 302-1 \nR \nEach appliance \n9 \nProtection against access to live parts \n8 \nIS 302-2-15 \nR \nOne \nEach control unit \n9 \nProvisions for earthing \n27 \nIS 302-2-15 \nR \nOne \nEach control unit \n9 \nPower Input and Current \n10 \nIS 302-2-15 \nR \nOne \nEach control unit \n9 \nHeating \n11 \nIS 302-2-15 \nR \nOne \nOnce in a month  for each type and rating \n9 \nLeakage current and Electric strength at operating temperature \n13 \nIS 302-2-15 \nR \nOne \nOnce in a week  for each type and rating \n9 \nMoisture Resistance \n15 \nIS 302-2-15 \nR \nOne \nOnce in a  month for each type, rating & IP \n9 \nLeakage current and Electric strength \n16 \nIS 302-2-15 \nR \nOne \nOnce in a  month for each type and rating \n13 \nCapacity \n13 \nIS 367 \nR \nOne \nOnce in a week  for each type and rating \n15 \nTime to boil water capacity \n15 \nIS 367 \nR \nOne \nOnce in a week  for each type and rating \n11 \nOverall dimensions \n11 \nIS 367 \nR \nOne \nOnce in a week  for each type and rating \n12 \nMass  \n12 \nIS 367 \nR \nOne \nOnce in a week  for each type and rating \n14 \nTime to boil 1.0 1 of water \n14 \nIS 367 \nR \nOne \nOnce in a week  for each type and rating \n16 \nMinimum quantity of water that can be boiled \n16 \nIS 367 \nR \nOne \nOnce in a week  for each type and rating \n17 \nTemperature of supporting surface \n17 \nIS 367 \nR \nOne \nOnce in a week  for each type and rating \n18 \nThermal efficiency \n18 \nIS 367 \nR \nOne \nOnce in a week  for each type and rating \n19 \nEndurance \n19 \nIS 367 \nS \nOne \nEvery six months for each type and rating \n20 \nFinish \n20 \nIS 367 \nS \nOne \nEvery six months for any rating \n9 \nTransient Overvoltages  \n14 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n"
+    },
+    {
+      "character_count_cleaned": 1664,
+      "character_count_raw": 1798,
+      "cleaned_text": "Note-1: Sub-contracting is permitted to a laboratory recognized by the Bureau or Government laboratories empanelled by the Bureau.\nNote-2: Levels of control given in column 3 are recommendatory in nature. The manufacturer may define the control unit/batch/lot and submit his own\nlevels of control in column 3 with proper justification for approval by BO Head.\n9\nOverload protection of transformers and associated circuits\n17\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nAbnormal operation\n19\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nStability and Mechanical hazards\n20\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nMechanical strength\n21\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nConstruction\n22\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nInternal wiring\n23\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nComponents\n24\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nSupply connection and external flexible cables and cords\n25\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n26\nTerminals for external conductors\n26\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n28\nScrews and connections\n28\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n29\nCreepage distances, clearances and distances through insulation\n29\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n30\nResistance to heat, fire and tracking\n30\nIS 302-2-15\nS\nOne\nEvery six months for each rating\n31\nResistance to rusting\n31\nIS 302-2-15\nS\nOne\nEvery six months for any rating\n32\nRadiation, toxicity and similar hazards\n32\nIS 302-2-15\nS\nOne",
+      "cleaning_statistics": {
+        "headers_removed": 1,
+        "whitespace_normalizations": 1
+      },
+      "page_number": 9,
+      "raw_text": "PM/ IS 367/ 1/ Feb 2022 \n \n \n \nNote-1: Sub-contracting is permitted to a laboratory recognized by the Bureau or Government laboratories empanelled by the Bureau. \nNote-2: Levels of control given in column 3 are recommendatory in nature.  The manufacturer may define the control unit/batch/lot and submit his own \nlevels of control in column 3 with proper justification for approval by BO Head. \n9 \nOverload protection of transformers and associated circuits  \n17 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n9 \nAbnormal operation \n19 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n9 \nStability and Mechanical hazards \n20 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n9 \nMechanical strength \n21 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n9 \nConstruction \n22 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n9 \nInternal wiring \n23 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n9 \nComponents \n24 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n9 \nSupply connection and external flexible cables and cords \n25 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n26 \nTerminals for external conductors \n26 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n28 \nScrews and connections \n28 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n29 \nCreepage distances, clearances and distances through insulation \n29 \nIS 302-2-15 \nS \nOne \nEvery six months for each type and rating \n30 \nResistance to heat, fire and tracking \n30 \nIS 302-2-15 \nS \nOne \nEvery six months for each rating \n31 \nResistance to rusting \n31 \nIS 302-2-15 \nS \nOne \nEvery six months for any rating \n32 \nRadiation, toxicity and similar hazards \n32 \nIS 302-2-15 \nS \nOne \n"
+    },
+    {
+      "character_count_cleaned": 431,
+      "character_count_raw": 487,
+      "cleaned_text": "ANNEX D\n\nPossible Tests in a day\n\n1. Capacity\n2. Time to boil water capacity\n3. Overall dimensions\n4. Mass\n5. Time to boil 1.0 1 of water\n6. Minimum quantity of water that can be boiled\n7. Temperature of supporting surface\n8. Thermal efficiency\n9. Protection against access to live parts\n10. Power input and current\n11. leakage current and electric strength at operating temperature\n12. Provision for Earthing\n13. High Voltage test",
+      "cleaning_statistics": {
+        "blank_lines_removed": 3,
+        "headers_removed": 1
+      },
+      "page_number": 10,
+      "raw_text": "PM/ IS 367/ 1/ Feb 2022 \n \n \n \nANNEX D \n \n \nPossible Tests in a day \n \n \n1. Capacity \n2. Time to boil water capacity \n3. Overall dimensions \n4. Mass  \n5. Time to boil 1.0 1 of water \n6. Minimum quantity of water that can be boiled \n7. Temperature of supporting surface \n8. Thermal efficiency \n9. Protection against access to live parts \n10. Power input and current \n11. leakage current and electric strength at operating temperature \n12. Provision for Earthing \n13. High Voltage test \n \n"
+    }
+  ],
+  "pdf_page_count": 10,
+  "product_id": "kettle",
+  "quality_checks": {
+    "clause_numbers_preserved": true,
+    "dates_preserved": true,
+    "no_page_silently_removed": true,
+    "notes_preserved": true,
+    "numerical_values_preserved": true,
+    "page_numbers_preserved": true,
+    "passed": true,
+    "same_page_count": true,
+    "standard_numbers_preserved": true,
+    "table_content_not_aggressively_removed": true,
+    "units_preserved": true
+  },
+  "raw_extraction_file": "/home/aditya/Aditya/new makings/scraper/data/processed/extracted/is_367_1993_product_manual_ba52fdad.json",
+  "raw_extraction_sha256": "9b2cb9092e71d01b4b1ca38fe24925a1b8574bfac643a6d9827f10b620b89be4",
+  "repeated_footers_detected": [],
+  "repeated_headers_detected": [
+    "pm/ is 367/ 1/ feb 2022"
+  ],
+  "retrieved_at": "2026-09-28T19:24:32+00:00",
+  "sha256": "0edc5ddcc7346739bccf89bc94609bb31f498b748af8bf66e7161fe5700d8979",
+  "source_file": "data/raw/kettle/https-www-bis-gov-in-wp-content-uploads-2022-03-bilingual-pm-367-compressed-1-pdf-ba52fdad.pdf",
+  "source_sha256_verified": true,
+  "source_status": "downloaded",
+  "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+  "standard_numbers": [
+    "IS 367:1993"
+  ],
+  "structure": [
+    {
+      "children": [],
+      "confidence": "high",
+      "end_page": 2,
+      "page_segments": [
+        {
+          "page_number": 1,
+          "text": "भारतीय मानक ब्यूरो\nBUREAU OF INDIAN STANDARDS\nमानक भवन, ९, बहादुर शाह ज़फ़र मार्ग\nManak Bhawan, 9, Bahadur Shah Zafar Marg\nनई ददल्ली- ११०००२\nNew Delhi – 110002\n\nउत्पाद मैन्युअल\nआई एस 367 : 1993 के अनुसार\n\nघरेलू और समान उपयोर् के ललए इलेलरिक केतली और जर्\nके ललए\n\nदस्तावेज़ संख्या – पी एम/आई एस 367 / 1/फ़रवरी 2022\n\nभारतीय मानक ब्यूरो की स्कीम-I (अनुरूपता मूलयाााांकन) लवलनयम, 2018 के तहत यह उत्पाद मैन्युअल प्रमाणीकरण के प्रचालन\nमें रीलत और पाररर्शगता की सुसंर्तता सुलनलित करने के ललए सभी क्षेत्रीय/शाखा कायागलयों और लाइसेंसी द्वारा संदभग सामग्री के रूप\nमें उपयोर् दकया जाएर्ा। बीआईएस प्रमाणीकरण लाइसेंस/ प्रमाणपत्र प्राप्त करने के इच्छुक भावी आवेदकों द्वारा भी इस दस्तावेज़ का\nउपयोर् दकया जा सकता है ।\n\nPRODUCT MANUAL FOR\nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE\nACCORDING TO IS 367: 1993\n\nDocument No.- PM/ IS 367/ 1/ Feb 2022\n\nThis Product Manual shall be used as reference material by all Regional/Branch Offices & licensees to ensure coherence of practice and transparency in operation of certification under Scheme-I of Bureau of Indian Standards (Conformity Assessment) Regulations, 2018 for various products. The document may also be used by prospective applicants desirous of obtaining BIS certification licence/certificate."
+        },
+        {
+          "page_number": 2,
+          "text": "BUREAU OF INDIAN STANDARDS\nManak Bhawan, 9, Bahadur Shah Zafar Marg,\nNew Delhi – 110002\n\nPRODUCT MANUAL FOR\nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE\nACCORDING TO IS 367: 1993\n\nThis Product Manual shall be used as reference material by all Regional/Branch Offices & licensees to ensure coherence of practice and transparency in operation of certification under\nScheme-I of Bureau of Indian Standards (Conformity Assessment) Regulations, 2019 for various products. The document may also be used by prospective applicants desirous of obtaining BIS certification licence/certificate."
+        }
+      ],
+      "pages": [
+        1,
+        2
+      ],
+      "start_page": 1,
+      "text": "भारतीय मानक ब्यूरो\nBUREAU OF INDIAN STANDARDS\nमानक भवन, ९, बहादुर शाह ज़फ़र मार्ग\nManak Bhawan, 9, Bahadur Shah Zafar Marg\nनई ददल्ली- ११०००२\nNew Delhi – 110002\n\nउत्पाद मैन्युअल\nआई एस 367 : 1993 के अनुसार\n\nघरेलू और समान उपयोर् के ललए इलेलरिक केतली और जर्\nके ललए\n\nदस्तावेज़ संख्या – पी एम/आई एस 367 / 1/फ़रवरी 2022\n\nभारतीय मानक ब्यूरो की स्कीम-I (अनुरूपता मूलयाााांकन) लवलनयम, 2018 के तहत यह उत्पाद मैन्युअल प्रमाणीकरण के प्रचालन\nमें रीलत और पाररर्शगता की सुसंर्तता सुलनलित करने के ललए सभी क्षेत्रीय/शाखा कायागलयों और लाइसेंसी द्वारा संदभग सामग्री के रूप\nमें उपयोर् दकया जाएर्ा। बीआईएस प्रमाणीकरण लाइसेंस/ प्रमाणपत्र प्राप्त करने के इच्छुक भावी आवेदकों द्वारा भी इस दस्तावेज़ का\nउपयोर् दकया जा सकता है ।\n\nPRODUCT MANUAL FOR\nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE\nACCORDING TO IS 367: 1993\n\nDocument No.- PM/ IS 367/ 1/ Feb 2022\n\nThis Product Manual shall be used as reference material by all Regional/Branch Offices & licensees to ensure coherence of practice and transparency in operation of certification under Scheme-I of Bureau of Indian Standards (Conformity Assessment) Regulations, 2018 for various products. The document may also be used by prospective applicants desirous of obtaining BIS certification licence/certificate.\nBUREAU OF INDIAN STANDARDS\nManak Bhawan, 9, Bahadur Shah Zafar Marg,\nNew Delhi – 110002\n\nPRODUCT MANUAL FOR\nELECTRIC KETTLES AND JUGS FOR HOUSEHOLD AND SIMILAR USE\nACCORDING TO IS 367: 1993\n\nThis Product Manual shall be used as reference material by all Regional/Branch Offices & licensees to ensure coherence of practice and transparency in operation of certification under\nScheme-I of Bureau of Indian Standards (Conformity Assessment) Regulations, 2019 for various products. The document may also be used by prospective applicants desirous of obtaining BIS certification licence/certificate.",
+      "title": null,
+      "type": "front_matter"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 2,
+      "number": "1",
+      "page_segments": [
+        {
+          "page_number": 2,
+          "text": "1.\nProduct\n:\nIS 367: 1993\n\nTitle\n:\nElectric Kettles and Jugs for household and similar use\n\nNo. of Amendments\n:\nnil"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "source_start": {
+        "line_number": 11,
+        "page_number": 2
+      },
+      "start_page": 2,
+      "text": "1.\nProduct\n:\nIS 367: 1993\n\nTitle\n:\nElectric Kettles and Jugs for household and similar use\n\nNo. of Amendments\n:\nnil",
+      "title": "Product",
+      "type": "section"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 2,
+      "number": "2",
+      "page_segments": [
+        {
+          "page_number": 2,
+          "text": "2.\nSampling Guidelines:\na)\nRaw material\n:\n-\nb)\nGrouping guidelines\n:\nPlease refer ANNEX – A\nc)\nSample Size\n:\nTwo pieces"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "source_start": {
+        "line_number": 23,
+        "page_number": 2
+      },
+      "start_page": 2,
+      "text": "2.\nSampling Guidelines:\na)\nRaw material\n:\n-\nb)\nGrouping guidelines\n:\nPlease refer ANNEX – A\nc)\nSample Size\n:\nTwo pieces",
+      "title": "Sampling Guidelines:",
+      "type": "section"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 2,
+      "number": "3",
+      "page_segments": [
+        {
+          "page_number": 2,
+          "text": "3.\nList\nof\nTest\nEquipment\n:\nPlease refer ANNEX – B."
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "source_start": {
+        "line_number": 38,
+        "page_number": 2
+      },
+      "start_page": 2,
+      "text": "3.\nList\nof\nTest\nEquipment\n:\nPlease refer ANNEX – B.",
+      "title": "List",
+      "type": "section"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 2,
+      "number": "4",
+      "page_segments": [
+        {
+          "page_number": 2,
+          "text": "4.\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C."
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "source_start": {
+        "line_number": 46,
+        "page_number": 2
+      },
+      "start_page": 2,
+      "text": "4.\nScheme of Inspection\nand Testing\n:\nPlease refer ANNEX – C.",
+      "title": "Scheme of Inspection",
+      "type": "section"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 2,
+      "number": "5",
+      "page_segments": [
+        {
+          "page_number": 2,
+          "text": "5.\nPossible tests in a\nday\n:\nPlease refer ANNEX - D"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "source_start": {
+        "line_number": 52,
+        "page_number": 2
+      },
+      "start_page": 2,
+      "text": "5.\nPossible tests in a\nday\n:\nPlease refer ANNEX - D",
+      "title": "Possible tests in a",
+      "type": "section"
+    },
+    {
+      "children": [],
+      "confidence": "medium",
+      "end_page": 2,
+      "number": "6",
+      "page_segments": [
+        {
+          "page_number": 2,
+          "text": "6.\nScope of the Licence :\nName of the Product\nElectric Kettles / Jugs / Cordless Kettles etc for household and similar use\nRated Input power\n\nRated Voltage\n\nClass of appliance\n\nRated capacity\n\nDegree of protection"
+        }
+      ],
+      "pages": [
+        2
+      ],
+      "source_start": {
+        "line_number": 58,
+        "page_number": 2
+      },
+      "start_page": 2,
+      "text": "6.\nScope of the Licence :\nName of the Product\nElectric Kettles / Jugs / Cordless Kettles etc for household and similar use\nRated Input power\n\nRated Voltage\n\nClass of appliance\n\nRated capacity\n\nDegree of protection",
+      "title": "Scope of the Licence :",
+      "type": "section"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 3,
+          "number": "2",
+          "page_segments": [
+            {
+              "page_number": 3,
+              "text": "2. The Firm shall declare the varieties they intend to cover in the Licence. The Scope of\nLicence may be restricted based on the manufacturing and testing capabilities of the manufacturer."
+            }
+          ],
+          "pages": [
+            3
+          ],
+          "source_start": {
+            "line_number": 23,
+            "page_number": 3
+          },
+          "start_page": 3,
+          "text": "2. The Firm shall declare the varieties they intend to cover in the Licence. The Scope of\nLicence may be restricted based on the manufacturing and testing capabilities of the manufacturer.",
+          "title": "The Firm shall declare the varieties they intend to cover in the Licence. The Scope of",
+          "type": "clause"
+        },
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 3,
+          "number": "3",
+          "page_segments": [
+            {
+              "page_number": 3,
+              "text": "3. During the operation of the Licence, BO shall ensure that all the varieties covered in the\nLicence are tested in rotation to the extent possible."
+            }
+          ],
+          "pages": [
+            3
+          ],
+          "source_start": {
+            "line_number": 26,
+            "page_number": 3
+          },
+          "start_page": 3,
+          "text": "3. During the operation of the Licence, BO shall ensure that all the varieties covered in the\nLicence are tested in rotation to the extent possible.",
+          "title": "During the operation of the Licence, BO shall ensure that all the varieties covered in the",
+          "type": "clause"
+        }
+      ],
+      "confidence": "high",
+      "content_mode": "narrative_or_mixed",
+      "end_page": 3,
+      "identifier": "A",
+      "page_segments": [
+        {
+          "page_number": 3,
+          "text": "ANNEX A\n\nGrouping Guidelines\n\n1(a). For the purpose of GoL/ CSoL, samples of Electric Kettles and Jugs shall be tested considering the following:\ni.\nType of the product (Kettle/ Jug/ Cordless Kettle etc) ii.\nRated voltage\niii.\nRated input power\niv.\nClass of appliance\nv.\nRated capacity\nvi.\nDegree of protection against harmful ingress of water\n\n1(b). All other parameters stated above remaining the same, the following relaxation may be given when a variety is tested for all the requirements:\ni. To cover a range of rated inputs, samples of minimum, maximum and an interim\nrated power may be tested.\nii. To cover a range of rated capacities, samples of minimum, maximum and an interim rated capacity may be tested."
+        }
+      ],
+      "pages": [
+        3
+      ],
+      "source_start": {
+        "line_number": 1,
+        "page_number": 3
+      },
+      "start_page": 3,
+      "text": "ANNEX A\n\nGrouping Guidelines\n\n1(a). For the purpose of GoL/ CSoL, samples of Electric Kettles and Jugs shall be tested considering the following:\ni.\nType of the product (Kettle/ Jug/ Cordless Kettle etc) ii.\nRated voltage\niii.\nRated input power\niv.\nClass of appliance\nv.\nRated capacity\nvi.\nDegree of protection against harmful ingress of water\n\n1(b). All other parameters stated above remaining the same, the following relaxation may be given when a variety is tested for all the requirements:\ni. To cover a range of rated inputs, samples of minimum, maximum and an interim\nrated power may be tested.\nii. To cover a range of rated capacities, samples of minimum, maximum and an interim rated capacity may be tested.",
+      "title": "Grouping Guidelines",
+      "type": "annex"
+    },
+    {
+      "children": [],
+      "confidence": "high",
+      "content_mode": "list_or_table",
+      "end_page": 6,
+      "identifier": "B",
+      "page_segments": [
+        {
+          "page_number": 4,
+          "text": "ANNEX B\n\nList Of Test Equipment\n\nMajor test equipment required to test as per the Indian Standard\n\nSr. No.\nTest Equipment\nTests used in with Clause\nReference\n1\nPetroleum spirit\nMarking and instructions, Cl 8 of\nIS 367\n2\nTest probe B, 13 and 41 of IS 1401,\nVoltmeter, mill-ammeter, oscilloscope, force gauges, 2000 ohm non-inductive resistor, coulombmeter, energymeter\nProtection Against Electric Shock,\nCl. 8 of IS 302-2-15\n3\nVoltmeter, Ammeter, Wattmeter, Timer\nPower input and current, Cl 10 of\nIS 302-2-15\n4\nTemp recorder, Fine wire thermocouples,\nWinding resistance measurement system, Test\nCorner, probe for measurement of surface temperature\nHeating, Cl 11 of IS 302-2-15\n5\nMetal foil, Leakage Current Tester, Isolation transformer, HV test supply, Network as per relevant fig. of IS 302-1\nLeakage current and electric\nstrength at operating temperature,\nCl 13 of IS 302-2-15\n6\nImpulse voltage test generator and monitor\nTransient voltages, Cl 14 of IS\n302-2-15\n7\nIP test equipment, Measuring beaker, Spray\nNozzle (only when the second numeral is greater than 0), Spillage test apparatus,\nHumidity Chamber with Temperature and\nHumidity controller, HV test facilities\nMoisture resistance, Cl. 15 of IS\n302-2-15\n8\nMetal foil, Low impedance ammeter, HV test supply\nLeakage current and Electric\nStrength, Cl. 16 of IS 302-2-15\n9\nTemp recorder, Fine wire thermocouples,\nWinding resistance measurement system, Test\nCorner, probe for measurement of surface temperature\nOverload protection of\ntransformers and associated\ncircuits, Cl. 17 of IS 302-2-15\n10\nPlywood board,\nElectrostatic discharge test apparatus,\nRadiated field test apparatus, Fast transient burst test apparatus, Voltage dip and interruption test apparatus\nAbnormal Operation, Cl. 19 of IS\n302-2-15"
+        },
+        {
+          "page_number": 5,
+          "text": "11\nInclined plane, masses, force gauges, test probe similar to test probe B of IS 1401 with circular stop face 50 mm Ø, Stop plate, test rod\nStability & Mechanical Hazards,\nCl. 20. of IS 302-2-15\n12\nSpring hammer, Hardened steel pin, Force gauges\nMechanical Strength, Cl. 21 of IS\n302-2-15\n13\nTest rig for torque on pin supported appliance,\nHeating cabinet, Test probe 11 of IS 1401,\nTest fingernail, Force gauge, Pressure test apparatus\nAutomatic cord reel test apparatus\nOxygen bomb with pressure apparatus\nMethylated spirits\nConstruction, Cl 22 of IS 302-2-\n15\n14\nFlexing test apparatus\nInternal wiring, Cl 23 of IS 302-2-\n15\n15\nFlexing test apparatus, Cord anchorage force\n& torque tester, Cold chamber\nSupply connection and external flexible cords, Cl 25 of IS 302-2-\n15\n16\nTorque screwdriver\nTerminals for external conductors,\nCl 26 of IS 302-2-15\n17\nEarth continuity tester\nProvision for earthing, Cl 27 of IS\n302-2-15\n18\nTorque gauge\nScrews and connections, Cl 28 of\nIS 302-2-15\n19\nMechanical measurement tools, Rod or ball gauges, Proof tracking test apparatus\nCreepage Distance clearance and\nDistance through Insulation, Cl.\n29 of IS 302-2-15\n20\nHeating Oven with Temp controller,\nBall pressure Apparatus,\nGlow wire test apparatus\nResistance to heat and fire, Cl 30 of IS 302-2-15\n21\nHumidity Chamber with Temp and Humidity\nController\nMeasuring Cylinder 500 ml\nAmmonium Chloride, Carbon Tetrachloride,\nDistilled Water\nResistance to Rusting, Cl. 31 of IS\n302-2-15\n22\nAir conditioner\nTo maintain ambient temperature\n23\nVernier Calipers, Scale, Micrometer\nOverall dimensions, Cl 11 of IS\n367\n24\nWeighing scale\nMass, Cl 12 of IS 367\n25\nVolumetric flask\nWater capacity, Cl 13 of IS 367\n26\nThermocouple, stopwatch\nTime to boil 1L of water, Cl 14 of\nIS 367"
+        },
+        {
+          "page_number": 6,
+          "text": "27\nThermocouple, stopwatch\nTime to boil water capacity, Cl 15 of IS 367\n28\nVolumetric flask, stopwatch\nMin. quantity of water that can be boiled, Cl 16 of IS 367\n29\nSupport as per Cl 5 of IS 367, thermocouple\nTemperature of supporting\nsurface, Cl 17 of IS 367\n30\nCalorimeter, energymeter\nThermal efficiency, Cl 18 of IS\n367\n31\nTest jig for endurance test\nEndurance, Cl 19 of IS 367\n32\ncarbon tetrachloride or trichlorethane, ammonium chloride, heating cabinet, TE as per IS 1068 for thickness, adhesion and corrosion\nFinish, Cl 20 of IS 367\n\nThe above list is indicative only and may not be treated as exhaustive."
+        }
+      ],
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "source_start": {
+        "line_number": 1,
+        "page_number": 4
+      },
+      "start_page": 4,
+      "text": "ANNEX B\n\nList Of Test Equipment\n\nMajor test equipment required to test as per the Indian Standard\n\nSr. No.\nTest Equipment\nTests used in with Clause\nReference\n1\nPetroleum spirit\nMarking and instructions, Cl 8 of\nIS 367\n2\nTest probe B, 13 and 41 of IS 1401,\nVoltmeter, mill-ammeter, oscilloscope, force gauges, 2000 ohm non-inductive resistor, coulombmeter, energymeter\nProtection Against Electric Shock,\nCl. 8 of IS 302-2-15\n3\nVoltmeter, Ammeter, Wattmeter, Timer\nPower input and current, Cl 10 of\nIS 302-2-15\n4\nTemp recorder, Fine wire thermocouples,\nWinding resistance measurement system, Test\nCorner, probe for measurement of surface temperature\nHeating, Cl 11 of IS 302-2-15\n5\nMetal foil, Leakage Current Tester, Isolation transformer, HV test supply, Network as per relevant fig. of IS 302-1\nLeakage current and electric\nstrength at operating temperature,\nCl 13 of IS 302-2-15\n6\nImpulse voltage test generator and monitor\nTransient voltages, Cl 14 of IS\n302-2-15\n7\nIP test equipment, Measuring beaker, Spray\nNozzle (only when the second numeral is greater than 0), Spillage test apparatus,\nHumidity Chamber with Temperature and\nHumidity controller, HV test facilities\nMoisture resistance, Cl. 15 of IS\n302-2-15\n8\nMetal foil, Low impedance ammeter, HV test supply\nLeakage current and Electric\nStrength, Cl. 16 of IS 302-2-15\n9\nTemp recorder, Fine wire thermocouples,\nWinding resistance measurement system, Test\nCorner, probe for measurement of surface temperature\nOverload protection of\ntransformers and associated\ncircuits, Cl. 17 of IS 302-2-15\n10\nPlywood board,\nElectrostatic discharge test apparatus,\nRadiated field test apparatus, Fast transient burst test apparatus, Voltage dip and interruption test apparatus\nAbnormal Operation, Cl. 19 of IS\n302-2-15\n11\nInclined plane, masses, force gauges, test probe similar to test probe B of IS 1401 with circular stop face 50 mm Ø, Stop plate, test rod\nStability & Mechanical Hazards,\nCl. 20. of IS 302-2-15\n12\nSpring hammer, Hardened steel pin, Force gauges\nMechanical Strength, Cl. 21 of IS\n302-2-15\n13\nTest rig for torque on pin supported appliance,\nHeating cabinet, Test probe 11 of IS 1401,\nTest fingernail, Force gauge, Pressure test apparatus\nAutomatic cord reel test apparatus\nOxygen bomb with pressure apparatus\nMethylated spirits\nConstruction, Cl 22 of IS 302-2-\n15\n14\nFlexing test apparatus\nInternal wiring, Cl 23 of IS 302-2-\n15\n15\nFlexing test apparatus, Cord anchorage force\n& torque tester, Cold chamber\nSupply connection and external flexible cords, Cl 25 of IS 302-2-\n15\n16\nTorque screwdriver\nTerminals for external conductors,\nCl 26 of IS 302-2-15\n17\nEarth continuity tester\nProvision for earthing, Cl 27 of IS\n302-2-15\n18\nTorque gauge\nScrews and connections, Cl 28 of\nIS 302-2-15\n19\nMechanical measurement tools, Rod or ball gauges, Proof tracking test apparatus\nCreepage Distance clearance and\nDistance through Insulation, Cl.\n29 of IS 302-2-15\n20\nHeating Oven with Temp controller,\nBall pressure Apparatus,\nGlow wire test apparatus\nResistance to heat and fire, Cl 30 of IS 302-2-15\n21\nHumidity Chamber with Temp and Humidity\nController\nMeasuring Cylinder 500 ml\nAmmonium Chloride, Carbon Tetrachloride,\nDistilled Water\nResistance to Rusting, Cl. 31 of IS\n302-2-15\n22\nAir conditioner\nTo maintain ambient temperature\n23\nVernier Calipers, Scale, Micrometer\nOverall dimensions, Cl 11 of IS\n367\n24\nWeighing scale\nMass, Cl 12 of IS 367\n25\nVolumetric flask\nWater capacity, Cl 13 of IS 367\n26\nThermocouple, stopwatch\nTime to boil 1L of water, Cl 14 of\nIS 367\n27\nThermocouple, stopwatch\nTime to boil water capacity, Cl 15 of IS 367\n28\nVolumetric flask, stopwatch\nMin. quantity of water that can be boiled, Cl 16 of IS 367\n29\nSupport as per Cl 5 of IS 367, thermocouple\nTemperature of supporting\nsurface, Cl 17 of IS 367\n30\nCalorimeter, energymeter\nThermal efficiency, Cl 18 of IS\n367\n31\nTest jig for endurance test\nEndurance, Cl 19 of IS 367\n32\ncarbon tetrachloride or trichlorethane, ammonium chloride, heating cabinet, TE as per IS 1068 for thickness, adhesion and corrosion\nFinish, Cl 20 of IS 367\n\nThe above list is indicative only and may not be treated as exhaustive.",
+      "title": "List Of Test Equipment",
+      "type": "annex"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "confidence": "high",
+              "end_page": 7,
+              "number": "1.1",
+              "page_segments": [
+                {
+                  "page_number": 7,
+                  "text": "1.1 The manufacturer shall prepare a calibration plan for the test equipment."
+                }
+              ],
+              "pages": [
+                7
+              ],
+              "source_start": {
+                "line_number": 8,
+                "page_number": 7
+              },
+              "start_page": 7,
+              "text": "1.1 The manufacturer shall prepare a calibration plan for the test equipment.",
+              "title": "The manufacturer shall prepare a calibration plan for the test equipment.",
+              "type": "subclause"
+            }
+          ],
+          "confidence": "high",
+          "end_page": 7,
+          "number": "1",
+          "page_segments": [
+            {
+              "page_number": 7,
+              "text": "1. LABORATORY - A laboratory shall be maintained which shall be suitably equipped\n(as per the requirement given in column 2 of Table 1) and staffed, where different tests given in the specification shall be carried out in accordance with the methods given in the specification."
+            }
+          ],
+          "pages": [
+            7
+          ],
+          "source_start": {
+            "line_number": 5,
+            "page_number": 7
+          },
+          "start_page": 7,
+          "text": "1. LABORATORY - A laboratory shall be maintained which shall be suitably equipped\n(as per the requirement given in column 2 of Table 1) and staffed, where different tests given in the specification shall be carried out in accordance with the methods given in the specification.",
+          "title": "LABORATORY - A laboratory shall be maintained which shall be suitably equipped",
+          "type": "clause"
+        },
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 7,
+          "number": "2",
+          "page_segments": [
+            {
+              "page_number": 7,
+              "text": "2. TEST RECORDS – The manufacturer shall maintain test records for the tests carried out\nto establish conformity."
+            }
+          ],
+          "pages": [
+            7
+          ],
+          "source_start": {
+            "line_number": 10,
+            "page_number": 7
+          },
+          "start_page": 7,
+          "text": "2. TEST RECORDS – The manufacturer shall maintain test records for the tests carried out\nto establish conformity.",
+          "title": "TEST RECORDS – The manufacturer shall maintain test records for the tests carried out",
+          "type": "clause"
+        },
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 7,
+          "number": "3",
+          "page_segments": [
+            {
+              "page_number": 7,
+              "text": "3. LABELLING AND MARKING – As per the requirements of IS 367: 1993."
+            }
+          ],
+          "pages": [
+            7
+          ],
+          "source_start": {
+            "line_number": 13,
+            "page_number": 7
+          },
+          "start_page": 7,
+          "text": "3. LABELLING AND MARKING – As per the requirements of IS 367: 1993.",
+          "title": "LABELLING AND MARKING – As per the requirements of IS 367: 1993.",
+          "type": "clause"
+        },
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 7,
+          "number": "4",
+          "page_segments": [
+            {
+              "page_number": 7,
+              "text": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit."
+            }
+          ],
+          "pages": [
+            7
+          ],
+          "source_start": {
+            "line_number": 15,
+            "page_number": 7
+          },
+          "start_page": 7,
+          "text": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit.",
+          "title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+          "type": "clause"
+        },
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 7,
+          "number": "5",
+          "page_segments": [
+            {
+              "page_number": 7,
+              "text": "5. LEVELS OF CONTROL - The tests as indicated in column 1 of Table 1 and the levels of\ncontrol in column 3 of Table 1, shall be carried out on the whole production of the factory which is covered by this plan and appropriate records maintained in accordance with paragraph 2 above."
+            }
+          ],
+          "pages": [
+            7
+          ],
+          "source_start": {
+            "line_number": 18,
+            "page_number": 7
+          },
+          "start_page": 7,
+          "text": "5. LEVELS OF CONTROL - The tests as indicated in column 1 of Table 1 and the levels of\ncontrol in column 3 of Table 1, shall be carried out on the whole production of the factory which is covered by this plan and appropriate records maintained in accordance with paragraph 2 above.",
+          "title": "LEVELS OF CONTROL - The tests as indicated in column 1 of Table 1 and the levels of",
+          "type": "clause"
+        },
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 7,
+          "number": "6",
+          "page_segments": [
+            {
+              "page_number": 7,
+              "text": "6. REJECTIONS – Disposal of non-conforming product shall be done in such a way so as to\nensure that there is no violation of provisions of BIS Act, 2016."
+            }
+          ],
+          "pages": [
+            7
+          ],
+          "source_start": {
+            "line_number": 21,
+            "page_number": 7
+          },
+          "start_page": 7,
+          "text": "6. REJECTIONS – Disposal of non-conforming product shall be done in such a way so as to\nensure that there is no violation of provisions of BIS Act, 2016.",
+          "title": "REJECTIONS – Disposal of non-conforming product shall be done in such a way so as to",
+          "type": "clause"
+        },
+        {
+          "children": [],
+          "confidence": "high",
+          "end_page": 9,
+          "identifier": "1",
+          "page_segments": [
+            {
+              "page_number": 8,
+              "text": "TABLE 1\n\n(1)\n(2)\n(3)\nTest Details\nTest\nequipment\nrequirement\nR: required\n(or) S: Subcontracting\npermitted\nLevels of Control\nCl.\nRequirement\nTest Methods\n\nNo. of\nSampl\ne\nFrequency\nCl.\nRef\n8\nMarking\n8\nIS 367\nR\nEach appliance\n8\nMarking (indelibility)\n7.14\nIS 302-1\nR\nOne\nEach control unit\n9\nEarth continuity test\nA-1\nIS 302-1\nR\nEach appliance\n9\nElectric strength test\nA-2\nIS 302-1\nR\nEach appliance\n9\nFunctional test\nA-3\nIS 302-1\nR\nEach appliance\n9\nProtection against access to live parts\n8\nIS 302-2-15\nR\nOne\nEach control unit\n9\nProvisions for earthing\n27\nIS 302-2-15\nR\nOne\nEach control unit\n9\nPower Input and Current\n10\nIS 302-2-15\nR\nOne\nEach control unit\n9\nHeating\n11\nIS 302-2-15\nR\nOne\nOnce in a month for each type and rating\n9\nLeakage current and Electric strength at operating temperature\n13\nIS 302-2-15\nR\nOne\nOnce in a week for each type and rating\n9\nMoisture Resistance\n15\nIS 302-2-15\nR\nOne\nOnce in a month for each type, rating & IP\n9\nLeakage current and Electric strength\n16\nIS 302-2-15\nR\nOne\nOnce in a month for each type and rating\n13\nCapacity\n13\nIS 367\nR\nOne\nOnce in a week for each type and rating\n15\nTime to boil water capacity\n15\nIS 367\nR\nOne\nOnce in a week for each type and rating\n11\nOverall dimensions\n11\nIS 367\nR\nOne\nOnce in a week for each type and rating\n12\nMass\n12\nIS 367\nR\nOne\nOnce in a week for each type and rating\n14\nTime to boil 1.0 1 of water\n14\nIS 367\nR\nOne\nOnce in a week for each type and rating\n16\nMinimum quantity of water that can be boiled\n16\nIS 367\nR\nOne\nOnce in a week for each type and rating\n17\nTemperature of supporting surface\n17\nIS 367\nR\nOne\nOnce in a week for each type and rating\n18\nThermal efficiency\n18\nIS 367\nR\nOne\nOnce in a week for each type and rating\n19\nEndurance\n19\nIS 367\nS\nOne\nEvery six months for each type and rating\n20\nFinish\n20\nIS 367\nS\nOne\nEvery six months for any rating\n9\nTransient Overvoltages\n14\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating"
+            },
+            {
+              "page_number": 9,
+              "text": "Note-1: Sub-contracting is permitted to a laboratory recognized by the Bureau or Government laboratories empanelled by the Bureau.\nNote-2: Levels of control given in column 3 are recommendatory in nature. The manufacturer may define the control unit/batch/lot and submit his own\nlevels of control in column 3 with proper justification for approval by BO Head.\n9\nOverload protection of transformers and associated circuits\n17\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nAbnormal operation\n19\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nStability and Mechanical hazards\n20\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nMechanical strength\n21\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nConstruction\n22\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nInternal wiring\n23\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nComponents\n24\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nSupply connection and external flexible cables and cords\n25\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n26\nTerminals for external conductors\n26\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n28\nScrews and connections\n28\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n29\nCreepage distances, clearances and distances through insulation\n29\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n30\nResistance to heat, fire and tracking\n30\nIS 302-2-15\nS\nOne\nEvery six months for each rating\n31\nResistance to rusting\n31\nIS 302-2-15\nS\nOne\nEvery six months for any rating\n32\nRadiation, toxicity and similar hazards\n32\nIS 302-2-15\nS\nOne"
+            }
+          ],
+          "pages": [
+            8,
+            9
+          ],
+          "source_start": {
+            "line_number": 1,
+            "page_number": 8
+          },
+          "start_page": 8,
+          "text": "TABLE 1\n\n(1)\n(2)\n(3)\nTest Details\nTest\nequipment\nrequirement\nR: required\n(or) S: Subcontracting\npermitted\nLevels of Control\nCl.\nRequirement\nTest Methods\n\nNo. of\nSampl\ne\nFrequency\nCl.\nRef\n8\nMarking\n8\nIS 367\nR\nEach appliance\n8\nMarking (indelibility)\n7.14\nIS 302-1\nR\nOne\nEach control unit\n9\nEarth continuity test\nA-1\nIS 302-1\nR\nEach appliance\n9\nElectric strength test\nA-2\nIS 302-1\nR\nEach appliance\n9\nFunctional test\nA-3\nIS 302-1\nR\nEach appliance\n9\nProtection against access to live parts\n8\nIS 302-2-15\nR\nOne\nEach control unit\n9\nProvisions for earthing\n27\nIS 302-2-15\nR\nOne\nEach control unit\n9\nPower Input and Current\n10\nIS 302-2-15\nR\nOne\nEach control unit\n9\nHeating\n11\nIS 302-2-15\nR\nOne\nOnce in a month for each type and rating\n9\nLeakage current and Electric strength at operating temperature\n13\nIS 302-2-15\nR\nOne\nOnce in a week for each type and rating\n9\nMoisture Resistance\n15\nIS 302-2-15\nR\nOne\nOnce in a month for each type, rating & IP\n9\nLeakage current and Electric strength\n16\nIS 302-2-15\nR\nOne\nOnce in a month for each type and rating\n13\nCapacity\n13\nIS 367\nR\nOne\nOnce in a week for each type and rating\n15\nTime to boil water capacity\n15\nIS 367\nR\nOne\nOnce in a week for each type and rating\n11\nOverall dimensions\n11\nIS 367\nR\nOne\nOnce in a week for each type and rating\n12\nMass\n12\nIS 367\nR\nOne\nOnce in a week for each type and rating\n14\nTime to boil 1.0 1 of water\n14\nIS 367\nR\nOne\nOnce in a week for each type and rating\n16\nMinimum quantity of water that can be boiled\n16\nIS 367\nR\nOne\nOnce in a week for each type and rating\n17\nTemperature of supporting surface\n17\nIS 367\nR\nOne\nOnce in a week for each type and rating\n18\nThermal efficiency\n18\nIS 367\nR\nOne\nOnce in a week for each type and rating\n19\nEndurance\n19\nIS 367\nS\nOne\nEvery six months for each type and rating\n20\nFinish\n20\nIS 367\nS\nOne\nEvery six months for any rating\n9\nTransient Overvoltages\n14\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\nNote-1: Sub-contracting is permitted to a laboratory recognized by the Bureau or Government laboratories empanelled by the Bureau.\nNote-2: Levels of control given in column 3 are recommendatory in nature. The manufacturer may define the control unit/batch/lot and submit his own\nlevels of control in column 3 with proper justification for approval by BO Head.\n9\nOverload protection of transformers and associated circuits\n17\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nAbnormal operation\n19\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nStability and Mechanical hazards\n20\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nMechanical strength\n21\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nConstruction\n22\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nInternal wiring\n23\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nComponents\n24\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n9\nSupply connection and external flexible cables and cords\n25\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n26\nTerminals for external conductors\n26\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n28\nScrews and connections\n28\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n29\nCreepage distances, clearances and distances through insulation\n29\nIS 302-2-15\nS\nOne\nEvery six months for each type and rating\n30\nResistance to heat, fire and tracking\n30\nIS 302-2-15\nS\nOne\nEvery six months for each rating\n31\nResistance to rusting\n31\nIS 302-2-15\nS\nOne\nEvery six months for any rating\n32\nRadiation, toxicity and similar hazards\n32\nIS 302-2-15\nS\nOne",
+          "title": null,
+          "type": "table"
+        }
+      ],
+      "confidence": "high",
+      "content_mode": "narrative_or_mixed",
+      "end_page": 9,
+      "identifier": "C",
+      "page_segments": [
+        {
+          "page_number": 7,
+          "text": "ANNEX C\n\nScheme Of Inspection And Testing"
+        }
+      ],
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "source_start": {
+        "line_number": 1,
+        "page_number": 7
+      },
+      "start_page": 7,
+      "text": "ANNEX C\n\nScheme Of Inspection And Testing",
+      "title": "Scheme Of Inspection And Testing",
+      "type": "annex"
+    },
+    {
+      "children": [],
+      "confidence": "high",
+      "content_mode": "list_or_table",
+      "end_page": 10,
+      "identifier": "D",
+      "page_segments": [
+        {
+          "page_number": 10,
+          "text": "ANNEX D\n\nPossible Tests in a day\n\n1. Capacity\n2. Time to boil water capacity\n3. Overall dimensions\n4. Mass\n5. Time to boil 1.0 1 of water\n6. Minimum quantity of water that can be boiled\n7. Temperature of supporting surface\n8. Thermal efficiency\n9. Protection against access to live parts\n10. Power input and current\n11. leakage current and electric strength at operating temperature\n12. Provision for Earthing\n13. High Voltage test"
+        }
+      ],
+      "pages": [
+        10
+      ],
+      "source_start": {
+        "line_number": 1,
+        "page_number": 10
+      },
+      "start_page": 10,
+      "text": "ANNEX D\n\nPossible Tests in a day\n\n1. Capacity\n2. Time to boil water capacity\n3. Overall dimensions\n4. Mass\n5. Time to boil 1.0 1 of water\n6. Minimum quantity of water that can be boiled\n7. Temperature of supporting surface\n8. Thermal efficiency\n9. Protection against access to live parts\n10. Power input and current\n11. leakage current and electric strength at operating temperature\n12. Provision for Earthing\n13. High Voltage test",
+      "title": "Possible Tests in a day",
+      "type": "annex"
+    }
+  ],
+  "structure_method": "deterministic_bis_rules_v1",
+  "structure_quality_checks": {
+    "clause_numbers_present_in_text": true,
+    "cleaned_text_preserved": true,
+    "every_page_represented": true,
+    "hierarchy_consistent": true,
+    "metadata_conflict_preserved": true,
+    "page_numbers_preserved": true,
+    "passed": true,
+    "raw_text_preserved": true,
+    "same_document_id": true,
+    "same_page_count": true,
+    "source_sha256_preserved": true,
+    "source_url_preserved": true,
+    "tables_have_no_clause_children": true
+  },
+  "structured_at": "2026-09-28T21:17:08+00:00",
+  "title": "https://www.bis.gov.in/wp-content/uploads/2022/03/Bilingual-PM-367-compressed-1.pdf",
+  "validated_at": "2026-09-28T20:20:52+00:00",
+  "validation_status": "valid",
+  "verification_status": "verified"
+}

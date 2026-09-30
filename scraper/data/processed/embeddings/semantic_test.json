@@ -1,0 +1,314 @@
+{
+  "all_vectors_normalized": true,
+  "chunks_searched": 83,
+  "elapsed_seconds": 0.121,
+  "embedding_dimension": 768,
+  "generated_at": "2026-09-28T21:57:18+00:00",
+  "model": "BAAI/bge-base-en-v1.5",
+  "model_revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+  "normalized": true,
+  "note": "Sanity probe only. Cosine similarity over normalized Stage 3.1 embeddings. Not a retrieval API, not a ranking model, and not an evaluation of retrieval quality.",
+  "queries": [
+    {
+      "query": "What is the definition of a control unit?",
+      "results": [
+        {
+          "annex": "D",
+          "chunk_id": "1a7107bce18c106dbe346e62",
+          "clause": "1.3.1",
+          "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+          "page": 7,
+          "rank": 1,
+          "similarity": 0.771899,
+          "standard": "IS 2347:2023",
+          "text": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+        },
+        {
+          "annex": "C",
+          "chunk_id": "599df61892e5c80712d6a817",
+          "clause": "1.3.1",
+          "clause_title": "For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+          "page": 6,
+          "rank": 2,
+          "similarity": 0.753621,
+          "standard": "IS 4250:2025",
+          "text": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit. The manufacturer has the choice to define their own control unit/batch/lot and submit the same to the BIS."
+        },
+        {
+          "annex": "C",
+          "chunk_id": "3fd5682dddf4ec2fd3915f31",
+          "clause": "4",
+          "clause_title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+          "page": 7,
+          "rank": 3,
+          "similarity": 0.697766,
+          "standard": "IS 367:1993",
+          "text": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit."
+        },
+        {
+          "annex": "C",
+          "chunk_id": "28696516880b60b7589ee892",
+          "clause": "1.2",
+          "clause_title": "The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the",
+          "page": 6,
+          "rank": 4,
+          "similarity": 0.656786,
+          "standard": "IS 4250:2025",
+          "text": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit (i.e. lot/batch etc.) and the\nlevels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian\nStandard) and submit the same to BIS Branch Office for information. The manufacturer shall comply with the same and maintain test records in accordance with para 2.4."
+        },
+        {
+          "annex": "D",
+          "chunk_id": "87ede6d000180d11e12c083f",
+          "clause": "1.2",
+          "clause_title": "The manufacturers shall define a Quality Assurance Plan defining the control unit i.e. Batch and",
+          "page": 7,
+          "rank": 5,
+          "similarity": 0.653166,
+          "standard": "IS 2347:2023",
+          "text": "1.2 The manufacturers shall define a Quality Assurance Plan defining the control unit i.e. Batch and\nthe levels of control (i.e. the frequency and number of samples for conducting the different tests as per the Indian Standard) and submit the same to BIS Branch Office for information. The manufacturer shall comply with the same and maintain test records in accordance with para 2.4 below."
+        }
+      ]
+    },
+    {
+      "query": "What requirements apply to electric food mixers?",
+      "results": [
+        {
+          "annex": "C",
+          "chunk_id": "492d5e4e667b20ce04aed357",
+          "clause": null,
+          "clause_title": null,
+          "page": 8,
+          "rank": 1,
+          "similarity": 0.707284,
+          "standard": "IS 4250:2025",
+          "text": "TABLE 1\n(ONLY FOR GUIDANCE PURPOSE)\n\n(1)\n(2)\n(3)\nTest Details\nTest\nequipment\nrequireme\nnt\nR: required (or)\nS: Subcontracting\npermitted\nLevels of Control\nCl. of IS\n4250\nRequirement\nTest Methods\nNo. of Sample\nFrequency\nRemarks\nClaus\ne\nReference\n8\nComponents\n24\nIS 302-2-14\nS\nEach\nconsignment of\ncomponents\nreceived\n\nFurther testing is not required if supplied with BIS Standard Mark or with Test certificate, which ever applicable\nEarth Continuity Test\nA-1\nIS 302-1\nR\nEach Electric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers\n\nElectric Strength Test\nA-2\nIS 302-1\nR\n\nFunctional Test\nA-3\nIS 302-1\nR\n\nProvision for Earthing\n27\nIS 302-2-14\nR\n\nLeakage current & electric strength at operating temperature\n\n13\nIS 302-2-14\nR\n\n7\nMarking\n7\nIS 4250\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Records shall be maintained\n8\nProtection against access to live parts\n8\nIS 302-2-14\nR\nOne\nEach Control Unit\n10\nOperational Tests\n10\nIS 4250\nR\nOne\nEach Control Unit\n11\nTemperature withstand test for bowl\n11\nIS 4250\nR\nOne\nEach Control Unit\n\n8\nPower Input & Current\n10\nIS 302-2-14\nS\nOne\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\nHeating\n11\nIS 302-2-14\nS\nOne\nLeakage current & electric strength at operating temperature\n\n13\nIS 302-2-14\nS\nOne\nTransient Overvoltage\n14\nIS 302-2-14\nS\nOne\nMoisture Resistance\n15\nIS 302-2-14\nS\nOne\nLeakage Current & Electric Strength\n16\nIS 302-2-14\nS\nOne\nOverload Protection of Transformers and associated circuits\n17\nIS 302-2-14\nS\nOne\nAbnormal Operation\n19\nIS 302-2-14\nS\nOne\nStability & Mechanical Hazards\n20\nIS 302-2-14\nS\nOne\nMechanical Strength\n21\nIS 302-2-14\nS\nOne\n8\nConstruction\n22\nIS 302-2-14\nS\nOne\n\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\nInternal Wiring\n23\nIS 302-2-14\nS\nOne\nSupply Connections & external flexible cords\n25\nIS 302-2-14\nS\nOne\nTerminals for external conductors\n26\nIS 302-2-14\nS\nOne\nScrews & Connections\n28\nIS 302-2-14\nS\nOne\nClearances, creepage distances & solid insulation\n29\nIS 302-2-14\nS\nOne\nResistance to heat & fire\n30\nIS 302-2-14\nS\nOne\nResistance to rusting\n31\nIS 302-2-14\nS\nOne\nRadiation, toxicity and similar hazards\n32\nIS 302-2-14\nS\nOne\n9\nEndurance for motor and base assembly\n9\nIS 4250\nS\nOne\n\nEach model of Electric Food-Mixers\n(Liquidizers and Grinders) and\nCentrifugal Juicers manufactured in the period of six months.\n12\nTest for controls\n12\nIS 4250\nS\nOne\n13\nStrength of assembly\n13\nIS 4250\nS\nOne"
+        },
+        {
+          "annex": "A",
+          "chunk_id": "85369392cf774b147b942f5e",
+          "clause": null,
+          "clause_title": null,
+          "page": 3,
+          "rank": 2,
+          "similarity": 0.703155,
+          "standard": "IS 4250:2025",
+          "text": "ANNEX – A\n\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n\n1) Manufacturer shall declare the parameters defined in scope of licence for each model of the\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers produced by them.\n2) For grant of licnce/ change in scope of licence, each model of Electric Food-Mixers (Liquidizers\nand Grinders) and Centrifugal Juicers to be tested.\n3) However, following relaxation is testing is given:\na) Change in aesthetics, i.e colour, visual design etc may not be treated as different\nmodel.\n\n4) The Firm shall declare the varieties of Electric Food-Mixers (Liquidizers and Grinders) and\nCentrifugal Juicers they intend to cover in the Licence. The Scope of Licence may be restricted based on the Manufacturing capability and testing facilities of the Manufacturer.\n5) Further, the manufacturer shall submit the following:\na) Instruction Manual as per the requirements of Cl. 7.2;\nb) Declaration of following parameters for each model:\ni). Grade (Pollution degree:__, Material group:__);\nii). Rated capacities of each function(Liquidizer and/or Grinder and/or\nCentrifugal Juicer);\n\niii). Normal Load (in terms of recipe);\n\niv). Time rating: Continuous/ Short term (ON time)/ Intermittent (ON time, OFF time);\nv). Insulation Class; and\nvi). Suitability / unsuitability for certain functions.\n\n6) During the operation of the Licence, BO shall ensure that all the models covered in the Licence\nare tested in rotation to the extent possible."
+        },
+        {
+          "annex": "C",
+          "chunk_id": "599df61892e5c80712d6a817",
+          "clause": "1.3.1",
+          "clause_title": "For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-",
+          "page": 6,
+          "rank": 3,
+          "similarity": 0.696615,
+          "standard": "IS 4250:2025",
+          "text": "1.3.1 For the guidance of manufacturers, the recommended definition of control unit is: All Electric Food-\nMixers (Liquidizers and Grinders) and Centrifugal Juicers of each model number manufactured in a day shall constitute a control unit. The manufacturer has the choice to define their own control unit/batch/lot and submit the same to the BIS."
+        },
+        {
+          "annex": "C",
+          "chunk_id": "d73f166c1afd0b6a18dfc978",
+          "clause": "3",
+          "clause_title": "MARKING – The Standard Mark as given in the Schedule of the licence shall be incorporated legibly and",
+          "page": 7,
+          "rank": 4,
+          "similarity": 0.695582,
+          "standard": "IS 4250:2025",
+          "text": "3. MARKING – The Standard Mark as given in the Schedule of the licence shall be incorporated legibly and\nindelibly on each Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers and also on its packaging provided always that the Electric Food-Mixers (Liquidizers and Grinders) and Centrifugal\nJuicers so marked conforms to the requirements of the specification. In addition, marking shall also be done as per Cl. 7 of IS 4250 : 2025."
+        },
+        {
+          "annex": null,
+          "chunk_id": "e901e8863539cb42034498f9",
+          "clause": "1",
+          "clause_title": null,
+          "page": 1,
+          "rank": 5,
+          "similarity": 0.690372,
+          "standard": "IS 4250:2025",
+          "text": "1.\nमानक संƥा\nIS No.\n:\nIS 4250 : 2025\n\nशीषŊक\nTitle\n:\nElectric Food-Mixers (Liquidizers and\nGrinders) and Centrifugal Juicers -\nSpecification (Second Revision)\n\nसंशोधनों की संƥा\nNo. of amendments\n:\nNIL"
+        }
+      ]
+    },
+    {
+      "query": "What testing or inspection requirements are specified?",
+      "results": [
+        {
+          "annex": "D",
+          "chunk_id": "9f8da724e64cb74b1e00e964",
+          "clause": "2.2",
+          "clause_title": "For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing",
+          "page": 8,
+          "rank": 1,
+          "similarity": 0.738071,
+          "standard": "IS 2347:2023",
+          "text": "2.2 For MSME manufacturers, the requirement of maintaining a laboratory/in-house testing\nfacility for routine tests (indicated as “R” in Column 2 of Table 1) is also optional."
+        },
+        {
+          "annex": "D",
+          "chunk_id": "69169c610103ffd4db7de27b",
+          "clause": "1.3.3",
+          "clause_title": "The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan",
+          "page": 7,
+          "rank": 2,
+          "similarity": 0.734483,
+          "standard": "IS 2347:2023",
+          "text": "1.3.3 The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan\nsubmitted by them on the whole production of the factory which is covered by this plan. Alternatively, the manufacturer has the option of adherence to the quality plan as per levels of control recommended in column 3 of Table 1."
+        },
+        {
+          "annex": "D",
+          "chunk_id": "45f91226fc8f52c69a51be12",
+          "clause": "2",
+          "clause_title": "ENSURING COMPLIANCE THROUGH TESTING- It is expected that manufacturers",
+          "page": 7,
+          "rank": 3,
+          "similarity": 0.732477,
+          "standard": "IS 2347:2023",
+          "text": "2. ENSURING COMPLIANCE THROUGH TESTING- It is expected that manufacturers\n(licensees/applicants) will establish a suitably equipped and staffed in-house laboratory (In house testing facility) for testing at least those parameters of the Indian Standard which require routine testing for ensuring quality of the product. This includes in-process controls as may be defined and put in place by the manufacturer, and testing parameters/requirements which can only be performed in the factory."
+        },
+        {
+          "annex": "C",
+          "chunk_id": "5b4953389305bf3a7b6a0f43",
+          "clause": "1.3.3",
+          "clause_title": "The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan submitted by",
+          "page": 6,
+          "rank": 4,
+          "similarity": 0.723711,
+          "standard": "IS 4250:2025",
+          "text": "1.3.3 The manufacturer shall ensure inspection and testing as per the Quality Assurance Plan submitted by\nthem on the whole production of the factory which is covered by this plan. Alternatively, the manufacturer has the option of adherence to the quality plan as per levels of control recommended in column 3 of Table 1."
+        },
+        {
+          "annex": "C",
+          "chunk_id": "7346e98844fa505548af5d28",
+          "clause": "1",
+          "clause_title": "LABORATORY - A laboratory shall be maintained which shall be suitably equipped",
+          "page": 7,
+          "rank": 5,
+          "similarity": 0.723012,
+          "standard": "IS 367:1993",
+          "text": "1. LABORATORY - A laboratory shall be maintained which shall be suitably equipped\n(as per the requirement given in column 2 of Table 1) and staffed, where different tests given in the specification shall be carried out in accordance with the methods given in the specification."
+        }
+      ]
+    },
+    {
+      "query": "What is the scope of the licence for electric kettles?",
+      "results": [
+        {
+          "annex": null,
+          "chunk_id": "e90018d76982308e96d15054",
+          "clause": "6",
+          "clause_title": null,
+          "page": 2,
+          "rank": 1,
+          "similarity": 0.827282,
+          "standard": "IS 367:1993",
+          "text": "6.\nScope of the Licence :\nName of the Product\nElectric Kettles / Jugs / Cordless Kettles etc for household and similar use\nRated Input power\n\nRated Voltage\n\nClass of appliance\n\nRated capacity\n\nDegree of protection"
+        },
+        {
+          "annex": null,
+          "chunk_id": "15f86e9baf72ff158ed59a68",
+          "clause": "6",
+          "clause_title": null,
+          "page": 1,
+          "rank": 2,
+          "similarity": 0.753323,
+          "standard": "IS 2347:2023",
+          "text": "6.\nScope of the Licence :\n\nLicence is granted to use Standard Mark as per IS 2347 :2023 with the following scope:\n\nName of the product\nDomestic Pressure Cooker\n\nCapacities\n\nType of coating\n(if applicable)\nHard Anodized /Non-stick/Powder coated/Ceramic coated/ High temperature resistant liquid coated\n\nLid\nInner Lid/Outer Lid/Cooker fastened by Screw clamp or any other locking device\n\nMaterial\nAluminium Alloy/Stainless Steel/3-ply construction\n\nNature of bottom/base (if\napplicable)\nInduction friendly/Composite bottom\n\nShape\n\nSafety Pressure Relief Device\nResettable/Destructible\n\nExternal/Integral electrical heat source"
+        },
+        {
+          "annex": "C",
+          "chunk_id": "3fd5682dddf4ec2fd3915f31",
+          "clause": "4",
+          "clause_title": "CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured",
+          "page": 7,
+          "rank": 3,
+          "similarity": 0.717307,
+          "standard": "IS 367:1993",
+          "text": "4. CONTROL UNIT – All electric jugs and kettles of the same type and rating manufactured\nin one day shall constitute a control unit."
+        },
+        {
+          "annex": "A",
+          "chunk_id": "85369392cf774b147b942f5e",
+          "clause": null,
+          "clause_title": null,
+          "page": 3,
+          "rank": 4,
+          "similarity": 0.707949,
+          "standard": "IS 4250:2025",
+          "text": "ANNEX – A\n\nसमूहीकरण िदशािनदőश\nGrouping Guidelines\n\n1) Manufacturer shall declare the parameters defined in scope of licence for each model of the\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers produced by them.\n2) For grant of licnce/ change in scope of licence, each model of Electric Food-Mixers (Liquidizers\nand Grinders) and Centrifugal Juicers to be tested.\n3) However, following relaxation is testing is given:\na) Change in aesthetics, i.e colour, visual design etc may not be treated as different\nmodel.\n\n4) The Firm shall declare the varieties of Electric Food-Mixers (Liquidizers and Grinders) and\nCentrifugal Juicers they intend to cover in the Licence. The Scope of Licence may be restricted based on the Manufacturing capability and testing facilities of the Manufacturer.\n5) Further, the manufacturer shall submit the following:\na) Instruction Manual as per the requirements of Cl. 7.2;\nb) Declaration of following parameters for each model:\ni). Grade (Pollution degree:__, Material group:__);\nii). Rated capacities of each function(Liquidizer and/or Grinder and/or\nCentrifugal Juicer);\n\niii). Normal Load (in terms of recipe);\n\niv). Time rating: Continuous/ Short term (ON time)/ Intermittent (ON time, OFF time);\nv). Insulation Class; and\nvi). Suitability / unsuitability for certain functions.\n\n6) During the operation of the Licence, BO shall ensure that all the models covered in the Licence\nare tested in rotation to the extent possible."
+        },
+        {
+          "annex": null,
+          "chunk_id": "fed35507246a8c7ddfe99fc6",
+          "clause": "6",
+          "clause_title": null,
+          "page": 2,
+          "rank": 5,
+          "similarity": 0.703703,
+          "standard": "IS 4250:2025",
+          "text": "6.\nलाइसŐस का दायरा /Scope of the\nLicence\n:\n\nLicence is granted to use Standard Mark as per IS 4250 : 2025 with the following scope:\n\nName of the Product\nElectric Food-Mixers (Liquidizers and Grinders) and Centrifugal Juicers\n\nFunctions\nLiquidizer and/or Grinder and/or Centrifugal Juicer\n\nModel No.\n\nClass\nClass of Appliance I/II/III\n\nRating\n\nW,\nV,\nHz,\nPhase"
+        }
+      ]
+    },
+    {
+      "query": "What is the sampling plan for inspection of pressure cookers?",
+      "results": [
+        {
+          "annex": null,
+          "chunk_id": "6ead7dcfbea32005380ab349",
+          "clause": "2",
+          "clause_title": null,
+          "page": 1,
+          "rank": 1,
+          "similarity": 0.808423,
+          "standard": "IS 2347:2023",
+          "text": "2.\nSampling Guidelines:\na)\nRaw material\n: Please refer ANNEX-A\nb)\nGrouping guidelines\n: Please refer ANNEX-B\nc)\nSample Size\n:\nOne Pressure Cooker (Two, in case of Induction bottom). In addition one additional gasket, PRD, SRD as necessary shall also be drawn"
+        },
+        {
+          "annex": "D",
+          "chunk_id": "1a7107bce18c106dbe346e62",
+          "clause": "1.3.1",
+          "clause_title": "Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit",
+          "page": 7,
+          "rank": 2,
+          "similarity": 0.687407,
+          "standard": "IS 2347:2023",
+          "text": "1.3.1 Control Unit: For the guidance of manufacturers, the recommended definition of Control Unit\nis quantity of all Pressure Cookers of the same Nominal Capacity and Type manufactured under similar conditions of manufacturing in a day."
+        },
+        {
+          "annex": "B",
+          "chunk_id": "bc2c949d6e247565dd6947a6",
+          "clause": "5",
+          "clause_title": "The Firm shall declare the varieties of Domestic Pressure Cookers intended to be covered in",
+          "page": 3,
+          "rank": 3,
+          "similarity": 0.682566,
+          "standard": "IS 2347:2023",
+          "text": "5. The Firm shall declare the varieties of Domestic Pressure Cookers intended to be covered in\nthe Licence. The Scope of Licence may be restricted based on the Manufacturing and testing capabilities of the Manufacturer."
+        },
+        {
+          "annex": "D",
+          "chunk_id": "83d37a09e64ef578866c0ffd",
+          "clause": null,
+          "clause_title": null,
+          "page": 11,
+          "rank": 4,
+          "similarity": 0.682203,
+          "standard": "IS 2347:2023",
+          "text": "--\nAlkali Resistance\n\nE 6,\nAnnex P\nIS 2347\nR\nOne\nOnce in a week\n\n---\n\n8\nTESTS\n8.1\nAir pressure test\n8.1\n\nIS 2347\nR\nOne\nEach Control Unit\n---\n8.2\nProof Pressure Test\n8.2,\nAnnex F\n\nIS 2347\nR\nOne from each\ncapacity and Type\nOnce in a month\n---\n8.3\nOperating Test for\nPressure Regulating Device\n8.3,\nAnnex G\nIS 2347\nR\nEach PRD\n---\n8.4\nTest for Safety Pressure\nRelief Device\n8.4,\nAnnex H\nAnnex G\nIS 2347\nR\nFive\nEach consignment\n---\n8.5\nBursting Pressure Test\n8.5,\nAnnex J\nIS 2347\nR\nOne from each\ncapacity and Type\nOnce in a month\n---\n8.6\n\nTests for Removal of Lid under Pressure\n\nFor Outer Lid Cooker\n8.6.1,\nAnnex K\nIS 2347\nR\nOne from each\ncapacity and Type\nOnce in a month\n---\nFor Inner Lid Cooker\n8.6.2,\nAnnex L\nIS 2347\nR\nFor Cooker fastened by\nScrew Clamps or any other\nlocking device\n8.6.3\nIS 2347\nR\n\nFor Electrical pressure\ncooker\n8.6.4\nIS 2347\nR\n\n8.7\nTest for Spring Loaded\nMechanism\n8.7\nIS 2347\nR\nOne from each\ncapacity and Type\nOnce in a month\n---\n8.8\nTest for Composite base/\nbottom\n8.8 IS 2347\nIS 15960\nR\nOne from each\ncapacity and Type\nOnce in a month\n---\n8.9\nTest for Induction\ncompatible base\n8.9,\nAnnex M\nIS 2347\n\nR\nOne from each\ncapacity and Type\nOnce in a month\n---\n8.10\nTest for Handles\n8.10\n\n8.10.1\n\nIS 2347\nIS 13395\nIS 302-1\nS\nOne from smallest\nand one from\nlargest capacity\n\nOnce in a year\n#\n8.11\nExternal Coating (Powder Coating/Ceramic coating/ High temperature resistant liquid coating) -wherever applicable\n\nThickness\n7.2\nIS 9730\nS\nOne\nOnce in a month\nSample shall be\ntested\nwhenever\nthere is change in\ncomposition\nof\nAdhesion\n7.5\nIS 9730\nS\nOne\nOnce in a month\ncoating\nmaterial/\nprocess of coating.\nThermal shock\n8.11.1\nIS 2347\nS\nOne\nOnce in a month\nSample shall be\ntested whenever there\nis change in\ncomposition of\ncoating material/\nprocess of coating.\nCoating\n5\nIS 9806\nS\nOne\nOnce in six months\n8.12\nInternal Coating (Non-Stick Coating) as per IS 9730 (wherever applicable)\n\nVisual Defects\n4.2\nIS 9730\nR\nFirm should exercise adequate control so that whole production should meet the requirements. Records shall be maintained\nThickness\n4.3\nIS 9730\nR\n5%\nof\ntotal\nproduction\nor\nfive\ncookers\nMin.\nOnce in a week\n\nSample shall be\ntested whenever there\nis change in\ncomposition of\ncoating material/\nprocess of coating.\nNon- Stick Quality\n4.4\nIS 9730\nR\nTwo\nOnce in a week\n\nSample shall be\ntested whenever there\nis change in\ncomposition of\ncoating material/\nprocess of coating.\nSalt Water Corrosion\nResistance\n4.5\nR\nOne\nAdhesion\n4.6\nR\nOne\n8.13\nElectrical Requirements for pressure cooker with integral electrical heating device, as applicable as per IS 302-2-15\nType Tests as applicable as per IS 302-2-15\nPower input and current\n10\nIS 302-\n2-15\nS\nOne from each\ncapacity and type\n\nOnce in 3 months\n\nHeating\n11\nIS 302-\n2-15\nS\nOnce in 3 months\n\nLeakage Current and electric\nstrength at operating\ntemperature\n13\nIS 302-\n2-15\nS\nOnce in 3 months\n\nTransient overvoltages\n14\nIS 302-\n2-15\nS\nOnce in 3 months\n\nMoisture resistance\n15\n"
+        },
+        {
+          "annex": "B",
+          "chunk_id": "60391b1d4c06ff4143ad7f63",
+          "clause": "4",
+          "clause_title": "A fully dimensioned sectional drawing of the pressure cooker and its material along with",
+          "page": 3,
+          "rank": 5,
+          "similarity": 0.677543,
+          "standard": "IS 2347:2023",
+          "text": "4. A fully dimensioned sectional drawing of the pressure cooker and its material along with\ngrades, shall be submitted by the manufacturer for each variety as per Cl. 6.8 of IS 2347. Firm shall also declare optional accessories (Glass lid, Visual Pressure Indicator, Chain for linking\nPRD with Vent Tube) with each variety. Wherever supplied, Conformity of these optional accessories shall be ensured as per IS 2347: 2023."
+        }
+      ]
+    }
+  ],
+  "top_k": 5
+}
