@@ -69,28 +69,41 @@ Each Python service has its own tests in `backend/tests` and `scraper/tests`.
 See `scraper/DEPLOYMENT.md` for production constraints, required model revisions,
 and resource sizing.
 
-## Deploy on Render + Vercel
+## Deploy for free: Oracle Cloud + Vercel
 
-`render.yaml` deploys the catalogue API, its Render Postgres database, and the
-grounded-answer API. Create a new Render Blueprint from this GitHub repository,
-then supply `BIS_LLM_API_KEY` only in Render's secret prompt. The catalogue
-service uses Render's free tier; the assistant is intentionally configured as
-`2c-4g`, because the retrieval models need approximately 4 GB RAM. Do not use
-the free tier for the assistant.
+The assistant cannot run in Render's 512 MB free web service. The fully free
+deployment option is one Oracle Cloud Always Free ARM VM, which has enough
+memory for the catalogue and retrieval services together. Create an Ubuntu
+`VM.Standard.A1.Flex` instance in your Oracle home region with the available
+Always Free CPU and memory allocation, allow inbound TCP port 80 in its OCI
+security list, then SSH to it and run:
 
-After Render finishes, copy its two public HTTPS service URLs into Vercel's
-**Production** environment variables and redeploy the frontend:
+```bash
+curl -fsSL https://raw.githubusercontent.com/GumalAditya06/SpecEngin-bis/main/deploy/oracle-free/bootstrap.sh | sudo bash
+sudo nano /etc/specengin/assistant.env # Replace PASTE_A_NEW_KEY_HERE.
+sudo systemctl restart specengin-assistant
+```
+
+The script installs both APIs without Docker, seeds the catalogue SQLite
+database, and uses Nginx to expose them behind one VM IP address. The first
+visit to `/health/ready` downloads and warms the retrieval models; it can take
+several minutes.
+
+Set both Vercel **Production** API variables to that base address and redeploy:
 
 ```text
 NEXT_PUBLIC_DEMO_MODE=false
-NEXT_PUBLIC_API_URL=https://specengin-catalogue.onrender.com
-NEXT_PUBLIC_RETRIEVAL_API_URL=https://specengin-assistant.onrender.com
+NEXT_PUBLIC_API_URL=http://YOUR_VM_PUBLIC_IP
+NEXT_PUBLIC_RETRIEVAL_API_URL=http://YOUR_VM_PUBLIC_IP
 ```
 
-Replace the example hostnames with the actual URLs assigned by Render. The
-frontend proxies both APIs server-side, so no public browser-to-API CORS rule
-is required. Visit `/health/ready` on the assistant once after deployment to
-warm the downloaded retrieval models, then test a cited question in the UI.
+The frontend proxies both APIs server-side, so browser CORS is not required.
+For a proper HTTPS production endpoint, attach your own domain to the VM and
+place Caddy or Nginx with a Let's Encrypt certificate in front of the services.
+
+`render.yaml` remains available if you want the catalogue-only demo service on
+Render's free tier. Its free Postgres database expires after 30 days, so the
+Oracle VM route is preferred for a lasting zero-cost demo.
 
 ## Security
 

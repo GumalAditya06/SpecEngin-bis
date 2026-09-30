@@ -21,29 +21,6 @@ services:
       - key: BIS_SECRET_KEY
         generateValue: true
 
-  # The assistant loads embedding and reranking models (~1.2 GB on disk and
-  # roughly 1.1 GB peak RAM). Do not lower this below 2c-4g.
-  - type: web
-    name: specengin-assistant
-    runtime: python
-    plan: 2c-4g
-    region: singapore
-    rootDir: scraper
-    buildCommand: pip install -e '.[embeddings,service]'
-    startCommand: uvicorn scraper.assistant_api:app --host 0.0.0.0 --port $PORT --no-access-log
-    healthCheckPath: /health/live
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.11
-      - key: SPECENGINE_ENV
-        value: production
-      - key: BIS_LLM_PROVIDER
-        value: gemini
-      - key: BIS_LLM_MODEL
-        value: gemini-3.6-flash
-      - key: BIS_LLM_API_KEY
-        sync: false
-
 databases:
   - name: specengin-db
     plan: free
