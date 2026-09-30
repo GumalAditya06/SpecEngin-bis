@@ -12,7 +12,7 @@ import type { SourceRecord } from "@/lib/sources/types";
 import "@/components/assistant/assistant.css";
 
 const EXAMPLES = [
-  "Which standard applies to stainless steel water bottles?",
+  "Which standard applies to stainless steel pressure cookers?",
   "What BIS certification is required for my product?",
   "What tests are required for steel wire ropes?",
   "Find a testing laboratory for this standard.",

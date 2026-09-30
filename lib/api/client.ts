@@ -3,13 +3,18 @@ import { DEMO_MODE } from "./config";
 
 const BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 const RETRIEVAL_BASE = process.env.NEXT_PUBLIC_RETRIEVAL_API_URL ?? BASE;
+// Catalogue requests originate in client components. Route them through Next
+// so the browser always talks to its own origin; this also keeps LAN previews
+// working without widening the catalogue API's CORS policy.
+const CATALOGUE_PROXY = "/api/catalogue";
+const ASSISTANT_PROXY = "/api/assistant";
 
 async function request<T>(path: string, opts?: RequestInit): Promise<T> {
   if (DEMO_MODE) {
     const { demoRequest } = await import("../demo/adapter");
     return (await demoRequest(path, opts)) as T;
   }
-  const res = await fetch(`${BASE}${path}`, {
+  const res = await fetch(`${CATALOGUE_PROXY}${path}`, {
     cache: "no-store",
     ...opts,
   });
@@ -233,7 +238,7 @@ export async function assistantQuery(
       ? { standard_number: payload.standard_number }
       : {}),
   };
-  const res = await fetch(`${RETRIEVAL_BASE}/api/v1/assistant/query`, {
+  const res = await fetch(`${ASSISTANT_PROXY}/api/v1/assistant/query`, {
     method: "POST",
     cache: "no-store",
     headers: { "Content-Type": "application/json" },

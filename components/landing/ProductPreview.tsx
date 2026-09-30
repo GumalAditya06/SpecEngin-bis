@@ -8,7 +8,7 @@ import SourceDrawer from "@/components/sources/SourceDrawer";
 import { sourceFromCitation } from "@/lib/sources/records";
 import type { AssistantCitation } from "@/lib/api";
 
-export const sampleQuestion = "I manufacture stainless steel water bottles. Which BIS standard applies to my product?";
+export const sampleQuestion = "I manufacture stainless steel pressure cookers. Which BIS standard applies to my product?";
 const citation: AssistantCitation = {
   evidence_id: "E1", version: null,
   source_id: null, document_id: null, title: "Illustrative source · Product requirements",
@@ -38,7 +38,7 @@ export function AssistantPreview({ stage = 1, compact = false }: { stage?: numbe
   return <PreviewFrame title="Compliance assistant">
     <div className="preview-query"><span className="eyebrow">Your question</span><p>{sampleQuestion}</p></div>
     <div className="preview-content" key={stage}>
-      {stage === 0 ? <div className="preview-block"><p className="text-sm text-ink">Product understanding</p><div className="mt-4 flex flex-wrap gap-2"><span className="pill">Stainless steel</span><span className="pill">Water bottle</span><span className="pill">Intended use</span></div><p className="preview-copy">Is the bottle insulated or single-wall? Product details help narrow the scope.</p></div> : null}
+      {stage === 0 ? <div className="preview-block"><p className="text-sm text-ink">Product understanding</p><div className="mt-4 flex flex-wrap gap-2"><span className="pill">Stainless steel</span><span className="pill">Pressure cooker</span><span className="pill">Intended use</span></div><p className="preview-copy">What is the cooker’s capacity and construction? Product details help narrow the scope.</p></div> : null}
       {stage === 1 ? <div className="preview-block"><div className="flex flex-wrap justify-between gap-3"><p className="text-sm">Candidate standards</p><span className="pill text-muted">Scope review needed</span></div><div className="mt-4 border-l border-line-strong pl-4"><span className="font-mono text-xs text-chroma">IS XXXX:2024 · Example reference</span><p className="mt-2 text-lg">Product specification and scope</p></div><p className="preview-copy">Confirm construction, material and intended use before selecting an Indian Standard.</p><div className="mt-4 flex flex-wrap gap-2"><span className="pill">Scope</span><span className="pill">Requirements</span><span className="pill">Sources</span></div></div> : null}
       {stage === 2 ? <div className="preview-block"><p className="text-sm">Requirements to review</p>{["Material and construction", "Performance and testing", "Marking and labelling"].map((text, i) => <div className={`requirement-row ${i === 1 ? "requirement-selected" : ""}`} key={text}><span className="text-chroma">0{i + 1}</span>{text}</div>)}</div> : null}
       {stage === 3 ? <div className="preview-block"><p className="text-sm">Evidence behind the answer</p><p className="preview-copy">Open a citation to inspect its clause, page and available source excerpt.</p><div className="mt-5"><EvidenceExample /></div><p className="mt-4 text-xs text-muted">Example reference · Click to open the source panel</p></div> : null}
@@ -52,7 +52,7 @@ export function ExplorerPreview({ kind }: { kind: "standards" | "sources" | "lab
   if (kind === "sources") return <PreviewFrame title="Sources & documents"><div className="source-layout"><div className="source-outline"><p className="eyebrow">Contents</p><p>1. Scope</p><p>2. References</p><p className="text-ink">4. Requirements</p><p>5. Testing</p></div><div><span className="pill">Source viewer</span><h4 className="mt-6 text-xl">Read the context.</h4><p className="preview-copy">Inspect available clause text alongside document metadata and provenance.</p><div className="source-lines" aria-hidden><i /><i /><i /><i /></div><EvidenceExample /></div></div></PreviewFrame>;
   const standards = kind === "standards";
   return <PreviewFrame title={standards ? "Standards Explorer" : "Laboratory search"}>
-    <div className="preview-search"><span>{standards ? "Stainless steel water bottles" : "Search by standard or testing capability"}</span><span aria-hidden>⌕</span></div>
+    <div className="preview-search"><span>{standards ? "Stainless steel pressure cookers" : "Search by standard or testing capability"}</span><span aria-hidden>⌕</span></div>
     <div className="my-5 flex flex-wrap gap-2">{(standards ? ["Sector", "Status", "Year"] : ["Standard", "Location", "Recognition"]).map(x => <span className="pill" key={x}>{x} <span aria-hidden className="ml-3">⌄</span></span>)}</div>
     {[0, 1].map(i => <div className="preview-result" key={i}><div className="flex items-center justify-between gap-3"><span className="font-mono text-xs text-chroma">{standards ? "Indian Standard" : "Testing capability"}</span><span className="pill">{i ? "Review details" : "Check scope"}</span></div><h4 className="mt-4 text-lg">{standards ? (i ? "Related material specifications" : "Product specification and scope") : (i ? "Performance testing" : "Material testing")}</h4><p className="preview-copy">{standards ? "Scope, amendments and linked source documents." : "Review location, listed tests and recognition details."}</p></div>)}
   </PreviewFrame>;
